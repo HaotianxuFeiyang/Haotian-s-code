@@ -1,0 +1,528 @@
+{
+  "date": "2026-10-20",
+  "geometry_changed": false,
+  "parts": [
+    {
+      "part": "Leg_1",
+      "step_sha256": "38107df89e4cc77468384d7d6ef91195bd815127179feb597e779a849bef0355",
+      "png_sha256": "6cf977cb40987e4f334c2060a38a119d73ad1c00cb974e75d5fe9758ef05c1a8",
+      "holes": [
+        {
+          "id": "TOP_LEFT",
+          "specification": "M6",
+          "tap": false,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "TOP_RIGHT",
+          "specification": "M6",
+          "tap": false,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "FOOT",
+          "specification": "M12",
+          "tap": false,
+          "matching_cylinders": 1
+        }
+      ],
+      "labels": [
+        {
+          "id": "TOP_LEFT",
+          "label": "M6\nNO TAP",
+          "anchor_pixel": [
+            819.7786994389152,
+            420.40000000000003
+          ]
+        },
+        {
+          "id": "TOP_RIGHT",
+          "label": "M6\nNO TAP",
+          "anchor_pixel": [
+            920.0553251402712,
+            478.2947368421053
+          ]
+        },
+        {
+          "id": "FOOT",
+          "label": "M12\nNO TAP",
+          "anchor_pixel": [
+            920.0553251402712,
+            918.7578947368422
+          ]
+        }
+      ],
+      "native_step_valid": true,
+      "solid_count": 1
+    },
+    {
+      "part": "Leg_2",
+      "step_sha256": "aa61250e2592ec8a7bee7972063b8b70d30058b53a5aadd97facad79edb97dfd",
+      "png_sha256": "96d6e08d8fe86efb703108e634403dfc8fc6450b83650090b8a20f49ecd59522",
+      "holes": [
+        {
+          "id": "TOP_LEFT",
+          "specification": "M6",
+          "tap": false,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "TOP_RIGHT",
+          "specification": "M6",
+          "tap": false,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "FOOT",
+          "specification": "M12",
+          "tap": false,
+          "matching_cylinders": 1
+        }
+      ],
+      "labels": [
+        {
+          "id": "TOP_LEFT",
+          "label": "M6\nNO TAP",
+          "anchor_pixel": [
+            819.7786994389152,
+            420.40000000000003
+          ]
+        },
+        {
+          "id": "FOOT",
+          "label": "M12\nNO TAP",
+          "anchor_pixel": [
+            799.723374298644,
+            872.4421052631579
+          ]
+        },
+        {
+          "id": "TOP_RIGHT",
+          "label": "M6\nNO TAP",
+          "anchor_pixel": [
+            920.0553251402712,
+            478.2947368421053
+          ]
+        }
+      ],
+      "native_step_valid": true,
+      "solid_count": 1
+    },
+    {
+      "part": "Leg_3",
+      "step_sha256": "9e0cffe12529f53726144b58fa0667434a4ab04091999b22d4f0e8339a9b368e",
+      "png_sha256": "8ab4e98e53c199c6fe18ff6c553807f58bbec294642f2aed609903d7cc36457e",
+      "holes": [
+        {
+          "id": "TOP_LEFT",
+          "specification": "M6",
+          "tap": false,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "TOP_RIGHT",
+          "specification": "M6",
+          "tap": false,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "FOOT",
+          "specification": "M12",
+          "tap": false,
+          "matching_cylinders": 1
+        }
+      ],
+      "labels": [
+        {
+          "id": "TOP_LEFT",
+          "label": "M6\nNO TAP",
+          "anchor_pixel": [
+            890.9632131779015,
+            409.53043478260867
+          ]
+        },
+        {
+          "id": "FOOT",
+          "label": "M12\nNO TAP",
+          "anchor_pixel": [
+            836.7424922453106,
+            942.1217391304349
+          ]
+        },
+        {
+          "id": "TOP_RIGHT",
+          "label": "M6\nNO TAP",
+          "anchor_pixel": [
+            981.3310813988865,
+            461.704347826087
+          ]
+        }
+      ],
+      "native_step_valid": true,
+      "solid_count": 1
+    },
+    {
+      "part": "Leg_4",
+      "step_sha256": "017db7b9c43ec7215de70e2d9fba75effedd6520f7e18e2d9eb46cc712074734",
+      "png_sha256": "96e24b3bc7f66a58596e68de31d991bc39c251113ea7d65a7b52f703992d4ec3",
+      "holes": [
+        {
+          "id": "TOP_LEFT",
+          "specification": "M6",
+          "tap": false,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "TOP_RIGHT",
+          "specification": "M6",
+          "tap": false,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "FOOT",
+          "specification": "M12",
+          "tap": false,
+          "matching_cylinders": 1
+        }
+      ],
+      "labels": [
+        {
+          "id": "TOP_LEFT",
+          "label": "M6\nNO TAP",
+          "anchor_pixel": [
+            830.8889289120574,
+            418.7035163479334
+          ]
+        },
+        {
+          "id": "FOOT",
+          "label": "M12\nNO TAP",
+          "anchor_pixel": [
+            791.3968882903758,
+            875.1743368291178
+          ]
+        },
+        {
+          "id": "TOP_RIGHT",
+          "label": "M6\nNO TAP",
+          "anchor_pixel": [
+            929.6190304662612,
+            475.705367057372
+          ]
+        }
+      ],
+      "native_step_valid": true,
+      "solid_count": 1
+    },
+    {
+      "part": "Clamp_Half_64mm_179deg",
+      "step_sha256": "ccbcca55518fdc395bbcffa14b677750351d459bafe5965653435db4568c4fde",
+      "png_sha256": "917b15b563f93c91d2097c2efbcc3b85a84dbe71dd9fbf81667a43f15317d7bf",
+      "holes": [
+        {
+          "id": "EAR_-1",
+          "specification": "8-32",
+          "tap": false,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "ROD_-1",
+          "specification": "ROD",
+          "tap": false,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "RADIAL_TAP_-1",
+          "specification": "8-32",
+          "tap": true,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "EAR_1",
+          "specification": "8-32",
+          "tap": false,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "ROD_1",
+          "specification": "ROD",
+          "tap": false,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "RADIAL_TAP_1",
+          "specification": "8-32",
+          "tap": true,
+          "matching_cylinders": 1
+        }
+      ],
+      "labels": [
+        {
+          "id": "EAR_1",
+          "label": "8-32\nNO TAP",
+          "anchor_pixel": [
+            425.45454545454555,
+            593.4656861773735
+          ]
+        },
+        {
+          "id": "ROD_1",
+          "label": "\u00d86.2 ROD\nNO TAP",
+          "anchor_pixel": [
+            662.7272727272727,
+            663.7171188269978
+          ]
+        },
+        {
+          "id": "RADIAL_TAP_1",
+          "label": "8-32\nTAP",
+          "anchor_pixel": [
+            609.186265628369,
+            725.9886786585994
+          ]
+        },
+        {
+          "id": "EAR_-1",
+          "label": "8-32\nNO TAP",
+          "anchor_pixel": [
+            1374.5454545454545,
+            593.4656861773735
+          ]
+        },
+        {
+          "id": "ROD_-1",
+          "label": "\u00d86.2 ROD\nNO TAP",
+          "anchor_pixel": [
+            1137.2727272727273,
+            663.7171188269978
+          ]
+        },
+        {
+          "id": "RADIAL_TAP_-1",
+          "label": "8-32\nTAP",
+          "anchor_pixel": [
+            1190.813734371631,
+            725.9886786585994
+          ]
+        }
+      ],
+      "native_step_valid": true,
+      "solid_count": 1
+    },
+    {
+      "part": "MRA12_Mirror_Mount",
+      "step_sha256": "5a0cf379197f43d142e66ef1b593822ebd88d0172bfb8f1ea478085abbc04685",
+      "png_sha256": "64a1a52444654d18dc24a7bb363a20c2840a1dbba6ac732f56e8d93a831af819",
+      "holes": [
+        {
+          "id": "TAP440_-22",
+          "specification": "4-40",
+          "tap": true,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "TAP440_14",
+          "specification": "4-40",
+          "tap": true,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "M4_CLEAR_-42",
+          "specification": "M4",
+          "tap": false,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "M4_CLEAR_40",
+          "specification": "M4",
+          "tap": false,
+          "matching_cylinders": 1
+        }
+      ],
+      "labels": [
+        {
+          "id": "M4_CLEAR_-42",
+          "label": "M4\nNO TAP",
+          "anchor_pixel": [
+            658.9343433800776,
+            368.1109326983107
+          ]
+        },
+        {
+          "id": "TAP440_-22",
+          "label": "4-40\nTAP",
+          "anchor_pixel": [
+            721.0517907633123,
+            484.6187945597468
+          ]
+        },
+        {
+          "id": "TAP440_14",
+          "label": "4-40\nTAP",
+          "anchor_pixel": [
+            973.6845567445184,
+            630.476390005116
+          ]
+        },
+        {
+          "id": "M4_CLEAR_40",
+          "label": "M4\nNO TAP",
+          "anchor_pixel": [
+            1251.2444343981308,
+            710.0813231913154
+          ]
+        }
+      ],
+      "native_step_valid": true,
+      "solid_count": 1
+    },
+    {
+      "part": "HRS1015_Mirror_Mount",
+      "step_sha256": "864308f9004f0c446863e47566dce3f3ef24f250b48059d6dc83b5a0b1892837",
+      "png_sha256": "70dc22cca1c6c8b3ada9adc6f210fa86f967291c335d57e10fd4d647184b0757",
+      "holes": [
+        {
+          "id": "TAP440_-22",
+          "specification": "4-40",
+          "tap": true,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "TAP440_14",
+          "specification": "4-40",
+          "tap": true,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "M4_CLEAR_-42",
+          "specification": "M4",
+          "tap": false,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "M4_CLEAR_40",
+          "specification": "M4",
+          "tap": false,
+          "matching_cylinders": 1
+        }
+      ],
+      "labels": [
+        {
+          "id": "M4_CLEAR_-42",
+          "label": "M4\nNO TAP",
+          "anchor_pixel": [
+            674.2757272959942,
+            364.4382171938111
+          ]
+        },
+        {
+          "id": "TAP440_-22",
+          "label": "4-40\nTAP",
+          "anchor_pixel": [
+            745.5819877036038,
+            465.94402211272813
+          ]
+        },
+        {
+          "id": "TAP440_14",
+          "label": "4-40\nTAP",
+          "anchor_pixel": [
+            982.1372405831894,
+            602.519261040977
+          ]
+        },
+        {
+          "id": "M4_CLEAR_40",
+          "label": "M4\nNO TAP",
+          "anchor_pixel": [
+            1228.891288819511,
+            684.6456609361691
+          ]
+        }
+      ],
+      "native_step_valid": true,
+      "solid_count": 1
+    },
+    {
+      "part": "MRA12_Thin_Edge_Retainer",
+      "step_sha256": "7867ff85615f5192d9c3a451676a44684fc0e7edc72b01dc7ad6363b1a8f31ba",
+      "png_sha256": "54a8e75abfdf8fd19c3f3fd8a7e167fa177f9a56ed74a3dac3f35938fc12a21a",
+      "holes": [
+        {
+          "id": "RETAINER_-22",
+          "specification": "4-40",
+          "tap": false,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "RETAINER_14",
+          "specification": "4-40",
+          "tap": false,
+          "matching_cylinders": 1
+        }
+      ],
+      "labels": [
+        {
+          "id": "RETAINER_-22",
+          "label": "4-40\nNO TAP",
+          "anchor_pixel": [
+            472.76649555527734,
+            722.9525560650674
+          ]
+        },
+        {
+          "id": "RETAINER_14",
+          "label": "4-40\nNO TAP",
+          "anchor_pixel": [
+            1325.664955552773,
+            633.6763366930194
+          ]
+        }
+      ],
+      "native_step_valid": true,
+      "solid_count": 1
+    },
+    {
+      "part": "HRS1015_Thin_Edge_Retainer",
+      "step_sha256": "a9219dcaed65adf15bcfa10312ed956b2fb5326d2ee44e1cbb361b5d905fc5c5",
+      "png_sha256": "e2492ab3690bc9796f01fdead44349a1729f55047254c06991a4349abaeeabc2",
+      "holes": [
+        {
+          "id": "RETAINER_-22",
+          "specification": "4-40",
+          "tap": false,
+          "matching_cylinders": 1
+        },
+        {
+          "id": "RETAINER_14",
+          "specification": "4-40",
+          "tap": false,
+          "matching_cylinders": 1
+        }
+      ],
+      "labels": [
+        {
+          "id": "RETAINER_-22",
+          "label": "4-40\nNO TAP",
+          "anchor_pixel": [
+            472.76649555527734,
+            722.9525560650674
+          ]
+        },
+        {
+          "id": "RETAINER_14",
+          "label": "4-40\nNO TAP",
+          "anchor_pixel": [
+            1325.664955552773,
+            633.6763366930194
+          ]
+        }
+      ],
+      "native_step_valid": true,
+      "solid_count": 1
+    }
+  ],
+  "hole_count": 30,
+  "thread_evidence": "production/drawing_holes.json",
+  "rendering": "Native FreeCAD STEP rendering plus Qt vector text and leader annotations"
+}

@@ -1,0 +1,781 @@
+{
+  "parts": [
+    {
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "step_sha256": "38107df89e4cc77468384d7d6ef91195bd815127179feb597e779a849bef0355",
+      "stem": "Leg_1",
+      "quantity": 1,
+      "eye": [
+        1,
+        -1,
+        1
+      ],
+      "holes": [
+        {
+          "tap": false,
+          "id": "TOP_LEFT",
+          "model_bore_diameter_mm": 6.6,
+          "spec": "M6",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            -12.5,
+            0,
+            95.1
+          ],
+          "point_mm": [
+            -12.5,
+            0,
+            107.1
+          ]
+        },
+        {
+          "tap": false,
+          "id": "TOP_RIGHT",
+          "model_bore_diameter_mm": 6.6,
+          "spec": "M6",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            12.5,
+            0,
+            95.1
+          ],
+          "point_mm": [
+            12.5,
+            0,
+            107.1
+          ]
+        },
+        {
+          "tap": false,
+          "id": "FOOT",
+          "model_bore_diameter_mm": 13,
+          "spec": "M12",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            12.5,
+            1.5307579422779716E-15,
+            0
+          ],
+          "point_mm": [
+            12.5,
+            1.5307579422779716E-15,
+            12
+          ]
+        }
+      ],
+      "title": "BREADBOARD LEG 1"
+    },
+    {
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "step_sha256": "aa61250e2592ec8a7bee7972063b8b70d30058b53a5aadd97facad79edb97dfd",
+      "stem": "Leg_2",
+      "quantity": 1,
+      "eye": [
+        1,
+        -1,
+        1
+      ],
+      "holes": [
+        {
+          "tap": false,
+          "id": "TOP_LEFT",
+          "model_bore_diameter_mm": 6.6,
+          "spec": "M6",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            -12.5,
+            0,
+            95.1
+          ],
+          "point_mm": [
+            -12.5,
+            0,
+            107.1
+          ]
+        },
+        {
+          "tap": false,
+          "id": "TOP_RIGHT",
+          "model_bore_diameter_mm": 6.6,
+          "spec": "M6",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            12.5,
+            0,
+            95.1
+          ],
+          "point_mm": [
+            12.5,
+            0,
+            107.1
+          ]
+        },
+        {
+          "tap": false,
+          "id": "FOOT",
+          "model_bore_diameter_mm": 13,
+          "spec": "M12",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            -12.5,
+            -5,
+            0
+          ],
+          "point_mm": [
+            -12.5,
+            -5,
+            12
+          ]
+        }
+      ],
+      "title": "BREADBOARD LEG 2"
+    },
+    {
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "step_sha256": "9e0cffe12529f53726144b58fa0667434a4ab04091999b22d4f0e8339a9b368e",
+      "stem": "Leg_3",
+      "quantity": 1,
+      "eye": [
+        1,
+        -1,
+        1
+      ],
+      "holes": [
+        {
+          "tap": false,
+          "id": "TOP_LEFT",
+          "model_bore_diameter_mm": 6.6,
+          "spec": "M6",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            -12.5,
+            0,
+            95.1
+          ],
+          "point_mm": [
+            -12.5,
+            0,
+            107.1
+          ]
+        },
+        {
+          "tap": false,
+          "id": "TOP_RIGHT",
+          "model_bore_diameter_mm": 6.6,
+          "spec": "M6",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            12.5,
+            0,
+            95.1
+          ],
+          "point_mm": [
+            12.5,
+            0,
+            107.1
+          ]
+        },
+        {
+          "tap": false,
+          "id": "FOOT",
+          "model_bore_diameter_mm": 13,
+          "spec": "M12",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            12.5,
+            -40,
+            0
+          ],
+          "point_mm": [
+            12.5,
+            -40,
+            12
+          ]
+        }
+      ],
+      "title": "BREADBOARD LEG 3"
+    },
+    {
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "step_sha256": "017db7b9c43ec7215de70e2d9fba75effedd6520f7e18e2d9eb46cc712074734",
+      "stem": "Leg_4",
+      "quantity": 1,
+      "eye": [
+        1,
+        -1,
+        1
+      ],
+      "holes": [
+        {
+          "tap": false,
+          "id": "TOP_LEFT",
+          "model_bore_diameter_mm": 6.6,
+          "spec": "M6",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            -12.5,
+            0,
+            95.1
+          ],
+          "point_mm": [
+            -12.5,
+            0,
+            107.1
+          ]
+        },
+        {
+          "tap": false,
+          "id": "TOP_RIGHT",
+          "model_bore_diameter_mm": 6.6,
+          "spec": "M6",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            12.5,
+            0,
+            95.1
+          ],
+          "point_mm": [
+            12.5,
+            0,
+            107.1
+          ]
+        },
+        {
+          "tap": false,
+          "id": "FOOT",
+          "model_bore_diameter_mm": 13,
+          "spec": "M12",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            -12.5,
+            -10,
+            0
+          ],
+          "point_mm": [
+            -12.5,
+            -10,
+            12
+          ]
+        }
+      ],
+      "title": "BREADBOARD LEG 4"
+    },
+    {
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "step_sha256": "ccbcca55518fdc395bbcffa14b677750351d459bafe5965653435db4568c4fde",
+      "stem": "Clamp_Half_64mm_179deg",
+      "quantity": 2,
+      "eye": [
+        0,
+        1,
+        0.9
+      ],
+      "holes": [
+        {
+          "tap": false,
+          "id": "EAR_-1",
+          "model_bore_diameter_mm": 4.5,
+          "spec": "8-32",
+          "inward_axis": [
+            0,
+            1,
+            0
+          ],
+          "exit_mm": [
+            -60,
+            9.5,
+            -2
+          ],
+          "point_mm": [
+            -60,
+            0.5,
+            -2
+          ]
+        },
+        {
+          "tap": false,
+          "id": "ROD_-1",
+          "model_bore_diameter_mm": 6.2,
+          "spec": "ROD",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            -30,
+            30,
+            -5.5
+          ],
+          "point_mm": [
+            -30,
+            30,
+            4.5
+          ]
+        },
+        {
+          "tap": true,
+          "id": "RADIAL_TAP_-1",
+          "model_bore_diameter_mm": 3.4544,
+          "spec": "8-32",
+          "inward_axis": [
+            0.7071067811865475,
+            -0.7071067811865475,
+            0
+          ],
+          "exit_mm": null,
+          "point_mm": [
+            -36.76955262170047,
+            36.76955262170047,
+            0
+          ]
+        },
+        {
+          "tap": false,
+          "id": "EAR_1",
+          "model_bore_diameter_mm": 4.5,
+          "spec": "8-32",
+          "inward_axis": [
+            0,
+            1,
+            0
+          ],
+          "exit_mm": [
+            60,
+            9.5,
+            -2
+          ],
+          "point_mm": [
+            60,
+            0.5,
+            -2
+          ]
+        },
+        {
+          "tap": false,
+          "id": "ROD_1",
+          "model_bore_diameter_mm": 6.2,
+          "spec": "ROD",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            30,
+            30,
+            -5.5
+          ],
+          "point_mm": [
+            30,
+            30,
+            4.5
+          ]
+        },
+        {
+          "tap": true,
+          "id": "RADIAL_TAP_1",
+          "model_bore_diameter_mm": 3.4544,
+          "spec": "8-32",
+          "inward_axis": [
+            -0.7071067811865475,
+            -0.7071067811865475,
+            0
+          ],
+          "exit_mm": null,
+          "point_mm": [
+            36.76955262170047,
+            36.76955262170047,
+            0
+          ]
+        }
+      ],
+      "title": "SPLIT CLAMP HALF - 64 mm / 179 deg"
+    },
+    {
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "step_sha256": "5a0cf379197f43d142e66ef1b593822ebd88d0172bfb8f1ea478085abbc04685",
+      "stem": "MRA12_Mirror_Mount",
+      "quantity": 1,
+      "eye": [
+        1,
+        -1,
+        1
+      ],
+      "holes": [
+        {
+          "tap": true,
+          "id": "TAP440_-22",
+          "model_bore_diameter_mm": 2.2606,
+          "spec": "4-40",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": null,
+          "point_mm": [
+            -22,
+            0,
+            26.723223304703364
+          ]
+        },
+        {
+          "tap": true,
+          "id": "TAP440_14",
+          "model_bore_diameter_mm": 2.2606,
+          "spec": "4-40",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": null,
+          "point_mm": [
+            14,
+            0,
+            26.723223304703364
+          ]
+        },
+        {
+          "tap": false,
+          "id": "M4_CLEAR_-42",
+          "model_bore_diameter_mm": 4.5,
+          "spec": "M4",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            -40.803854228891446,
+            9.952159568022305,
+            0
+          ],
+          "point_mm": [
+            -40.803854228891446,
+            9.952159568022305,
+            26.723223304703364
+          ]
+        },
+        {
+          "tap": false,
+          "id": "M4_CLEAR_40",
+          "model_bore_diameter_mm": 4.5,
+          "spec": "M4",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            43.599937155145334,
+            9.952159568022303,
+            0
+          ],
+          "point_mm": [
+            43.599937155145334,
+            9.952159568022303,
+            26.723223304703364
+          ]
+        }
+      ],
+      "title": "MRA12 MIRROR MOUNT - 3 mm FLOOR"
+    },
+    {
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "step_sha256": "864308f9004f0c446863e47566dce3f3ef24f250b48059d6dc83b5a0b1892837",
+      "stem": "HRS1015_Mirror_Mount",
+      "quantity": 1,
+      "eye": [
+        1,
+        -1,
+        1
+      ],
+      "holes": [
+        {
+          "tap": true,
+          "id": "TAP440_-22",
+          "model_bore_diameter_mm": 2.2606,
+          "spec": "4-40",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": null,
+          "point_mm": [
+            -22,
+            2,
+            32.92322330470335
+          ]
+        },
+        {
+          "tap": true,
+          "id": "TAP440_14",
+          "model_bore_diameter_mm": 2.2606,
+          "spec": "4-40",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": null,
+          "point_mm": [
+            14,
+            2,
+            32.92322330470335
+          ]
+        },
+        {
+          "tap": false,
+          "id": "M4_CLEAR_-42",
+          "model_bore_diameter_mm": 4.5,
+          "spec": "M4",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            -40.803854228891446,
+            9.952159568022305,
+            0
+          ],
+          "point_mm": [
+            -40.803854228891446,
+            9.952159568022305,
+            32.92322330470335
+          ]
+        },
+        {
+          "tap": false,
+          "id": "M4_CLEAR_40",
+          "model_bore_diameter_mm": 4.5,
+          "spec": "M4",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            43.599937155145334,
+            9.952159568022303,
+            0
+          ],
+          "point_mm": [
+            43.599937155145334,
+            9.952159568022303,
+            32.92322330470335
+          ]
+        }
+      ],
+      "title": "HRS1015 MIRROR MOUNT - 3 mm FLOOR"
+    },
+    {
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "step_sha256": "7867ff85615f5192d9c3a451676a44684fc0e7edc72b01dc7ad6363b1a8f31ba",
+      "stem": "MRA12_Thin_Edge_Retainer",
+      "quantity": 1,
+      "eye": [
+        0.32,
+        -0.8,
+        1.45
+      ],
+      "holes": [
+        {
+          "tap": false,
+          "id": "RETAINER_-22",
+          "model_bore_diameter_mm": 3.2,
+          "spec": "4-40",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            -22,
+            0,
+            0
+          ],
+          "point_mm": [
+            -22,
+            0,
+            0.3
+          ]
+        },
+        {
+          "tap": false,
+          "id": "RETAINER_14",
+          "model_bore_diameter_mm": 3.2,
+          "spec": "4-40",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            14,
+            0,
+            0
+          ],
+          "point_mm": [
+            14,
+            0,
+            0.3
+          ]
+        }
+      ],
+      "title": "MRA12 THIN EDGE RETAINER"
+    },
+    {
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "step_sha256": "a9219dcaed65adf15bcfa10312ed956b2fb5326d2ee44e1cbb361b5d905fc5c5",
+      "stem": "HRS1015_Thin_Edge_Retainer",
+      "quantity": 1,
+      "eye": [
+        0.32,
+        -0.8,
+        1.45
+      ],
+      "holes": [
+        {
+          "tap": false,
+          "id": "RETAINER_-22",
+          "model_bore_diameter_mm": 3.2,
+          "spec": "4-40",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            -22,
+            2,
+            0
+          ],
+          "point_mm": [
+            -22,
+            2,
+            0.3
+          ]
+        },
+        {
+          "tap": false,
+          "id": "RETAINER_14",
+          "model_bore_diameter_mm": 3.2,
+          "spec": "4-40",
+          "inward_axis": [
+            0,
+            0,
+            -1
+          ],
+          "exit_mm": [
+            14,
+            2,
+            0
+          ],
+          "point_mm": [
+            14,
+            2,
+            0.3
+          ]
+        }
+      ],
+      "title": "HRS1015 THIN EDGE RETAINER"
+    }
+  ],
+  "base_commit": "544b3680d90a4eae8d3de7650160c4a2a42979f0",
+  "source_notes": [
+    "Leg/clamp thread and clearance designations: native Inventor CNC_SingleView_Input.json from Revision_2026_10_13/Export.",
+    "Mirror mounts: native Inventor Revision_20261019_3mm/Export/CNC_Export_Input.json and Bottom_3mm_20261019.json.",
+    "Retainers: flat manufacturing STEP export verified by ExportRetainers.cs; mating 4-40 fasteners explicitly recorded in Bottom_3mm_20261019.json.",
+    "ROD bores are not screw holes. Their 6.2 mm designation is a plain cage-rod clearance.",
+    "Bore diameters below are geometry-check values, not inferred thread specifications."
+  ],
+  "revision": "2026-10-20"
+}
