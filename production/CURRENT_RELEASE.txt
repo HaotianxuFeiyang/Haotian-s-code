@@ -11,3 +11,5 @@ The four old stop-shim occurrences retained in local Full Inventor CAD are previ
 Do keep the specified 4-40 Inconel Belleville washers and M4 stainless Belleville washers. These are not the cancelled plain stop shims.
 Dated audit_20261022 records remain historical; this current release supersedes their shim instructions.
 No tightening torque, elastic preload, optic stress, or cryogenic structural qualification is established by this geometry update.
+
+PROCUREMENT ONLY UPDATE 2026-10-22: CP33 x2, CRM1T x2, CCM1-E03 x1 replace their /M versions with 8-32 post-thread versions. Product links updated. Inventor models intentionally unchanged by user request.

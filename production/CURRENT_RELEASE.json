@@ -104,7 +104,7 @@
     }
   ],
   "WordSource": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\shopping_list_Pocket_R0062_Final.docx",
-  "WordSHA256": "80e6fb336ee6bdb2b9d05f956f71e8710f54b46807fddb567fdfaee3f1854293",
+  "WordSHA256": "bce9001079e8f92e47925342cb21da915eb82b11b0a048025b5fbbc0e47be839",
   "NativeGeometryEvidence": {
     "Path": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\Native_Pocket_Apply_Receipt.json",
     "SHA256": "92dbb0ef4d823137fb8ffe1e590284997dd661f5fb43a88c5b018c139b4ab9e8"
@@ -153,5 +153,18 @@
   ],
   "IndependentAnalyticVolumeComparisonPassed": true,
   "NativeSTEPRoundtripPassed": true,
-  "AllFiveDrawingsVisuallyReviewed": true
+  "AllFiveDrawingsVisuallyReviewed": true,
+  "ProcurementOnlyUpdate": {
+    "Date": "2026-10-22",
+    "Replacements": [
+      "CP33/M -> CP33, quantity 2",
+      "CRM1T/M -> CRM1T, quantity 2",
+      "CCM1-E03/M -> CCM1-E03, quantity 1"
+    ],
+    "PostThread": "8-32",
+    "LinksUpdated": true,
+    "InventorChanged": false,
+    "AllOtherShoppingTextAndLinksPreserved": true,
+    "VisualQAPages": 5
+  }
 }
