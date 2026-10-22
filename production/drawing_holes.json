@@ -1,328 +1,427 @@
 {
+  "revision": "2026-10-21",
+  "base_commit": "544b3680d90a4eae8d3de7650160c4a2a42979f0",
+  "source_notes": [
+    "Nine changed/new parts use native Inventor exports and explicit hole input.",
+    "Clamp STEP, PNG and metadata retain their previous renderer and validation.",
+    "Legacy FreeCAD rendering scripts are not the source of this revision."
+  ],
   "parts": [
     {
-      "up": [
-        0,
-        0,
-        1
-      ],
-      "step_sha256": "38107df89e4cc77468384d7d6ef91195bd815127179feb597e779a849bef0355",
       "stem": "Leg_1",
       "quantity": 1,
+      "title": "BREADBOARD LEG 1 - IMPERIAL BOARD",
+      "step_sha256": "60aca8ee5d85acf0e05977541c813f75d9f6c8c2edd4ab504cf5807be297ef3a",
+      "png_sha256": "e0994cd4ca4d1b5d099e1215a5a2fb22cc27b9398cae1382e381c2d6aa04ab1a",
+      "holes": [
+        {
+          "tap": false,
+          "id": "TOP_1",
+          "spec": "1/4-20",
+          "specification": "D6.6 THROUGH / NO TAP; 1/4-20 screw into MB1224 factory thread",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            -8.7,
+            -0.6,
+            107.1
+          ],
+          "exit_mm": [
+            -8.7,
+            -0.6,
+            95.1
+          ],
+          "model_bore_diameter_mm": 6.6
+        },
+        {
+          "tap": false,
+          "id": "TOP_2",
+          "spec": "1/4-20",
+          "specification": "D6.6 THROUGH / NO TAP; 1/4-20 screw into MB1224 factory thread",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            16.7,
+            -0.6,
+            107.1
+          ],
+          "exit_mm": [
+            16.7,
+            -0.6,
+            95.1
+          ],
+          "model_bore_diameter_mm": 6.6
+        },
+        {
+          "tap": false,
+          "id": "FOOT",
+          "spec": "M12",
+          "specification": "D13 THROUGH / NO TAP; unchanged M12 platform connection",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            12.5,
+            1.5307579422779716e-15,
+            12.0
+          ],
+          "exit_mm": [
+            12.5,
+            1.5307579422779716e-15,
+            0.0
+          ],
+          "model_bore_diameter_mm": 13.0
+        }
+      ],
       "eye": [
         1,
         -1,
         1
       ],
-      "holes": [
-        {
-          "tap": false,
-          "id": "TOP_LEFT",
-          "model_bore_diameter_mm": 6.6,
-          "spec": "M6",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            -12.5,
-            0,
-            95.1
-          ],
-          "point_mm": [
-            -12.5,
-            0,
-            107.1
-          ]
-        },
-        {
-          "tap": false,
-          "id": "TOP_RIGHT",
-          "model_bore_diameter_mm": 6.6,
-          "spec": "M6",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            12.5,
-            0,
-            95.1
-          ],
-          "point_mm": [
-            12.5,
-            0,
-            107.1
-          ]
-        },
-        {
-          "tap": false,
-          "id": "FOOT",
-          "model_bore_diameter_mm": 13,
-          "spec": "M12",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            12.5,
-            1.5307579422779716E-15,
-            0
-          ],
-          "point_mm": [
-            12.5,
-            1.5307579422779716E-15,
-            12
-          ]
-        }
-      ],
-      "title": "BREADBOARD LEG 1"
-    },
-    {
       "up": [
         0,
         0,
         1
       ],
-      "step_sha256": "aa61250e2592ec8a7bee7972063b8b70d30058b53a5aadd97facad79edb97dfd",
+      "views": [
+        {
+          "Name": "TOP / FRONT-RIGHT",
+          "EyeDirection": [
+            1,
+            -1,
+            1
+          ],
+          "Up": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "note": "Four distinct leg hole patterns. Top flange12 mm; top clearanceD6.6 for 1/4-20; bottomD13 for existingM12. Do not make four copies of one leg.",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "source_input": "Imperial_Leg_Drawing_Input.json",
+      "source_ipt": "NewOptics/Breadboard_Leg_1.ipt"
+    },
+    {
       "stem": "Leg_2",
       "quantity": 1,
+      "title": "BREADBOARD LEG 2 - IMPERIAL BOARD",
+      "step_sha256": "396fddb4ad01983950b381449cbc922bdc64747476a74e3aa91cf1868c33bbbd",
+      "png_sha256": "dbf85c9081d5a70b906064ca1d69ddce02f14ff9826cb361d4c62f3101dddcc9",
+      "holes": [
+        {
+          "tap": false,
+          "id": "TOP_1",
+          "spec": "1/4-20",
+          "specification": "D6.6 THROUGH / NO TAP; 1/4-20 screw into MB1224 factory thread",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            -16.7,
+            1.4,
+            107.1
+          ],
+          "exit_mm": [
+            -16.7,
+            1.4,
+            95.1
+          ],
+          "model_bore_diameter_mm": 6.6
+        },
+        {
+          "tap": false,
+          "id": "TOP_2",
+          "spec": "1/4-20",
+          "specification": "D6.6 THROUGH / NO TAP; 1/4-20 screw into MB1224 factory thread",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            8.7,
+            1.4,
+            107.1
+          ],
+          "exit_mm": [
+            8.7,
+            1.4,
+            95.1
+          ],
+          "model_bore_diameter_mm": 6.6
+        },
+        {
+          "tap": false,
+          "id": "FOOT",
+          "spec": "M12",
+          "specification": "D13 THROUGH / NO TAP; unchanged M12 platform connection",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            -12.5,
+            -5.0,
+            12.0
+          ],
+          "exit_mm": [
+            -12.5,
+            -5.0,
+            0.0
+          ],
+          "model_bore_diameter_mm": 13.0
+        }
+      ],
       "eye": [
         1,
         -1,
         1
       ],
-      "holes": [
-        {
-          "tap": false,
-          "id": "TOP_LEFT",
-          "model_bore_diameter_mm": 6.6,
-          "spec": "M6",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            -12.5,
-            0,
-            95.1
-          ],
-          "point_mm": [
-            -12.5,
-            0,
-            107.1
-          ]
-        },
-        {
-          "tap": false,
-          "id": "TOP_RIGHT",
-          "model_bore_diameter_mm": 6.6,
-          "spec": "M6",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            12.5,
-            0,
-            95.1
-          ],
-          "point_mm": [
-            12.5,
-            0,
-            107.1
-          ]
-        },
-        {
-          "tap": false,
-          "id": "FOOT",
-          "model_bore_diameter_mm": 13,
-          "spec": "M12",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            -12.5,
-            -5,
-            0
-          ],
-          "point_mm": [
-            -12.5,
-            -5,
-            12
-          ]
-        }
-      ],
-      "title": "BREADBOARD LEG 2"
-    },
-    {
       "up": [
         0,
         0,
         1
       ],
-      "step_sha256": "9e0cffe12529f53726144b58fa0667434a4ab04091999b22d4f0e8339a9b368e",
+      "views": [
+        {
+          "Name": "TOP / FRONT-RIGHT",
+          "EyeDirection": [
+            1,
+            -1,
+            1
+          ],
+          "Up": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "note": "Four distinct leg hole patterns. Top flange12 mm; top clearanceD6.6 for 1/4-20; bottomD13 for existingM12. Do not make four copies of one leg.",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "source_input": "Imperial_Leg_Drawing_Input.json",
+      "source_ipt": "NewOptics/Breadboard_Leg_2.ipt"
+    },
+    {
       "stem": "Leg_3",
       "quantity": 1,
+      "title": "BREADBOARD LEG 3 - IMPERIAL BOARD",
+      "step_sha256": "60342d2cc5d9af860e73732590d8602c457410a0198d95ff0a99da96b63c7032",
+      "png_sha256": "e5059315cb332ec4bfd0d3d5a6e95e548fcfdca98c29d9b19af6a07ac8bb5ccb",
+      "holes": [
+        {
+          "tap": false,
+          "id": "TOP_1",
+          "spec": "1/4-20",
+          "specification": "D6.6 THROUGH / NO TAP; 1/4-20 screw into MB1224 factory thread",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            -8.7,
+            -2.2,
+            107.1
+          ],
+          "exit_mm": [
+            -8.7,
+            -2.2,
+            95.1
+          ],
+          "model_bore_diameter_mm": 6.6
+        },
+        {
+          "tap": false,
+          "id": "TOP_2",
+          "spec": "1/4-20",
+          "specification": "D6.6 THROUGH / NO TAP; 1/4-20 screw into MB1224 factory thread",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            16.7,
+            -2.2,
+            107.1
+          ],
+          "exit_mm": [
+            16.7,
+            -2.2,
+            95.1
+          ],
+          "model_bore_diameter_mm": 6.6
+        },
+        {
+          "tap": false,
+          "id": "FOOT",
+          "spec": "M12",
+          "specification": "D13 THROUGH / NO TAP; unchanged M12 platform connection",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            12.5,
+            -40.0,
+            12.0
+          ],
+          "exit_mm": [
+            12.5,
+            -40.0,
+            0.0
+          ],
+          "model_bore_diameter_mm": 13.0
+        }
+      ],
       "eye": [
         1,
         -1,
         1
       ],
-      "holes": [
-        {
-          "tap": false,
-          "id": "TOP_LEFT",
-          "model_bore_diameter_mm": 6.6,
-          "spec": "M6",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            -12.5,
-            0,
-            95.1
-          ],
-          "point_mm": [
-            -12.5,
-            0,
-            107.1
-          ]
-        },
-        {
-          "tap": false,
-          "id": "TOP_RIGHT",
-          "model_bore_diameter_mm": 6.6,
-          "spec": "M6",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            12.5,
-            0,
-            95.1
-          ],
-          "point_mm": [
-            12.5,
-            0,
-            107.1
-          ]
-        },
-        {
-          "tap": false,
-          "id": "FOOT",
-          "model_bore_diameter_mm": 13,
-          "spec": "M12",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            12.5,
-            -40,
-            0
-          ],
-          "point_mm": [
-            12.5,
-            -40,
-            12
-          ]
-        }
-      ],
-      "title": "BREADBOARD LEG 3"
-    },
-    {
       "up": [
         0,
         0,
         1
       ],
-      "step_sha256": "017db7b9c43ec7215de70e2d9fba75effedd6520f7e18e2d9eb46cc712074734",
+      "views": [
+        {
+          "Name": "TOP / FRONT-RIGHT",
+          "EyeDirection": [
+            1,
+            -1,
+            1
+          ],
+          "Up": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "note": "Four distinct leg hole patterns. Top flange12 mm; top clearanceD6.6 for 1/4-20; bottomD13 for existingM12. Do not make four copies of one leg.",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "source_input": "Imperial_Leg_Drawing_Input.json",
+      "source_ipt": "NewOptics/Breadboard_Leg_3_RectangularBoard.ipt"
+    },
+    {
       "stem": "Leg_4",
       "quantity": 1,
+      "title": "BREADBOARD LEG 4 - IMPERIAL BOARD",
+      "step_sha256": "3d4143e62782539ff1849b0c5f721895cfdb4072c0c82912176aad7f169ff4e3",
+      "png_sha256": "406a5e7ab891dd5e4208f08450c36629568e60ebf7f36e14ca6b7765b0b23bae",
+      "holes": [
+        {
+          "tap": false,
+          "id": "TOP_1",
+          "spec": "1/4-20",
+          "specification": "D6.6 THROUGH / NO TAP; 1/4-20 screw into MB1224 factory thread",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            -11.9,
+            -2.2,
+            107.1
+          ],
+          "exit_mm": [
+            -11.9,
+            -2.2,
+            95.1
+          ],
+          "model_bore_diameter_mm": 6.6
+        },
+        {
+          "tap": false,
+          "id": "TOP_2",
+          "spec": "1/4-20",
+          "specification": "D6.6 THROUGH / NO TAP; 1/4-20 screw into MB1224 factory thread",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            13.5,
+            -2.2,
+            107.1
+          ],
+          "exit_mm": [
+            13.5,
+            -2.2,
+            95.1
+          ],
+          "model_bore_diameter_mm": 6.6
+        },
+        {
+          "tap": false,
+          "id": "FOOT",
+          "spec": "M12",
+          "specification": "D13 THROUGH / NO TAP; unchanged M12 platform connection",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            -12.5,
+            -10.0,
+            12.0
+          ],
+          "exit_mm": [
+            -12.5,
+            -10.0,
+            0.0
+          ],
+          "model_bore_diameter_mm": 13.0
+        }
+      ],
       "eye": [
         1,
         -1,
         1
       ],
-      "holes": [
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "views": [
         {
-          "tap": false,
-          "id": "TOP_LEFT",
-          "model_bore_diameter_mm": 6.6,
-          "spec": "M6",
-          "inward_axis": [
-            0,
-            0,
-            -1
+          "Name": "TOP / FRONT-RIGHT",
+          "EyeDirection": [
+            1,
+            -1,
+            1
           ],
-          "exit_mm": [
-            -12.5,
-            0,
-            95.1
-          ],
-          "point_mm": [
-            -12.5,
-            0,
-            107.1
-          ]
-        },
-        {
-          "tap": false,
-          "id": "TOP_RIGHT",
-          "model_bore_diameter_mm": 6.6,
-          "spec": "M6",
-          "inward_axis": [
+          "Up": [
             0,
             0,
-            -1
-          ],
-          "exit_mm": [
-            12.5,
-            0,
-            95.1
-          ],
-          "point_mm": [
-            12.5,
-            0,
-            107.1
-          ]
-        },
-        {
-          "tap": false,
-          "id": "FOOT",
-          "model_bore_diameter_mm": 13,
-          "spec": "M12",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            -12.5,
-            -10,
-            0
-          ],
-          "point_mm": [
-            -12.5,
-            -10,
-            12
+            1
           ]
         }
       ],
-      "title": "BREADBOARD LEG 4"
+      "note": "Four distinct leg hole patterns. Top flange12 mm; top clearanceD6.6 for 1/4-20; bottomD13 for existingM12. Do not make four copies of one leg.",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "source_input": "Imperial_Leg_Drawing_Input.json",
+      "source_ipt": "NewOptics/Breadboard_Leg_4.ipt"
     },
     {
       "up": [
@@ -461,321 +560,460 @@
       "title": "SPLIT CLAMP HALF - 64 mm / 179 deg"
     },
     {
-      "up": [
-        0,
-        0,
-        1
-      ],
-      "step_sha256": "5a0cf379197f43d142e66ef1b593822ebd88d0172bfb8f1ea478085abbc04685",
       "stem": "MRA12_Mirror_Mount",
       "quantity": 1,
+      "title": "MRA12 MIRROR MOUNT - 3 mm FLOOR / 0.5 mm PROUD",
+      "step_sha256": "a8c5a436b6fd0721c4d2aad6924a86fe3cfd6a8721d25a29dd11830138363ea6",
+      "png_sha256": "e236c76cb2f5a40d4a0b7dff5196872bc25f0325c9acdf1d5020b2d0fe27fd20",
+      "holes": [
+        {
+          "tap": true,
+          "id": "TAP440_-22",
+          "spec": "4-40",
+          "specification": "4-40 UNC-2B direct tap depth 7; #43 D2.2606 pilot depth 8.5",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            -22.0,
+            0.0,
+            26.32322330470337
+          ],
+          "model_bore_diameter_mm": 2.2606
+        },
+        {
+          "tap": true,
+          "id": "TAP440_14",
+          "spec": "4-40",
+          "specification": "4-40 UNC-2B direct tap depth 7; #43 D2.2606 pilot depth 8.5",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            14.0,
+            0.0,
+            26.32322330470337
+          ],
+          "model_bore_diameter_mm": 2.2606
+        },
+        {
+          "tap": false,
+          "id": "M4_CLEAR_-42",
+          "spec": "M4",
+          "specification": "D4.5 THROUGH; M4 screw; NO TAP",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            -40.803854228891446,
+            9.952159568022305,
+            26.32322330470337
+          ],
+          "exit_mm": [
+            -40.803854228891446,
+            9.952159568022305,
+            0.0
+          ],
+          "model_bore_diameter_mm": 4.5
+        },
+        {
+          "tap": false,
+          "id": "M4_CLEAR_40",
+          "spec": "M4",
+          "specification": "D4.5 THROUGH; M4 screw; NO TAP",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            43.599937155145334,
+            9.952159568022303,
+            26.32322330470337
+          ],
+          "exit_mm": [
+            43.599937155145334,
+            9.952159568022303,
+            0.0
+          ],
+          "model_bore_diameter_mm": 4.5
+        }
+      ],
       "eye": [
         1,
         -1,
         1
       ],
-      "holes": [
-        {
-          "tap": true,
-          "id": "TAP440_-22",
-          "model_bore_diameter_mm": 2.2606,
-          "spec": "4-40",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": null,
-          "point_mm": [
-            -22,
-            0,
-            26.723223304703364
-          ]
-        },
-        {
-          "tap": true,
-          "id": "TAP440_14",
-          "model_bore_diameter_mm": 2.2606,
-          "spec": "4-40",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": null,
-          "point_mm": [
-            14,
-            0,
-            26.723223304703364
-          ]
-        },
-        {
-          "tap": false,
-          "id": "M4_CLEAR_-42",
-          "model_bore_diameter_mm": 4.5,
-          "spec": "M4",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            -40.803854228891446,
-            9.952159568022305,
-            0
-          ],
-          "point_mm": [
-            -40.803854228891446,
-            9.952159568022305,
-            26.723223304703364
-          ]
-        },
-        {
-          "tap": false,
-          "id": "M4_CLEAR_40",
-          "model_bore_diameter_mm": 4.5,
-          "spec": "M4",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            43.599937155145334,
-            9.952159568022303,
-            0
-          ],
-          "point_mm": [
-            43.599937155145334,
-            9.952159568022303,
-            26.723223304703364
-          ]
-        }
-      ],
-      "title": "MRA12 MIRROR MOUNT - 3 mm FLOOR"
-    },
-    {
       "up": [
         0,
         0,
         1
       ],
-      "step_sha256": "864308f9004f0c446863e47566dce3f3ef24f250b48059d6dc83b5a0b1892837",
-      "stem": "HRS1015_Mirror_Mount",
-      "quantity": 1,
-      "eye": [
-        1,
-        -1,
-        1
-      ],
-      "holes": [
+      "views": [
         {
-          "tap": true,
-          "id": "TAP440_-22",
-          "model_bore_diameter_mm": 2.2606,
-          "spec": "4-40",
-          "inward_axis": [
+          "Up": [
             0,
             0,
-            -1
+            1
           ],
-          "exit_mm": null,
-          "point_mm": [
-            -22,
-            2,
-            32.92322330470335
-          ]
-        },
-        {
-          "tap": true,
-          "id": "TAP440_14",
-          "model_bore_diameter_mm": 2.2606,
-          "spec": "4-40",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": null,
-          "point_mm": [
-            14,
-            2,
-            32.92322330470335
-          ]
-        },
-        {
-          "tap": false,
-          "id": "M4_CLEAR_-42",
-          "model_bore_diameter_mm": 4.5,
-          "spec": "M4",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            -40.803854228891446,
-            9.952159568022305,
-            0
-          ],
-          "point_mm": [
-            -40.803854228891446,
-            9.952159568022305,
-            32.92322330470335
-          ]
-        },
-        {
-          "tap": false,
-          "id": "M4_CLEAR_40",
-          "model_bore_diameter_mm": 4.5,
-          "spec": "M4",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            43.599937155145334,
-            9.952159568022303,
-            0
-          ],
-          "point_mm": [
-            43.599937155145334,
-            9.952159568022303,
-            32.92322330470335
+          "Name": "TOP / FRONT",
+          "EyeDirection": [
+            1,
+            -1,
+            1
           ]
         }
       ],
-      "title": "HRS1015 MIRROR MOUNT - 3 mm FLOOR"
+      "note": "REV2026-10-21 | Floor 3.00 mm (Z14.50 minus Z11.50); glass 0.50 mm above top land.\n2x4-40 UNC-2B directtap7 mm; pilotD2.2606 depth 8.5 mm. 2xD4.5M4clearance THROUGH / NO TAP.\nFlat 0.30 mm retainer +two calibrated0.50 mm stopshims are separate parts. M4 finish length32.5 mm.\nUse STEP for geometry; holes explicitly labeled. Nominal model does not prescribe preload or torque.",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "source_input": "Mirror_Export_Input.json",
+      "source_ipt": "NewOptics/MRA12_Rectangular_Pocket_Mount.ipt"
     },
     {
-      "up": [
-        0,
-        1,
-        0
-      ],
-      "step_sha256": "7867ff85615f5192d9c3a451676a44684fc0e7edc72b01dc7ad6363b1a8f31ba",
       "stem": "MRA12_Thin_Edge_Retainer",
       "quantity": 1,
+      "title": "MRA12 FLAT EDGE RETAINER - ZERO FORMED BEND",
+      "step_sha256": "2b46d24392c560a71e233916bbe7c3b809a613d409b2285f9e0fe538f10aa1c2",
+      "png_sha256": "1b9f21f8ab63942ad0b138904a5e609dc5a55841e066d2badd24223a7627d858",
+      "holes": [
+        {
+          "tap": false,
+          "id": "RETAINER_-22",
+          "spec": "4-40",
+          "specification": "D3.2 clearance THROUGH; NO TAP",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            -22.0,
+            0.0,
+            0.3
+          ],
+          "exit_mm": [
+            -22.0,
+            0.0,
+            0.0
+          ],
+          "model_bore_diameter_mm": 3.2
+        },
+        {
+          "tap": false,
+          "id": "RETAINER_14",
+          "spec": "4-40",
+          "specification": "D3.2 clearance THROUGH; NO TAP",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            14.0,
+            0.0,
+            0.3
+          ],
+          "exit_mm": [
+            14.0,
+            0.0,
+            0.0
+          ],
+          "model_bore_diameter_mm": 3.2
+        }
+      ],
       "eye": [
         0.32,
         -0.8,
         1.45
       ],
-      "holes": [
-        {
-          "tap": false,
-          "id": "RETAINER_-22",
-          "model_bore_diameter_mm": 3.2,
-          "spec": "4-40",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            -22,
-            0,
-            0
-          ],
-          "point_mm": [
-            -22,
-            0,
-            0.3
-          ]
-        },
-        {
-          "tap": false,
-          "id": "RETAINER_14",
-          "model_bore_diameter_mm": 3.2,
-          "spec": "4-40",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            14,
-            0,
-            0
-          ],
-          "point_mm": [
-            14,
-            0,
-            0.3
-          ]
-        }
-      ],
-      "title": "MRA12 THIN EDGE RETAINER"
-    },
-    {
       "up": [
         0,
         1,
         0
       ],
-      "step_sha256": "a9219dcaed65adf15bcfa10312ed956b2fb5326d2ee44e1cbb361b5d905fc5c5",
+      "views": [
+        {
+          "Up": [
+            0,
+            1,
+            0
+          ],
+          "Name": "FLAT SHEET",
+          "EyeDirection": [
+            0.32,
+            -0.8,
+            1.45
+          ]
+        }
+      ],
+      "note": "REV2026-10-21 | Flat 0.3 mm sheet; outline width 44 mm; central optical opening 24.1x11 mm.\n2xD3.2 clearance for 4-40; NO TAP. Do not form bends or ramps.\nInstall over two separately calibrated0.5 mm stopshims; match stops to actual glass proud height.\nNative assembly and manufacturing export both represent flat sheet; optical preload not specified.",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "source_input": "Mirror_Export_Input.json",
+      "source_ipt": "NewOptics/MRA12_Thin_Edge_Retainer_Flat_Manufacturing.ipt"
+    },
+    {
+      "stem": "HRS1015_Mirror_Mount",
+      "quantity": 1,
+      "title": "HRS1015 MIRROR MOUNT - 3 mm FLOOR / 0.5 mm PROUD",
+      "step_sha256": "47f2427e16ec225c9c94a5a8d5b5f8ce5d1b10db65dbf62c20dd087c58ea7581",
+      "png_sha256": "3ba96db4570373bc6109730ee59c73e4eff8108beb648c29273ea4b35e60e70d",
+      "holes": [
+        {
+          "tap": true,
+          "id": "TAP440_-22",
+          "spec": "4-40",
+          "specification": "4-40 UNC-2B direct tap depth 7; #43 D2.2606 pilot depth 8.5",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            -22.0,
+            2.0,
+            32.52322330470336
+          ],
+          "model_bore_diameter_mm": 2.2606
+        },
+        {
+          "tap": true,
+          "id": "TAP440_14",
+          "spec": "4-40",
+          "specification": "4-40 UNC-2B direct tap depth 7; #43 D2.2606 pilot depth 8.5",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            14.0,
+            2.0,
+            32.52322330470336
+          ],
+          "model_bore_diameter_mm": 2.2606
+        },
+        {
+          "tap": false,
+          "id": "M4_CLEAR_-42",
+          "spec": "M4",
+          "specification": "D4.5 THROUGH; M4 screw; NO TAP",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            -40.803854228891446,
+            9.952159568022305,
+            32.52322330470336
+          ],
+          "exit_mm": [
+            -40.803854228891446,
+            9.952159568022305,
+            0.0
+          ],
+          "model_bore_diameter_mm": 4.5
+        },
+        {
+          "tap": false,
+          "id": "M4_CLEAR_40",
+          "spec": "M4",
+          "specification": "D4.5 THROUGH; M4 screw; NO TAP",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            43.599937155145334,
+            9.952159568022303,
+            32.52322330470336
+          ],
+          "exit_mm": [
+            43.599937155145334,
+            9.952159568022303,
+            0.0
+          ],
+          "model_bore_diameter_mm": 4.5
+        }
+      ],
+      "eye": [
+        1,
+        -1,
+        1
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "views": [
+        {
+          "Up": [
+            0,
+            0,
+            1
+          ],
+          "Name": "TOP / FRONT",
+          "EyeDirection": [
+            1,
+            -1,
+            1
+          ]
+        }
+      ],
+      "note": "REV2026-10-21 | Floor 3.00 mm (Z14.50 minus Z11.50); glass 0.50 mm above top land.\n2x4-40 UNC-2B directtap7 mm; pilotD2.2606 depth 8.5 mm. 2xD4.5M4clearance THROUGH / NO TAP.\nFlat 0.30 mm retainer +two calibrated0.50 mm stopshims are separate parts. M4 finish length38.5 mm.\nUse STEP for geometry; holes explicitly labeled. Nominal model does not prescribe preload or torque.",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "source_input": "Mirror_Export_Input.json",
+      "source_ipt": "NewOptics/HRS1015_Rectangular_Pocket_Mount.ipt"
+    },
+    {
       "stem": "HRS1015_Thin_Edge_Retainer",
       "quantity": 1,
+      "title": "HRS1015 FLAT EDGE RETAINER - ZERO FORMED BEND",
+      "step_sha256": "d3c3f12e6cd65daf2d53a82599bd715c11e691551be3057df984a2494fa48077",
+      "png_sha256": "2111c1d3cc15780db7ecf4f49e05b2504babb903f8c9d6ab889364571bdc0d21",
+      "holes": [
+        {
+          "tap": false,
+          "id": "RETAINER_-22",
+          "spec": "4-40",
+          "specification": "D3.2 clearance THROUGH; NO TAP",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            -22.0,
+            2.0,
+            0.3
+          ],
+          "exit_mm": [
+            -22.0,
+            2.0,
+            0.0
+          ],
+          "model_bore_diameter_mm": 3.2
+        },
+        {
+          "tap": false,
+          "id": "RETAINER_14",
+          "spec": "4-40",
+          "specification": "D3.2 clearance THROUGH; NO TAP",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            14.0,
+            2.0,
+            0.3
+          ],
+          "exit_mm": [
+            14.0,
+            2.0,
+            0.0
+          ],
+          "model_bore_diameter_mm": 3.2
+        }
+      ],
       "eye": [
         0.32,
         -0.8,
         1.45
       ],
-      "holes": [
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "views": [
         {
-          "tap": false,
-          "id": "RETAINER_-22",
-          "model_bore_diameter_mm": 3.2,
-          "spec": "4-40",
-          "inward_axis": [
+          "Up": [
             0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            -22,
-            2,
+            1,
             0
           ],
-          "point_mm": [
-            -22,
-            2,
-            0.3
-          ]
-        },
-        {
-          "tap": false,
-          "id": "RETAINER_14",
-          "model_bore_diameter_mm": 3.2,
-          "spec": "4-40",
-          "inward_axis": [
-            0,
-            0,
-            -1
-          ],
-          "exit_mm": [
-            14,
-            2,
-            0
-          ],
-          "point_mm": [
-            14,
-            2,
-            0.3
+          "Name": "FLAT SHEET",
+          "EyeDirection": [
+            0.32,
+            -0.8,
+            1.45
           ]
         }
       ],
-      "title": "HRS1015 THIN EDGE RETAINER"
+      "note": "REV2026-10-21 | Flat 0.3 mm sheet; outline width 44 mm; central optical opening 24.2x24 mm.\n2xD3.2 clearance for 4-40; NO TAP. Do not form bends or ramps.\nInstall over two separately calibrated0.5 mm stopshims; match stops to actual glass proud height.\nNative assembly and manufacturing export both represent flat sheet; optical preload not specified.",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "source_input": "Mirror_Export_Input.json",
+      "source_ipt": "NewOptics/HRS1015_Thin_Edge_Retainer_Flat_Manufacturing.ipt"
+    },
+    {
+      "stem": "Prism_440_Flat_StopShim_0p5mm",
+      "quantity": 4,
+      "title": "FLAT RETAINER STOP SHIM - 0.5 mm",
+      "step_sha256": "d353a90a74e9f24afd2f4cd8c7533192c2bb70239e8489d625a42e935f3a38d4",
+      "png_sha256": "d4d6960bf3844fa9a339ce487d4b39f1e8a43673373822d9e6b7be1171472369",
+      "holes": [
+        {
+          "tap": false,
+          "id": "CENTER",
+          "spec": "4-40",
+          "specification": "D3.2 THROUGH; NO TAP",
+          "inward_axis": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "point_mm": [
+            0.0,
+            0.0,
+            0.5
+          ],
+          "exit_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "model_bore_diameter_mm": 3.2
+        }
+      ],
+      "eye": [
+        0.32,
+        -0.8,
+        1.45
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "views": [
+        {
+          "Up": [
+            0,
+            1,
+            0
+          ],
+          "Name": "FLAT ANNULAR SHIM",
+          "EyeDirection": [
+            0.32,
+            -0.8,
+            1.45
+          ]
+        }
+      ],
+      "note": "REV2026-10-21 | ID3.2 x OD7.5 x t0.5 mm.\nQuantity 2 per mirror variant (4 total for both options). Plain flat shim, not a Belleville washer.\nCalibrate thickness to actual glass proud height; remove laser burrs; faces flat and parallel.\nSupports flat retainer screw pads over lowered body land; no forced0.5 mm retainer bending.",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "source_input": "Mirror_Export_Input.json",
+      "source_ipt": "NewOptics/Prism_440_Flat_StopSpacer_0p5mm_Envelope.ipt"
     }
-  ],
-  "base_commit": "544b3680d90a4eae8d3de7650160c4a2a42979f0",
-  "source_notes": [
-    "Leg/clamp thread and clearance designations: native Inventor CNC_SingleView_Input.json from Revision_2026_10_13/Export.",
-    "Mirror mounts: native Inventor Revision_20261019_3mm/Export/CNC_Export_Input.json and Bottom_3mm_20261019.json.",
-    "Retainers: flat manufacturing STEP export verified by ExportRetainers.cs; mating 4-40 fasteners explicitly recorded in Bottom_3mm_20261019.json.",
-    "ROD bores are not screw holes. Their 6.2 mm designation is a plain cage-rod clearance.",
-    "Bore diameters below are geometry-check values, not inferred thread specifications."
-  ],
-  "revision": "2026-10-20"
+  ]
 }

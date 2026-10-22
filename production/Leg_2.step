@@ -6,15 +6,14 @@ HEADER;
 
 FILE_DESCRIPTION(
 /* description */ (
-'Leg2; uniform50mm width; H107.1; feet12mm; top2xD6.6 through NO TAP t
-o existing factoryM6 breadboard; footD13 through NO TAP at(-12.5,-5) t
-o existingM12 platform. Distinct foot pattern: do not manufacture four
- copies of one leg without a revised hole/placement check.'),
+'Leg 2: H107.1, top flange12, 2xD6.6 plain through at25.4mm pitch for 
+MB1224 1/4-20. Exact XY in Imperial_Board_Legs_Plan.json. Original foo
+t D13 and lower body retained; unchanged location.'),
 /* implementation_level */ '2;1');
 
 FILE_NAME(
 /* name */ 'Leg_2.step',
-/* time_stamp */ '2026-10-13T14:57:28-07:00',
+/* time_stamp */ '2026-10-21T22:27:54-07:00',
 /* author */ ('Haotian Xu'),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.1',
@@ -29,7 +28,7 @@ DATA;
 #11=SHAPE_REPRESENTATION_RELATIONSHIP('SRR','None',#448,#12);
 #12=ADVANCED_BREP_SHAPE_REPRESENTATION('',(#14),#440);
 #13=STYLED_ITEM('',(#457),#14);
-#14=MANIFOLD_SOLID_BREP('\X2\5B9E4F53\X0\6',#260);
+#14=MANIFOLD_SOLID_BREP('\X2\5B9E4F53\X0\7',#260);
 #15=FACE_BOUND('',#48,.T.);
 #16=FACE_BOUND('',#49,.T.);
 #17=FACE_BOUND('',#51,.T.);
@@ -395,18 +394,18 @@ POSITIVE_RATIO_MEASURE(1.),#267);
 #367=DIRECTION('center_axis',(-1.,0.,0.));
 #368=DIRECTION('ref_axis',(0.,0.,1.));
 #369=CARTESIAN_POINT('',(0.,0.,0.));
-#370=CARTESIAN_POINT('Origin',(12.5,0.,101.1));
-#371=CARTESIAN_POINT('',(9.2,-4.04133443718627E-16,95.1));
-#372=CARTESIAN_POINT('Origin',(12.5,0.,95.1));
-#373=CARTESIAN_POINT('',(9.2,4.04133443718627E-16,107.1));
-#374=CARTESIAN_POINT('',(9.2,-4.04133443718627E-16,101.1));
-#375=CARTESIAN_POINT('Origin',(12.5,0.,107.1));
-#376=CARTESIAN_POINT('Origin',(-12.5,0.,101.1));
-#377=CARTESIAN_POINT('',(-15.8,-4.04133443718627E-16,95.1));
-#378=CARTESIAN_POINT('Origin',(-12.5,0.,95.1));
-#379=CARTESIAN_POINT('',(-15.8,4.04133443718627E-16,107.1));
-#380=CARTESIAN_POINT('',(-15.8,-4.04133443718627E-16,101.1));
-#381=CARTESIAN_POINT('Origin',(-12.5,0.,107.1));
+#370=CARTESIAN_POINT('Origin',(8.7,1.4,101.1));
+#371=CARTESIAN_POINT('',(5.4,1.4,95.1));
+#372=CARTESIAN_POINT('Origin',(8.7,1.4,95.1));
+#373=CARTESIAN_POINT('',(5.4,1.4,107.1));
+#374=CARTESIAN_POINT('',(5.4,1.4,101.1));
+#375=CARTESIAN_POINT('Origin',(8.7,1.4,107.1));
+#376=CARTESIAN_POINT('Origin',(-16.7,1.4,101.1));
+#377=CARTESIAN_POINT('',(-20.,1.4,95.1));
+#378=CARTESIAN_POINT('Origin',(-16.7,1.4,95.1));
+#379=CARTESIAN_POINT('',(-20.,1.4,107.1));
+#380=CARTESIAN_POINT('',(-20.,1.4,101.1));
+#381=CARTESIAN_POINT('Origin',(-16.7,1.4,107.1));
 #382=CARTESIAN_POINT('Origin',(-12.5,-5.,6.));
 #383=CARTESIAN_POINT('',(-19.,-5.,0.));
 #384=CARTESIAN_POINT('Origin',(-12.5,-5.,0.));
@@ -517,10 +516,9 @@ SOLID_ANGLE_UNIT()
 'Core Data for Automotive Mechanical Design Process');
 #455=PRODUCT_CONTEXT('part definition',#454,'mechanical');
 #456=PRODUCT('Breadboard_Leg_2','Breadboard_Leg_2',
-'Leg2; uniform50mm width; H107.1; feet12mm; top2xD6.6 through NO TAP t
-o existing factoryM6 breadboard; footD13 through NO TAP at(-12.5,-5) t
-o existingM12 platform. Distinct foot pattern: do not manufacture four
- copies of one leg without a revised hole/placement check.',(#455));
+'Leg 2: H107.1, top flange12, 2xD6.6 plain through at25.4mm pitch for 
+MB1224 1/4-20. Exact XY in Imperial_Board_Legs_Plan.json. Original foo
+t D13 and lower body retained; unchanged location.',(#455));
 #457=PRESENTATION_STYLE_ASSIGNMENT((#458));
 #458=SURFACE_STYLE_USAGE(.BOTH.,#461);
 #459=SURFACE_STYLE_RENDERING_WITH_PROPERTIES($,#465,(#460));

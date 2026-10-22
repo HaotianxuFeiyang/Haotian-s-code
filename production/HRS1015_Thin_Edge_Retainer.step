@@ -6,15 +6,14 @@ HEADER;
 
 FILE_DESCRIPTION(
 /* description */ (
-'MANUFACTURING: flat sheet thickness0.3mm; 2xD3.2 clearance NO TAP; ce
-ntral rounded window R0.5. Companion to current 2026-10-13 installed r
-etainer with glass0.1mm proud; installed elastic ramps are NOT formed 
-or machined features.'),
+'Flat sheet retainer, thickness0.3mm; twoD3.2 NO TAP at X-22,14, Y2. U
+nformed sheet; entire CAD retainer remains flat. Material per fabricat
+ion specification. No inferred cold preload.'),
 /* implementation_level */ '2;1');
 
 FILE_NAME(
 /* name */ 'HRS1015_Thin_Edge_Retainer.step',
-/* time_stamp */ '2026-10-14T01:23:57-07:00',
+/* time_stamp */ '2026-10-21T22:10:13-07:00',
 /* author */ ('Haotian Xu'),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.1',
@@ -361,7 +360,7 @@ POSITIVE_RATIO_MEASURE(1.),#324);
 #333=DATE_TIME_ROLE('creation_date');
 #334=APPLIED_DATE_AND_TIME_ASSIGNMENT(#335,#333,(#555));
 #335=DATE_AND_TIME(#336,#337);
-#336=CALENDAR_DATE(2026,14,10);
+#336=CALENDAR_DATE(2026,21,10);
 #337=LOCAL_TIME(0,0,0.,#338);
 #338=COORDINATED_UNIVERSAL_TIME_OFFSET(0,0,.BEHIND.);
 #339=AXIS2_PLACEMENT_3D('',#456,#368,#369);
@@ -612,21 +611,22 @@ SOLID_ANGLE_UNIT()
 #552=PRODUCT_DEFINITION_SHAPE('',$,#555);
 #553=SHAPE_REPRESENTATION('',(#339),#545);
 #554=PRODUCT_DEFINITION_CONTEXT('part definition',#559,'design');
-#555=PRODUCT_DEFINITION('HRS1015_Thin_Edge_Retainer','\X2\96F64EF6\X0\2
-7',#556,#554);
+#555=PRODUCT_DEFINITION('HRS1015_Thin_Edge_Retainer_Flat_Manufacturing',
+'HRS1015_Thin_Edge_Retainer_Flat_Manufacturing',#556,#554);
 #556=PRODUCT_DEFINITION_FORMATION('',$,#561);
-#557=PRODUCT_RELATED_PRODUCT_CATEGORY('\X2\96F64EF6\X0\27','\X2\96F64EF6\X0\2
-7',(#561));
+#557=PRODUCT_RELATED_PRODUCT_CATEGORY(
+'HRS1015_Thin_Edge_Retainer_Flat_Manufacturing',
+'HRS1015_Thin_Edge_Retainer_Flat_Manufacturing',(#561));
 #558=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#559);
 #559=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #560=PRODUCT_CONTEXT('part definition',#559,'mechanical');
-#561=PRODUCT('HRS1015_Thin_Edge_Retainer','\X2\96F64EF6\X0\27',
-'MANUFACTURING: flat sheet thickness0.3mm; 2xD3.2 clearance NO TAP; ce
-ntral rounded window R0.5. Companion to current 2026-10-13 installed r
-etainer with glass0.1mm proud; installed elastic ramps are NOT formed 
-or machined features.',(#560));
+#561=PRODUCT('HRS1015_Thin_Edge_Retainer_Flat_Manufacturing',
+'HRS1015_Thin_Edge_Retainer_Flat_Manufacturing',
+'Flat sheet retainer, thickness0.3mm; twoD3.2 NO TAP at X-22,14, Y2. U
+nformed sheet; entire CAD retainer remains flat. Material per fabricat
+ion specification. No inferred cold preload.',(#560));
 #562=PRESENTATION_STYLE_ASSIGNMENT((#563));
 #563=SURFACE_STYLE_USAGE(.BOTH.,#566);
 #564=SURFACE_STYLE_RENDERING_WITH_PROPERTIES($,#570,(#565));

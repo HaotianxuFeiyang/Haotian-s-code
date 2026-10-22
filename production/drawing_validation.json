@@ -1,218 +1,270 @@
 {
-  "date": "2026-10-20",
-  "geometry_changed": false,
+  "date": "2026-10-21",
+  "geometry_changed": true,
   "parts": [
     {
       "part": "Leg_1",
-      "step_sha256": "38107df89e4cc77468384d7d6ef91195bd815127179feb597e779a849bef0355",
-      "png_sha256": "6cf977cb40987e4f334c2060a38a119d73ad1c00cb974e75d5fe9758ef05c1a8",
+      "step_sha256": "60aca8ee5d85acf0e05977541c813f75d9f6c8c2edd4ab504cf5807be297ef3a",
+      "png_sha256": "e0994cd4ca4d1b5d099e1215a5a2fb22cc27b9398cae1382e381c2d6aa04ab1a",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "geometry_changed": true,
+      "physical_hole_count": 3,
       "holes": [
         {
-          "id": "TOP_LEFT",
-          "specification": "M6",
+          "id": "TOP_1",
+          "specification": "D6.6 THROUGH / NO TAP; 1/4-20 screw into MB1224 factory thread",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         },
         {
-          "id": "TOP_RIGHT",
-          "specification": "M6",
+          "id": "TOP_2",
+          "specification": "D6.6 THROUGH / NO TAP; 1/4-20 screw into MB1224 factory thread",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         },
         {
           "id": "FOOT",
-          "specification": "M12",
+          "specification": "D13 THROUGH / NO TAP; unchanged M12 platform connection",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         }
       ],
+      "source_input": "Imperial_Leg_Drawing_Input.json",
+      "panel_count": 1,
+      "visual_reviewed": true,
+      "geometry_validation": "Native IPT export provenance and file signatures/hashes verified; this metadata script does not reimport STEP or count solids.",
       "labels": [
         {
-          "id": "TOP_LEFT",
-          "label": "M6\nNO TAP",
+          "id": "TOP_1",
+          "label": "1/4-20\nNO TAP",
+          "view": "TOP / FRONT-RIGHT",
+          "opening": "entry",
           "anchor_pixel": [
-            819.7786994389152,
-            420.40000000000003
+            645.8506469726562,
+            249.58082580566406
           ]
         },
         {
-          "id": "TOP_RIGHT",
-          "label": "M6\nNO TAP",
+          "id": "TOP_2",
+          "label": "1/4-20\nNO TAP",
+          "view": "TOP / FRONT-RIGHT",
+          "opening": "entry",
           "anchor_pixel": [
-            920.0553251402712,
-            478.2947368421053
+            727.7192993164062,
+            296.8477478027344
           ]
         },
         {
           "id": "FOOT",
           "label": "M12\nNO TAP",
+          "view": "TOP / FRONT-RIGHT",
+          "opening": "entry",
           "anchor_pixel": [
-            920.0553251402712,
-            918.7578947368422
+            716.1159057617188,
+            641.8590087890625
           ]
         }
       ],
-      "native_step_valid": true,
-      "solid_count": 1
+      "annotation_evidence": "Native export receipt: Export_Manifest.json",
+      "all_holes_labeled_in_receipt": true
     },
     {
       "part": "Leg_2",
-      "step_sha256": "aa61250e2592ec8a7bee7972063b8b70d30058b53a5aadd97facad79edb97dfd",
-      "png_sha256": "96d6e08d8fe86efb703108e634403dfc8fc6450b83650090b8a20f49ecd59522",
+      "step_sha256": "396fddb4ad01983950b381449cbc922bdc64747476a74e3aa91cf1868c33bbbd",
+      "png_sha256": "dbf85c9081d5a70b906064ca1d69ddce02f14ff9826cb361d4c62f3101dddcc9",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "geometry_changed": true,
+      "physical_hole_count": 3,
       "holes": [
         {
-          "id": "TOP_LEFT",
-          "specification": "M6",
+          "id": "TOP_1",
+          "specification": "D6.6 THROUGH / NO TAP; 1/4-20 screw into MB1224 factory thread",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         },
         {
-          "id": "TOP_RIGHT",
-          "specification": "M6",
+          "id": "TOP_2",
+          "specification": "D6.6 THROUGH / NO TAP; 1/4-20 screw into MB1224 factory thread",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         },
         {
           "id": "FOOT",
-          "specification": "M12",
+          "specification": "D13 THROUGH / NO TAP; unchanged M12 platform connection",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         }
       ],
+      "source_input": "Imperial_Leg_Drawing_Input.json",
+      "panel_count": 1,
+      "visual_reviewed": true,
+      "geometry_validation": "Native IPT export provenance and file signatures/hashes verified; this metadata script does not reimport STEP or count solids.",
       "labels": [
         {
-          "id": "TOP_LEFT",
-          "label": "M6\nNO TAP",
+          "id": "TOP_1",
+          "label": "1/4-20\nNO TAP",
+          "view": "TOP / FRONT-RIGHT",
+          "opening": "entry",
           "anchor_pixel": [
-            819.7786994389152,
-            420.40000000000003
+            626.5115356445312,
+            230.9718017578125
           ]
         },
         {
           "id": "FOOT",
           "label": "M12\nNO TAP",
+          "view": "TOP / FRONT-RIGHT",
+          "opening": "entry",
           "anchor_pixel": [
-            799.723374298644,
-            872.4421052631579
+            619.4205932617188,
+            604.6409912109375
           ]
         },
         {
-          "id": "TOP_RIGHT",
-          "label": "M6\nNO TAP",
+          "id": "TOP_2",
+          "label": "1/4-20\nNO TAP",
+          "view": "TOP / FRONT-RIGHT",
+          "opening": "entry",
           "anchor_pixel": [
-            920.0553251402712,
-            478.2947368421053
+            708.3802490234375,
+            278.23870849609375
           ]
         }
       ],
-      "native_step_valid": true,
-      "solid_count": 1
+      "annotation_evidence": "Native export receipt: Export_Manifest.json",
+      "all_holes_labeled_in_receipt": true
     },
     {
       "part": "Leg_3",
-      "step_sha256": "9e0cffe12529f53726144b58fa0667434a4ab04091999b22d4f0e8339a9b368e",
-      "png_sha256": "8ab4e98e53c199c6fe18ff6c553807f58bbec294642f2aed609903d7cc36457e",
+      "step_sha256": "60342d2cc5d9af860e73732590d8602c457410a0198d95ff0a99da96b63c7032",
+      "png_sha256": "e5059315cb332ec4bfd0d3d5a6e95e548fcfdca98c29d9b19af6a07ac8bb5ccb",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "geometry_changed": true,
+      "physical_hole_count": 3,
       "holes": [
         {
-          "id": "TOP_LEFT",
-          "specification": "M6",
+          "id": "TOP_1",
+          "specification": "D6.6 THROUGH / NO TAP; 1/4-20 screw into MB1224 factory thread",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         },
         {
-          "id": "TOP_RIGHT",
-          "specification": "M6",
+          "id": "TOP_2",
+          "specification": "D6.6 THROUGH / NO TAP; 1/4-20 screw into MB1224 factory thread",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         },
         {
           "id": "FOOT",
-          "specification": "M12",
+          "specification": "D13 THROUGH / NO TAP; unchanged M12 platform connection",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         }
       ],
+      "source_input": "Imperial_Leg_Drawing_Input.json",
+      "panel_count": 1,
+      "visual_reviewed": true,
+      "geometry_validation": "Native IPT export provenance and file signatures/hashes verified; this metadata script does not reimport STEP or count solids.",
       "labels": [
         {
-          "id": "TOP_LEFT",
-          "label": "M6\nNO TAP",
+          "id": "TOP_1",
+          "label": "1/4-20\nNO TAP",
+          "view": "TOP / FRONT-RIGHT",
+          "opening": "entry",
           "anchor_pixel": [
-            890.9632131779015,
-            409.53043478260867
+            697.3858032226562,
+            242.72048950195312
           ]
         },
         {
           "id": "FOOT",
           "label": "M12\nNO TAP",
+          "view": "TOP / FRONT-RIGHT",
+          "opening": "entry",
           "anchor_pixel": [
-            836.7424922453106,
-            942.1217391304349
+            649.1680908203125,
+            660.633544921875
           ]
         },
         {
-          "id": "TOP_RIGHT",
-          "label": "M6\nNO TAP",
+          "id": "TOP_2",
+          "label": "1/4-20\nNO TAP",
+          "view": "TOP / FRONT-RIGHT",
+          "opening": "entry",
           "anchor_pixel": [
-            981.3310813988865,
-            461.704347826087
+            771.1646728515625,
+            285.3167724609375
           ]
         }
       ],
-      "native_step_valid": true,
-      "solid_count": 1
+      "annotation_evidence": "Native export receipt: Export_Manifest.json",
+      "all_holes_labeled_in_receipt": true
     },
     {
       "part": "Leg_4",
-      "step_sha256": "017db7b9c43ec7215de70e2d9fba75effedd6520f7e18e2d9eb46cc712074734",
-      "png_sha256": "96e24b3bc7f66a58596e68de31d991bc39c251113ea7d65a7b52f703992d4ec3",
+      "step_sha256": "3d4143e62782539ff1849b0c5f721895cfdb4072c0c82912176aad7f169ff4e3",
+      "png_sha256": "406a5e7ab891dd5e4208f08450c36629568e60ebf7f36e14ca6b7765b0b23bae",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "geometry_changed": true,
+      "physical_hole_count": 3,
       "holes": [
         {
-          "id": "TOP_LEFT",
-          "specification": "M6",
+          "id": "TOP_1",
+          "specification": "D6.6 THROUGH / NO TAP; 1/4-20 screw into MB1224 factory thread",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         },
         {
-          "id": "TOP_RIGHT",
-          "specification": "M6",
+          "id": "TOP_2",
+          "specification": "D6.6 THROUGH / NO TAP; 1/4-20 screw into MB1224 factory thread",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         },
         {
           "id": "FOOT",
-          "specification": "M12",
+          "specification": "D13 THROUGH / NO TAP; unchanged M12 platform connection",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         }
       ],
+      "source_input": "Imperial_Leg_Drawing_Input.json",
+      "panel_count": 1,
+      "visual_reviewed": true,
+      "geometry_validation": "Native IPT export provenance and file signatures/hashes verified; this metadata script does not reimport STEP or count solids.",
       "labels": [
         {
-          "id": "TOP_LEFT",
-          "label": "M6\nNO TAP",
+          "id": "TOP_1",
+          "label": "1/4-20\nNO TAP",
+          "view": "TOP / FRONT-RIGHT",
+          "opening": "entry",
           "anchor_pixel": [
-            830.8889289120574,
-            418.7035163479334
+            639.3867797851562,
+            245.15977478027344
           ]
         },
         {
           "id": "FOOT",
           "label": "M12\nNO TAP",
+          "view": "TOP / FRONT-RIGHT",
+          "opening": "entry",
           "anchor_pixel": [
-            791.3968882903758,
-            875.1743368291178
+            612.7296142578125,
+            606.8365478515625
           ]
         },
         {
-          "id": "TOP_RIGHT",
-          "label": "M6\nNO TAP",
+          "id": "TOP_2",
+          "label": "1/4-20\nNO TAP",
+          "view": "TOP / FRONT-RIGHT",
+          "opening": "entry",
           "anchor_pixel": [
-            929.6190304662612,
-            475.705367057372
+            719.9928588867188,
+            291.6977233886719
           ]
         }
       ],
-      "native_step_valid": true,
-      "solid_count": 1
+      "annotation_evidence": "Native export receipt: Export_Manifest.json",
+      "all_holes_labeled_in_receipt": true
     },
     {
       "part": "Clamp_Half_64mm_179deg",
@@ -267,7 +319,7 @@
         },
         {
           "id": "ROD_1",
-          "label": "\u00d86.2 ROD\nNO TAP",
+          "label": "Ø6.2 ROD\nNO TAP",
           "anchor_pixel": [
             662.7272727272727,
             663.7171188269978
@@ -291,7 +343,7 @@
         },
         {
           "id": "ROD_-1",
-          "label": "\u00d86.2 ROD\nNO TAP",
+          "label": "Ø6.2 ROD\nNO TAP",
           "anchor_pixel": [
             1137.2727272727273,
             663.7171188269978
@@ -311,218 +363,227 @@
     },
     {
       "part": "MRA12_Mirror_Mount",
-      "step_sha256": "5a0cf379197f43d142e66ef1b593822ebd88d0172bfb8f1ea478085abbc04685",
-      "png_sha256": "64a1a52444654d18dc24a7bb363a20c2840a1dbba6ac732f56e8d93a831af819",
+      "step_sha256": "a8c5a436b6fd0721c4d2aad6924a86fe3cfd6a8721d25a29dd11830138363ea6",
+      "png_sha256": "e236c76cb2f5a40d4a0b7dff5196872bc25f0325c9acdf1d5020b2d0fe27fd20",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "geometry_changed": true,
+      "physical_hole_count": 4,
       "holes": [
         {
           "id": "TAP440_-22",
-          "specification": "4-40",
+          "specification": "4-40 UNC-2B direct tap depth 7; #43 D2.2606 pilot depth 8.5",
           "tap": true,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         },
         {
           "id": "TAP440_14",
-          "specification": "4-40",
+          "specification": "4-40 UNC-2B direct tap depth 7; #43 D2.2606 pilot depth 8.5",
           "tap": true,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         },
         {
           "id": "M4_CLEAR_-42",
-          "specification": "M4",
+          "specification": "D4.5 THROUGH; M4 screw; NO TAP",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         },
         {
           "id": "M4_CLEAR_40",
-          "specification": "M4",
+          "specification": "D4.5 THROUGH; M4 screw; NO TAP",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         }
       ],
+      "source_input": "Mirror_Export_Input.json",
+      "panel_count": 1,
+      "visual_reviewed": true,
+      "geometry_validation": "Native IPT export provenance and file signatures/hashes verified; this metadata script does not reimport STEP or count solids.",
       "labels": [
         {
-          "id": "M4_CLEAR_-42",
-          "label": "M4\nNO TAP",
-          "anchor_pixel": [
-            658.9343433800776,
-            368.1109326983107
-          ]
-        },
-        {
           "id": "TAP440_-22",
-          "label": "4-40\nTAP",
-          "anchor_pixel": [
-            721.0517907633123,
-            484.6187945597468
-          ]
+          "label": "4-40\nTAP"
         },
         {
           "id": "TAP440_14",
-          "label": "4-40\nTAP",
-          "anchor_pixel": [
-            973.6845567445184,
-            630.476390005116
-          ]
-        },
-        {
-          "id": "M4_CLEAR_40",
-          "label": "M4\nNO TAP",
-          "anchor_pixel": [
-            1251.2444343981308,
-            710.0813231913154
-          ]
-        }
-      ],
-      "native_step_valid": true,
-      "solid_count": 1
-    },
-    {
-      "part": "HRS1015_Mirror_Mount",
-      "step_sha256": "864308f9004f0c446863e47566dce3f3ef24f250b48059d6dc83b5a0b1892837",
-      "png_sha256": "70dc22cca1c6c8b3ada9adc6f210fa86f967291c335d57e10fd4d647184b0757",
-      "holes": [
-        {
-          "id": "TAP440_-22",
-          "specification": "4-40",
-          "tap": true,
-          "matching_cylinders": 1
-        },
-        {
-          "id": "TAP440_14",
-          "specification": "4-40",
-          "tap": true,
-          "matching_cylinders": 1
+          "label": "4-40\nTAP"
         },
         {
           "id": "M4_CLEAR_-42",
-          "specification": "M4",
-          "tap": false,
-          "matching_cylinders": 1
+          "label": "M4\nNO TAP"
         },
         {
           "id": "M4_CLEAR_40",
-          "specification": "M4",
-          "tap": false,
-          "matching_cylinders": 1
+          "label": "M4\nNO TAP"
         }
       ],
-      "labels": [
-        {
-          "id": "M4_CLEAR_-42",
-          "label": "M4\nNO TAP",
-          "anchor_pixel": [
-            674.2757272959942,
-            364.4382171938111
-          ]
-        },
-        {
-          "id": "TAP440_-22",
-          "label": "4-40\nTAP",
-          "anchor_pixel": [
-            745.5819877036038,
-            465.94402211272813
-          ]
-        },
-        {
-          "id": "TAP440_14",
-          "label": "4-40\nTAP",
-          "anchor_pixel": [
-            982.1372405831894,
-            602.519261040977
-          ]
-        },
-        {
-          "id": "M4_CLEAR_40",
-          "label": "M4\nNO TAP",
-          "anchor_pixel": [
-            1228.891288819511,
-            684.6456609361691
-          ]
-        }
-      ],
-      "native_step_valid": true,
-      "solid_count": 1
+      "annotation_evidence": "Labels reconstructed from explicit export input. The per-run manifest was overwritten by a later export; anchor pixels are unavailable.",
+      "all_holes_labeled_in_receipt": null
     },
     {
       "part": "MRA12_Thin_Edge_Retainer",
-      "step_sha256": "7867ff85615f5192d9c3a451676a44684fc0e7edc72b01dc7ad6363b1a8f31ba",
-      "png_sha256": "54a8e75abfdf8fd19c3f3fd8a7e167fa177f9a56ed74a3dac3f35938fc12a21a",
+      "step_sha256": "2b46d24392c560a71e233916bbe7c3b809a613d409b2285f9e0fe538f10aa1c2",
+      "png_sha256": "1b9f21f8ab63942ad0b138904a5e609dc5a55841e066d2badd24223a7627d858",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "geometry_changed": true,
+      "physical_hole_count": 2,
       "holes": [
         {
           "id": "RETAINER_-22",
-          "specification": "4-40",
+          "specification": "D3.2 clearance THROUGH; NO TAP",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         },
         {
           "id": "RETAINER_14",
-          "specification": "4-40",
+          "specification": "D3.2 clearance THROUGH; NO TAP",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         }
       ],
+      "source_input": "Mirror_Export_Input.json",
+      "panel_count": 1,
+      "visual_reviewed": true,
+      "geometry_validation": "Native IPT export provenance and file signatures/hashes verified; this metadata script does not reimport STEP or count solids.",
       "labels": [
         {
           "id": "RETAINER_-22",
-          "label": "4-40\nNO TAP",
-          "anchor_pixel": [
-            472.76649555527734,
-            722.9525560650674
-          ]
+          "label": "4-40\nNO TAP"
         },
         {
           "id": "RETAINER_14",
-          "label": "4-40\nNO TAP",
-          "anchor_pixel": [
-            1325.664955552773,
-            633.6763366930194
-          ]
+          "label": "4-40\nNO TAP"
         }
       ],
-      "native_step_valid": true,
-      "solid_count": 1
+      "annotation_evidence": "Labels reconstructed from explicit export input. The per-run manifest was overwritten by a later export; anchor pixels are unavailable.",
+      "all_holes_labeled_in_receipt": null
+    },
+    {
+      "part": "HRS1015_Mirror_Mount",
+      "step_sha256": "47f2427e16ec225c9c94a5a8d5b5f8ce5d1b10db65dbf62c20dd087c58ea7581",
+      "png_sha256": "3ba96db4570373bc6109730ee59c73e4eff8108beb648c29273ea4b35e60e70d",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "geometry_changed": true,
+      "physical_hole_count": 4,
+      "holes": [
+        {
+          "id": "TAP440_-22",
+          "specification": "4-40 UNC-2B direct tap depth 7; #43 D2.2606 pilot depth 8.5",
+          "tap": true,
+          "evidence": "Explicit native-export hole input; not an inferred thread."
+        },
+        {
+          "id": "TAP440_14",
+          "specification": "4-40 UNC-2B direct tap depth 7; #43 D2.2606 pilot depth 8.5",
+          "tap": true,
+          "evidence": "Explicit native-export hole input; not an inferred thread."
+        },
+        {
+          "id": "M4_CLEAR_-42",
+          "specification": "D4.5 THROUGH; M4 screw; NO TAP",
+          "tap": false,
+          "evidence": "Explicit native-export hole input; not an inferred thread."
+        },
+        {
+          "id": "M4_CLEAR_40",
+          "specification": "D4.5 THROUGH; M4 screw; NO TAP",
+          "tap": false,
+          "evidence": "Explicit native-export hole input; not an inferred thread."
+        }
+      ],
+      "source_input": "Mirror_Export_Input.json",
+      "panel_count": 1,
+      "visual_reviewed": true,
+      "geometry_validation": "Native IPT export provenance and file signatures/hashes verified; this metadata script does not reimport STEP or count solids.",
+      "labels": [
+        {
+          "id": "TAP440_-22",
+          "label": "4-40\nTAP"
+        },
+        {
+          "id": "TAP440_14",
+          "label": "4-40\nTAP"
+        },
+        {
+          "id": "M4_CLEAR_-42",
+          "label": "M4\nNO TAP"
+        },
+        {
+          "id": "M4_CLEAR_40",
+          "label": "M4\nNO TAP"
+        }
+      ],
+      "annotation_evidence": "Labels reconstructed from explicit export input. The per-run manifest was overwritten by a later export; anchor pixels are unavailable.",
+      "all_holes_labeled_in_receipt": null
     },
     {
       "part": "HRS1015_Thin_Edge_Retainer",
-      "step_sha256": "a9219dcaed65adf15bcfa10312ed956b2fb5326d2ee44e1cbb361b5d905fc5c5",
-      "png_sha256": "e2492ab3690bc9796f01fdead44349a1729f55047254c06991a4349abaeeabc2",
+      "step_sha256": "d3c3f12e6cd65daf2d53a82599bd715c11e691551be3057df984a2494fa48077",
+      "png_sha256": "2111c1d3cc15780db7ecf4f49e05b2504babb903f8c9d6ab889364571bdc0d21",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "geometry_changed": true,
+      "physical_hole_count": 2,
       "holes": [
         {
           "id": "RETAINER_-22",
-          "specification": "4-40",
+          "specification": "D3.2 clearance THROUGH; NO TAP",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         },
         {
           "id": "RETAINER_14",
-          "specification": "4-40",
+          "specification": "D3.2 clearance THROUGH; NO TAP",
           "tap": false,
-          "matching_cylinders": 1
+          "evidence": "Explicit native-export hole input; not an inferred thread."
         }
       ],
+      "source_input": "Mirror_Export_Input.json",
+      "panel_count": 1,
+      "visual_reviewed": true,
+      "geometry_validation": "Native IPT export provenance and file signatures/hashes verified; this metadata script does not reimport STEP or count solids.",
       "labels": [
         {
           "id": "RETAINER_-22",
-          "label": "4-40\nNO TAP",
-          "anchor_pixel": [
-            472.76649555527734,
-            722.9525560650674
-          ]
+          "label": "4-40\nNO TAP"
         },
         {
           "id": "RETAINER_14",
-          "label": "4-40\nNO TAP",
-          "anchor_pixel": [
-            1325.664955552773,
-            633.6763366930194
-          ]
+          "label": "4-40\nNO TAP"
         }
       ],
-      "native_step_valid": true,
-      "solid_count": 1
+      "annotation_evidence": "Labels reconstructed from explicit export input. The per-run manifest was overwritten by a later export; anchor pixels are unavailable.",
+      "all_holes_labeled_in_receipt": null
+    },
+    {
+      "part": "Prism_440_Flat_StopShim_0p5mm",
+      "step_sha256": "d353a90a74e9f24afd2f4cd8c7533192c2bb70239e8489d625a42e935f3a38d4",
+      "png_sha256": "d4d6960bf3844fa9a339ce487d4b39f1e8a43673373822d9e6b7be1171472369",
+      "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
+      "geometry_changed": true,
+      "physical_hole_count": 1,
+      "holes": [
+        {
+          "id": "CENTER",
+          "specification": "D3.2 THROUGH; NO TAP",
+          "tap": false,
+          "evidence": "Explicit native-export hole input; not an inferred thread."
+        }
+      ],
+      "source_input": "Mirror_Export_Input.json",
+      "panel_count": 1,
+      "visual_reviewed": true,
+      "geometry_validation": "Native IPT export provenance and file signatures/hashes verified; this metadata script does not reimport STEP or count solids.",
+      "labels": [
+        {
+          "id": "CENTER",
+          "label": "4-40\nNO TAP"
+        }
+      ],
+      "annotation_evidence": "Labels reconstructed from explicit export input. The per-run manifest was overwritten by a later export; anchor pixels are unavailable.",
+      "all_holes_labeled_in_receipt": null
     }
   ],
-  "hole_count": 30,
+  "hole_count": 31,
   "thread_evidence": "production/drawing_holes.json",
-  "rendering": "Native FreeCAD STEP rendering plus Qt vector text and leader annotations"
+  "rendering": "Mixed provenance: nine parts use Inventor Camera.SaveAsBitmap + System.Drawing annotation; unchanged clamp retains the previous FreeCAD rendering.",
+  "validation_scope": "No old FreeCAD matching_cylinders/solid_count assertions are copied onto new geometry."
 }
