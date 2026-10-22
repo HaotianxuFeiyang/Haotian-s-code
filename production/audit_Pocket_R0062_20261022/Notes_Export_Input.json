@@ -1,0 +1,184 @@
+{
+  "Root": "D:\\Fridge_DualLattice_Final\\02_Full_Design",
+  "PreserveExistingSTEP": true,
+  "Parts": [
+    {
+      "Views": [
+        {
+          "Up": [
+            0,
+            1,
+            0
+          ],
+          "Name": "FLAT SHEET",
+          "EyeDirection": [
+            0.32,
+            -0.8,
+            1.45
+          ]
+        }
+      ],
+      "Note": "REV2026-10-22 | Flat0.30 mm sheet; outline width44 mm; central optical opening 24.1x11 mm (geometry unchanged).\n2xD3.2 clearance for4-40 THROUGH; NO TAP. Manufacture flat, with no formed bends or ramps.\nDuring tightening the flat retainer elastically bends to clamp glass0.50 mm proud of the mount land.\nDO NOT manufacture or install legacy0.50 mm stopshims. Retain4-40 Inconel and M4 stainless Belleville washers.",
+      "Title": "MRA12 FLAT EDGE RETAINER - ZERO FORMED BEND",
+      "Quantity": 1,
+      "OutputStem": "MRA12_Thin_Edge_Retainer",
+      "Holes": [
+        {
+          "Tap": false,
+          "ScrewLabel": "4-40",
+          "Id": "RETAINER_-22",
+          "Exit_mm": [
+            -22.0,
+            0.0,
+            0
+          ],
+          "Point_mm": [
+            -22.0,
+            0.0,
+            0.3
+          ],
+          "Specification": "D3.2 clearance THROUGH; NO TAP",
+          "Axis": [
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "Tap": false,
+          "ScrewLabel": "4-40",
+          "Id": "RETAINER_14",
+          "Exit_mm": [
+            14.0,
+            0.0,
+            0
+          ],
+          "Point_mm": [
+            14.0,
+            0.0,
+            0.3
+          ],
+          "Specification": "D3.2 clearance THROUGH; NO TAP",
+          "Axis": [
+            0,
+            0,
+            -1
+          ]
+        }
+      ],
+      "PartPath": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\MRA12_Thin_Edge_Retainer_Flat_Manufacturing.ipt"
+    },
+    {
+      "Views": [
+        {
+          "Up": [
+            0,
+            1,
+            0
+          ],
+          "Name": "FLAT SHEET",
+          "EyeDirection": [
+            0.32,
+            -0.8,
+            1.45
+          ]
+        }
+      ],
+      "Note": "REV2026-10-22 | Flat0.30 mm sheet; outline width44 mm; central optical opening 24.2x24 mm (geometry unchanged).\n2xD3.2 clearance for4-40 THROUGH; NO TAP. Manufacture flat, with no formed bends or ramps.\nDuring tightening the flat retainer elastically bends to clamp glass0.50 mm proud of the mount land.\nDO NOT manufacture or install legacy0.50 mm stopshims. Retain4-40 Inconel and M4 stainless Belleville washers.",
+      "Title": "HRS1015 FLAT EDGE RETAINER - ZERO FORMED BEND",
+      "Quantity": 1,
+      "OutputStem": "HRS1015_Thin_Edge_Retainer",
+      "Holes": [
+        {
+          "Tap": false,
+          "ScrewLabel": "4-40",
+          "Id": "RETAINER_-22",
+          "Exit_mm": [
+            -22.0,
+            2.0,
+            0
+          ],
+          "Point_mm": [
+            -22.0,
+            2.0,
+            0.3
+          ],
+          "Specification": "D3.2 clearance THROUGH; NO TAP",
+          "Axis": [
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "Tap": false,
+          "ScrewLabel": "4-40",
+          "Id": "RETAINER_14",
+          "Exit_mm": [
+            14.0,
+            2.0,
+            0
+          ],
+          "Point_mm": [
+            14.0,
+            2.0,
+            0.3
+          ],
+          "Specification": "D3.2 clearance THROUGH; NO TAP",
+          "Axis": [
+            0,
+            0,
+            -1
+          ]
+        }
+      ],
+      "PartPath": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\HRS1015_Thin_Edge_Retainer_Flat_Manufacturing.ipt"
+    },
+    {
+      "Views": [
+        {
+          "Up": [
+            0,
+            1,
+            0
+          ],
+          "Name": "FLAT ANNULAR SHIM",
+          "EyeDirection": [
+            0.32,
+            -0.8,
+            1.45
+          ]
+        }
+      ],
+      "Note": "REV2026-10-22 | LEGACY REFERENCE ONLY. This geometry is not part of the current CNC order.\nDO NOT manufacture or install any of the four0.50 mm flat stopshims. Current order quantity ZERO.\nThe retainer is manufactured flat and elastically bends during tightening to clamp the mirrors.\nThis exclusion applies only to stopshims. All specified4-40 and M4 Belleville washers remain required.",
+      "Title": "REFERENCE ONLY - DO NOT MANUFACTURE OR INSTALL STOP SHIMS",
+      "Quantity": 0,
+      "OutputStem": "Prism_440_Flat_StopShim_0p5mm",
+      "Holes": [
+        {
+          "Tap": false,
+          "ScrewLabel": "4-40",
+          "Id": "CENTER",
+          "Exit_mm": [
+            0,
+            0,
+            0
+          ],
+          "Point_mm": [
+            0,
+            0,
+            0.5
+          ],
+          "Specification": "D3.2 THROUGH; NO TAP",
+          "Axis": [
+            0,
+            0,
+            -1
+          ]
+        }
+      ],
+      "PartPath": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Prism_440_Flat_StopSpacer_0p5mm_Envelope.ipt"
+    }
+  ],
+  "OutputDirectory": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062"
+}

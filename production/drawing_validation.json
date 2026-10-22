@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "geometry_changed": true,
   "parts": [
     {
@@ -363,8 +363,8 @@
     },
     {
       "part": "MRA12_Mirror_Mount",
-      "step_sha256": "a8c5a436b6fd0721c4d2aad6924a86fe3cfd6a8721d25a29dd11830138363ea6",
-      "png_sha256": "e236c76cb2f5a40d4a0b7dff5196872bc25f0325c9acdf1d5020b2d0fe27fd20",
+      "step_sha256": "d776bb35ad2ff4799052e73a20b1eae960dc2c33507139dd42562eca3346378a",
+      "png_sha256": "3ee70ad1d0954572c1e2f9b2a2e5852ae7438fb436b34899233d1670fc79a733",
       "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
       "geometry_changed": true,
       "physical_hole_count": 4,
@@ -394,37 +394,72 @@
           "evidence": "Explicit native-export hole input; not an inferred thread."
         }
       ],
-      "source_input": "Mirror_Export_Input.json",
+      "source_input": "Mount_Export_Input.json",
       "panel_count": 1,
       "visual_reviewed": true,
-      "geometry_validation": "Native IPT export provenance and file signatures/hashes verified; this metadata script does not reimport STEP or count solids.",
+      "geometry_validation": "Native old/new target Boolean symmetric difference zero; volume removal agrees with independent analytic prediction; exported STEP reimport is native-equivalent with zero two-way Boolean difference; independent STEP face-entity audit passes.",
       "labels": [
         {
-          "id": "TAP440_-22",
-          "label": "4-40\nTAP"
+          "HoleId": "M4_CLEAR_-42",
+          "Label": "M4\nNO TAP",
+          "View": "TOP / FRONT",
+          "Opening": "entry",
+          "AnchorPixel": [
+            505.4333801269531,
+            199.5791015625
+          ]
         },
         {
-          "id": "TAP440_14",
-          "label": "4-40\nTAP"
+          "HoleId": "TAP440_-22",
+          "Label": "4-40\nTAP",
+          "View": "TOP / FRONT",
+          "Opening": "entry",
+          "AnchorPixel": [
+            555.5690307617188,
+            293.61383056640625
+          ]
         },
         {
-          "id": "M4_CLEAR_-42",
-          "label": "M4\nNO TAP"
+          "HoleId": "TAP440_14",
+          "Label": "4-40\nTAP",
+          "View": "TOP / FRONT",
+          "Opening": "entry",
+          "AnchorPixel": [
+            759.4715576171875,
+            411.3370056152344
+          ]
         },
         {
-          "id": "M4_CLEAR_40",
-          "label": "M4\nNO TAP"
+          "HoleId": "M4_CLEAR_40",
+          "Label": "M4\nNO TAP",
+          "View": "TOP / FRONT",
+          "Opening": "entry",
+          "AnchorPixel": [
+            983.4930419921875,
+            475.58697509765625
+          ]
         }
       ],
-      "annotation_evidence": "Labels reconstructed from explicit export input. The per-run manifest was overwritten by a later export; anchor pixels are unavailable.",
-      "all_holes_labeled_in_receipt": null
+      "annotation_evidence": "Native export receipt labels and anchor pixels recorded for this revision.",
+      "all_holes_labeled_in_receipt": true,
+      "manufacture": true,
+      "status": "active_manufacturing",
+      "quantity": 1,
+      "visual_review_evidence": "audit_Pocket_R0062_20261022/Pocket_R0062_Visual_Review_Receipt.json",
+      "geometry_evidence": [
+        "audit_Pocket_R0062_20261022/Native_Pocket_Apply_Receipt.json",
+        "audit_Pocket_R0062_20261022/STEP_Roundtrip_Verification.json",
+        "audit_Pocket_R0062_20261022/Pocket_R0062_STEP_Entity_Audit.json",
+        "audit_Pocket_R0062_20261022/Pocket_R0062_Analytical_Difference_Check.json",
+        "audit_Pocket_R0062_20261022/Pocket_R0062_Analytic_Native_Volume_Comparison.json"
+      ]
     },
     {
       "part": "MRA12_Thin_Edge_Retainer",
       "step_sha256": "2b46d24392c560a71e233916bbe7c3b809a613d409b2285f9e0fe538f10aa1c2",
-      "png_sha256": "1b9f21f8ab63942ad0b138904a5e609dc5a55841e066d2badd24223a7627d858",
+      "png_sha256": "c32640438c52ff3420cf68dabb1bc1f0d14f5679e8bf0c20b576d3187a6db628",
       "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
-      "geometry_changed": true,
+      "geometry_changed": false,
       "physical_hole_count": 2,
       "holes": [
         {
@@ -440,27 +475,43 @@
           "evidence": "Explicit native-export hole input; not an inferred thread."
         }
       ],
-      "source_input": "Mirror_Export_Input.json",
+      "source_input": "Notes_Export_Input.json",
       "panel_count": 1,
       "visual_reviewed": true,
-      "geometry_validation": "Native IPT export provenance and file signatures/hashes verified; this metadata script does not reimport STEP or count solids.",
+      "geometry_validation": "Hash/provenance checks only here. Refer to the separately linked native pocket geometry audit.",
       "labels": [
         {
-          "id": "RETAINER_-22",
-          "label": "4-40\nNO TAP"
+          "HoleId": "RETAINER_-22",
+          "Label": "4-40\nNO TAP",
+          "View": "FLAT SHEET",
+          "Opening": "entry",
+          "AnchorPixel": [
+            344.79052734375,
+            485.7115173339844
+          ]
         },
         {
-          "id": "RETAINER_14",
-          "label": "4-40\nNO TAP"
+          "HoleId": "RETAINER_14",
+          "Label": "4-40\nNO TAP",
+          "View": "FLAT SHEET",
+          "Opening": "entry",
+          "AnchorPixel": [
+            1053.9053955078125,
+            411.4856872558594
+          ]
         }
       ],
-      "annotation_evidence": "Labels reconstructed from explicit export input. The per-run manifest was overwritten by a later export; anchor pixels are unavailable.",
-      "all_holes_labeled_in_receipt": null
+      "annotation_evidence": "Native export receipt labels and anchor pixels recorded for this revision.",
+      "all_holes_labeled_in_receipt": true,
+      "manufacture": true,
+      "status": "active_manufacturing",
+      "quantity": 1,
+      "visual_review_evidence": "audit_Pocket_R0062_20261022/Pocket_R0062_Visual_Review_Receipt.json"
     },
     {
       "part": "HRS1015_Mirror_Mount",
-      "step_sha256": "47f2427e16ec225c9c94a5a8d5b5f8ce5d1b10db65dbf62c20dd087c58ea7581",
-      "png_sha256": "3ba96db4570373bc6109730ee59c73e4eff8108beb648c29273ea4b35e60e70d",
+      "step_sha256": "42bf85c166f70361bd66f5dee73cf98127959f38bfe93096db8f64b4820e6cc2",
+      "png_sha256": "0c586a9aa081b35570324e863566d1d87a76f6ed1457a82f4c800e56377e7cf7",
       "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
       "geometry_changed": true,
       "physical_hole_count": 4,
@@ -490,37 +541,72 @@
           "evidence": "Explicit native-export hole input; not an inferred thread."
         }
       ],
-      "source_input": "Mirror_Export_Input.json",
+      "source_input": "Mount_Export_Input.json",
       "panel_count": 1,
       "visual_reviewed": true,
-      "geometry_validation": "Native IPT export provenance and file signatures/hashes verified; this metadata script does not reimport STEP or count solids.",
+      "geometry_validation": "Native old/new target Boolean symmetric difference zero; volume removal agrees with independent analytic prediction; exported STEP reimport is native-equivalent with zero two-way Boolean difference; independent STEP face-entity audit passes.",
       "labels": [
         {
-          "id": "TAP440_-22",
-          "label": "4-40\nTAP"
+          "HoleId": "M4_CLEAR_-42",
+          "Label": "M4\nNO TAP",
+          "View": "TOP / FRONT",
+          "Opening": "entry",
+          "AnchorPixel": [
+            517.8666381835938,
+            196.6025848388672
+          ]
         },
         {
-          "id": "TAP440_14",
-          "label": "4-40\nTAP"
+          "HoleId": "TAP440_-22",
+          "Label": "4-40\nTAP",
+          "View": "TOP / FRONT",
+          "Opening": "entry",
+          "AnchorPixel": [
+            575.4025268554688,
+            278.50604248046875
+          ]
         },
         {
-          "id": "M4_CLEAR_-42",
-          "label": "M4\nNO TAP"
+          "HoleId": "TAP440_14",
+          "Label": "4-40\nTAP",
+          "View": "TOP / FRONT",
+          "Opening": "entry",
+          "AnchorPixel": [
+            766.2752685546875,
+            388.7064514160156
+          ]
         },
         {
-          "id": "M4_CLEAR_40",
-          "label": "M4\nNO TAP"
+          "HoleId": "M4_CLEAR_40",
+          "Label": "M4\nNO TAP",
+          "View": "TOP / FRONT",
+          "Opening": "entry",
+          "AnchorPixel": [
+            965.3772583007812,
+            454.97296142578125
+          ]
         }
       ],
-      "annotation_evidence": "Labels reconstructed from explicit export input. The per-run manifest was overwritten by a later export; anchor pixels are unavailable.",
-      "all_holes_labeled_in_receipt": null
+      "annotation_evidence": "Native export receipt labels and anchor pixels recorded for this revision.",
+      "all_holes_labeled_in_receipt": true,
+      "manufacture": true,
+      "status": "active_manufacturing",
+      "quantity": 1,
+      "visual_review_evidence": "audit_Pocket_R0062_20261022/Pocket_R0062_Visual_Review_Receipt.json",
+      "geometry_evidence": [
+        "audit_Pocket_R0062_20261022/Native_Pocket_Apply_Receipt.json",
+        "audit_Pocket_R0062_20261022/STEP_Roundtrip_Verification.json",
+        "audit_Pocket_R0062_20261022/Pocket_R0062_STEP_Entity_Audit.json",
+        "audit_Pocket_R0062_20261022/Pocket_R0062_Analytical_Difference_Check.json",
+        "audit_Pocket_R0062_20261022/Pocket_R0062_Analytic_Native_Volume_Comparison.json"
+      ]
     },
     {
       "part": "HRS1015_Thin_Edge_Retainer",
       "step_sha256": "d3c3f12e6cd65daf2d53a82599bd715c11e691551be3057df984a2494fa48077",
-      "png_sha256": "2111c1d3cc15780db7ecf4f49e05b2504babb903f8c9d6ab889364571bdc0d21",
+      "png_sha256": "2dba7c37dfa2330768220e48549ddcb55976cc1aaca2eed590043f90090bce4e",
       "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
-      "geometry_changed": true,
+      "geometry_changed": false,
       "physical_hole_count": 2,
       "holes": [
         {
@@ -536,29 +622,45 @@
           "evidence": "Explicit native-export hole input; not an inferred thread."
         }
       ],
-      "source_input": "Mirror_Export_Input.json",
+      "source_input": "Notes_Export_Input.json",
       "panel_count": 1,
       "visual_reviewed": true,
-      "geometry_validation": "Native IPT export provenance and file signatures/hashes verified; this metadata script does not reimport STEP or count solids.",
+      "geometry_validation": "Hash/provenance checks only here. Refer to the separately linked native pocket geometry audit.",
       "labels": [
         {
-          "id": "RETAINER_-22",
-          "label": "4-40\nNO TAP"
+          "HoleId": "RETAINER_-22",
+          "Label": "4-40\nNO TAP",
+          "View": "FLAT SHEET",
+          "Opening": "entry",
+          "AnchorPixel": [
+            347.08331298828125,
+            485.48101806640625
+          ]
         },
         {
-          "id": "RETAINER_14",
-          "label": "4-40\nNO TAP"
+          "HoleId": "RETAINER_14",
+          "Label": "4-40\nNO TAP",
+          "View": "FLAT SHEET",
+          "Opening": "entry",
+          "AnchorPixel": [
+            1051.6209716796875,
+            411.7342834472656
+          ]
         }
       ],
-      "annotation_evidence": "Labels reconstructed from explicit export input. The per-run manifest was overwritten by a later export; anchor pixels are unavailable.",
-      "all_holes_labeled_in_receipt": null
+      "annotation_evidence": "Native export receipt labels and anchor pixels recorded for this revision.",
+      "all_holes_labeled_in_receipt": true,
+      "manufacture": true,
+      "status": "active_manufacturing",
+      "quantity": 1,
+      "visual_review_evidence": "audit_Pocket_R0062_20261022/Pocket_R0062_Visual_Review_Receipt.json"
     },
     {
       "part": "Prism_440_Flat_StopShim_0p5mm",
       "step_sha256": "d353a90a74e9f24afd2f4cd8c7533192c2bb70239e8489d625a42e935f3a38d4",
-      "png_sha256": "d4d6960bf3844fa9a339ce487d4b39f1e8a43673373822d9e6b7be1171472369",
+      "png_sha256": "433e3eea56f0fac21fc630c379b9f0c639eb8618b19f76eb0a18cd5047e72589",
       "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
-      "geometry_changed": true,
+      "geometry_changed": false,
       "physical_hole_count": 1,
       "holes": [
         {
@@ -568,22 +670,41 @@
           "evidence": "Explicit native-export hole input; not an inferred thread."
         }
       ],
-      "source_input": "Mirror_Export_Input.json",
+      "source_input": "Notes_Export_Input.json",
       "panel_count": 1,
       "visual_reviewed": true,
-      "geometry_validation": "Native IPT export provenance and file signatures/hashes verified; this metadata script does not reimport STEP or count solids.",
+      "geometry_validation": "Hash/provenance checks only here. Refer to the separately linked native pocket geometry audit.",
       "labels": [
         {
-          "id": "CENTER",
-          "label": "4-40\nNO TAP"
+          "HoleId": "CENTER",
+          "Label": "4-40\nNO TAP",
+          "View": "FLAT ANNULAR SHIM",
+          "Opening": "entry",
+          "AnchorPixel": [
+            695.7896728515625,
+            440.951171875
+          ]
         }
       ],
-      "annotation_evidence": "Labels reconstructed from explicit export input. The per-run manifest was overwritten by a later export; anchor pixels are unavailable.",
-      "all_holes_labeled_in_receipt": null
+      "annotation_evidence": "Native export receipt labels and anchor pixels recorded for this revision.",
+      "all_holes_labeled_in_receipt": true,
+      "manufacture": false,
+      "status": "reference_only",
+      "quantity": 0,
+      "reference_reason": "Legacy 0.5 mm stop shim. Do not manufacture, buy, or install for the current elastic-retainer design. Original file URL retained for reference.",
+      "visual_review_evidence": "audit_Pocket_R0062_20261022/Pocket_R0062_Visual_Review_Receipt.json"
     }
   ],
   "hole_count": 31,
   "thread_evidence": "production/drawing_holes.json",
   "rendering": "Mixed provenance: nine parts use Inventor Camera.SaveAsBitmap + System.Drawing annotation; unchanged clamp retains the previous FreeCAD rendering.",
-  "validation_scope": "No old FreeCAD matching_cylinders/solid_count assertions are copied onto new geometry."
+  "validation_scope": "No old FreeCAD matching_cylinders/solid_count assertions are copied onto new geometry.",
+  "revision": "Pocket_R0062_Revision_20261022",
+  "geometry_changed_parts": [
+    "MRA12_Mirror_Mount",
+    "HRS1015_Mirror_Mount"
+  ],
+  "reference_only_parts": [
+    "Prism_440_Flat_StopShim_0p5mm"
+  ]
 }

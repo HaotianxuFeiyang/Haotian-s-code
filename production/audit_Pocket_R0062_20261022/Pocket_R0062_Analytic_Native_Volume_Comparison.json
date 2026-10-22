@@ -1,0 +1,19 @@
+{
+  "AllPassed": true,
+  "Rows": [
+    {
+      "Variant": "MRA12",
+      "PredictedRemovedVolume_mm3": 310.90059367852206,
+      "NativeRemovedVolume_mm3": 310.90059367851063,
+      "AbsoluteDifference_mm3": 1.1425527191022411e-11,
+      "Passed": true
+    },
+    {
+      "Variant": "HRS1015",
+      "PredictedRemovedVolume_mm3": 640.468863440259,
+      "NativeRemovedVolume_mm3": 640.4688634402628,
+      "AbsoluteDifference_mm3": 3.751665644813329e-12,
+      "Passed": true
+    }
+  ]
+}

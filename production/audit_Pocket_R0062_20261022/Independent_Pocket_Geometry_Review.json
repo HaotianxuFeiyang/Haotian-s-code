@@ -1,0 +1,273 @@
+{
+  "TimestampUtc": "2026-10-22T20:46:36.2028060Z",
+  "Scope": "Independent read-only review of parent native apply receipt, current design metadata, analytic geometry, and preserved-file hashes. No Inventor COM or model/Git mutations.",
+  "Evidence": [
+    {
+      "Path": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\Native_Pocket_Apply_Receipt.json",
+      "SHA256": "92DBB0EF4D823137FB8FFE1E590284997DD661F5FB43A88C5B018C139B4AB9E8"
+    },
+    {
+      "Path": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Reports\\Bottom_Design_Parameters.json",
+      "SHA256": "D9F347A6ACAA78A3D55E733D1C93E6411F242F34A72B95EA50FDD3842ECDDBBA"
+    },
+    {
+      "Path": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\Before\\Baseline.json",
+      "SHA256": "5970068982E7FBA47819CB21C18CA4A127CBED2D3393818A81F7653FBBED2C1F"
+    },
+    {
+      "Path": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\Pocket_R0062_Analytical_Difference_Check.json",
+      "SHA256": "1E0906EDC4D2974DF3963FFF5214B27CBA89893724B31940416C3505A00621F5"
+    },
+    {
+      "Path": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\ApplyPocketR0062.cs",
+      "SHA256": "7BEF1825DDA2FE74DB3A7BE5541BD7D4309CC0BAB92D15BE0CE33D27471CEEB9"
+    },
+    {
+      "Path": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\VerifyPocketAssembly.ps1",
+      "SHA256": "DBD56DA4292A8C702CB88382DF60CE9EE02CCB9C9E60AF956416113084A9042C"
+    }
+  ],
+  "IndependentReceiptAndMetadataPassed": true,
+  "Rows": [
+    {
+      "Variant": "MRA12",
+      "Checks": {
+        "ReceiptExpectedPocket": true,
+        "MetadataExpectedPocket": true,
+        "FourCorrectCornerFaces": true,
+        "OuterBoundsUnchanged": true,
+        "CutOnlyContainment": true,
+        "NativeTargetSymmetricDifferenceBelowTolerance": true,
+        "RemovedVolumeMatchesIndependentFormula": true,
+        "TwoHealthy440Threads": true,
+        "Saved": true,
+        "MetadataFloor3": true,
+        "MetadataGlassProud0p5": true,
+        "MetadataCornerValuesMatch": true,
+        "MetadataNoShimFabricationOrInstallation": true,
+        "MetadataRetainerUnloadedExplicit": true
+      },
+      "Passed": true,
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\MRA12_Rectangular_Pocket_Mount.ipt",
+      "FileSHA256": "1894B2815DAD2FF1794EB6AF6682D57B085D191EFB2538E1CDECF396CBAD0B63",
+      "PocketCenter_mm": [
+        -4,
+        0.0
+      ],
+      "PocketSize_mm": [
+        26.8,
+        14.2
+      ],
+      "CornerFaces": [
+        {
+          "CenterXY_mm": [
+            7.825200000000001,
+            5.5252
+          ],
+          "Radius_mm": 1.5747999999999995,
+          "Z_mm": [
+            14.500000000000002,
+            26.32322330470337
+          ],
+          "Passed": true
+        },
+        {
+          "CenterXY_mm": [
+            7.825200000000001,
+            -5.5252
+          ],
+          "Radius_mm": 1.5747999999999995,
+          "Z_mm": [
+            14.500000000000002,
+            26.32322330470337
+          ],
+          "Passed": true
+        },
+        {
+          "CenterXY_mm": [
+            -15.825199999999999,
+            -5.5252
+          ],
+          "Radius_mm": 1.5747999999999984,
+          "Z_mm": [
+            14.500000000000002,
+            26.32322330470337
+          ],
+          "Passed": true
+        },
+        {
+          "CenterXY_mm": [
+            -15.825199999999999,
+            5.5252
+          ],
+          "Radius_mm": 1.5747999999999995,
+          "Z_mm": [
+            14.500000000000002,
+            26.32322330470337
+          ],
+          "Passed": true
+        }
+      ],
+      "IndependentRemovedVolume_mm3": 310.90059367852206,
+      "ReceiptRemovedVolume_mm3": 310.90059367851063,
+      "RemovedVolumeDifference_mm3": -1.1425527191022411E-11,
+      "BoundsMaximumError_mm": 7.105427357601002E-15,
+      "SideClearance_mm": 0.85,
+      "SharpCornerClearance_mm": 0.5497780099919807,
+      "ExistingSupplierChamferCornerClearance_mm": 0.7083301043890792,
+      "MinimumYWall_mm": 6.9,
+      "TapMajorDiameterToPocketWall_mm": 3.1775999999999995,
+      "PilotDiameterToPocketWall_mm": 3.4696999999999996,
+      "NominalRetainerYProjectionOverlap_mm": 0.65,
+      "AssemblyState": "Not remeasured by this subagent; parent native assembly verification remains authoritative."
+    },
+    {
+      "Variant": "HRS1015",
+      "Checks": {
+        "ReceiptExpectedPocket": true,
+        "MetadataExpectedPocket": true,
+        "FourCorrectCornerFaces": true,
+        "OuterBoundsUnchanged": true,
+        "CutOnlyContainment": true,
+        "NativeTargetSymmetricDifferenceBelowTolerance": true,
+        "RemovedVolumeMatchesIndependentFormula": true,
+        "TwoHealthy440Threads": true,
+        "Saved": true,
+        "MetadataFloor3": true,
+        "MetadataGlassProud0p5": true,
+        "MetadataCornerValuesMatch": true,
+        "MetadataNoShimFabricationOrInstallation": true,
+        "MetadataRetainerUnloadedExplicit": true
+      },
+      "Passed": true,
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\HRS1015_Rectangular_Pocket_Mount.ipt",
+      "FileSHA256": "5AD420DA60F6533EB21DB97DCC0A3516E6F6464A44F7D9E3055C2A3D8B36E1D5",
+      "PocketCenter_mm": [
+        -4,
+        2.0
+      ],
+      "PocketSize_mm": [
+        27.1,
+        27.1
+      ],
+      "CornerFaces": [
+        {
+          "CenterXY_mm": [
+            7.975199999999999,
+            13.9752
+          ],
+          "Radius_mm": 1.5747999999999995,
+          "Z_mm": [
+            14.500000000000002,
+            32.52322330470336
+          ],
+          "Passed": true
+        },
+        {
+          "CenterXY_mm": [
+            7.975199999999999,
+            -9.9752
+          ],
+          "Radius_mm": 1.5747999999999984,
+          "Z_mm": [
+            14.500000000000002,
+            32.52322330470336
+          ],
+          "Passed": true
+        },
+        {
+          "CenterXY_mm": [
+            -15.975199999999997,
+            -9.9752
+          ],
+          "Radius_mm": 1.5747999999999984,
+          "Z_mm": [
+            14.500000000000002,
+            32.52322330470336
+          ],
+          "Passed": true
+        },
+        {
+          "CenterXY_mm": [
+            -15.975199999999997,
+            13.9752
+          ],
+          "Radius_mm": 1.5748000000000006,
+          "Z_mm": [
+            14.500000000000002,
+            32.52322330470336
+          ],
+          "Passed": true
+        }
+      ],
+      "IndependentRemovedVolume_mm3": 640.468863440259,
+      "ReceiptRemovedVolume_mm3": 640.4688634402628,
+      "RemovedVolumeDifference_mm3": 3.751665644813329E-12,
+      "BoundsMaximumError_mm": 7.105427357601002E-15,
+      "SideClearance_mm": 0.85,
+      "SharpCornerClearance_mm": 0.5497780099919807,
+      "ExistingSupplierChamferCornerClearance_mm": 0.7083301043890792,
+      "MinimumYWall_mm": 2.4499999999999993,
+      "TapMajorDiameterToPocketWall_mm": 3.027599999999999,
+      "PilotDiameterToPocketWall_mm": 3.319699999999999,
+      "NominalRetainerYProjectionOverlap_mm": 0.65,
+      "AssemblyState": "Not remeasured by this subagent; parent native assembly verification remains authoritative."
+    }
+  ],
+  "PreservedParts": [
+    {
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\MRA12_Thin_Edge_Retainer.ipt",
+      "BaselineSHA256": "794A9382321949BA8AD1EB0A22A1377DED29A52B5F7CD6817D40F542E7D60824",
+      "CurrentSHA256": "794A9382321949BA8AD1EB0A22A1377DED29A52B5F7CD6817D40F542E7D60824",
+      "Unchanged": true
+    },
+    {
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\HRS1015_Thin_Edge_Retainer.ipt",
+      "BaselineSHA256": "053693B64F50D7FAD5F878760EE8F90682E74B125EE1E4BF3E9B29E8113F6CBF",
+      "CurrentSHA256": "053693B64F50D7FAD5F878760EE8F90682E74B125EE1E4BF3E9B29E8113F6CBF",
+      "Unchanged": true
+    },
+    {
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\MRA12_Thin_Edge_Retainer_Flat_Manufacturing.ipt",
+      "BaselineSHA256": "A2AEF6556737D211DF1D73B66325E19DA7356469DD65DC9616AA9A84F5DBA7F4",
+      "CurrentSHA256": "A2AEF6556737D211DF1D73B66325E19DA7356469DD65DC9616AA9A84F5DBA7F4",
+      "Unchanged": true
+    },
+    {
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\HRS1015_Thin_Edge_Retainer_Flat_Manufacturing.ipt",
+      "BaselineSHA256": "D014A74B853B4CAAC4EC5D7E4C11CA8C7FE8EA476A6E62945EEB0FE8579974BE",
+      "CurrentSHA256": "D014A74B853B4CAAC4EC5D7E4C11CA8C7FE8EA476A6E62945EEB0FE8579974BE",
+      "Unchanged": true
+    },
+    {
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Prism_440_Flat_StopSpacer_0p5mm_Envelope.ipt",
+      "BaselineSHA256": "95F171E04D77C9287BFD58E810C4CF36C45CA400705481E266B2673E5B0C41F3",
+      "CurrentSHA256": "95F171E04D77C9287BFD58E810C4CF36C45CA400705481E266B2673E5B0C41F3",
+      "Unchanged": true
+    }
+  ],
+  "Formulas": {
+    "RoundedRectangleArea": "w*h-(4-pi)*r^2",
+    "RemovedVolume": "(new area-old area)*(top land-14.5)",
+    "SharpCornerGap": "r-sqrt(2)*(r-side gap)",
+    "ChamferedCornerGap": "r-sqrt((r-side gap)^2+(r-side gap-0.25)^2)",
+    "SharpCalculation_mm": 0.5497780099919807,
+    "MetadataValue_mm": 0.549778009992,
+    "MetadataRoundingError_mm": 1.9317880628477724E-14,
+    "DisplayRecommendation": "Approximately 0.550 mm nominal sharp-corner clearance, or 0.708 mm for existing chamfered supplier CAD. Extra stored decimals are computational precision, not manufacturing accuracy."
+  },
+  "Findings": [
+    "No dimensional inconsistency was found between the supplied native apply receipt and the current parameters.",
+    "All five preserved retainer, flat-manufacturing and legacy-shim native part hashes match the before baseline.",
+    "Health 11778 resolves to Inventor.HealthStatusEnum.kUpToDateHealth.",
+    "Legacy StopSpacerQuantity=2 describes retained CAD only; fabrication/BOM consumers must use StopSpacerManufactureQuantity=0 and StopSpacerInstallQuantity=0.",
+    "The Apply receipt verifies each changed part against old-solid minus the intended new pocket, with symmetric difference within 1e-6 mm3; zero output is a kernel result, not a statement of infinite precision."
+  ],
+  "RemainingVerification": [
+    "The receipt does not independently remeasure final assembly occurrence transforms, glass/corner distances, optical ray paths, or final full-view saved references; parent final native assembly verification must cover those.",
+    "The receipt records corner faces starting at Z14.5 but does not explicitly list the unchanged bridge-underside face. Exact cut locality supports preservation; parent assembly check should still confirm Z11.5 and 3mm floor.",
+    "VerifyPocketAssembly.ps1 checks baseline free-state clamp engagement and washer flattening but not the additional 0.5mm permitted retainer-pad deflection. Independent conservative engagement is 5.5166mm, leaving 1.4834mm within the 7mm full thread.",
+    "Two0p5SpacersAtCorrectHeight in the current verifier certifies retained reference CAD geometry only and must not be presented as installed build hardware.",
+    "Neither this review nor the native geometric receipt validates manufacturing tolerances, clamping force, elastic deformation, preload, or cryogenic behavior."
+  ]
+}

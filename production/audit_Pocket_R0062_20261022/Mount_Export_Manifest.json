@@ -1,0 +1,122 @@
+{
+  "Date": "2026-10-21",
+  "OutputDirectory": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062",
+  "NativeRenderer": "Inventor Camera.SaveAsBitmap \u002B System.Drawing annotation",
+  "Parts": [
+    {
+      "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\MRA12_Rectangular_Pocket_Mount.ipt",
+      "STEP": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062\\MRA12_Mirror_Mount.step",
+      "PNG": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062\\MRA12_Mirror_Mount.png",
+      "StepSHA256": "D776BB35AD2FF4799052E73A20B1EAE960DC2C33507139DD42562ECA3346378A",
+      "PngSHA256": "3EE70AD1D0954572C1E2F9B2A2E5852AE7438FB436B34899233D1670FC79A733",
+      "PhysicalHoleCount": 4,
+      "TapHoleCount": 2,
+      "NoTapHoleCount": 2,
+      "PanelCount": 1,
+      "UnlabeledHoleIds": [],
+      "Labels": [
+        {
+          "HoleId": "M4_CLEAR_-42",
+          "Label": "M4\nNO TAP",
+          "View": "TOP / FRONT",
+          "Opening": "entry",
+          "AnchorPixel": [
+            505.4333801269531,
+            199.5791015625
+          ]
+        },
+        {
+          "HoleId": "TAP440_-22",
+          "Label": "4-40\nTAP",
+          "View": "TOP / FRONT",
+          "Opening": "entry",
+          "AnchorPixel": [
+            555.5690307617188,
+            293.61383056640625
+          ]
+        },
+        {
+          "HoleId": "TAP440_14",
+          "Label": "4-40\nTAP",
+          "View": "TOP / FRONT",
+          "Opening": "entry",
+          "AnchorPixel": [
+            759.4715576171875,
+            411.3370056152344
+          ]
+        },
+        {
+          "HoleId": "M4_CLEAR_40",
+          "Label": "M4\nNO TAP",
+          "View": "TOP / FRONT",
+          "Opening": "entry",
+          "AnchorPixel": [
+            983.4930419921875,
+            475.58697509765625
+          ]
+        }
+      ],
+      "SavedSource": true
+    },
+    {
+      "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\HRS1015_Rectangular_Pocket_Mount.ipt",
+      "STEP": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062\\HRS1015_Mirror_Mount.step",
+      "PNG": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062\\HRS1015_Mirror_Mount.png",
+      "StepSHA256": "42BF85C166F70361BD66F5DEE73CF98127959F38BFE93096DB8F64B4820E6CC2",
+      "PngSHA256": "0C586A9AA081B35570324E863566D1D87A76F6ED1457A82F4C800E56377E7CF7",
+      "PhysicalHoleCount": 4,
+      "TapHoleCount": 2,
+      "NoTapHoleCount": 2,
+      "PanelCount": 1,
+      "UnlabeledHoleIds": [],
+      "Labels": [
+        {
+          "HoleId": "M4_CLEAR_-42",
+          "Label": "M4\nNO TAP",
+          "View": "TOP / FRONT",
+          "Opening": "entry",
+          "AnchorPixel": [
+            517.8666381835938,
+            196.6025848388672
+          ]
+        },
+        {
+          "HoleId": "TAP440_-22",
+          "Label": "4-40\nTAP",
+          "View": "TOP / FRONT",
+          "Opening": "entry",
+          "AnchorPixel": [
+            575.4025268554688,
+            278.50604248046875
+          ]
+        },
+        {
+          "HoleId": "TAP440_14",
+          "Label": "4-40\nTAP",
+          "View": "TOP / FRONT",
+          "Opening": "entry",
+          "AnchorPixel": [
+            766.2752685546875,
+            388.7064514160156
+          ]
+        },
+        {
+          "HoleId": "M4_CLEAR_40",
+          "Label": "M4\nNO TAP",
+          "View": "TOP / FRONT",
+          "Opening": "entry",
+          "AnchorPixel": [
+            965.3772583007812,
+            454.97296142578125
+          ]
+        }
+      ],
+      "SavedSource": true
+    }
+  ],
+  "RemovedTemporaryItems": [
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062\\.render_7a23a313f2ec4fbca9bea93618ce5a74\\HRS1015_Mirror_Mount_0.png",
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062\\.render_7a23a313f2ec4fbca9bea93618ce5a74\\MRA12_Mirror_Mount_0.png"
+  ],
+  "AllHolesLabeled": true
+}

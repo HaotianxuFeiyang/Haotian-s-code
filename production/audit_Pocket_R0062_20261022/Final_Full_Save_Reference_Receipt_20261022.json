@@ -1,0 +1,106 @@
+{
+  "Status": "FULL ASSEMBLIES SAVED; THREE CACHED NATIVE REFERENCE AUDITS PASS",
+  "Mode": "Cached native reference audits; no fresh-open claim",
+  "FullRoot": "D:\\Fridge_DualLattice_Final\\02_Full_Design",
+  "Baseline": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Imaging_Revision_20261021\\Before_State.json",
+  "InitialDirty": [
+    {
+      "AuthorizedAssembly": true,
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Internal_Prism_Variants.iam"
+    }
+  ],
+  "SavedAssemblies": [
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Viewport_Short_Cage.iam",
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Internal_Prism_MRA12.iam",
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Internal_Prism_HRS1015.iam",
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Internal_Prism_Variants.iam",
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Ray_Models.iam",
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Top_Optics.iam",
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\LD400_SYSTEM_ASM_CPY_haotian.iam",
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Viewing\\Full_MRA12.iam",
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Viewing\\Full_HRS1015.iam",
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\LD400_SYSTEM_ASM_CPY_haotian.iam",
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Top_Optics.iam",
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Viewing\\Full_MRA12.iam",
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Viewing\\Full_HRS1015.iam"
+  ],
+  "StateChecks": [
+    {
+      "RetiredModulesAbsent": true,
+      "ModelState": "[主要]",
+      "OriginalOccurrencesVerified": 13,
+      "MaxOriginalMatrixDelta": 0.0,
+      "LatticePresent": true
+    },
+    {
+      "RetiredModulesAbsent": true,
+      "ModelState": "01_MRA12_E03",
+      "OriginalOccurrencesVerified": 13,
+      "MaxOriginalMatrixDelta": 0.0,
+      "LatticePresent": true
+    },
+    {
+      "RetiredModulesAbsent": true,
+      "ModelState": "02_HRS1015_AG",
+      "OriginalOccurrencesVerified": 13,
+      "MaxOriginalMatrixDelta": 0.0,
+      "LatticePresent": true
+    }
+  ],
+  "WrapperChecks": [
+    {
+      "ModelState": "01_MRA12_E03",
+      "Master": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\LD400_SYSTEM_ASM_CPY_haotian.iam",
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Viewing\\Full_MRA12.iam",
+      "Updated": true
+    },
+    {
+      "ModelState": "02_HRS1015_AG",
+      "Master": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\LD400_SYSTEM_ASM_CPY_haotian.iam",
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Viewing\\Full_HRS1015.iam",
+      "Updated": true
+    }
+  ],
+  "ReferenceAudits": [
+    {
+      "External": 0,
+      "Entry": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\LD400_SYSTEM_ASM_CPY_haotian.iam",
+      "StoredExternal": 0,
+      "Report": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\Final_Reference_Audit_LD400_SYSTEM_ASM_CPY_haotian.json",
+      "Missing": 0,
+      "Documents": 822,
+      "CurrentTopDependenciesChecked": 39,
+      "Errors": 0,
+      "MissingCurrentTopDependencies": []
+    },
+    {
+      "External": 0,
+      "Entry": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Viewing\\Full_MRA12.iam",
+      "StoredExternal": 0,
+      "Report": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\Final_Reference_Audit_Full_MRA12.json",
+      "Missing": 0,
+      "Documents": 823,
+      "CurrentTopDependenciesChecked": 39,
+      "Errors": 0,
+      "MissingCurrentTopDependencies": []
+    },
+    {
+      "External": 0,
+      "Entry": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Viewing\\Full_HRS1015.iam",
+      "StoredExternal": 0,
+      "Report": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\Final_Reference_Audit_Full_HRS1015.json",
+      "Missing": 0,
+      "Documents": 823,
+      "CurrentTopDependenciesChecked": 39,
+      "Errors": 0,
+      "MissingCurrentTopDependencies": []
+    }
+  ],
+  "UnrelatedDirtyLeftOpen": [],
+  "NoDocumentsClosed": true,
+  "NoSimplifiedAccess": true,
+  "VerificationPassed": true,
+  "UIWarnings": [],
+  "ActiveEntry": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Viewing\\Full_HRS1015.iam",
+  "Failure": null
+}

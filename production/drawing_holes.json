@@ -1,10 +1,11 @@
 {
-  "revision": "2026-10-21",
-  "base_commit": "544b3680d90a4eae8d3de7650160c4a2a42979f0",
+  "revision": "2026-10-22 Pocket_R0062",
+  "base_commit": "b27c439ec93a5ea1748f986a5909a3acd72c1d5c",
   "source_notes": [
-    "Nine changed/new parts use native Inventor exports and explicit hole input.",
-    "Clamp STEP, PNG and metadata retain their previous renderer and validation.",
-    "Legacy FreeCAD rendering scripts are not the source of this revision."
+    "Two mirror-mount pocket geometries updated; eight other STEP files preserved exactly.",
+    "Four mount/retainer drawings describe flat manufactured stock with elastic clamping during installation.",
+    "Stop-shim STEP remains a legacy reference; quantity zero, do not manufacture or install. See CURRENT_RELEASE.txt.",
+    "Four old shim occurrences remain in local Full CAD only as prior reference by the user's scope instruction; physical build excludes them."
   ],
   "parts": [
     {
@@ -557,14 +558,15 @@
           ]
         }
       ],
-      "title": "SPLIT CLAMP HALF - 64 mm / 179 deg"
+      "title": "SPLIT CLAMP HALF - 64 mm / 179 deg",
+      "png_sha256": "917b15b563f93c91d2097c2efbcc3b85a84dbe71dd9fbf81667a43f15317d7bf"
     },
     {
       "stem": "MRA12_Mirror_Mount",
       "quantity": 1,
-      "title": "MRA12 MIRROR MOUNT - 3 mm FLOOR / 0.5 mm PROUD",
-      "step_sha256": "a8c5a436b6fd0721c4d2aad6924a86fe3cfd6a8721d25a29dd11830138363ea6",
-      "png_sha256": "e236c76cb2f5a40d4a0b7dff5196872bc25f0325c9acdf1d5020b2d0fe27fd20",
+      "title": "MRA12 MIRROR MOUNT - POCKET R0.062 IN / TOTAL CLEARANCE 1.7 mm",
+      "step_sha256": "d776bb35ad2ff4799052e73a20b1eae960dc2c33507139dd42562eca3346378a",
+      "png_sha256": "3ee70ad1d0954572c1e2f9b2a2e5852ae7438fb436b34899233d1670fc79a733",
       "holes": [
         {
           "tap": true,
@@ -670,17 +672,33 @@
           ]
         }
       ],
-      "note": "REV2026-10-21 | Floor 3.00 mm (Z14.50 minus Z11.50); glass 0.50 mm above top land.\n2x4-40 UNC-2B directtap7 mm; pilotD2.2606 depth 8.5 mm. 2xD4.5M4clearance THROUGH / NO TAP.\nFlat 0.30 mm retainer +two calibrated0.50 mm stopshims are separate parts. M4 finish length32.5 mm.\nUse STEP for geometry; holes explicitly labeled. Nominal model does not prescribe preload or torque.",
+      "note": "REV2026-10-22 | Pocket 26.8 x 14.2 mm; inner R0.062 inch = 1.5748 mm. Total length/width clearance 1.7 mm.\nOuter97x32 and floor3.00 mm unchanged; glass0.50 mm above land. 2x4-40 UNC-2B directtap7; pilotD2.2606 depth8.5.\n2xD4.5 M4clearance THROUGH / NO TAP. Flat0.30 mm retainer elastically deflects during tightening.\nDO NOT manufacture or install the four legacy0.50 mm stopshims. Belleville washers remain required.",
       "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
-      "source_input": "Mirror_Export_Input.json",
-      "source_ipt": "NewOptics/MRA12_Rectangular_Pocket_Mount.ipt"
+      "source_input": "Mount_Export_Input.json",
+      "source_ipt": "NewOptics/MRA12_Rectangular_Pocket_Mount.ipt",
+      "revision": "2026-10-22 pocket R0.062 in / elastic flat-stock retainer",
+      "manufacture": true,
+      "status": "active_manufacturing",
+      "pocket": {
+        "plan_mm": [
+          26.8,
+          14.2
+        ],
+        "corner_radius_mm": 1.5748,
+        "corner_radius_in": 0.062,
+        "total_clearance_each_dimension_mm": 1.7,
+        "centered_clearance_per_side_mm": 0.85,
+        "floor_z_mm": 14.5,
+        "actual_floor_thickness_mm": 3.0,
+        "mirror_proud_mm": 0.5
+      }
     },
     {
       "stem": "MRA12_Thin_Edge_Retainer",
       "quantity": 1,
       "title": "MRA12 FLAT EDGE RETAINER - ZERO FORMED BEND",
       "step_sha256": "2b46d24392c560a71e233916bbe7c3b809a613d409b2285f9e0fe538f10aa1c2",
-      "png_sha256": "1b9f21f8ab63942ad0b138904a5e609dc5a55841e066d2badd24223a7627d858",
+      "png_sha256": "c32640438c52ff3420cf68dabb1bc1f0d14f5679e8bf0c20b576d3187a6db628",
       "holes": [
         {
           "tap": false,
@@ -752,17 +770,20 @@
           ]
         }
       ],
-      "note": "REV2026-10-21 | Flat 0.3 mm sheet; outline width 44 mm; central optical opening 24.1x11 mm.\n2xD3.2 clearance for 4-40; NO TAP. Do not form bends or ramps.\nInstall over two separately calibrated0.5 mm stopshims; match stops to actual glass proud height.\nNative assembly and manufacturing export both represent flat sheet; optical preload not specified.",
+      "note": "REV2026-10-22 | Flat0.30 mm sheet; outline width44 mm; central optical opening 24.1x11 mm (geometry unchanged).\n2xD3.2 clearance for4-40 THROUGH; NO TAP. Manufacture flat, with no formed bends or ramps.\nDuring tightening the flat retainer elastically bends to clamp glass0.50 mm proud of the mount land.\nDO NOT manufacture or install legacy0.50 mm stopshims. Retain4-40 Inconel and M4 stainless Belleville washers.",
       "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
-      "source_input": "Mirror_Export_Input.json",
-      "source_ipt": "NewOptics/MRA12_Thin_Edge_Retainer_Flat_Manufacturing.ipt"
+      "source_input": "Notes_Export_Input.json",
+      "source_ipt": "NewOptics/MRA12_Thin_Edge_Retainer_Flat_Manufacturing.ipt",
+      "revision": "2026-10-22 pocket R0.062 in / elastic flat-stock retainer",
+      "manufacture": true,
+      "status": "active_manufacturing"
     },
     {
       "stem": "HRS1015_Mirror_Mount",
       "quantity": 1,
-      "title": "HRS1015 MIRROR MOUNT - 3 mm FLOOR / 0.5 mm PROUD",
-      "step_sha256": "47f2427e16ec225c9c94a5a8d5b5f8ce5d1b10db65dbf62c20dd087c58ea7581",
-      "png_sha256": "3ba96db4570373bc6109730ee59c73e4eff8108beb648c29273ea4b35e60e70d",
+      "title": "HRS1015 MIRROR MOUNT - POCKET R0.062 IN / TOTAL CLEARANCE 1.7 mm",
+      "step_sha256": "42bf85c166f70361bd66f5dee73cf98127959f38bfe93096db8f64b4820e6cc2",
+      "png_sha256": "0c586a9aa081b35570324e863566d1d87a76f6ed1457a82f4c800e56377e7cf7",
       "holes": [
         {
           "tap": true,
@@ -868,17 +889,33 @@
           ]
         }
       ],
-      "note": "REV2026-10-21 | Floor 3.00 mm (Z14.50 minus Z11.50); glass 0.50 mm above top land.\n2x4-40 UNC-2B directtap7 mm; pilotD2.2606 depth 8.5 mm. 2xD4.5M4clearance THROUGH / NO TAP.\nFlat 0.30 mm retainer +two calibrated0.50 mm stopshims are separate parts. M4 finish length38.5 mm.\nUse STEP for geometry; holes explicitly labeled. Nominal model does not prescribe preload or torque.",
+      "note": "REV2026-10-22 | Pocket 27.1 x 27.1 mm; inner R0.062 inch = 1.5748 mm. Total length/width clearance 1.7 mm.\nOuter97x32 and floor3.00 mm unchanged; glass0.50 mm above land. 2x4-40 UNC-2B directtap7; pilotD2.2606 depth8.5.\n2xD4.5 M4clearance THROUGH / NO TAP. Flat0.30 mm retainer elastically deflects during tightening.\nDO NOT manufacture or install the four legacy0.50 mm stopshims. Belleville washers remain required.",
       "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
-      "source_input": "Mirror_Export_Input.json",
-      "source_ipt": "NewOptics/HRS1015_Rectangular_Pocket_Mount.ipt"
+      "source_input": "Mount_Export_Input.json",
+      "source_ipt": "NewOptics/HRS1015_Rectangular_Pocket_Mount.ipt",
+      "revision": "2026-10-22 pocket R0.062 in / elastic flat-stock retainer",
+      "manufacture": true,
+      "status": "active_manufacturing",
+      "pocket": {
+        "plan_mm": [
+          27.1,
+          27.1
+        ],
+        "corner_radius_mm": 1.5748,
+        "corner_radius_in": 0.062,
+        "total_clearance_each_dimension_mm": 1.7,
+        "centered_clearance_per_side_mm": 0.85,
+        "floor_z_mm": 14.5,
+        "actual_floor_thickness_mm": 3.0,
+        "mirror_proud_mm": 0.5
+      }
     },
     {
       "stem": "HRS1015_Thin_Edge_Retainer",
       "quantity": 1,
       "title": "HRS1015 FLAT EDGE RETAINER - ZERO FORMED BEND",
       "step_sha256": "d3c3f12e6cd65daf2d53a82599bd715c11e691551be3057df984a2494fa48077",
-      "png_sha256": "2111c1d3cc15780db7ecf4f49e05b2504babb903f8c9d6ab889364571bdc0d21",
+      "png_sha256": "2dba7c37dfa2330768220e48549ddcb55976cc1aaca2eed590043f90090bce4e",
       "holes": [
         {
           "tap": false,
@@ -950,17 +987,20 @@
           ]
         }
       ],
-      "note": "REV2026-10-21 | Flat 0.3 mm sheet; outline width 44 mm; central optical opening 24.2x24 mm.\n2xD3.2 clearance for 4-40; NO TAP. Do not form bends or ramps.\nInstall over two separately calibrated0.5 mm stopshims; match stops to actual glass proud height.\nNative assembly and manufacturing export both represent flat sheet; optical preload not specified.",
+      "note": "REV2026-10-22 | Flat0.30 mm sheet; outline width44 mm; central optical opening 24.2x24 mm (geometry unchanged).\n2xD3.2 clearance for4-40 THROUGH; NO TAP. Manufacture flat, with no formed bends or ramps.\nDuring tightening the flat retainer elastically bends to clamp glass0.50 mm proud of the mount land.\nDO NOT manufacture or install legacy0.50 mm stopshims. Retain4-40 Inconel and M4 stainless Belleville washers.",
       "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
-      "source_input": "Mirror_Export_Input.json",
-      "source_ipt": "NewOptics/HRS1015_Thin_Edge_Retainer_Flat_Manufacturing.ipt"
+      "source_input": "Notes_Export_Input.json",
+      "source_ipt": "NewOptics/HRS1015_Thin_Edge_Retainer_Flat_Manufacturing.ipt",
+      "revision": "2026-10-22 pocket R0.062 in / elastic flat-stock retainer",
+      "manufacture": true,
+      "status": "active_manufacturing"
     },
     {
       "stem": "Prism_440_Flat_StopShim_0p5mm",
-      "quantity": 4,
-      "title": "FLAT RETAINER STOP SHIM - 0.5 mm",
+      "quantity": 0,
+      "title": "REFERENCE ONLY - DO NOT MANUFACTURE OR INSTALL STOP SHIMS",
       "step_sha256": "d353a90a74e9f24afd2f4cd8c7533192c2bb70239e8489d625a42e935f3a38d4",
-      "png_sha256": "d4d6960bf3844fa9a339ce487d4b39f1e8a43673373822d9e6b7be1171472369",
+      "png_sha256": "433e3eea56f0fac21fc630c379b9f0c639eb8618b19f76eb0a18cd5047e72589",
       "holes": [
         {
           "tap": false,
@@ -1010,10 +1050,14 @@
           ]
         }
       ],
-      "note": "REV2026-10-21 | ID3.2 x OD7.5 x t0.5 mm.\nQuantity 2 per mirror variant (4 total for both options). Plain flat shim, not a Belleville washer.\nCalibrate thickness to actual glass proud height; remove laser burrs; faces flat and parallel.\nSupports flat retainer screw pads over lowered body land; no forced0.5 mm retainer bending.",
+      "note": "REV2026-10-22 | LEGACY REFERENCE ONLY. This geometry is not part of the current CNC order.\nDO NOT manufacture or install any of the four0.50 mm flat stopshims. Current order quantity ZERO.\nThe retainer is manufactured flat and elastically bends during tightening to clamp the mirrors.\nThis exclusion applies only to stopshims. All specified4-40 and M4 Belleville washers remain required.",
       "renderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
-      "source_input": "Mirror_Export_Input.json",
-      "source_ipt": "NewOptics/Prism_440_Flat_StopSpacer_0p5mm_Envelope.ipt"
+      "source_input": "Notes_Export_Input.json",
+      "source_ipt": "NewOptics/Prism_440_Flat_StopSpacer_0p5mm_Envelope.ipt",
+      "revision": "2026-10-22 pocket R0.062 in / elastic flat-stock retainer",
+      "manufacture": false,
+      "status": "reference_only",
+      "reference_reason": "Legacy 0.5 mm stop shim. Do not manufacture, buy, or install for the current elastic-retainer design. Original file URL retained for reference."
     }
   ]
 }

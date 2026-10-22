@@ -1,0 +1,248 @@
+{
+  "Date": "2026-10-22",
+  "AllPassed": true,
+  "Limitations": "Actual BRep bounds, plane datums, cylindrical hole centers and native thread metadata checked. Geometry does not specify torque, optical preload, surface flatness, actual usable plate thread depth or cold contraction. Retainer is represented as nominal unloaded flat stock. Legacy stopshims remain in CAD as reference only; do not manufacture or install them. Actual assembly uses elastic retainer deflection.",
+  "Root": "D:\\Fridge_DualLattice_Final\\02_Full_Design",
+  "Variants": [
+    {
+      "Variant": "MRA12",
+      "SourceSaved": true,
+      "ClampScrews": [
+        {
+          "WorstFlatEngagement_mm": 5.016599999999996,
+          "Name": "4-40 x1-4 direct-tap clamp screw at -22",
+          "WorstFlatAndPadDeflectionEngagement_mm": 5.516599999999996,
+          "FreeEngagement_mm": 4.711799999999997,
+          "FullTapMarginAfterPadDeflection_mm": 1.4834000000000032
+        },
+        {
+          "WorstFlatEngagement_mm": 5.016599999999996,
+          "Name": "4-40 x1-4 direct-tap clamp screw at 14",
+          "WorstFlatAndPadDeflectionEngagement_mm": 5.516599999999996,
+          "FreeEngagement_mm": 4.711799999999997,
+          "FullTapMarginAfterPadDeflection_mm": 1.4834000000000032
+        }
+      ],
+      "MountZ_mm": [
+        0.0,
+        26.32322330470337
+      ],
+      "Failed": [],
+      "Spacers": [
+        {
+          "Name": "0.5mm flat stop shim at -22",
+          "Z_mm": [
+            26.32322330470337,
+            26.823223304703365
+          ],
+          "Thickness_mm": 0.49999999999999645
+        },
+        {
+          "Name": "0.5mm flat stop shim at 14",
+          "Z_mm": [
+            26.32322330470337,
+            26.823223304703365
+          ],
+          "Thickness_mm": 0.49999999999999645
+        }
+      ],
+      "GlassTop_mm": 26.82322330470337,
+      "M4Screws": [
+        {
+          "WorstFlatEngagement_mm": 5.176776695296629,
+          "Name": "M4x32.5 plate fixing -42,0 - plain through hole",
+          "Modeled6mmHoleMargin_mm": 0.8232233047033704,
+          "FreeEngagement_mm": 4.87677669529663
+        },
+        {
+          "WorstFlatEngagement_mm": 5.176776695296629,
+          "Name": "M4x32.5 plate fixing 40,20 - plain through hole",
+          "Modeled6mmHoleMargin_mm": 0.8232233047033704,
+          "FreeEngagement_mm": 4.87677669529663
+        }
+      ],
+      "RetainerZ_mm": [
+        26.823223304703376,
+        27.123223304703366
+      ],
+      "Threads": [
+        {
+          "Class": "2B",
+          "Internal": true,
+          "Health": "11778",
+          "Designation": "4-40 UNC",
+          "Depth_mm": 7.000000000000001,
+          "Suppressed": false
+        },
+        {
+          "Class": "2B",
+          "Internal": true,
+          "Health": "11778",
+          "Designation": "4-40 UNC",
+          "Depth_mm": 7.000000000000001,
+          "Suppressed": false
+        }
+      ],
+      "Checks": {
+        "MirrorProud0p5": true,
+        "Floor14p5": true,
+        "BridgeUnderside11p5": true,
+        "NominalUnloadedRetainerFlat": true,
+        "RetainerBottomAtGlassTop": true,
+        "FlatManufacturingThickness0p3": true,
+        "TwoLegacyReferenceSpacersAtCorrectHeight": true,
+        "TwoCorrect440DirectThreads": true,
+        "Two440PilotsAtDeclaredCenters": true,
+        "M4BlindHoleMarginPositive": true,
+        "ClampEngagementWithin7mm": true
+      },
+      "Passed": true,
+      "FlatManufacturingZ_mm": [
+        0.0,
+        0.3
+      ],
+      "PilotFaces": [
+        {
+          "Z_mm": [
+            17.823223304703365,
+            26.32322330470337
+          ],
+          "XY_mm": [
+            14.0,
+            0.0
+          ]
+        },
+        {
+          "Z_mm": [
+            17.823223304703365,
+            26.32322330470337
+          ],
+          "XY_mm": [
+            -22.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "Variant": "HRS1015",
+      "SourceSaved": true,
+      "ClampScrews": [
+        {
+          "WorstFlatEngagement_mm": 5.016600000000003,
+          "Name": "4-40 x1-4 direct-tap clamp screw at -22",
+          "WorstFlatAndPadDeflectionEngagement_mm": 5.516600000000003,
+          "FreeEngagement_mm": 4.711800000000004,
+          "FullTapMarginAfterPadDeflection_mm": 1.483399999999996
+        },
+        {
+          "WorstFlatEngagement_mm": 5.016600000000003,
+          "Name": "4-40 x1-4 direct-tap clamp screw at 14",
+          "WorstFlatAndPadDeflectionEngagement_mm": 5.516600000000003,
+          "FreeEngagement_mm": 4.711800000000004,
+          "FullTapMarginAfterPadDeflection_mm": 1.483399999999996
+        }
+      ],
+      "MountZ_mm": [
+        0.0,
+        32.52322330470336
+      ],
+      "Failed": [],
+      "Spacers": [
+        {
+          "Name": "0.5mm flat stop shim at -22",
+          "Z_mm": [
+            32.52322330470336,
+            33.02322330470336
+          ],
+          "Thickness_mm": 0.5
+        },
+        {
+          "Name": "0.5mm flat stop shim at 14",
+          "Z_mm": [
+            32.52322330470336,
+            33.02322330470336
+          ],
+          "Thickness_mm": 0.5
+        }
+      ],
+      "GlassTop_mm": 33.02322330470336,
+      "M4Screws": [
+        {
+          "WorstFlatEngagement_mm": 4.976776695296647,
+          "Name": "M4x38.5 plate fixing -42,0 - plain through hole",
+          "Modeled6mmHoleMargin_mm": 1.0232233047033528,
+          "FreeEngagement_mm": 4.676776695296647
+        },
+        {
+          "WorstFlatEngagement_mm": 4.976776695296647,
+          "Name": "M4x38.5 plate fixing 40,20 - plain through hole",
+          "Modeled6mmHoleMargin_mm": 1.0232233047033528,
+          "FreeEngagement_mm": 4.676776695296647
+        }
+      ],
+      "RetainerZ_mm": [
+        33.02322330470336,
+        33.32322330470335
+      ],
+      "Threads": [
+        {
+          "Class": "2B",
+          "Internal": true,
+          "Health": "11778",
+          "Designation": "4-40 UNC",
+          "Depth_mm": 7.000000000000001,
+          "Suppressed": false
+        },
+        {
+          "Class": "2B",
+          "Internal": true,
+          "Health": "11778",
+          "Designation": "4-40 UNC",
+          "Depth_mm": 7.000000000000001,
+          "Suppressed": false
+        }
+      ],
+      "Checks": {
+        "MirrorProud0p5": true,
+        "Floor14p5": true,
+        "BridgeUnderside11p5": true,
+        "NominalUnloadedRetainerFlat": true,
+        "RetainerBottomAtGlassTop": true,
+        "FlatManufacturingThickness0p3": true,
+        "TwoLegacyReferenceSpacersAtCorrectHeight": true,
+        "TwoCorrect440DirectThreads": true,
+        "Two440PilotsAtDeclaredCenters": true,
+        "M4BlindHoleMarginPositive": true,
+        "ClampEngagementWithin7mm": true
+      },
+      "Passed": true,
+      "FlatManufacturingZ_mm": [
+        0.0,
+        0.3
+      ],
+      "PilotFaces": [
+        {
+          "Z_mm": [
+            24.023223304703357,
+            32.52322330470336
+          ],
+          "XY_mm": [
+            14.0,
+            2.0
+          ]
+        },
+        {
+          "Z_mm": [
+            24.023223304703357,
+            32.52322330470336
+          ],
+          "XY_mm": [
+            -22.0,
+            2.0
+          ]
+        }
+      ]
+    }
+  ]
+}

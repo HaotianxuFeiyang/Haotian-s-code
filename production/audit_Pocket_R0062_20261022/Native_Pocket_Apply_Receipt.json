@@ -1,0 +1,182 @@
+{
+  "Revision": "2026-10-22 pocket clearance1.7 R0.062inch",
+  "OnlyNativePartsChanged": [
+    "MRA12_Rectangular_Pocket_Mount.ipt",
+    "HRS1015_Rectangular_Pocket_Mount.ipt"
+  ],
+  "Rows": [
+    {
+      "Variant": "MRA12",
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\MRA12_Rectangular_Pocket_Mount.ipt",
+      "Pocket_mm": [
+        26.8,
+        14.2
+      ],
+      "Radius_mm": 1.5748,
+      "OldVoidOutsideNewVoid_mm3": 0,
+      "BeforeVolume_mm3": 49774.37242766225,
+      "AfterVolume_mm3": 49463.47183398374,
+      "ExactTargetSymmetricDifference_mm3": 0,
+      "Bounds_mm": [
+        -47,
+        -14,
+        0,
+        49.99999999999999,
+        18.000000000000004,
+        26.32322330470337
+      ],
+      "RoundFaces": [
+        {
+          "Radius_mm": 1.5747999999999995,
+          "CenterXY_mm": [
+            7.825200000000001,
+            5.5252
+          ],
+          "Z_mm": [
+            14.500000000000002,
+            26.32322330470337
+          ]
+        },
+        {
+          "Radius_mm": 1.5747999999999995,
+          "CenterXY_mm": [
+            7.825200000000001,
+            -5.5252
+          ],
+          "Z_mm": [
+            14.500000000000002,
+            26.32322330470337
+          ]
+        },
+        {
+          "Radius_mm": 1.5747999999999984,
+          "CenterXY_mm": [
+            -15.825199999999999,
+            -5.5252
+          ],
+          "Z_mm": [
+            14.500000000000002,
+            26.32322330470337
+          ]
+        },
+        {
+          "Radius_mm": 1.5747999999999995,
+          "CenterXY_mm": [
+            -15.825199999999999,
+            5.5252
+          ],
+          "Z_mm": [
+            14.500000000000002,
+            26.32322330470337
+          ]
+        }
+      ],
+      "Threads": [
+        {
+          "Name": "4-40 UNC-2B DIRECT TAP depth7 - no insert -22,0",
+          "Designation": "4-40 UNC",
+          "Class": "2B",
+          "Depth_mm": 7.000000000000001,
+          "Suppressed": false,
+          "Health": 11778
+        },
+        {
+          "Name": "4-40 UNC-2B DIRECT TAP depth7 - no insert 14,0",
+          "Designation": "4-40 UNC",
+          "Class": "2B",
+          "Depth_mm": 7.000000000000001,
+          "Suppressed": false,
+          "Health": 11778
+        }
+      ],
+      "SourceSaved": true
+    },
+    {
+      "Variant": "HRS1015",
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\HRS1015_Rectangular_Pocket_Mount.ipt",
+      "Pocket_mm": [
+        27.099999999999998,
+        27.099999999999998
+      ],
+      "Radius_mm": 1.5748,
+      "OldVoidOutsideNewVoid_mm3": 0,
+      "BeforeVolume_mm3": 60427.73649718623,
+      "AfterVolume_mm3": 59787.26763374597,
+      "ExactTargetSymmetricDifference_mm3": 0,
+      "Bounds_mm": [
+        -47,
+        -14,
+        0,
+        49.99999999999999,
+        18.000000000000004,
+        32.52322330470336
+      ],
+      "RoundFaces": [
+        {
+          "Radius_mm": 1.5747999999999995,
+          "CenterXY_mm": [
+            7.975199999999999,
+            13.9752
+          ],
+          "Z_mm": [
+            14.500000000000002,
+            32.52322330470336
+          ]
+        },
+        {
+          "Radius_mm": 1.5747999999999984,
+          "CenterXY_mm": [
+            7.975199999999999,
+            -9.9752
+          ],
+          "Z_mm": [
+            14.500000000000002,
+            32.52322330470336
+          ]
+        },
+        {
+          "Radius_mm": 1.5747999999999984,
+          "CenterXY_mm": [
+            -15.975199999999997,
+            -9.9752
+          ],
+          "Z_mm": [
+            14.500000000000002,
+            32.52322330470336
+          ]
+        },
+        {
+          "Radius_mm": 1.5748000000000006,
+          "CenterXY_mm": [
+            -15.975199999999997,
+            13.9752
+          ],
+          "Z_mm": [
+            14.500000000000002,
+            32.52322330470336
+          ]
+        }
+      ],
+      "Threads": [
+        {
+          "Name": "4-40 UNC-2B DIRECT TAP depth7 - no insert -22,2",
+          "Designation": "4-40 UNC",
+          "Class": "2B",
+          "Depth_mm": 7.000000000000001,
+          "Suppressed": false,
+          "Health": 11778
+        },
+        {
+          "Name": "4-40 UNC-2B DIRECT TAP depth7 - no insert 14,2",
+          "Designation": "4-40 UNC",
+          "Class": "2B",
+          "Depth_mm": 7.000000000000001,
+          "Suppressed": false,
+          "Health": 11778
+        }
+      ],
+      "SourceSaved": true
+    }
+  ],
+  "AllPassed": true
+}

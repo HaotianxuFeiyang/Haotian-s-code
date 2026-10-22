@@ -1,0 +1,13 @@
+CURRENT MANUFACTURING RELEASE - 2026-10-22
+Pocket R0.062 inch (1.5748 mm); total plan clearance 1.7 mm in each dimension.
+MRA12 pocket: 26.8 x 14.2 mm. HRS1015 pocket: 27.1 x 27.1 mm.
+Two mirror-mount STEP files are revised. All eight other STEP files retain their original geometry.
+
+RETAINERS: manufacture 0.30 mm FLAT sheet, without preformed bends. The sheet elastically deflects during tightening to clamp the mirror.
+
+STOP SHIMS: DO NOT MANUFACTURE, BUY, OR INSTALL. Quantity = 0. The Prism_440_Flat_StopShim_0p5mm STEP and PNG stay at their existing paths only as legacy reference. Their current drawing is marked REFERENCE ONLY.
+The four old stop-shim occurrences retained in local Full Inventor CAD are previous reference only, not instructions for physical assembly.
+
+Do keep the specified 4-40 Inconel Belleville washers and M4 stainless Belleville washers. These are not the cancelled plain stop shims.
+Dated audit_20261022 records remain historical; this current release supersedes their shim instructions.
+No tightening torque, elastic preload, optic stress, or cryogenic structural qualification is established by this geometry update.

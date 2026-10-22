@@ -1,0 +1,52 @@
+{
+  "Radius_in": 0.062,
+  "Radius_mm": 1.5748,
+  "OldRadius_mm": 0.5,
+  "TotalPlanClearancePerDimension_mm": 1.7,
+  "CenteredClearancePerSide_mm": 0.85,
+  "MinimumNewPocketSupportContainmentMarginOverOld_mm": 0.04977800999198062,
+  "ExpectedAddedMaterialVolume_mm3": 0.0,
+  "Variants": [
+    {
+      "Variant": "MRA12",
+      "OldPocket_mm": [
+        26.1,
+        13.5
+      ],
+      "NewPocket_mm": [
+        26.8,
+        14.2
+      ],
+      "PocketDepth_mm": 11.823223304703369,
+      "ExpectedRemovedArea_mm2": 26.295755875205657,
+      "ExpectedRemovedVolume_mm3": 310.90059367852206
+    },
+    {
+      "Variant": "HRS1015",
+      "OldPocket_mm": [
+        26.4,
+        26.4
+      ],
+      "NewPocket_mm": [
+        27.1,
+        27.1
+      ],
+      "PocketDepth_mm": 18.023223304703357,
+      "ExpectedRemovedArea_mm2": 35.53575587520584,
+      "ExpectedRemovedVolume_mm3": 640.468863440259
+    }
+  ],
+  "Derivation": "A=width*height-(4-pi)*R^2; volume difference=(A_new-A_old)*(topland-14.5). Support containment minimum occurs at 45 degrees: .35*sqrt(2)-(1.5748-.5)*(sqrt(2)-1).",
+  "Assumptions": [
+    "Pockets remain centered at the original locations with unchanged floor, land, and straight walls.",
+    "Other holes/cuts do not intersect the removed pocket wall band. Confirm in native geometry.",
+    "This is an independent analytic prediction, not a STEP import or native B-rep check."
+  ],
+  "NativeChecksRequired": [
+    "Old-minus-new material matches these volumes; new-minus-old is zero within kernel tolerance.",
+    "Both precise outer bounding boxes, hole axes/diameters/depths, floor Z=14.5 and bridge underside Z=11.5 remain unchanged.",
+    "All differences are within the new rounded-pocket prism above Z=14.5; no remote face changes.",
+    "Each new corner radius is 1.5748 mm, with new plan sizes listed above.",
+    "Mirror transforms and all non-mount part files are unchanged; native 4 old shim occurrences remain reference-only by scope."
+  ]
+}

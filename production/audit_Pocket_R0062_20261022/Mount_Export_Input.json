@@ -1,0 +1,203 @@
+{
+  "Root": "D:\\Fridge_DualLattice_Final\\02_Full_Design",
+  "PreserveExistingSTEP": false,
+  "Parts": [
+    {
+      "Views": [
+        {
+          "Up": [
+            0,
+            0,
+            1
+          ],
+          "Name": "TOP / FRONT",
+          "EyeDirection": [
+            1,
+            -1,
+            1
+          ]
+        }
+      ],
+      "Note": "REV2026-10-22 | Pocket 26.8 x 14.2 mm; inner R0.062 inch = 1.5748 mm. Total length/width clearance 1.7 mm.\nOuter97x32 and floor3.00 mm unchanged; glass0.50 mm above land. 2x4-40 UNC-2B directtap7; pilotD2.2606 depth8.5.\n2xD4.5 M4clearance THROUGH / NO TAP. Flat0.30 mm retainer elastically deflects during tightening.\nDO NOT manufacture or install the four legacy0.50 mm stopshims. Belleville washers remain required.",
+      "Title": "MRA12 MIRROR MOUNT - POCKET R0.062 IN / TOTAL CLEARANCE 1.7 mm",
+      "Quantity": 1,
+      "OutputStem": "MRA12_Mirror_Mount",
+      "Holes": [
+        {
+          "Tap": true,
+          "Id": "TAP440_-22",
+          "ScrewLabel": "4-40",
+          "Point_mm": [
+            -22.0,
+            0.0,
+            26.32322330470337
+          ],
+          "Specification": "4-40 UNC-2B direct tap depth7; #43 D2.2606 pilot depth8.5",
+          "Axis": [
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "Tap": true,
+          "Id": "TAP440_14",
+          "ScrewLabel": "4-40",
+          "Point_mm": [
+            14.0,
+            0.0,
+            26.32322330470337
+          ],
+          "Specification": "4-40 UNC-2B direct tap depth7; #43 D2.2606 pilot depth8.5",
+          "Axis": [
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "Tap": false,
+          "Exit_mm": [
+            -40.803854228891446,
+            9.952159568022305,
+            0
+          ],
+          "Id": "M4_CLEAR_-42",
+          "ScrewLabel": "M4",
+          "Point_mm": [
+            -40.803854228891446,
+            9.952159568022305,
+            26.32322330470337
+          ],
+          "Specification": "D4.5 THROUGH; M4 screw; NO TAP",
+          "Axis": [
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "Tap": false,
+          "Exit_mm": [
+            43.599937155145334,
+            9.952159568022303,
+            0
+          ],
+          "Id": "M4_CLEAR_40",
+          "ScrewLabel": "M4",
+          "Point_mm": [
+            43.599937155145334,
+            9.952159568022303,
+            26.32322330470337
+          ],
+          "Specification": "D4.5 THROUGH; M4 screw; NO TAP",
+          "Axis": [
+            0,
+            0,
+            -1
+          ]
+        }
+      ],
+      "PartPath": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\MRA12_Rectangular_Pocket_Mount.ipt"
+    },
+    {
+      "Views": [
+        {
+          "Up": [
+            0,
+            0,
+            1
+          ],
+          "Name": "TOP / FRONT",
+          "EyeDirection": [
+            1,
+            -1,
+            1
+          ]
+        }
+      ],
+      "Note": "REV2026-10-22 | Pocket 27.1 x 27.1 mm; inner R0.062 inch = 1.5748 mm. Total length/width clearance 1.7 mm.\nOuter97x32 and floor3.00 mm unchanged; glass0.50 mm above land. 2x4-40 UNC-2B directtap7; pilotD2.2606 depth8.5.\n2xD4.5 M4clearance THROUGH / NO TAP. Flat0.30 mm retainer elastically deflects during tightening.\nDO NOT manufacture or install the four legacy0.50 mm stopshims. Belleville washers remain required.",
+      "Title": "HRS1015 MIRROR MOUNT - POCKET R0.062 IN / TOTAL CLEARANCE 1.7 mm",
+      "Quantity": 1,
+      "OutputStem": "HRS1015_Mirror_Mount",
+      "Holes": [
+        {
+          "Tap": true,
+          "Id": "TAP440_-22",
+          "ScrewLabel": "4-40",
+          "Point_mm": [
+            -22.0,
+            2.0,
+            32.52322330470336
+          ],
+          "Specification": "4-40 UNC-2B direct tap depth7; #43 D2.2606 pilot depth8.5",
+          "Axis": [
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "Tap": true,
+          "Id": "TAP440_14",
+          "ScrewLabel": "4-40",
+          "Point_mm": [
+            14.0,
+            2.0,
+            32.52322330470336
+          ],
+          "Specification": "4-40 UNC-2B direct tap depth7; #43 D2.2606 pilot depth8.5",
+          "Axis": [
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "Tap": false,
+          "Exit_mm": [
+            -40.803854228891446,
+            9.952159568022305,
+            0
+          ],
+          "Id": "M4_CLEAR_-42",
+          "ScrewLabel": "M4",
+          "Point_mm": [
+            -40.803854228891446,
+            9.952159568022305,
+            32.52322330470336
+          ],
+          "Specification": "D4.5 THROUGH; M4 screw; NO TAP",
+          "Axis": [
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "Tap": false,
+          "Exit_mm": [
+            43.599937155145334,
+            9.952159568022303,
+            0
+          ],
+          "Id": "M4_CLEAR_40",
+          "ScrewLabel": "M4",
+          "Point_mm": [
+            43.599937155145334,
+            9.952159568022303,
+            32.52322330470336
+          ],
+          "Specification": "D4.5 THROUGH; M4 screw; NO TAP",
+          "Axis": [
+            0,
+            0,
+            -1
+          ]
+        }
+      ],
+      "PartPath": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\HRS1015_Rectangular_Pocket_Mount.ipt"
+    }
+  ],
+  "OutputDirectory": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062"
+}

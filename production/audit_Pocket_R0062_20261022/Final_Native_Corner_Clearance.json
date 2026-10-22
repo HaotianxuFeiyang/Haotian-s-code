@@ -1,0 +1,98 @@
+{
+  "Passed": true,
+  "Method": "Actual saved native cavity cylindrical faces measured against transformed supplier glass bodies",
+  "Variants": [
+    {
+      "Variant": "MRA12",
+      "Pocket_mm": [
+        26.799999999999997,
+        14.2
+      ],
+      "GlassEnvelope_mm": [
+        25.10000000000009,
+        12.500000000000002
+      ],
+      "TotalClearance_mm": [
+        1.699999999999907,
+        1.6999999999999975
+      ],
+      "MinimumActualCornerClearance_mm": 0.7083301043890662,
+      "NativeFaces": [
+        {
+          "CenterXY_mm": [
+            7.825200000000001,
+            5.5252
+          ],
+          "ActualCornerFaceToGlass_mm": 0.7083301043890705
+        },
+        {
+          "CenterXY_mm": [
+            7.825200000000001,
+            -5.5252
+          ],
+          "ActualCornerFaceToGlass_mm": 0.7083301043890677
+        },
+        {
+          "CenterXY_mm": [
+            -15.825199999999999,
+            -5.5252
+          ],
+          "ActualCornerFaceToGlass_mm": 0.7083301043890687
+        },
+        {
+          "CenterXY_mm": [
+            -15.825199999999999,
+            5.5252
+          ],
+          "ActualCornerFaceToGlass_mm": 0.7083301043890662
+        }
+      ]
+    },
+    {
+      "Variant": "HRS1015",
+      "Pocket_mm": [
+        27.099999999999994,
+        27.099999999999998
+      ],
+      "GlassEnvelope_mm": [
+        25.400000000000002,
+        25.40000000000001
+      ],
+      "TotalClearance_mm": [
+        1.6999999999999922,
+        1.6999999999999886
+      ],
+      "MinimumActualCornerClearance_mm": 0.7083301043890761,
+      "NativeFaces": [
+        {
+          "CenterXY_mm": [
+            7.975199999999999,
+            13.9752
+          ],
+          "ActualCornerFaceToGlass_mm": 0.7083301043890791
+        },
+        {
+          "CenterXY_mm": [
+            7.975199999999999,
+            -9.9752
+          ],
+          "ActualCornerFaceToGlass_mm": 0.7083301043890786
+        },
+        {
+          "CenterXY_mm": [
+            -15.975199999999997,
+            -9.9752
+          ],
+          "ActualCornerFaceToGlass_mm": 0.7083301043890761
+        },
+        {
+          "CenterXY_mm": [
+            -15.975199999999997,
+            13.9752
+          ],
+          "ActualCornerFaceToGlass_mm": 0.7083301043890773
+        }
+      ]
+    }
+  ]
+}

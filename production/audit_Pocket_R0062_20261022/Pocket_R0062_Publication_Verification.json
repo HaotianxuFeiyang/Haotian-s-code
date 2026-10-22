@@ -1,0 +1,646 @@
+{
+  "Revision": "Pocket_R0062_Revision_20261022",
+  "BaselineCommit": "b27c439ec93a5ea1748f986a5909a3acd72c1d5c",
+  "InspectedDirectory": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\Publication_Candidate",
+  "AllPublicationChecksPassed": true,
+  "Checks": [
+    {
+      "Check": "Exactly ten published .step files",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Exactly ten published .png files",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Clamp_Half_64mm_179deg.step: preserved as scoped",
+      "Passed": true,
+      "Detail": "ccbcca55518fdc395bbcffa14b677750351d459bafe5965653435db4568c4fde"
+    },
+    {
+      "Check": "Clamp_Half_64mm_179deg.png: preserved as scoped",
+      "Passed": true,
+      "Detail": "917b15b563f93c91d2097c2efbcc3b85a84dbe71dd9fbf81667a43f15317d7bf"
+    },
+    {
+      "Check": "Leg_1.step: preserved as scoped",
+      "Passed": true,
+      "Detail": "60aca8ee5d85acf0e05977541c813f75d9f6c8c2edd4ab504cf5807be297ef3a"
+    },
+    {
+      "Check": "Leg_1.png: preserved as scoped",
+      "Passed": true,
+      "Detail": "e0994cd4ca4d1b5d099e1215a5a2fb22cc27b9398cae1382e381c2d6aa04ab1a"
+    },
+    {
+      "Check": "Leg_2.step: preserved as scoped",
+      "Passed": true,
+      "Detail": "396fddb4ad01983950b381449cbc922bdc64747476a74e3aa91cf1868c33bbbd"
+    },
+    {
+      "Check": "Leg_2.png: preserved as scoped",
+      "Passed": true,
+      "Detail": "dbf85c9081d5a70b906064ca1d69ddce02f14ff9826cb361d4c62f3101dddcc9"
+    },
+    {
+      "Check": "Leg_3.step: preserved as scoped",
+      "Passed": true,
+      "Detail": "60342d2cc5d9af860e73732590d8602c457410a0198d95ff0a99da96b63c7032"
+    },
+    {
+      "Check": "Leg_3.png: preserved as scoped",
+      "Passed": true,
+      "Detail": "e5059315cb332ec4bfd0d3d5a6e95e548fcfdca98c29d9b19af6a07ac8bb5ccb"
+    },
+    {
+      "Check": "Leg_4.step: preserved as scoped",
+      "Passed": true,
+      "Detail": "3d4143e62782539ff1849b0c5f721895cfdb4072c0c82912176aad7f169ff4e3"
+    },
+    {
+      "Check": "Leg_4.png: preserved as scoped",
+      "Passed": true,
+      "Detail": "406a5e7ab891dd5e4208f08450c36629568e60ebf7f36e14ca6b7765b0b23bae"
+    },
+    {
+      "Check": "MRA12_Mirror_Mount.step: changed as scoped",
+      "Passed": true,
+      "Detail": "d776bb35ad2ff4799052e73a20b1eae960dc2c33507139dd42562eca3346378a"
+    },
+    {
+      "Check": "MRA12_Mirror_Mount.png: changed as scoped",
+      "Passed": true,
+      "Detail": "3ee70ad1d0954572c1e2f9b2a2e5852ae7438fb436b34899233d1670fc79a733"
+    },
+    {
+      "Check": "HRS1015_Mirror_Mount.step: changed as scoped",
+      "Passed": true,
+      "Detail": "42bf85c166f70361bd66f5dee73cf98127959f38bfe93096db8f64b4820e6cc2"
+    },
+    {
+      "Check": "HRS1015_Mirror_Mount.png: changed as scoped",
+      "Passed": true,
+      "Detail": "0c586a9aa081b35570324e863566d1d87a76f6ed1457a82f4c800e56377e7cf7"
+    },
+    {
+      "Check": "MRA12_Thin_Edge_Retainer.step: preserved as scoped",
+      "Passed": true,
+      "Detail": "2b46d24392c560a71e233916bbe7c3b809a613d409b2285f9e0fe538f10aa1c2"
+    },
+    {
+      "Check": "MRA12_Thin_Edge_Retainer.png: changed as scoped",
+      "Passed": true,
+      "Detail": "c32640438c52ff3420cf68dabb1bc1f0d14f5679e8bf0c20b576d3187a6db628"
+    },
+    {
+      "Check": "HRS1015_Thin_Edge_Retainer.step: preserved as scoped",
+      "Passed": true,
+      "Detail": "d3c3f12e6cd65daf2d53a82599bd715c11e691551be3057df984a2494fa48077"
+    },
+    {
+      "Check": "HRS1015_Thin_Edge_Retainer.png: changed as scoped",
+      "Passed": true,
+      "Detail": "2dba7c37dfa2330768220e48549ddcb55976cc1aaca2eed590043f90090bce4e"
+    },
+    {
+      "Check": "Prism_440_Flat_StopShim_0p5mm.step: preserved as scoped",
+      "Passed": true,
+      "Detail": "d353a90a74e9f24afd2f4cd8c7533192c2bb70239e8489d625a42e935f3a38d4"
+    },
+    {
+      "Check": "Prism_440_Flat_StopShim_0p5mm.png: changed as scoped",
+      "Passed": true,
+      "Detail": "433e3eea56f0fac21fc630c379b9f0c639eb8618b19f76eb0a18cd5047e72589"
+    },
+    {
+      "Check": "drawing_holes: ten unique records",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: Clamp_Half_64mm_179deg step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: Clamp_Half_64mm_179deg png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: Clamp_Half_64mm_179deg original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: Leg_1 step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: Leg_1 png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: Leg_1 original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: Leg_2 step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: Leg_2 png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: Leg_2 original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: Leg_3 step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: Leg_3 png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: Leg_3 original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: Leg_4 step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: Leg_4 png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: Leg_4 original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: MRA12_Mirror_Mount step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: MRA12_Mirror_Mount png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: MRA12_Mirror_Mount original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "MRA12_Mirror_Mount: current clamping/reference instruction",
+      "Passed": true,
+      "Detail": "REV2026-10-22 | Pocket 26.8 x 14.2 mm; inner R0.062 inch = 1.5748 mm. Total length/width clearance 1.7 mm.\nOuter97x32 and floor3.00 mm unchanged; glass0.50 mm above land. 2x4-40 UNC-2B directtap7; pilotD2.2606 depth8.5.\n2xD4.5 M4clearance THROUGH / NO TAP. Flat0.30 mm retainer elastically deflects during tightening.\nDO NOT manufacture or install the four legacy0.50 mm stopshims. Belleville washers remain required."
+    },
+    {
+      "Check": "MRA12_Mirror_Mount: pocket metadata exact",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: HRS1015_Mirror_Mount step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: HRS1015_Mirror_Mount png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: HRS1015_Mirror_Mount original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "HRS1015_Mirror_Mount: current clamping/reference instruction",
+      "Passed": true,
+      "Detail": "REV2026-10-22 | Pocket 27.1 x 27.1 mm; inner R0.062 inch = 1.5748 mm. Total length/width clearance 1.7 mm.\nOuter97x32 and floor3.00 mm unchanged; glass0.50 mm above land. 2x4-40 UNC-2B directtap7; pilotD2.2606 depth8.5.\n2xD4.5 M4clearance THROUGH / NO TAP. Flat0.30 mm retainer elastically deflects during tightening.\nDO NOT manufacture or install the four legacy0.50 mm stopshims. Belleville washers remain required."
+    },
+    {
+      "Check": "HRS1015_Mirror_Mount: pocket metadata exact",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: MRA12_Thin_Edge_Retainer step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: MRA12_Thin_Edge_Retainer png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: MRA12_Thin_Edge_Retainer original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "MRA12_Thin_Edge_Retainer: current clamping/reference instruction",
+      "Passed": true,
+      "Detail": "REV2026-10-22 | Flat0.30 mm sheet; outline width44 mm; central optical opening 24.1x11 mm (geometry unchanged).\n2xD3.2 clearance for4-40 THROUGH; NO TAP. Manufacture flat, with no formed bends or ramps.\nDuring tightening the flat retainer elastically bends to clamp glass0.50 mm proud of the mount land.\nDO NOT manufacture or install legacy0.50 mm stopshims. Retain4-40 Inconel and M4 stainless Belleville washers."
+    },
+    {
+      "Check": "drawing_holes: HRS1015_Thin_Edge_Retainer step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: HRS1015_Thin_Edge_Retainer png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: HRS1015_Thin_Edge_Retainer original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "HRS1015_Thin_Edge_Retainer: current clamping/reference instruction",
+      "Passed": true,
+      "Detail": "REV2026-10-22 | Flat0.30 mm sheet; outline width44 mm; central optical opening 24.2x24 mm (geometry unchanged).\n2xD3.2 clearance for4-40 THROUGH; NO TAP. Manufacture flat, with no formed bends or ramps.\nDuring tightening the flat retainer elastically bends to clamp glass0.50 mm proud of the mount land.\nDO NOT manufacture or install legacy0.50 mm stopshims. Retain4-40 Inconel and M4 stainless Belleville washers."
+    },
+    {
+      "Check": "drawing_holes: Prism_440_Flat_StopShim_0p5mm step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: Prism_440_Flat_StopShim_0p5mm png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: Prism_440_Flat_StopShim_0p5mm original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_holes: shim reference only and quantity zero",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Prism_440_Flat_StopShim_0p5mm: current clamping/reference instruction",
+      "Passed": true,
+      "Detail": "REV2026-10-22 | LEGACY REFERENCE ONLY. This geometry is not part of the current CNC order.\nDO NOT manufacture or install any of the four0.50 mm flat stopshims. Current order quantity ZERO.\nThe retainer is manufactured flat and elastically bends during tightening to clamp the mirrors.\nThis exclusion applies only to stopshims. All specified4-40 and M4 Belleville washers remain required."
+    },
+    {
+      "Check": "drawing_validation: ten unique records",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Clamp_Half_64mm_179deg step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Clamp_Half_64mm_179deg png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Clamp_Half_64mm_179deg original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Leg_1 step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Leg_1 png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Leg_1 original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Leg_2 step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Leg_2 png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Leg_2 original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Leg_3 step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Leg_3 png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Leg_3 original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Leg_4 step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Leg_4 png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Leg_4 original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: MRA12_Mirror_Mount step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: MRA12_Mirror_Mount png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: MRA12_Mirror_Mount original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "MRA12_Mirror_Mount: native label receipt complete",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "MRA12_Mirror_Mount: documented visual review",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: HRS1015_Mirror_Mount step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: HRS1015_Mirror_Mount png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: HRS1015_Mirror_Mount original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "HRS1015_Mirror_Mount: native label receipt complete",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "HRS1015_Mirror_Mount: documented visual review",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: MRA12_Thin_Edge_Retainer step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: MRA12_Thin_Edge_Retainer png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: MRA12_Thin_Edge_Retainer original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "MRA12_Thin_Edge_Retainer: native label receipt complete",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "MRA12_Thin_Edge_Retainer: documented visual review",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: HRS1015_Thin_Edge_Retainer step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: HRS1015_Thin_Edge_Retainer png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: HRS1015_Thin_Edge_Retainer original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "HRS1015_Thin_Edge_Retainer: native label receipt complete",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "HRS1015_Thin_Edge_Retainer: documented visual review",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Prism_440_Flat_StopShim_0p5mm step current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Prism_440_Flat_StopShim_0p5mm png current hash",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: Prism_440_Flat_StopShim_0p5mm original hole metadata preserved",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "drawing_validation: shim reference only and quantity zero",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Prism_440_Flat_StopShim_0p5mm: native label receipt complete",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Prism_440_Flat_StopShim_0p5mm: documented visual review",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Current release distinguishes nine manufacture parts and legacy reference",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Word hash matches current release",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Human-readable current release notice",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Historical record unchanged: production/audit_20261022/Baseline_Shopping_Completeness_Audit_20261022.json",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Historical record unchanged: production/audit_20261022/Final_Full_Save_Reference_Receipt_20261022.json",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Historical record unchanged: production/audit_20261022/Multibody_Repair_Verified.json",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Historical record unchanged: production/audit_20261022/Top832_Cage_Native_Final.json",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Historical record unchanged: production/audit_20261022/Top832_Joints_Native_Final.json",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Historical record unchanged: production/audit_20261022/Top832_Native_Overview.png",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Historical record unchanged: production/audit_20261022/Top832_Release_Summary_20261022.json",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Historical record unchanged: production/audit_20261022/Top832_Support_Native_Final.json",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Historical record unchanged: production/audit_20261022/Top832_Upper_Native_Final.json",
+      "Passed": true,
+      "Detail": null
+    },
+    {
+      "Check": "Historical record unchanged: production/audit_20261022/shopping_list_Top832_Final.audit.json",
+      "Passed": true,
+      "Detail": null
+    }
+  ],
+  "FailedChecks": [],
+  "Limitations": [
+    "No Inventor COM, STEP reimport, or structural elasticity simulation performed by this publication verifier.",
+    "Native old/new geometry audit and all five PNG visual checks must accompany final publication.",
+    "Local Full CAD intentionally retains four old shim occurrences only as previous reference; publication quantity is zero."
+  ],
+  "AnalyticalDifferencePrediction": {
+    "Radius_in": 0.062,
+    "Radius_mm": 1.5748,
+    "OldRadius_mm": 0.5,
+    "TotalPlanClearancePerDimension_mm": 1.7,
+    "CenteredClearancePerSide_mm": 0.85,
+    "MinimumNewPocketSupportContainmentMarginOverOld_mm": 0.04977800999198062,
+    "ExpectedAddedMaterialVolume_mm3": 0.0,
+    "Variants": [
+      {
+        "Variant": "MRA12",
+        "OldPocket_mm": [
+          26.1,
+          13.5
+        ],
+        "NewPocket_mm": [
+          26.8,
+          14.2
+        ],
+        "PocketDepth_mm": 11.823223304703369,
+        "ExpectedRemovedArea_mm2": 26.295755875205657,
+        "ExpectedRemovedVolume_mm3": 310.90059367852206
+      },
+      {
+        "Variant": "HRS1015",
+        "OldPocket_mm": [
+          26.4,
+          26.4
+        ],
+        "NewPocket_mm": [
+          27.1,
+          27.1
+        ],
+        "PocketDepth_mm": 18.023223304703357,
+        "ExpectedRemovedArea_mm2": 35.53575587520584,
+        "ExpectedRemovedVolume_mm3": 640.468863440259
+      }
+    ],
+    "Derivation": "A=width*height-(4-pi)*R^2; volume difference=(A_new-A_old)*(topland-14.5). Support containment minimum occurs at 45 degrees: .35*sqrt(2)-(1.5748-.5)*(sqrt(2)-1).",
+    "Assumptions": [
+      "Pockets remain centered at the original locations with unchanged floor, land, and straight walls.",
+      "Other holes/cuts do not intersect the removed pocket wall band. Confirm in native geometry.",
+      "This is an independent analytic prediction, not a STEP import or native B-rep check."
+    ],
+    "NativeChecksRequired": [
+      "Old-minus-new material matches these volumes; new-minus-old is zero within kernel tolerance.",
+      "Both precise outer bounding boxes, hole axes/diameters/depths, floor Z=14.5 and bridge underside Z=11.5 remain unchanged.",
+      "All differences are within the new rounded-pocket prism above Z=14.5; no remote face changes.",
+      "Each new corner radius is 1.5748 mm, with new plan sizes listed above.",
+      "Mirror transforms and all non-mount part files are unchanged; native 4 old shim occurrences remain reference-only by scope."
+    ]
+  }
+}

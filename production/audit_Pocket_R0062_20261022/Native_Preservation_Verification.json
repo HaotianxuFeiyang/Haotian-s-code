@@ -1,0 +1,195 @@
+{
+  "OccurrenceChecks": [
+    {
+      "Occurrence": "MRA12 rectangular pocket mount - direct4-40 - M4 to plate",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "MRA12",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "MRA12-E03 A - external hypotenuse reflection",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "MRA12",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "MRA12-E03 B - external hypotenuse reflection",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "MRA12",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "MRA12 flat edge clamp - zero bend - separate0p5mm stops - two4-40 ONLY",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "MRA12",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "0.5mm flat stop shim at -22",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "MRA12",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "4-40 Belleville washer at -22",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "MRA12",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "4-40 x1-4 direct-tap clamp screw at -22",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "MRA12",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "0.5mm flat stop shim at 14",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "MRA12",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "4-40 Belleville washer at 14",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "MRA12",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "4-40 x1-4 direct-tap clamp screw at 14",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "MRA12",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "M4 Belleville washer at -42,0",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "MRA12",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "M4x32.5 plate fixing -42,0 - plain through hole",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "MRA12",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "M4 Belleville washer at 40,20",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "MRA12",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "M4x32.5 plate fixing 40,20 - plain through hole",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "MRA12",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "HRS1015 rectangular pocket mount - direct4-40 - M4 to plate",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "HRS1015",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "HRS1015-AG - original three-body supplier geometry",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "HRS1015",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "HRS1015 flat edge clamp - zero bend - separate0p5mm stops - two4-40 ONLY",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "HRS1015",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "0.5mm flat stop shim at -22",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "HRS1015",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "4-40 Belleville washer at -22",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "HRS1015",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "4-40 x1-4 direct-tap clamp screw at -22",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "HRS1015",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "0.5mm flat stop shim at 14",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "HRS1015",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "4-40 Belleville washer at 14",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "HRS1015",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "4-40 x1-4 direct-tap clamp screw at 14",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "HRS1015",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "M4 Belleville washer at -42,0",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "HRS1015",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "M4x38.5 plate fixing -42,0 - plain through hole",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "HRS1015",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "M4 Belleville washer at 40,20",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "HRS1015",
+      "SameFile": true
+    },
+    {
+      "Occurrence": "M4x38.5 plate fixing 40,20 - plain through hole",
+      "MaxMatrixDelta": 0.0,
+      "Variant": "HRS1015",
+      "SameFile": true
+    }
+  ],
+  "Scope": "Only two mount cavity geometries revised. Four legacy shim occurrences intentionally remain reference only; fabrication and install quantity0. No Simplified model accessed.",
+  "UnchangedParts": [
+    {
+      "SHA256": "794A9382321949BA8AD1EB0A22A1377DED29A52B5F7CD6817D40F542E7D60824",
+      "Unchanged": true,
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\MRA12_Thin_Edge_Retainer.ipt"
+    },
+    {
+      "SHA256": "053693B64F50D7FAD5F878760EE8F90682E74B125EE1E4BF3E9B29E8113F6CBF",
+      "Unchanged": true,
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\HRS1015_Thin_Edge_Retainer.ipt"
+    },
+    {
+      "SHA256": "A2AEF6556737D211DF1D73B66325E19DA7356469DD65DC9616AA9A84F5DBA7F4",
+      "Unchanged": true,
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\MRA12_Thin_Edge_Retainer_Flat_Manufacturing.ipt"
+    },
+    {
+      "SHA256": "D014A74B853B4CAAC4EC5D7E4C11CA8C7FE8EA476A6E62945EEB0FE8579974BE",
+      "Unchanged": true,
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\HRS1015_Thin_Edge_Retainer_Flat_Manufacturing.ipt"
+    },
+    {
+      "SHA256": "95F171E04D77C9287BFD58E810C4CF36C45CA400705481E266B2673E5B0C41F3",
+      "Unchanged": true,
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Prism_440_Flat_StopSpacer_0p5mm_Envelope.ipt"
+    }
+  ],
+  "Passed": true
+}

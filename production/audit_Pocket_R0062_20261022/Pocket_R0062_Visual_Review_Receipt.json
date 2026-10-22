@@ -1,0 +1,34 @@
+{
+  "Revision": "Pocket_R0062_Revision_20261022",
+  "Reviewer": "Root agent",
+  "Evidence": "Root agent confirmed visual inspection of all five newly exported PNGs: both mount drawings, both retainer drawings, and the quantity-zero reference-only shim drawing; all are clear.",
+  "AllFiveDrawingsReviewed": true,
+  "Scope": "Human/model visual examination confirmed readable geometry, hole labels, new pocket dimensions and flat-stock elastic-clamping/no-shim instructions; shim is marked reference-only quantity zero.",
+  "Drawings": [
+    {
+      "File": "MRA12_Mirror_Mount.png",
+      "SHA256": "3ee70ad1d0954572c1e2f9b2a2e5852ae7438fb436b34899233d1670fc79a733",
+      "VisualReviewed": true
+    },
+    {
+      "File": "HRS1015_Mirror_Mount.png",
+      "SHA256": "0c586a9aa081b35570324e863566d1d87a76f6ed1457a82f4c800e56377e7cf7",
+      "VisualReviewed": true
+    },
+    {
+      "File": "MRA12_Thin_Edge_Retainer.png",
+      "SHA256": "c32640438c52ff3420cf68dabb1bc1f0d14f5679e8bf0c20b576d3187a6db628",
+      "VisualReviewed": true
+    },
+    {
+      "File": "HRS1015_Thin_Edge_Retainer.png",
+      "SHA256": "2dba7c37dfa2330768220e48549ddcb55976cc1aaca2eed590043f90090bce4e",
+      "VisualReviewed": true
+    },
+    {
+      "File": "Prism_440_Flat_StopShim_0p5mm.png",
+      "SHA256": "433e3eea56f0fac21fc630c379b9f0c639eb8618b19f76eb0a18cd5047e72589",
+      "VisualReviewed": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "AllPassed": true,
+  "ReimportedSTEP": true,
+  "NoNativeSourceChanged": true,
+  "Rows": [
+    {
+      "Variant": "MRA12",
+      "NativeVolume_mm3": 49463.47183398374,
+      "StepVolume_mm3": 49463.471833983815,
+      "NativeMinusStep_mm3": 0,
+      "StepMinusNative_mm3": 0,
+      "Passed": true
+    },
+    {
+      "Variant": "HRS1015",
+      "NativeVolume_mm3": 59787.26763374597,
+      "StepVolume_mm3": 59787.26763374607,
+      "NativeMinusStep_mm3": 0,
+      "StepMinusNative_mm3": 0,
+      "Passed": true
+    }
+  ]
+}

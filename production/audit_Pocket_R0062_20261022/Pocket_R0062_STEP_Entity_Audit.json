@@ -1,0 +1,2142 @@
+{
+  "BaselineCommit": "b27c439ec93a5ea1748f986a5909a3acd72c1d5c",
+  "Method": "Read STEP Part 21 referenced analytic face entities; no native CAD execution",
+  "Parts": [
+    {
+      "Variant": "MRA12",
+      "Export": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\Publication_Candidate\\MRA12_Mirror_Mount.step",
+      "Old": {
+        "SHA256": "a8c5a436b6fd0721c4d2aad6924a86fe3cfd6a8721d25a29dd11830138363ea6",
+        "SolidCount": 1,
+        "SurfaceTypes": {
+          "CYLINDRICAL_SURFACE": 8,
+          "PLANE": 17
+        },
+        "Cylinders": [
+          {
+            "FaceEntity": 453,
+            "SurfaceEntity": 419,
+            "Radius_mm": 2.25,
+            "Point_mm": [
+              43.5999371551453,
+              9.9521595680223,
+              13.1616116523517
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 454,
+            "SurfaceEntity": 420,
+            "Radius_mm": 2.25,
+            "Point_mm": [
+              -40.8038542288914,
+              9.9521595680223,
+              13.1616116523517
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 455,
+            "SurfaceEntity": 421,
+            "Radius_mm": 1.1303,
+            "Point_mm": [
+              14.0,
+              0.0,
+              22.1732233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 457,
+            "SurfaceEntity": 422,
+            "Radius_mm": 1.1303,
+            "Point_mm": [
+              -22.0,
+              0.0,
+              22.1732233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 459,
+            "SurfaceEntity": 423,
+            "Radius_mm": 0.5,
+            "Point_mm": [
+              8.55,
+              6.25,
+              20.9116116523517
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 461,
+            "SurfaceEntity": 424,
+            "Radius_mm": 0.5,
+            "Point_mm": [
+              8.55,
+              -6.25,
+              20.9116116523517
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 463,
+            "SurfaceEntity": 425,
+            "Radius_mm": 0.5,
+            "Point_mm": [
+              -16.55,
+              6.25,
+              20.9116116523517
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 465,
+            "SurfaceEntity": 426,
+            "Radius_mm": 0.5,
+            "Point_mm": [
+              -16.55,
+              -6.25,
+              20.9116116523517
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "Planes": [
+          {
+            "FaceEntity": 456,
+            "SurfaceEntity": 21,
+            "Point_mm": [
+              14.0,
+              0.0,
+              17.8232233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          },
+          {
+            "FaceEntity": 458,
+            "SurfaceEntity": 22,
+            "Point_mm": [
+              -22.0,
+              0.0,
+              17.8232233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          },
+          {
+            "FaceEntity": 460,
+            "SurfaceEntity": 23,
+            "Point_mm": [
+              9.05,
+              0.0,
+              20.9116116523517
+            ],
+            "Axis": [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 462,
+            "SurfaceEntity": 24,
+            "Point_mm": [
+              -4.0,
+              -6.75,
+              20.9116116523517
+            ],
+            "Axis": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 464,
+            "SurfaceEntity": 25,
+            "Point_mm": [
+              -4.0,
+              0.0,
+              14.5
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 466,
+            "SurfaceEntity": 26,
+            "Point_mm": [
+              -17.05,
+              0.0,
+              20.9116116523517
+            ],
+            "Axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 467,
+            "SurfaceEntity": 27,
+            "Point_mm": [
+              -4.0,
+              6.75,
+              20.9116116523517
+            ],
+            "Axis": [
+              0.0,
+              -1.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 468,
+            "SurfaceEntity": 28,
+            "Point_mm": [
+              44.0,
+              2.0,
+              0.0
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 469,
+            "SurfaceEntity": 29,
+            "Point_mm": [
+              38.0,
+              2.0,
+              5.75
+            ],
+            "Axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 470,
+            "SurfaceEntity": 30,
+            "Point_mm": [
+              -41.0,
+              2.0,
+              0.0
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 471,
+            "SurfaceEntity": 31,
+            "Point_mm": [
+              -35.0,
+              2.0,
+              5.75
+            ],
+            "Axis": [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 472,
+            "SurfaceEntity": 32,
+            "Point_mm": [
+              1.49999999999999,
+              2.0,
+              26.3232233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 473,
+            "SurfaceEntity": 33,
+            "Point_mm": [
+              1.49999999999999,
+              2.0,
+              11.5
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 474,
+            "SurfaceEntity": 34,
+            "Point_mm": [
+              1.49999999999999,
+              -14.0,
+              18.9116116523517
+            ],
+            "Axis": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 475,
+            "SurfaceEntity": 35,
+            "Point_mm": [
+              -47.0,
+              2.0,
+              18.9116116523517
+            ],
+            "Axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 476,
+            "SurfaceEntity": 36,
+            "Point_mm": [
+              1.49999999999999,
+              18.0,
+              18.9116116523517
+            ],
+            "Axis": [
+              0.0,
+              -1.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 477,
+            "SurfaceEntity": 37,
+            "Point_mm": [
+              50.0,
+              2.0,
+              18.9116116523517
+            ],
+            "Axis": [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "ExplicitVertexBoundingBox_mm": [
+          -47.0,
+          -14.0,
+          0.0,
+          50.0,
+          18.0,
+          26.3232233047034
+        ],
+        "VertexCount": 40,
+        "UnitContexts": [
+          {
+            "ContextEntity": 798,
+            "LengthUnitRecords": [
+              "(\r\nLENGTH_UNIT()\r\nNAMED_UNIT(*)\r\nSI_UNIT(.MILLI.,.METRE.)\r\n)"
+            ],
+            "Millimetres": true
+          }
+        ],
+        "AllBrepUnitsMillimetres": true,
+        "FileDescription": "\r\n/* description */ (\r\n'MRA12 3mm floor / 0.5mm proud revision 2026-10-21. 97x32 bridge; unde\r\nrside11.5/pocketfloor14.5, full-width end feet preserved; per-variant \r\noptics lowered. 2xD4.5 M4 clearance THROUGH, NO TAP/no counterbore. 2x\r\n4-40 UNC-2B DIRECT TAP depth7, #43 D2.2606 pilot depth8.5; NO Helicoil.\r\n Glass highest edge0.5mm above mount land. Pocket plan oversize1mm tot\r\nal. Flat sheet lid represented in nominal contact; elasticity not vali\r\ndated; no specified torque/preload.'),\r\n/* implementation_level */ '2;1');\r\n\r\n"
+      },
+      "New": {
+        "SHA256": "d776bb35ad2ff4799052e73a20b1eae960dc2c33507139dd42562eca3346378a",
+        "SolidCount": 1,
+        "SurfaceTypes": {
+          "CYLINDRICAL_SURFACE": 8,
+          "PLANE": 17
+        },
+        "Cylinders": [
+          {
+            "FaceEntity": 445,
+            "SurfaceEntity": 437,
+            "Radius_mm": 1.5748,
+            "Point_mm": [
+              7.8252,
+              5.5252,
+              14.5
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 447,
+            "SurfaceEntity": 438,
+            "Radius_mm": 1.5748,
+            "Point_mm": [
+              7.8252,
+              -5.5252,
+              14.5
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 449,
+            "SurfaceEntity": 439,
+            "Radius_mm": 1.5748,
+            "Point_mm": [
+              -15.8252,
+              -5.5252,
+              14.5
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 451,
+            "SurfaceEntity": 440,
+            "Radius_mm": 1.5748,
+            "Point_mm": [
+              -15.8252,
+              5.5252,
+              14.5
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 453,
+            "SurfaceEntity": 441,
+            "Radius_mm": 2.25,
+            "Point_mm": [
+              43.5999371551453,
+              9.9521595680223,
+              13.1616116523517
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 454,
+            "SurfaceEntity": 442,
+            "Radius_mm": 2.25,
+            "Point_mm": [
+              -40.8038542288914,
+              9.9521595680223,
+              13.1616116523517
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 455,
+            "SurfaceEntity": 443,
+            "Radius_mm": 1.1303,
+            "Point_mm": [
+              14.0,
+              0.0,
+              22.1732233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 457,
+            "SurfaceEntity": 444,
+            "Radius_mm": 1.1303,
+            "Point_mm": [
+              -22.0,
+              0.0,
+              22.1732233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "Planes": [
+          {
+            "FaceEntity": 446,
+            "SurfaceEntity": 39,
+            "Point_mm": [
+              9.4,
+              -5.5252,
+              14.5
+            ],
+            "Axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 448,
+            "SurfaceEntity": 40,
+            "Point_mm": [
+              -15.8252,
+              -7.1,
+              14.5
+            ],
+            "Axis": [
+              0.0,
+              -1.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 450,
+            "SurfaceEntity": 41,
+            "Point_mm": [
+              -17.4,
+              5.5252,
+              14.5
+            ],
+            "Axis": [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 452,
+            "SurfaceEntity": 42,
+            "Point_mm": [
+              7.8252,
+              7.1,
+              14.5
+            ],
+            "Axis": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 456,
+            "SurfaceEntity": 43,
+            "Point_mm": [
+              14.0,
+              0.0,
+              17.8232233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          },
+          {
+            "FaceEntity": 458,
+            "SurfaceEntity": 44,
+            "Point_mm": [
+              -22.0,
+              0.0,
+              17.8232233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          },
+          {
+            "FaceEntity": 459,
+            "SurfaceEntity": 45,
+            "Point_mm": [
+              -4.0,
+              0.0,
+              14.5
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 460,
+            "SurfaceEntity": 46,
+            "Point_mm": [
+              44.0,
+              2.0,
+              0.0
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 461,
+            "SurfaceEntity": 47,
+            "Point_mm": [
+              38.0,
+              2.0,
+              5.75
+            ],
+            "Axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 462,
+            "SurfaceEntity": 48,
+            "Point_mm": [
+              -41.0,
+              2.0,
+              0.0
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 463,
+            "SurfaceEntity": 49,
+            "Point_mm": [
+              -35.0,
+              2.0,
+              5.75
+            ],
+            "Axis": [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 464,
+            "SurfaceEntity": 50,
+            "Point_mm": [
+              1.49999999999999,
+              2.0,
+              26.3232233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 465,
+            "SurfaceEntity": 51,
+            "Point_mm": [
+              1.49999999999999,
+              2.0,
+              11.5
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 466,
+            "SurfaceEntity": 52,
+            "Point_mm": [
+              1.49999999999999,
+              -14.0,
+              18.9116116523517
+            ],
+            "Axis": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 467,
+            "SurfaceEntity": 53,
+            "Point_mm": [
+              -47.0,
+              2.0,
+              18.9116116523517
+            ],
+            "Axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 468,
+            "SurfaceEntity": 54,
+            "Point_mm": [
+              1.49999999999999,
+              18.0,
+              18.9116116523517
+            ],
+            "Axis": [
+              0.0,
+              -1.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 469,
+            "SurfaceEntity": 55,
+            "Point_mm": [
+              50.0,
+              2.0,
+              18.9116116523517
+            ],
+            "Axis": [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "ExplicitVertexBoundingBox_mm": [
+          -47.0,
+          -14.0,
+          0.0,
+          50.0,
+          18.0,
+          26.3232233047034
+        ],
+        "VertexCount": 40,
+        "UnitContexts": [
+          {
+            "ContextEntity": 790,
+            "LengthUnitRecords": [
+              "(\r\nLENGTH_UNIT()\r\nNAMED_UNIT(*)\r\nSI_UNIT(.MILLI.,.METRE.)\r\n)"
+            ],
+            "Millimetres": true
+          }
+        ],
+        "AllBrepUnitsMillimetres": true,
+        "FileDescription": "\r\n/* description */ (\r\n'MRA12 lattice mirror mount. Pocket 26.8 x 14.2 mm; 1.7 mm total lengt\r\nh and width clearance; inner R0.062 inch=1.5748 mm. Outer97x32, floor3\r\n, glass0.5proud, 2x4-40 direct7mm taps and M4clearance unchanged. Flat\r\n retainer elastically clamps during tightening. Legacy stop-shim occur\r\nrences remain reference only: do not manufacture/install them.'),\r\n/* implementation_level */ '2;1');\r\n\r\n"
+      },
+      "Checks": [
+        {
+          "Check": "Both B-rep unit contexts are millimetres",
+          "Passed": true,
+          "Detail": null
+        },
+        {
+          "Check": "One solid before and after",
+          "Passed": true,
+          "Detail": null
+        },
+        {
+          "Check": "Precise explicit outer vertices unchanged",
+          "Passed": true,
+          "Detail": [
+            -47.0,
+            -14.0,
+            0.0,
+            50.0,
+            18.0,
+            26.3232233047034
+          ]
+        },
+        {
+          "Check": "No new nonanalytic surfaces",
+          "Passed": true,
+          "Detail": {
+            "CYLINDRICAL_SURFACE": 8,
+            "PLANE": 17
+          }
+        },
+        {
+          "Check": "Eight referenced cylinder faces",
+          "Passed": true,
+          "Detail": null
+        },
+        {
+          "Check": "Four hole cylinder radii/axes preserved bijectively",
+          "Passed": true,
+          "Detail": [
+            {
+              "Old": {
+                "FaceEntity": 453,
+                "SurfaceEntity": 419,
+                "Radius_mm": 2.25,
+                "Point_mm": [
+                  43.5999371551453,
+                  9.9521595680223,
+                  13.1616116523517
+                ],
+                "Axis": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "MatchingNew": [
+                {
+                  "FaceEntity": 453,
+                  "SurfaceEntity": 441,
+                  "Radius_mm": 2.25,
+                  "Point_mm": [
+                    43.5999371551453,
+                    9.9521595680223,
+                    13.1616116523517
+                  ],
+                  "Axis": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ]
+                }
+              ]
+            },
+            {
+              "Old": {
+                "FaceEntity": 454,
+                "SurfaceEntity": 420,
+                "Radius_mm": 2.25,
+                "Point_mm": [
+                  -40.8038542288914,
+                  9.9521595680223,
+                  13.1616116523517
+                ],
+                "Axis": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "MatchingNew": [
+                {
+                  "FaceEntity": 454,
+                  "SurfaceEntity": 442,
+                  "Radius_mm": 2.25,
+                  "Point_mm": [
+                    -40.8038542288914,
+                    9.9521595680223,
+                    13.1616116523517
+                  ],
+                  "Axis": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ]
+                }
+              ]
+            },
+            {
+              "Old": {
+                "FaceEntity": 455,
+                "SurfaceEntity": 421,
+                "Radius_mm": 1.1303,
+                "Point_mm": [
+                  14.0,
+                  0.0,
+                  22.1732233047034
+                ],
+                "Axis": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "MatchingNew": [
+                {
+                  "FaceEntity": 455,
+                  "SurfaceEntity": 443,
+                  "Radius_mm": 1.1303,
+                  "Point_mm": [
+                    14.0,
+                    0.0,
+                    22.1732233047034
+                  ],
+                  "Axis": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ]
+                }
+              ]
+            },
+            {
+              "Old": {
+                "FaceEntity": 457,
+                "SurfaceEntity": 422,
+                "Radius_mm": 1.1303,
+                "Point_mm": [
+                  -22.0,
+                  0.0,
+                  22.1732233047034
+                ],
+                "Axis": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "MatchingNew": [
+                {
+                  "FaceEntity": 457,
+                  "SurfaceEntity": 444,
+                  "Radius_mm": 1.1303,
+                  "Point_mm": [
+                    -22.0,
+                    0.0,
+                    22.1732233047034
+                  ],
+                  "Axis": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Check": "Four new corner radii and expected centers",
+          "Passed": true,
+          "Detail": {
+            "ExpectedXY_mm": [
+              [
+                -15.8252,
+                -5.5252
+              ],
+              [
+                -15.8252,
+                5.5252
+              ],
+              [
+                7.825200000000001,
+                -5.5252
+              ],
+              [
+                7.825200000000001,
+                5.5252
+              ]
+            ],
+            "Actual": [
+              {
+                "FaceEntity": 445,
+                "SurfaceEntity": 437,
+                "Radius_mm": 1.5748,
+                "Point_mm": [
+                  7.8252,
+                  5.5252,
+                  14.5
+                ],
+                "Axis": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              {
+                "FaceEntity": 447,
+                "SurfaceEntity": 438,
+                "Radius_mm": 1.5748,
+                "Point_mm": [
+                  7.8252,
+                  -5.5252,
+                  14.5
+                ],
+                "Axis": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              {
+                "FaceEntity": 449,
+                "SurfaceEntity": 439,
+                "Radius_mm": 1.5748,
+                "Point_mm": [
+                  -15.8252,
+                  -5.5252,
+                  14.5
+                ],
+                "Axis": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              {
+                "FaceEntity": 451,
+                "SurfaceEntity": 440,
+                "Radius_mm": 1.5748,
+                "Point_mm": [
+                  -15.8252,
+                  5.5252,
+                  14.5
+                ],
+                "Axis": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Check": "Pocket floor analytic plane remains at Z14.5",
+          "Passed": true,
+          "Detail": null
+        },
+        {
+          "Check": "New STEP description states updated pocket parameters",
+          "Passed": true,
+          "Detail": null
+        },
+        {
+          "Check": "No obsolete 1mm pocket-clearance description",
+          "Passed": true,
+          "Detail": null
+        }
+      ],
+      "Passed": true
+    },
+    {
+      "Variant": "HRS1015",
+      "Export": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\Publication_Candidate\\HRS1015_Mirror_Mount.step",
+      "Old": {
+        "SHA256": "47f2427e16ec225c9c94a5a8d5b5f8ce5d1b10db65dbf62c20dd087c58ea7581",
+        "SolidCount": 1,
+        "SurfaceTypes": {
+          "CYLINDRICAL_SURFACE": 8,
+          "PLANE": 17
+        },
+        "Cylinders": [
+          {
+            "FaceEntity": 453,
+            "SurfaceEntity": 419,
+            "Radius_mm": 2.25,
+            "Point_mm": [
+              43.5999371551453,
+              9.9521595680223,
+              16.2616116523517
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 454,
+            "SurfaceEntity": 420,
+            "Radius_mm": 2.25,
+            "Point_mm": [
+              -40.8038542288914,
+              9.9521595680223,
+              16.2616116523517
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 455,
+            "SurfaceEntity": 421,
+            "Radius_mm": 1.1303,
+            "Point_mm": [
+              14.0,
+              2.0,
+              28.3732233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 457,
+            "SurfaceEntity": 422,
+            "Radius_mm": 1.1303,
+            "Point_mm": [
+              -22.0,
+              2.0,
+              28.3732233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 459,
+            "SurfaceEntity": 423,
+            "Radius_mm": 0.5,
+            "Point_mm": [
+              8.7,
+              14.7,
+              24.0116116523517
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 461,
+            "SurfaceEntity": 424,
+            "Radius_mm": 0.5,
+            "Point_mm": [
+              8.7,
+              -10.7,
+              24.0116116523517
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 463,
+            "SurfaceEntity": 425,
+            "Radius_mm": 0.5,
+            "Point_mm": [
+              -16.7,
+              14.7,
+              24.0116116523517
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 465,
+            "SurfaceEntity": 426,
+            "Radius_mm": 0.5,
+            "Point_mm": [
+              -16.7,
+              -10.7,
+              24.0116116523517
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "Planes": [
+          {
+            "FaceEntity": 456,
+            "SurfaceEntity": 21,
+            "Point_mm": [
+              14.0,
+              2.0,
+              24.0232233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          },
+          {
+            "FaceEntity": 458,
+            "SurfaceEntity": 22,
+            "Point_mm": [
+              -22.0,
+              2.0,
+              24.0232233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          },
+          {
+            "FaceEntity": 460,
+            "SurfaceEntity": 23,
+            "Point_mm": [
+              9.2,
+              2.0,
+              24.0116116523517
+            ],
+            "Axis": [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 462,
+            "SurfaceEntity": 24,
+            "Point_mm": [
+              -4.0,
+              -11.2,
+              24.0116116523517
+            ],
+            "Axis": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 464,
+            "SurfaceEntity": 25,
+            "Point_mm": [
+              -4.0,
+              2.0,
+              14.5
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 466,
+            "SurfaceEntity": 26,
+            "Point_mm": [
+              -17.2,
+              2.0,
+              24.0116116523517
+            ],
+            "Axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 467,
+            "SurfaceEntity": 27,
+            "Point_mm": [
+              -4.0,
+              15.2,
+              24.0116116523517
+            ],
+            "Axis": [
+              0.0,
+              -1.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 468,
+            "SurfaceEntity": 28,
+            "Point_mm": [
+              44.0,
+              2.0,
+              0.0
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 469,
+            "SurfaceEntity": 29,
+            "Point_mm": [
+              38.0,
+              2.0,
+              5.75
+            ],
+            "Axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 470,
+            "SurfaceEntity": 30,
+            "Point_mm": [
+              -41.0,
+              2.0,
+              0.0
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 471,
+            "SurfaceEntity": 31,
+            "Point_mm": [
+              -35.0,
+              2.0,
+              5.75
+            ],
+            "Axis": [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 472,
+            "SurfaceEntity": 32,
+            "Point_mm": [
+              1.49999999999999,
+              2.0,
+              32.5232233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 473,
+            "SurfaceEntity": 33,
+            "Point_mm": [
+              1.49999999999999,
+              2.0,
+              11.5
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 474,
+            "SurfaceEntity": 34,
+            "Point_mm": [
+              1.49999999999999,
+              -14.0,
+              22.0116116523517
+            ],
+            "Axis": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 475,
+            "SurfaceEntity": 35,
+            "Point_mm": [
+              -47.0,
+              2.0,
+              22.0116116523517
+            ],
+            "Axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 476,
+            "SurfaceEntity": 36,
+            "Point_mm": [
+              1.49999999999999,
+              18.0,
+              22.0116116523517
+            ],
+            "Axis": [
+              0.0,
+              -1.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 477,
+            "SurfaceEntity": 37,
+            "Point_mm": [
+              50.0,
+              2.0,
+              22.0116116523517
+            ],
+            "Axis": [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "ExplicitVertexBoundingBox_mm": [
+          -47.0,
+          -14.0,
+          0.0,
+          50.0,
+          18.0,
+          32.5232233047034
+        ],
+        "VertexCount": 40,
+        "UnitContexts": [
+          {
+            "ContextEntity": 798,
+            "LengthUnitRecords": [
+              "(\r\nLENGTH_UNIT()\r\nNAMED_UNIT(*)\r\nSI_UNIT(.MILLI.,.METRE.)\r\n)"
+            ],
+            "Millimetres": true
+          }
+        ],
+        "AllBrepUnitsMillimetres": true,
+        "FileDescription": "\r\n/* description */ (\r\n'HRS1015 3mm floor / 0.5mm proud revision 2026-10-21. 97x32 bridge; un\r\nderside11.5/pocketfloor14.5, full-width end feet preserved; per-varian\r\nt optics lowered. 2xD4.5 M4 clearance THROUGH, NO TAP/no counterbore. \r\n2x4-40 UNC-2B DIRECT TAP depth7, #43 D2.2606 pilot depth8.5; NO Helico\r\nil. Glass highest edge0.5mm above mount land. Pocket plan oversize1mm \r\ntotal. Flat sheet lid represented in nominal contact; elasticity not v\r\nalidated; no specified torque/preload.'),\r\n/* implementation_level */ '2;1');\r\n\r\n"
+      },
+      "New": {
+        "SHA256": "42bf85c166f70361bd66f5dee73cf98127959f38bfe93096db8f64b4820e6cc2",
+        "SolidCount": 1,
+        "SurfaceTypes": {
+          "CYLINDRICAL_SURFACE": 8,
+          "PLANE": 17
+        },
+        "Cylinders": [
+          {
+            "FaceEntity": 445,
+            "SurfaceEntity": 437,
+            "Radius_mm": 1.5748,
+            "Point_mm": [
+              7.9752,
+              13.9752,
+              14.5
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 447,
+            "SurfaceEntity": 438,
+            "Radius_mm": 1.5748,
+            "Point_mm": [
+              7.9752,
+              -9.9752,
+              14.5
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 449,
+            "SurfaceEntity": 439,
+            "Radius_mm": 1.5748,
+            "Point_mm": [
+              -15.9752,
+              -9.9752,
+              14.5
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 451,
+            "SurfaceEntity": 440,
+            "Radius_mm": 1.5748,
+            "Point_mm": [
+              -15.9752,
+              13.9752,
+              14.5
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 453,
+            "SurfaceEntity": 441,
+            "Radius_mm": 2.25,
+            "Point_mm": [
+              43.5999371551453,
+              9.9521595680223,
+              16.2616116523517
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 454,
+            "SurfaceEntity": 442,
+            "Radius_mm": 2.25,
+            "Point_mm": [
+              -40.8038542288914,
+              9.9521595680223,
+              16.2616116523517
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 455,
+            "SurfaceEntity": 443,
+            "Radius_mm": 1.1303,
+            "Point_mm": [
+              14.0,
+              2.0,
+              28.3732233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 457,
+            "SurfaceEntity": 444,
+            "Radius_mm": 1.1303,
+            "Point_mm": [
+              -22.0,
+              2.0,
+              28.3732233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "Planes": [
+          {
+            "FaceEntity": 446,
+            "SurfaceEntity": 39,
+            "Point_mm": [
+              9.55,
+              -9.9752,
+              14.5
+            ],
+            "Axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 448,
+            "SurfaceEntity": 40,
+            "Point_mm": [
+              -15.9752,
+              -11.55,
+              14.5
+            ],
+            "Axis": [
+              0.0,
+              -1.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 450,
+            "SurfaceEntity": 41,
+            "Point_mm": [
+              -17.55,
+              13.9752,
+              14.5
+            ],
+            "Axis": [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 452,
+            "SurfaceEntity": 42,
+            "Point_mm": [
+              7.9752,
+              15.55,
+              14.5
+            ],
+            "Axis": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 456,
+            "SurfaceEntity": 43,
+            "Point_mm": [
+              14.0,
+              2.0,
+              24.0232233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          },
+          {
+            "FaceEntity": 458,
+            "SurfaceEntity": 44,
+            "Point_mm": [
+              -22.0,
+              2.0,
+              24.0232233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          },
+          {
+            "FaceEntity": 459,
+            "SurfaceEntity": 45,
+            "Point_mm": [
+              -4.0,
+              2.0,
+              14.5
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 460,
+            "SurfaceEntity": 46,
+            "Point_mm": [
+              44.0,
+              2.0,
+              0.0
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 461,
+            "SurfaceEntity": 47,
+            "Point_mm": [
+              38.0,
+              2.0,
+              5.75
+            ],
+            "Axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 462,
+            "SurfaceEntity": 48,
+            "Point_mm": [
+              -41.0,
+              2.0,
+              0.0
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 463,
+            "SurfaceEntity": 49,
+            "Point_mm": [
+              -35.0,
+              2.0,
+              5.75
+            ],
+            "Axis": [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 464,
+            "SurfaceEntity": 50,
+            "Point_mm": [
+              1.49999999999999,
+              2.0,
+              32.5232233047034
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 465,
+            "SurfaceEntity": 51,
+            "Point_mm": [
+              1.49999999999999,
+              2.0,
+              11.5
+            ],
+            "Axis": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "FaceEntity": 466,
+            "SurfaceEntity": 52,
+            "Point_mm": [
+              1.49999999999999,
+              -14.0,
+              22.0116116523517
+            ],
+            "Axis": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 467,
+            "SurfaceEntity": 53,
+            "Point_mm": [
+              -47.0,
+              2.0,
+              22.0116116523517
+            ],
+            "Axis": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 468,
+            "SurfaceEntity": 54,
+            "Point_mm": [
+              1.49999999999999,
+              18.0,
+              22.0116116523517
+            ],
+            "Axis": [
+              0.0,
+              -1.0,
+              0.0
+            ]
+          },
+          {
+            "FaceEntity": 469,
+            "SurfaceEntity": 55,
+            "Point_mm": [
+              50.0,
+              2.0,
+              22.0116116523517
+            ],
+            "Axis": [
+              -1.0,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "ExplicitVertexBoundingBox_mm": [
+          -47.0,
+          -14.0,
+          0.0,
+          50.0,
+          18.0,
+          32.5232233047034
+        ],
+        "VertexCount": 40,
+        "UnitContexts": [
+          {
+            "ContextEntity": 790,
+            "LengthUnitRecords": [
+              "(\r\nLENGTH_UNIT()\r\nNAMED_UNIT(*)\r\nSI_UNIT(.MILLI.,.METRE.)\r\n)"
+            ],
+            "Millimetres": true
+          }
+        ],
+        "AllBrepUnitsMillimetres": true,
+        "FileDescription": "\r\n/* description */ (\r\n'HRS1015 lattice mirror mount. Pocket 27.1 x 27.1 mm; 1.7 mm total len\r\ngth and width clearance; inner R0.062 inch=1.5748 mm. Outer97x32, floo\r\nr3, glass0.5proud, 2x4-40 direct7mm taps and M4clearance unchanged. Fl\r\nat retainer elastically clamps during tightening. Legacy stop-shim occ\r\nurrences remain reference only: do not manufacture/install them.'),\r\n/* implementation_level */ '2;1');\r\n\r\n"
+      },
+      "Checks": [
+        {
+          "Check": "Both B-rep unit contexts are millimetres",
+          "Passed": true,
+          "Detail": null
+        },
+        {
+          "Check": "One solid before and after",
+          "Passed": true,
+          "Detail": null
+        },
+        {
+          "Check": "Precise explicit outer vertices unchanged",
+          "Passed": true,
+          "Detail": [
+            -47.0,
+            -14.0,
+            0.0,
+            50.0,
+            18.0,
+            32.5232233047034
+          ]
+        },
+        {
+          "Check": "No new nonanalytic surfaces",
+          "Passed": true,
+          "Detail": {
+            "CYLINDRICAL_SURFACE": 8,
+            "PLANE": 17
+          }
+        },
+        {
+          "Check": "Eight referenced cylinder faces",
+          "Passed": true,
+          "Detail": null
+        },
+        {
+          "Check": "Four hole cylinder radii/axes preserved bijectively",
+          "Passed": true,
+          "Detail": [
+            {
+              "Old": {
+                "FaceEntity": 453,
+                "SurfaceEntity": 419,
+                "Radius_mm": 2.25,
+                "Point_mm": [
+                  43.5999371551453,
+                  9.9521595680223,
+                  16.2616116523517
+                ],
+                "Axis": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "MatchingNew": [
+                {
+                  "FaceEntity": 453,
+                  "SurfaceEntity": 441,
+                  "Radius_mm": 2.25,
+                  "Point_mm": [
+                    43.5999371551453,
+                    9.9521595680223,
+                    16.2616116523517
+                  ],
+                  "Axis": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ]
+                }
+              ]
+            },
+            {
+              "Old": {
+                "FaceEntity": 454,
+                "SurfaceEntity": 420,
+                "Radius_mm": 2.25,
+                "Point_mm": [
+                  -40.8038542288914,
+                  9.9521595680223,
+                  16.2616116523517
+                ],
+                "Axis": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "MatchingNew": [
+                {
+                  "FaceEntity": 454,
+                  "SurfaceEntity": 442,
+                  "Radius_mm": 2.25,
+                  "Point_mm": [
+                    -40.8038542288914,
+                    9.9521595680223,
+                    16.2616116523517
+                  ],
+                  "Axis": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ]
+                }
+              ]
+            },
+            {
+              "Old": {
+                "FaceEntity": 455,
+                "SurfaceEntity": 421,
+                "Radius_mm": 1.1303,
+                "Point_mm": [
+                  14.0,
+                  2.0,
+                  28.3732233047034
+                ],
+                "Axis": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "MatchingNew": [
+                {
+                  "FaceEntity": 455,
+                  "SurfaceEntity": 443,
+                  "Radius_mm": 1.1303,
+                  "Point_mm": [
+                    14.0,
+                    2.0,
+                    28.3732233047034
+                  ],
+                  "Axis": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ]
+                }
+              ]
+            },
+            {
+              "Old": {
+                "FaceEntity": 457,
+                "SurfaceEntity": 422,
+                "Radius_mm": 1.1303,
+                "Point_mm": [
+                  -22.0,
+                  2.0,
+                  28.3732233047034
+                ],
+                "Axis": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              "MatchingNew": [
+                {
+                  "FaceEntity": 457,
+                  "SurfaceEntity": 444,
+                  "Radius_mm": 1.1303,
+                  "Point_mm": [
+                    -22.0,
+                    2.0,
+                    28.3732233047034
+                  ],
+                  "Axis": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Check": "Four new corner radii and expected centers",
+          "Passed": true,
+          "Detail": {
+            "ExpectedXY_mm": [
+              [
+                -15.975200000000001,
+                -9.975200000000001
+              ],
+              [
+                -15.975200000000001,
+                13.975200000000001
+              ],
+              [
+                7.975200000000001,
+                -9.975200000000001
+              ],
+              [
+                7.975200000000001,
+                13.975200000000001
+              ]
+            ],
+            "Actual": [
+              {
+                "FaceEntity": 445,
+                "SurfaceEntity": 437,
+                "Radius_mm": 1.5748,
+                "Point_mm": [
+                  7.9752,
+                  13.9752,
+                  14.5
+                ],
+                "Axis": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              {
+                "FaceEntity": 447,
+                "SurfaceEntity": 438,
+                "Radius_mm": 1.5748,
+                "Point_mm": [
+                  7.9752,
+                  -9.9752,
+                  14.5
+                ],
+                "Axis": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              {
+                "FaceEntity": 449,
+                "SurfaceEntity": 439,
+                "Radius_mm": 1.5748,
+                "Point_mm": [
+                  -15.9752,
+                  -9.9752,
+                  14.5
+                ],
+                "Axis": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              },
+              {
+                "FaceEntity": 451,
+                "SurfaceEntity": 440,
+                "Radius_mm": 1.5748,
+                "Point_mm": [
+                  -15.9752,
+                  13.9752,
+                  14.5
+                ],
+                "Axis": [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Check": "Pocket floor analytic plane remains at Z14.5",
+          "Passed": true,
+          "Detail": null
+        },
+        {
+          "Check": "New STEP description states updated pocket parameters",
+          "Passed": true,
+          "Detail": null
+        },
+        {
+          "Check": "No obsolete 1mm pocket-clearance description",
+          "Passed": true,
+          "Detail": null
+        }
+      ],
+      "Passed": true
+    }
+  ],
+  "AllPassed": true,
+  "Limitations": [
+    "The parser checks actual referenced analytic surfaces, not a reconstructed closed solid or face trim domain.",
+    "Explicit B-rep vertex bounds coincide with outer extents for these rectangular mounts; this is not a general curved-surface bounding-box algorithm.",
+    "Native Boolean differences, volumes, corner-face Z extents, and STEP round-trip results remain required independent evidence."
+  ]
+}

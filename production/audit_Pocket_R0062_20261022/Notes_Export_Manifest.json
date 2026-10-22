@@ -1,0 +1,108 @@
+{
+  "Date": "2026-10-21",
+  "OutputDirectory": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062",
+  "NativeRenderer": "Inventor Camera.SaveAsBitmap \u002B System.Drawing annotation",
+  "Parts": [
+    {
+      "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\MRA12_Thin_Edge_Retainer_Flat_Manufacturing.ipt",
+      "STEP": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062\\MRA12_Thin_Edge_Retainer.step",
+      "PNG": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062\\MRA12_Thin_Edge_Retainer.png",
+      "StepSHA256": "2B46D24392C560A71E233916BBE7C3B809A613D409B2285F9E0FE538F10AA1C2",
+      "PngSHA256": "C32640438C52FF3420CF68DABB1BC1F0D14F5679E8BF0C20B576D3187A6DB628",
+      "PhysicalHoleCount": 2,
+      "TapHoleCount": 0,
+      "NoTapHoleCount": 2,
+      "PanelCount": 1,
+      "UnlabeledHoleIds": [],
+      "Labels": [
+        {
+          "HoleId": "RETAINER_-22",
+          "Label": "4-40\nNO TAP",
+          "View": "FLAT SHEET",
+          "Opening": "entry",
+          "AnchorPixel": [
+            344.79052734375,
+            485.7115173339844
+          ]
+        },
+        {
+          "HoleId": "RETAINER_14",
+          "Label": "4-40\nNO TAP",
+          "View": "FLAT SHEET",
+          "Opening": "entry",
+          "AnchorPixel": [
+            1053.9053955078125,
+            411.4856872558594
+          ]
+        }
+      ],
+      "SavedSource": true
+    },
+    {
+      "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\HRS1015_Thin_Edge_Retainer_Flat_Manufacturing.ipt",
+      "STEP": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062\\HRS1015_Thin_Edge_Retainer.step",
+      "PNG": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062\\HRS1015_Thin_Edge_Retainer.png",
+      "StepSHA256": "D3C3F12E6CD65DAF2D53A82599BD715C11E691551BE3057DF984A2494FA48077",
+      "PngSHA256": "2DBA7C37DFA2330768220E48549DDCB55976CC1AACA2EED590043F90090BCE4E",
+      "PhysicalHoleCount": 2,
+      "TapHoleCount": 0,
+      "NoTapHoleCount": 2,
+      "PanelCount": 1,
+      "UnlabeledHoleIds": [],
+      "Labels": [
+        {
+          "HoleId": "RETAINER_-22",
+          "Label": "4-40\nNO TAP",
+          "View": "FLAT SHEET",
+          "Opening": "entry",
+          "AnchorPixel": [
+            347.08331298828125,
+            485.48101806640625
+          ]
+        },
+        {
+          "HoleId": "RETAINER_14",
+          "Label": "4-40\nNO TAP",
+          "View": "FLAT SHEET",
+          "Opening": "entry",
+          "AnchorPixel": [
+            1051.6209716796875,
+            411.7342834472656
+          ]
+        }
+      ],
+      "SavedSource": true
+    },
+    {
+      "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Prism_440_Flat_StopSpacer_0p5mm_Envelope.ipt",
+      "STEP": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062\\Prism_440_Flat_StopShim_0p5mm.step",
+      "PNG": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062\\Prism_440_Flat_StopShim_0p5mm.png",
+      "StepSHA256": "D353A90A74E9F24AFD2F4CD8C7533192C2BB70239E8489D625A42E935F3A38D4",
+      "PngSHA256": "433E3EEA56F0FAC21FC630C379B9F0C639EB8618B19F76EB0A18CD5047E72589",
+      "PhysicalHoleCount": 1,
+      "TapHoleCount": 0,
+      "NoTapHoleCount": 1,
+      "PanelCount": 1,
+      "UnlabeledHoleIds": [],
+      "Labels": [
+        {
+          "HoleId": "CENTER",
+          "Label": "4-40\nNO TAP",
+          "View": "FLAT ANNULAR SHIM",
+          "Opening": "entry",
+          "AnchorPixel": [
+            695.7896728515625,
+            440.951171875
+          ]
+        }
+      ],
+      "SavedSource": true
+    }
+  ],
+  "RemovedTemporaryItems": [
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062\\.render_6253f392b43847cdaf6abac0149e35f8\\HRS1015_Thin_Edge_Retainer_0.png",
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062\\.render_6253f392b43847cdaf6abac0149e35f8\\MRA12_Thin_Edge_Retainer_0.png",
+    "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062\\.render_6253f392b43847cdaf6abac0149e35f8\\Prism_440_Flat_StopShim_0p5mm_0.png"
+  ],
+  "AllHolesLabeled": true
+}
