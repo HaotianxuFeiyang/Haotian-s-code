@@ -1,0 +1,501 @@
+{
+  "Stage": "Complete",
+  "TimestampUtc": "2026-10-22T19:26:01.7332907Z",
+  "TopFile": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Top_Optics.iam",
+  "PlanFile": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Reports\\Top832_Installation_20261022.json",
+  "Failure": null,
+  "TopDirtyBefore": false,
+  "TopDirtyAfter": false,
+  "AllPassed": true,
+  "NativeStudCount": 8,
+  "JointCount": 8,
+  "PlanMatches": 89,
+  "CagePlanMatches": 14,
+  "BooleanCalls": 47,
+  "LeafCount": 138,
+  "BodyCount": 306,
+  "BooleanVolumeTolerance_mm3": 0.002,
+  "Joints": [
+    {
+      "Stand": "A fiber port",
+      "Stud": "FASTENER A fiber port 8-32 x3-8 direct stud",
+      "Post": "A fiber port fixed RS2P8E 50p8mm pedestal",
+      "Optic": "A CP32 8-32 modular collimator carrier",
+      "Spacer": null,
+      "SKU": "94355A192",
+      "OpticThreadBody": 1,
+      "OpticThreadFace": 2,
+      "PostThreadBody": 1,
+      "PostThreadFace": 12,
+      "NativeStudEndsZ_mm": [
+        21.8,
+        31.325000000000003
+      ],
+      "PostSeat_mm": [
+        199.99999999999997,
+        545.5125533670741,
+        26.6
+      ],
+      "OpticSeat_mm": [
+        200.00000000000006,
+        545.5125533670744,
+        26.6
+      ],
+      "StudDiameter_mm": 4.1656,
+      "StudLength_mm": 9.525000000000002,
+      "PostInsertion_mm": 4.800000000000001,
+      "OpticInsertion_mm": 4.725000000000001,
+      "SpacerHeight_mm": 0,
+      "PostThreadAxisOffset_mm": 0,
+      "OpticThreadAxisOffset_mm": 2.428351918216984E-13,
+      "PostSeatError_mm": 0,
+      "OpticSeatError_mm": 0,
+      "SeatContactDistance_mm": 0,
+      "SpacerPostContactDistance_mm": 0,
+      "OfficialPostThreadDepth_mm": 7.6,
+      "PostDepthMargin_mm": 2.799999999999999,
+      "OfficialCP32ThreadDepth_mm": 5.7,
+      "CP32DepthMargin_mm": 0.9749999999999988,
+      "NativeOpticBoreFullDiameterStartZ_mm": 26.854,
+      "NativeOpticBoreFullDiameterEndZ_mm": 32.442,
+      "NativeOpticBoreEndMargin_mm": 1.1169999999999973,
+      "NativePostBoreDiameter_mm": 3.4543999999999953,
+      "NativePostBoreStartZ_mm": 17.71,
+      "NativePostBoreEndZ_mm": 25.838000000000008,
+      "GeometryPassed": true,
+      "Intersections": [
+        {
+          "Other": "A fiber port fixed RS2P8E 50p8mm pedestal",
+          "Classification": "Nominal 8-32 stud major diameter versus native post minor bore; only thread annulus permitted",
+          "Body": 1,
+          "TotalOverlap_mm3": 17.900988845955432,
+          "PermittedThreadAnnulus_mm3": 17.900988845955432,
+          "UnexplainedOverlap_mm3": 0
+        }
+      ],
+      "Issues": []
+    },
+    {
+      "Stand": "A cage front support",
+      "Stud": "FASTENER A cage front support 8-32 x3-8 direct stud",
+      "Post": "A cage front support fixed RS2P8E 50p8mm pedestal",
+      "Optic": "A CP32 8-32 NC lens carrier - sliding on 30mm cage rods",
+      "Spacer": null,
+      "SKU": "94355A192",
+      "OpticThreadBody": 1,
+      "OpticThreadFace": 2,
+      "PostThreadBody": 1,
+      "PostThreadFace": 12,
+      "NativeStudEndsZ_mm": [
+        21.8,
+        31.325000000000003
+      ],
+      "PostSeat_mm": [
+        199.99999999999972,
+        449.1897442288394,
+        26.6
+      ],
+      "OpticSeat_mm": [
+        199.99999999999972,
+        449.1897442288394,
+        26.60000000000001
+      ],
+      "StudDiameter_mm": 4.1656,
+      "StudLength_mm": 9.525000000000002,
+      "PostInsertion_mm": 4.800000000000001,
+      "OpticInsertion_mm": 4.724999999999994,
+      "SpacerHeight_mm": 7.105427357601002E-15,
+      "PostThreadAxisOffset_mm": 0,
+      "OpticThreadAxisOffset_mm": 0,
+      "PostSeatError_mm": 0,
+      "OpticSeatError_mm": 7.105427357601002E-15,
+      "SeatContactDistance_mm": 0,
+      "SpacerPostContactDistance_mm": 0,
+      "OfficialPostThreadDepth_mm": 7.6,
+      "PostDepthMargin_mm": 2.799999999999999,
+      "OfficialCP32ThreadDepth_mm": 5.7,
+      "CP32DepthMargin_mm": 0.9750000000000059,
+      "NativeOpticBoreFullDiameterStartZ_mm": 26.85400000000001,
+      "NativeOpticBoreFullDiameterEndZ_mm": 32.44200000000001,
+      "NativeOpticBoreEndMargin_mm": 1.1170000000000044,
+      "NativePostBoreDiameter_mm": 3.4543999999999953,
+      "NativePostBoreStartZ_mm": 17.71,
+      "NativePostBoreEndZ_mm": 25.838000000000008,
+      "GeometryPassed": true,
+      "Intersections": [
+        {
+          "Other": "A cage front support fixed RS2P8E 50p8mm pedestal",
+          "Classification": "Nominal 8-32 stud major diameter versus native post minor bore; only thread annulus permitted",
+          "Body": 1,
+          "TotalOverlap_mm3": 17.900988845955432,
+          "PermittedThreadAnnulus_mm3": 17.900988845955432,
+          "UnexplainedOverlap_mm3": 0
+        }
+      ],
+      "Issues": []
+    },
+    {
+      "Stand": "B fiber port",
+      "Stud": "FASTENER B fiber port 8-32 x3-8 direct stud",
+      "Post": "B fiber port fixed RS2P8E 50p8mm pedestal",
+      "Optic": "B CP32 8-32 modular collimator carrier",
+      "Spacer": null,
+      "SKU": "94355A192",
+      "OpticThreadBody": 1,
+      "OpticThreadFace": 2,
+      "PostThreadBody": 1,
+      "PostThreadFace": 12,
+      "NativeStudEndsZ_mm": [
+        21.8,
+        31.325000000000003
+      ],
+      "PostSeat_mm": [
+        349.99999999999994,
+        531.3491023042234,
+        26.6
+      ],
+      "OpticSeat_mm": [
+        349.9999999999999,
+        531.3491023042232,
+        26.6
+      ],
+      "StudDiameter_mm": 4.1656,
+      "StudLength_mm": 9.525000000000002,
+      "PostInsertion_mm": 4.800000000000001,
+      "OpticInsertion_mm": 4.725000000000001,
+      "SpacerHeight_mm": 0,
+      "PostThreadAxisOffset_mm": 0,
+      "OpticThreadAxisOffset_mm": 2.3437142008433856E-13,
+      "PostSeatError_mm": 0,
+      "OpticSeatError_mm": 0,
+      "SeatContactDistance_mm": 0,
+      "SpacerPostContactDistance_mm": 0,
+      "OfficialPostThreadDepth_mm": 7.6,
+      "PostDepthMargin_mm": 2.799999999999999,
+      "OfficialCP32ThreadDepth_mm": 5.7,
+      "CP32DepthMargin_mm": 0.9749999999999988,
+      "NativeOpticBoreFullDiameterStartZ_mm": 26.854,
+      "NativeOpticBoreFullDiameterEndZ_mm": 32.442,
+      "NativeOpticBoreEndMargin_mm": 1.1169999999999973,
+      "NativePostBoreDiameter_mm": 3.4543999999999953,
+      "NativePostBoreStartZ_mm": 17.71,
+      "NativePostBoreEndZ_mm": 25.838000000000008,
+      "GeometryPassed": true,
+      "Intersections": [
+        {
+          "Other": "B fiber port fixed RS2P8E 50p8mm pedestal",
+          "Classification": "Nominal 8-32 stud major diameter versus native post minor bore; only thread annulus permitted",
+          "Body": 1,
+          "TotalOverlap_mm3": 17.900988845955432,
+          "PermittedThreadAnnulus_mm3": 17.900988845955432,
+          "UnexplainedOverlap_mm3": 0
+        }
+      ],
+      "Issues": []
+    },
+    {
+      "Stand": "B cage front support",
+      "Stud": "FASTENER B cage front support 8-32 x3-8 direct stud",
+      "Post": "B cage front support fixed RS2P8E 50p8mm pedestal",
+      "Optic": "B CP32 8-32 NC lens carrier - sliding on 30mm cage rods",
+      "Spacer": null,
+      "SKU": "94355A192",
+      "OpticThreadBody": 1,
+      "OpticThreadFace": 2,
+      "PostThreadBody": 1,
+      "PostThreadFace": 12,
+      "NativeStudEndsZ_mm": [
+        21.8,
+        31.325000000000003
+      ],
+      "PostSeat_mm": [
+        349.9999999999997,
+        435.08548765250134,
+        26.6
+      ],
+      "OpticSeat_mm": [
+        349.9999999999997,
+        435.08548765250134,
+        26.599999999999994
+      ],
+      "StudDiameter_mm": 4.1656,
+      "StudLength_mm": 9.525000000000002,
+      "PostInsertion_mm": 4.800000000000001,
+      "OpticInsertion_mm": 4.7250000000000085,
+      "SpacerHeight_mm": -7.105427357601002E-15,
+      "PostThreadAxisOffset_mm": 0,
+      "OpticThreadAxisOffset_mm": 0,
+      "PostSeatError_mm": 0,
+      "OpticSeatError_mm": 7.105427357601002E-15,
+      "SeatContactDistance_mm": 0,
+      "SpacerPostContactDistance_mm": 0,
+      "OfficialPostThreadDepth_mm": 7.6,
+      "PostDepthMargin_mm": 2.799999999999999,
+      "OfficialCP32ThreadDepth_mm": 5.7,
+      "CP32DepthMargin_mm": 0.9749999999999917,
+      "NativeOpticBoreFullDiameterStartZ_mm": 26.853999999999992,
+      "NativeOpticBoreFullDiameterEndZ_mm": 32.44199999999999,
+      "NativeOpticBoreEndMargin_mm": 1.1169999999999902,
+      "NativePostBoreDiameter_mm": 3.4543999999999953,
+      "NativePostBoreStartZ_mm": 17.71,
+      "NativePostBoreEndZ_mm": 25.838000000000008,
+      "GeometryPassed": true,
+      "Intersections": [
+        {
+          "Other": "B cage front support fixed RS2P8E 50p8mm pedestal",
+          "Classification": "Nominal 8-32 stud major diameter versus native post minor bore; only thread annulus permitted",
+          "Body": 1,
+          "TotalOverlap_mm3": 17.900988845955432,
+          "PermittedThreadAnnulus_mm3": 17.900988845955432,
+          "UnexplainedOverlap_mm3": 0
+        }
+      ],
+      "Issues": []
+    },
+    {
+      "Stand": "A steering mirror 1",
+      "Stud": "FASTENER A steering mirror 1 8-32 x5-8 direct stud",
+      "Post": "A steering mirror 1 fixed RS2P8E 50p8mm pedestal",
+      "Optic": "A steering mirror 1 KM05 8-32 on fixed pedestal",
+      "Spacer": "A steering mirror 1 RS5M fixed spacer",
+      "SKU": "94355A198",
+      "OpticThreadBody": 2,
+      "OpticThreadFace": 6,
+      "PostThreadBody": 1,
+      "PostThreadFace": 12,
+      "NativeStudEndsZ_mm": [
+        20.1,
+        35.975
+      ],
+      "PostSeat_mm": [
+        209.39730770061294,
+        305.60269229938694,
+        26.6
+      ],
+      "OpticSeat_mm": [
+        209.39730770061288,
+        305.60269229938694,
+        31.598820076000003
+      ],
+      "StudDiameter_mm": 4.1656,
+      "StudLength_mm": 15.875,
+      "PostInsertion_mm": 6.5,
+      "OpticInsertion_mm": 4.376179923999999,
+      "SpacerHeight_mm": 4.998820076000001,
+      "PostThreadAxisOffset_mm": 0,
+      "OpticThreadAxisOffset_mm": 5.684341886080802E-14,
+      "PostSeatError_mm": 0,
+      "OpticSeatError_mm": 8.881784197001252E-16,
+      "SeatContactDistance_mm": 0,
+      "SpacerPostContactDistance_mm": 0,
+      "OfficialPostThreadDepth_mm": 7.6,
+      "PostDepthMargin_mm": 1.0999999999999996,
+      "OfficialCP32ThreadDepth_mm": 5.7,
+      "CP32DepthMargin_mm": 0,
+      "NativeOpticBoreFullDiameterStartZ_mm": 31.852820075999997,
+      "NativeOpticBoreFullDiameterEndZ_mm": 39.865054492337464,
+      "NativeOpticBoreEndMargin_mm": 3.8900544923374625,
+      "NativePostBoreDiameter_mm": 3.4543999999999953,
+      "NativePostBoreStartZ_mm": 17.71,
+      "NativePostBoreEndZ_mm": 25.838000000000008,
+      "GeometryPassed": true,
+      "Intersections": [
+        {
+          "Other": "A steering mirror 1 fixed RS2P8E 50p8mm pedestal",
+          "Classification": "Nominal 8-32 stud major diameter versus native post minor bore; only thread annulus permitted",
+          "Body": 1,
+          "TotalOverlap_mm3": 25.136771647467743,
+          "PermittedThreadAnnulus_mm3": 25.136771647467743,
+          "UnexplainedOverlap_mm3": 0
+        }
+      ],
+      "Issues": []
+    },
+    {
+      "Stand": "A steering mirror 2",
+      "Stud": "FASTENER A steering mirror 2 8-32 x5-8 direct stud",
+      "Post": "A steering mirror 2 fixed RS2P8E 50p8mm pedestal",
+      "Optic": "A steering mirror 2 KM05 8-32 on fixed pedestal",
+      "Spacer": "A steering mirror 2 RS4M fixed spacer",
+      "SKU": "94355A198",
+      "OpticThreadBody": 2,
+      "OpticThreadFace": 7,
+      "PostThreadBody": 1,
+      "PostThreadFace": 12,
+      "NativeStudEndsZ_mm": [
+        20.1,
+        35.975
+      ],
+      "PostSeat_mm": [
+        -10.599389228630205,
+        323.1952261725957,
+        26.6
+      ],
+      "OpticSeat_mm": [
+        -10.599389228630171,
+        323.19522617259565,
+        30.600000000000005
+      ],
+      "StudDiameter_mm": 4.1656,
+      "StudLength_mm": 15.875,
+      "PostInsertion_mm": 6.5,
+      "OpticInsertion_mm": 5.3749999999999964,
+      "SpacerHeight_mm": 4.0000000000000036,
+      "PostThreadAxisOffset_mm": 0,
+      "OpticThreadAxisOffset_mm": 6.61081645103266E-14,
+      "PostSeatError_mm": 0,
+      "OpticSeatError_mm": 3.552713678800501E-15,
+      "SeatContactDistance_mm": 0,
+      "SpacerPostContactDistance_mm": 0,
+      "OfficialPostThreadDepth_mm": 7.6,
+      "PostDepthMargin_mm": 1.0999999999999996,
+      "OfficialCP32ThreadDepth_mm": 5.7,
+      "CP32DepthMargin_mm": 0,
+      "NativeOpticBoreFullDiameterStartZ_mm": 30.854,
+      "NativeOpticBoreFullDiameterEndZ_mm": 38.86623441633746,
+      "NativeOpticBoreEndMargin_mm": 2.8912344163374613,
+      "NativePostBoreDiameter_mm": 3.4543999999999953,
+      "NativePostBoreStartZ_mm": 17.71,
+      "NativePostBoreEndZ_mm": 25.838000000000008,
+      "GeometryPassed": true,
+      "Intersections": [
+        {
+          "Other": "A steering mirror 2 fixed RS2P8E 50p8mm pedestal",
+          "Classification": "Nominal 8-32 stud major diameter versus native post minor bore; only thread annulus permitted",
+          "Body": 1,
+          "TotalOverlap_mm3": 25.136771647467743,
+          "PermittedThreadAnnulus_mm3": 25.136771647467743,
+          "UnexplainedOverlap_mm3": 0
+        }
+      ],
+      "Issues": []
+    },
+    {
+      "Stand": "B steering mirror 1",
+      "Stud": "FASTENER B steering mirror 1 8-32 x5-8 direct stud",
+      "Post": "B steering mirror 1 fixed RS2P8E 50p8mm pedestal",
+      "Optic": "B steering mirror 1 KM05 8-32 on fixed pedestal",
+      "Spacer": "B steering mirror 1 RS5M fixed spacer",
+      "SKU": "94355A198",
+      "OpticThreadBody": 2,
+      "OpticThreadFace": 6,
+      "PostThreadBody": 1,
+      "PostThreadFace": 12,
+      "NativeStudEndsZ_mm": [
+        20.1,
+        35.975
+      ],
+      "PostSeat_mm": [
+        359.469581720955,
+        370.53041141396363,
+        26.6
+      ],
+      "OpticSeat_mm": [
+        359.4695817209549,
+        370.53041141396363,
+        31.598820076
+      ],
+      "StudDiameter_mm": 4.1656,
+      "StudLength_mm": 15.875,
+      "PostInsertion_mm": 6.5,
+      "OpticInsertion_mm": 4.376179924000002,
+      "SpacerHeight_mm": 4.998820075999998,
+      "PostThreadAxisOffset_mm": 0,
+      "OpticThreadAxisOffset_mm": 5.684341886080802E-14,
+      "PostSeatError_mm": 0,
+      "OpticSeatError_mm": 2.6645352591003757E-15,
+      "SeatContactDistance_mm": 0,
+      "SpacerPostContactDistance_mm": 0,
+      "OfficialPostThreadDepth_mm": 7.6,
+      "PostDepthMargin_mm": 1.0999999999999996,
+      "OfficialCP32ThreadDepth_mm": 5.7,
+      "CP32DepthMargin_mm": 0,
+      "NativeOpticBoreFullDiameterStartZ_mm": 31.852820075999997,
+      "NativeOpticBoreFullDiameterEndZ_mm": 39.865054492337464,
+      "NativeOpticBoreEndMargin_mm": 3.8900544923374625,
+      "NativePostBoreDiameter_mm": 3.4543999999999953,
+      "NativePostBoreStartZ_mm": 17.71,
+      "NativePostBoreEndZ_mm": 25.838000000000008,
+      "GeometryPassed": true,
+      "Intersections": [
+        {
+          "Other": "B steering mirror 1 fixed RS2P8E 50p8mm pedestal",
+          "Classification": "Nominal 8-32 stud major diameter versus native post minor bore; only thread annulus permitted",
+          "Body": 1,
+          "TotalOverlap_mm3": 25.136771647467743,
+          "PermittedThreadAnnulus_mm3": 25.136771647467743,
+          "UnexplainedOverlap_mm3": 0
+        }
+      ],
+      "Issues": []
+    },
+    {
+      "Stand": "B steering mirror 2",
+      "Stud": "FASTENER B steering mirror 2 8-32 x3-8 direct stud",
+      "Post": "B steering mirror 2 fixed RS2P8E 50p8mm pedestal",
+      "Optic": "B steering mirror 2 KM05 8-32 on fixed pedestal",
+      "Spacer": null,
+      "SKU": "94355A192",
+      "OpticThreadBody": 2,
+      "OpticThreadFace": 6,
+      "PostThreadBody": 1,
+      "PostThreadFace": 12,
+      "NativeStudEndsZ_mm": [
+        21.8,
+        31.325000000000003
+      ],
+      "PostSeat_mm": [
+        -2.8751185790510547,
+        389.3231131436235,
+        26.6
+      ],
+      "OpticSeat_mm": [
+        -2.8751185790510423,
+        389.3231131436235,
+        26.599999999999998
+      ],
+      "StudDiameter_mm": 4.1656,
+      "StudLength_mm": 9.525000000000002,
+      "PostInsertion_mm": 4.800000000000001,
+      "OpticInsertion_mm": 4.725000000000005,
+      "SpacerHeight_mm": -3.552713678800501E-15,
+      "PostThreadAxisOffset_mm": 0,
+      "OpticThreadAxisOffset_mm": 1.2434497875801753E-14,
+      "PostSeatError_mm": 0,
+      "OpticSeatError_mm": 3.552713678800501E-15,
+      "SeatContactDistance_mm": 0,
+      "SpacerPostContactDistance_mm": 0,
+      "OfficialPostThreadDepth_mm": 7.6,
+      "PostDepthMargin_mm": 2.799999999999999,
+      "OfficialCP32ThreadDepth_mm": 5.7,
+      "CP32DepthMargin_mm": 0,
+      "NativeOpticBoreFullDiameterStartZ_mm": 26.853999999999996,
+      "NativeOpticBoreFullDiameterEndZ_mm": 34.86623441633746,
+      "NativeOpticBoreEndMargin_mm": 3.54123441633746,
+      "NativePostBoreDiameter_mm": 3.4543999999999953,
+      "NativePostBoreStartZ_mm": 17.71,
+      "NativePostBoreEndZ_mm": 25.838000000000008,
+      "GeometryPassed": true,
+      "Intersections": [
+        {
+          "Other": "B steering mirror 2 fixed RS2P8E 50p8mm pedestal",
+          "Classification": "Nominal 8-32 stud major diameter versus native post minor bore; only thread annulus permitted",
+          "Body": 1,
+          "TotalOverlap_mm3": 17.900988845955432,
+          "PermittedThreadAnnulus_mm3": 17.900988845955432,
+          "UnexplainedOverlap_mm3": 0
+        }
+      ],
+      "Issues": []
+    }
+  ],
+  "Errors": [],
+  "Warnings": [],
+  "Limitations": [
+    "Nominal CAD geometry only: no strength, tightening torque, preload or manufacturer thread class certification.",
+    "RS2P8E official 8-32 tap depth 7.6 mm and CP32 official 8-32 tap depth 5.7 mm are treated conservatively; source models can include a deeper pilot drill.",
+    "Studs are nominal major-diameter cylinders. Only overlap inside an explicitly measured mating tap\u0027s annular thread envelope is permitted; all other solid overlap is reported.",
+    "The supplier post STEP uses the 8-32 minor drill diameter. Actual helical threads and screw tip chamfers are not modeled, so nominal insertion includes incomplete first threads.",
+    "This entry point audits eight top post studs and seating. Cage rod lock overlap is a separate entry point/report."
+  ]
+}

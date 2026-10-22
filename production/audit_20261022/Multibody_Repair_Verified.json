@@ -1,0 +1,4989 @@
+{
+  "BoundsTolerance_mm": 0.0001,
+  "Passed": true,
+  "VolumeTolerance_mm3": 0.005,
+  "Runs": [
+    "Multibody_Repair_Native_V3.json",
+    "Multibody_Repair_Native_V4.json"
+  ],
+  "Parts": [
+    {
+      "Name": "CP32_832_OpenBody_20261022",
+      "Target": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Corrected\\CP32_832_OpenBody_20261022.ipt",
+      "TargetSHA256": "c7705d8b610c9def0e336e089890e7e3bae89a4db264e1368ae5485b42547780",
+      "STEP": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\Native_Derivatives_Verified\\CP32_832_OpenBody_20261022.step",
+      "STEPSHA256": "5024ef9ab75865b6ab5e7aa238099086fe64dd96b190aa91ef543e7d9c88ab8b",
+      "TemporaryAssembly": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\CP32_832_OpenBody_20261022\\CP32_832_OpenBody_20261022_source_bodies.iam",
+      "ExpectedBodyCount": 5,
+      "NativeBodyCount": 5,
+      "Passed": true,
+      "SourceFilesUnchanged": true,
+      "Bodies": [
+        {
+          "RequestedOrder": 1,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CP32.ipt",
+          "SourceSHA256": "ca8b0840b9aaf661aded724addbd8be872d4d48d617d41087f78d3c8bb649e60",
+          "SourceIndex": 1,
+          "SourceBodyName": "实体1",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -20.320000000000014,
+              -20.319999999999993,
+              -4.444999999999999,
+              20.319999999999986,
+              20.32,
+              4.444999999999999
+            ],
+            "Volume_mm3": 11703.033397232222,
+            "Faces": 299,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\CP32_832_OpenBody_20261022\\body_001.ipt",
+          "ImportedIndex": 1,
+          "ImportedBodyName": "实体1",
+          "Imported": {
+            "Bounds_mm": [
+              -20.32,
+              -20.32,
+              -4.445,
+              20.32,
+              20.32,
+              4.445
+            ],
+            "Volume_mm3": 11703.033341190938,
+            "Faces": 297,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.4210854715202004E-14,
+          "VolumeError_mm3": 5.604128455161117E-05
+        },
+        {
+          "RequestedOrder": 2,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CP32.ipt",
+          "SourceSHA256": "ca8b0840b9aaf661aded724addbd8be872d4d48d617d41087f78d3c8bb649e60",
+          "SourceIndex": 2,
+          "SourceBodyName": "实体2",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              15.319999999999986,
+              8.7696,
+              -1.9999999999999991,
+              20.319999999999993,
+              12.7696,
+              2.0000000000000013
+            ],
+            "Volume_mm3": 43.68960750274982,
+            "Faces": 24,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\CP32_832_OpenBody_20261022\\body_002.ipt",
+          "ImportedIndex": 2,
+          "ImportedBodyName": "实体2",
+          "Imported": {
+            "Bounds_mm": [
+              15.32,
+              8.7696,
+              -1.9999999999999991,
+              20.32,
+              12.7696,
+              2.0000000000000013
+            ],
+            "Volume_mm3": 43.68960750274975,
+            "Faces": 24,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.4210854715202004E-14,
+          "VolumeError_mm3": 7.105427357601002E-14
+        },
+        {
+          "RequestedOrder": 3,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CP32.ipt",
+          "SourceSHA256": "ca8b0840b9aaf661aded724addbd8be872d4d48d617d41087f78d3c8bb649e60",
+          "SourceIndex": 3,
+          "SourceBodyName": "实体3",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              15.319999999999986,
+              -12.769600000000004,
+              -2.0000000000000027,
+              20.319999999999993,
+              -8.7696,
+              2.000000000000001
+            ],
+            "Volume_mm3": 43.689607502749844,
+            "Faces": 24,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\CP32_832_OpenBody_20261022\\body_003.ipt",
+          "ImportedIndex": 3,
+          "ImportedBodyName": "实体3",
+          "Imported": {
+            "Bounds_mm": [
+              15.32,
+              -12.7696,
+              -2.000000000000001,
+              20.32,
+              -8.769600000000002,
+              1.9999999999999993
+            ],
+            "Volume_mm3": 43.68960750274972,
+            "Faces": 24,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.4210854715202004E-14,
+          "VolumeError_mm3": 1.2079226507921703E-13
+        },
+        {
+          "RequestedOrder": 4,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CP32.ipt",
+          "SourceSHA256": "ca8b0840b9aaf661aded724addbd8be872d4d48d617d41087f78d3c8bb649e60",
+          "SourceIndex": 4,
+          "SourceBodyName": "实体4",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -20.319999999999993,
+              -12.769600000000004,
+              -2.000000000000003,
+              -15.319999999999986,
+              -8.7696,
+              2.0000000000000004
+            ],
+            "Volume_mm3": 43.68960750274984,
+            "Faces": 24,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\CP32_832_OpenBody_20261022\\body_004.ipt",
+          "ImportedIndex": 4,
+          "ImportedBodyName": "实体4",
+          "Imported": {
+            "Bounds_mm": [
+              -20.32,
+              -12.7696,
+              -2.0000000000000013,
+              -15.32,
+              -8.769600000000002,
+              1.9999999999999987
+            ],
+            "Volume_mm3": 43.68960750274972,
+            "Faces": 24,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.4210854715202004E-14,
+          "VolumeError_mm3": 1.1368683772161603E-13
+        },
+        {
+          "RequestedOrder": 5,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CP32.ipt",
+          "SourceSHA256": "ca8b0840b9aaf661aded724addbd8be872d4d48d617d41087f78d3c8bb649e60",
+          "SourceIndex": 5,
+          "SourceBodyName": "实体5",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -20.319999999999993,
+              8.7696,
+              -1.9999999999999996,
+              -15.319999999999986,
+              12.7696,
+              2.000000000000001
+            ],
+            "Volume_mm3": 43.68960750274982,
+            "Faces": 24,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\CP32_832_OpenBody_20261022\\body_005.ipt",
+          "ImportedIndex": 5,
+          "ImportedBodyName": "实体5",
+          "Imported": {
+            "Bounds_mm": [
+              -20.32,
+              8.7696,
+              -1.9999999999999996,
+              -15.32,
+              12.7696,
+              2.000000000000001
+            ],
+            "Volume_mm3": 43.68960750274977,
+            "Faces": 24,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.4210854715202004E-14,
+          "VolumeError_mm3": 4.973799150320701E-14
+        }
+      ],
+      "ImportedSignatures": [
+        {
+          "Bounds_mm": [
+            -20.32,
+            -20.32,
+            -4.445,
+            20.32,
+            20.32,
+            4.445
+          ],
+          "Volume_mm3": 11703.033341190938,
+          "Faces": 297,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            15.32,
+            8.7696,
+            -1.9999999999999991,
+            20.32,
+            12.7696,
+            2.0000000000000013
+          ],
+          "Volume_mm3": 43.68960750274975,
+          "Faces": 24,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            15.32,
+            -12.7696,
+            -2.000000000000001,
+            20.32,
+            -8.769600000000002,
+            1.9999999999999993
+          ],
+          "Volume_mm3": 43.68960750274972,
+          "Faces": 24,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -20.32,
+            -12.7696,
+            -2.0000000000000013,
+            -15.32,
+            -8.769600000000002,
+            1.9999999999999987
+          ],
+          "Volume_mm3": 43.68960750274972,
+          "Faces": 24,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -20.32,
+            8.7696,
+            -1.9999999999999996,
+            -15.32,
+            12.7696,
+            2.000000000000001
+          ],
+          "Volume_mm3": 43.68960750274977,
+          "Faces": 24,
+          "Solid": true
+        }
+      ],
+      "AppearanceWarnings": [],
+      "Acceptance": {
+        "BoundsTolerance_mm": 0.0001,
+        "VolumeTolerance_mm3": 0.001,
+        "FaceCountRequired": false,
+        "MeasuredFaceCountsMatching": 4
+      }
+    },
+    {
+      "Name": "CP33_M_RingsRemoved_20261022",
+      "Target": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Corrected\\CP33_M_RingsRemoved_20261022.ipt",
+      "TargetSHA256": "fff507edcb9fb9baa2d6cfffb275fb6411948a2f7edc56647aa33020122823ea",
+      "STEP": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\Native_Derivatives_Verified\\CP33_M_RingsRemoved_20261022.step",
+      "STEPSHA256": "4562fed11d5d483e3298d9cf97862629a52f3f9c5c4ae9a7fa407cdb174c0a9b",
+      "TemporaryAssembly": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\CP33_M_RingsRemoved_20261022\\CP33_M_RingsRemoved_20261022_source_bodies.iam",
+      "ExpectedBodyCount": 5,
+      "NativeBodyCount": 5,
+      "Passed": true,
+      "SourceFilesUnchanged": true,
+      "Bodies": [
+        {
+          "RequestedOrder": 1,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CP33_M.ipt",
+          "SourceSHA256": "8d8fecff3cfdd4f8d3414e15455de52f7324bbb02ae680f5f77588f6a4deb0b5",
+          "SourceIndex": 1,
+          "SourceBodyName": "实体1",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -20.320000000000014,
+              -20.319999999999993,
+              -4.444999999999999,
+              20.319999999999986,
+              20.32,
+              4.444999999999999
+            ],
+            "Volume_mm3": 8177.634506024965,
+            "Faces": 331,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\CP33_M_RingsRemoved_20261022\\body_001.ipt",
+          "ImportedIndex": 1,
+          "ImportedBodyName": "实体1",
+          "Imported": {
+            "Bounds_mm": [
+              -20.32,
+              -20.32,
+              -4.445,
+              20.32,
+              20.32,
+              4.445
+            ],
+            "Volume_mm3": 8177.634410040681,
+            "Faces": 329,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.4210854715202004E-14,
+          "VolumeError_mm3": 9.598428368917666E-05
+        },
+        {
+          "RequestedOrder": 2,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CP33_M.ipt",
+          "SourceSHA256": "8d8fecff3cfdd4f8d3414e15455de52f7324bbb02ae680f5f77588f6a4deb0b5",
+          "SourceIndex": 2,
+          "SourceBodyName": "实体2",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              15.319999999999986,
+              8.7696,
+              -1.9999999999999991,
+              20.319999999999993,
+              12.7696,
+              2.0000000000000013
+            ],
+            "Volume_mm3": 43.68960750274982,
+            "Faces": 24,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\CP33_M_RingsRemoved_20261022\\body_002.ipt",
+          "ImportedIndex": 2,
+          "ImportedBodyName": "实体2",
+          "Imported": {
+            "Bounds_mm": [
+              15.32,
+              8.7696,
+              -1.9999999999999991,
+              20.32,
+              12.7696,
+              2.0000000000000013
+            ],
+            "Volume_mm3": 43.68960750274975,
+            "Faces": 24,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.4210854715202004E-14,
+          "VolumeError_mm3": 7.105427357601002E-14
+        },
+        {
+          "RequestedOrder": 3,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CP33_M.ipt",
+          "SourceSHA256": "8d8fecff3cfdd4f8d3414e15455de52f7324bbb02ae680f5f77588f6a4deb0b5",
+          "SourceIndex": 3,
+          "SourceBodyName": "实体3",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              15.319999999999986,
+              -12.769600000000004,
+              -2.0000000000000027,
+              20.319999999999993,
+              -8.7696,
+              2.000000000000001
+            ],
+            "Volume_mm3": 43.689607502749844,
+            "Faces": 24,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\CP33_M_RingsRemoved_20261022\\body_003.ipt",
+          "ImportedIndex": 3,
+          "ImportedBodyName": "实体3",
+          "Imported": {
+            "Bounds_mm": [
+              15.32,
+              -12.7696,
+              -2.000000000000001,
+              20.32,
+              -8.769600000000002,
+              1.9999999999999993
+            ],
+            "Volume_mm3": 43.68960750274972,
+            "Faces": 24,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.4210854715202004E-14,
+          "VolumeError_mm3": 1.2079226507921703E-13
+        },
+        {
+          "RequestedOrder": 4,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CP33_M.ipt",
+          "SourceSHA256": "8d8fecff3cfdd4f8d3414e15455de52f7324bbb02ae680f5f77588f6a4deb0b5",
+          "SourceIndex": 4,
+          "SourceBodyName": "实体4",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -20.319999999999993,
+              -12.769600000000004,
+              -2.000000000000003,
+              -15.319999999999986,
+              -8.7696,
+              2.0000000000000004
+            ],
+            "Volume_mm3": 43.68960750274984,
+            "Faces": 24,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\CP33_M_RingsRemoved_20261022\\body_004.ipt",
+          "ImportedIndex": 4,
+          "ImportedBodyName": "实体4",
+          "Imported": {
+            "Bounds_mm": [
+              -20.32,
+              -12.7696,
+              -2.0000000000000013,
+              -15.32,
+              -8.769600000000002,
+              1.9999999999999987
+            ],
+            "Volume_mm3": 43.68960750274972,
+            "Faces": 24,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.4210854715202004E-14,
+          "VolumeError_mm3": 1.1368683772161603E-13
+        },
+        {
+          "RequestedOrder": 5,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CP33_M.ipt",
+          "SourceSHA256": "8d8fecff3cfdd4f8d3414e15455de52f7324bbb02ae680f5f77588f6a4deb0b5",
+          "SourceIndex": 5,
+          "SourceBodyName": "实体5",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -20.319999999999993,
+              8.7696,
+              -1.9999999999999996,
+              -15.319999999999986,
+              12.7696,
+              2.000000000000001
+            ],
+            "Volume_mm3": 43.68960750274982,
+            "Faces": 24,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\CP33_M_RingsRemoved_20261022\\body_005.ipt",
+          "ImportedIndex": 5,
+          "ImportedBodyName": "实体5",
+          "Imported": {
+            "Bounds_mm": [
+              -20.32,
+              8.7696,
+              -1.9999999999999996,
+              -15.32,
+              12.7696,
+              2.000000000000001
+            ],
+            "Volume_mm3": 43.68960750274977,
+            "Faces": 24,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.4210854715202004E-14,
+          "VolumeError_mm3": 4.973799150320701E-14
+        }
+      ],
+      "ImportedSignatures": [
+        {
+          "Bounds_mm": [
+            -20.32,
+            -20.32,
+            -4.445,
+            20.32,
+            20.32,
+            4.445
+          ],
+          "Volume_mm3": 8177.634410040681,
+          "Faces": 329,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            15.32,
+            8.7696,
+            -1.9999999999999991,
+            20.32,
+            12.7696,
+            2.0000000000000013
+          ],
+          "Volume_mm3": 43.68960750274975,
+          "Faces": 24,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            15.32,
+            -12.7696,
+            -2.000000000000001,
+            20.32,
+            -8.769600000000002,
+            1.9999999999999993
+          ],
+          "Volume_mm3": 43.68960750274972,
+          "Faces": 24,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -20.32,
+            -12.7696,
+            -2.0000000000000013,
+            -15.32,
+            -8.769600000000002,
+            1.9999999999999987
+          ],
+          "Volume_mm3": 43.68960750274972,
+          "Faces": 24,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -20.32,
+            8.7696,
+            -1.9999999999999996,
+            -15.32,
+            12.7696,
+            2.000000000000001
+          ],
+          "Volume_mm3": 43.68960750274977,
+          "Faces": 24,
+          "Solid": true
+        }
+      ],
+      "AppearanceWarnings": [],
+      "Acceptance": {
+        "BoundsTolerance_mm": 0.0001,
+        "VolumeTolerance_mm3": 0.001,
+        "FaceCountRequired": false,
+        "MeasuredFaceCountsMatching": 4
+      }
+    },
+    {
+      "Name": "LCP33_InnerGrubsRemoved_20261022",
+      "Target": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Corrected\\LCP33_InnerGrubsRemoved_20261022.ipt",
+      "TargetSHA256": "61cec5fa82ecae17feeea90432ed33d391ae29c908405041a06a303393568d05",
+      "STEP": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\Native_Derivatives_Verified\\LCP33_InnerGrubsRemoved_20261022.step",
+      "STEPSHA256": "e48d3c70ba039e2ad44f48e6c8fdaac7a714fbf0c4ed329aec9db6ca4a8a5a6c",
+      "TemporaryAssembly": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\LCP33_InnerGrubsRemoved_20261022\\LCP33_InnerGrubsRemoved_20261022_source_bodies.iam",
+      "ExpectedBodyCount": 5,
+      "NativeBodyCount": 5,
+      "Passed": true,
+      "SourceFilesUnchanged": true,
+      "Bodies": [
+        {
+          "RequestedOrder": 1,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_LCP33.ipt",
+          "SourceSHA256": "9bdd49843ac6be5fca6d070c874f7ebb324728cbd59031fb4871b52dfa92ee0f",
+          "SourceIndex": 1,
+          "SourceBodyName": "实体1",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -8.609309901724657,
+              8.342565356882105,
+              43.05241521713935,
+              62.00269009827534,
+              78.95456535688209,
+              55.75241521713935
+            ],
+            "Volume_mm3": 26266.632748938184,
+            "Faces": 363,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\LCP33_InnerGrubsRemoved_20261022\\body_001.ipt",
+          "ImportedIndex": 1,
+          "ImportedBodyName": "实体1",
+          "Imported": {
+            "Bounds_mm": [
+              -8.60930990172466,
+              8.3425653568821,
+              43.052415217139306,
+              62.0026900982753,
+              78.9545653568821,
+              55.75241521713941
+            ],
+            "Volume_mm3": 26266.632496895378,
+            "Faces": 363,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 5.684341886080802E-14,
+          "VolumeError_mm3": 0.00025204280609614216
+        },
+        {
+          "RequestedOrder": 2,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_LCP33.ipt",
+          "SourceSHA256": "9bdd49843ac6be5fca6d070c874f7ebb324728cbd59031fb4871b52dfa92ee0f",
+          "SourceIndex": 2,
+          "SourceBodyName": "实体2",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              58.00269009827534,
+              15.892965356882087,
+              47.40241521713934,
+              62.00269009827532,
+              19.892965356882087,
+              51.40241521713933
+            ],
+            "Volume_mm3": 31.120945342710083,
+            "Faces": 23,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\LCP33_InnerGrubsRemoved_20261022\\body_002.ipt",
+          "ImportedIndex": 2,
+          "ImportedBodyName": "实体2",
+          "Imported": {
+            "Bounds_mm": [
+              58.00269009827531,
+              15.892965356882103,
+              47.4024152171393,
+              62.0026900982711,
+              19.892965356882105,
+              51.40241521713931
+            ],
+            "Volume_mm3": 31.12098004012833,
+            "Faces": 23,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 4.220623850414995E-12,
+          "VolumeError_mm3": 3.469741824702055E-05
+        },
+        {
+          "RequestedOrder": 3,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_LCP33.ipt",
+          "SourceSHA256": "9bdd49843ac6be5fca6d070c874f7ebb324728cbd59031fb4871b52dfa92ee0f",
+          "SourceIndex": 5,
+          "SourceBodyName": "实体5",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              58.002690098275345,
+              67.4041653568821,
+              47.40241521713933,
+              62.00269009827534,
+              71.40416535688209,
+              51.40241521713933
+            ],
+            "Volume_mm3": 31.121237710804625,
+            "Faces": 23,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\LCP33_InnerGrubsRemoved_20261022\\body_003.ipt",
+          "ImportedIndex": 3,
+          "ImportedBodyName": "实体3",
+          "Imported": {
+            "Bounds_mm": [
+              58.00269009827531,
+              67.4041653568821,
+              47.4024152171393,
+              62.0026900982711,
+              71.4041653568821,
+              51.40241521713929
+            ],
+            "Volume_mm3": 31.120993935435404,
+            "Faces": 23,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 4.234834705130197E-12,
+          "VolumeError_mm3": 0.00024377536922060017
+        },
+        {
+          "RequestedOrder": 4,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_LCP33.ipt",
+          "SourceSHA256": "9bdd49843ac6be5fca6d070c874f7ebb324728cbd59031fb4871b52dfa92ee0f",
+          "SourceIndex": 6,
+          "SourceBodyName": "实体6",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -8.609309901724657,
+              67.4041653568821,
+              47.4024152171393,
+              -4.6093099017246555,
+              71.40416535688209,
+              51.40241521713931
+            ],
+            "Volume_mm3": 31.12123106108916,
+            "Faces": 23,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\LCP33_InnerGrubsRemoved_20261022\\body_004.ipt",
+          "ImportedIndex": 4,
+          "ImportedBodyName": "实体4",
+          "Imported": {
+            "Bounds_mm": [
+              -8.60930990172039,
+              67.4041653568821,
+              47.40241521713931,
+              -4.60930990172466,
+              71.40416535688212,
+              51.40241521713931
+            ],
+            "Volume_mm3": 31.120991607618585,
+            "Faces": 23,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 4.266809128239402E-12,
+          "VolumeError_mm3": 0.0002394534705736362
+        },
+        {
+          "RequestedOrder": 5,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_LCP33.ipt",
+          "SourceSHA256": "9bdd49843ac6be5fca6d070c874f7ebb324728cbd59031fb4871b52dfa92ee0f",
+          "SourceIndex": 9,
+          "SourceBodyName": "实体9",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -8.609309901724657,
+              15.892965356882092,
+              47.40241521713933,
+              -4.6093099017246555,
+              19.89296535688209,
+              51.40241521713933
+            ],
+            "Volume_mm3": 31.121230944642427,
+            "Faces": 23,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192059_477_75b32052\\LCP33_InnerGrubsRemoved_20261022\\body_005.ipt",
+          "ImportedIndex": 5,
+          "ImportedBodyName": "实体5",
+          "Imported": {
+            "Bounds_mm": [
+              -8.60930990172039,
+              15.892965356882101,
+              47.4024152171393,
+              -4.60930990172466,
+              19.8929653568821,
+              51.40241521713931
+            ],
+            "Volume_mm3": 31.120993280467374,
+            "Faces": 23,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 4.266809128239402E-12,
+          "VolumeError_mm3": 0.00023766417505299842
+        }
+      ],
+      "ImportedSignatures": [
+        {
+          "Bounds_mm": [
+            -8.60930990172466,
+            8.3425653568821,
+            43.052415217139306,
+            62.0026900982753,
+            78.9545653568821,
+            55.75241521713941
+          ],
+          "Volume_mm3": 26266.632496895378,
+          "Faces": 363,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            58.00269009827531,
+            15.892965356882103,
+            47.4024152171393,
+            62.0026900982711,
+            19.892965356882105,
+            51.40241521713931
+          ],
+          "Volume_mm3": 31.12098004012833,
+          "Faces": 23,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            58.00269009827531,
+            67.4041653568821,
+            47.4024152171393,
+            62.0026900982711,
+            71.4041653568821,
+            51.40241521713929
+          ],
+          "Volume_mm3": 31.120993935435404,
+          "Faces": 23,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -8.60930990172039,
+            67.4041653568821,
+            47.40241521713931,
+            -4.60930990172466,
+            71.40416535688212,
+            51.40241521713931
+          ],
+          "Volume_mm3": 31.120991607618585,
+          "Faces": 23,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -8.60930990172039,
+            15.892965356882101,
+            47.4024152171393,
+            -4.60930990172466,
+            19.8929653568821,
+            51.40241521713931
+          ],
+          "Volume_mm3": 31.120993280467374,
+          "Faces": 23,
+          "Solid": true
+        }
+      ],
+      "AppearanceWarnings": [],
+      "Acceptance": {
+        "BoundsTolerance_mm": 0.0001,
+        "VolumeTolerance_mm3": 0.001,
+        "FaceCountRequired": false,
+        "MeasuredFaceCountsMatching": 5
+      }
+    },
+    {
+      "Name": "CRM1T_M_OpenBody_20261022",
+      "Target": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Corrected\\CRM1T_M_OpenBody_20261022.ipt",
+      "TargetSHA256": "83cfa67d81bb2a92ea49b43d1fb26d633a5dbba530858dbb8c64a83d5a2a1f2d",
+      "STEP": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\Native_Derivatives_Continuation\\CRM1T_M_OpenBody_20261022.step",
+      "STEPSHA256": "658714dc390a17f88bbba716bcefdeabe02dd0e40ba0790f59b251a874b3a6a6",
+      "TemporaryAssembly": null,
+      "ReusedSTEP": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\Native_Derivatives_Verified\\CRM1T_M_OpenBody_20261022.step",
+      "ReusedSTEPSHA256": "658714dc390a17f88bbba716bcefdeabe02dd0e40ba0790f59b251a874b3a6a6",
+      "ExpectedBodyCount": 8,
+      "NativeBodyCount": 8,
+      "Passed": true,
+      "SourceFilesUnchanged": true,
+      "Bodies": [
+        {
+          "RequestedOrder": 1,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CRM1T_M.ipt",
+          "SourceSHA256": "6f56864a6cb98559928cab1cafe16cc535b8b8757544f355b85af812d2e44ec4",
+          "SourceIndex": 1,
+          "SourceBodyName": "实体1",
+          "Matrix_cm": [
+            0,
+            0,
+            1,
+            0.77216,
+            0,
+            1,
+            0,
+            2.032,
+            -1,
+            0,
+            0,
+            0.47575393713824,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -0.2159000000000133,
+              -2.032000000000007,
+              -15.562460628617591,
+              8.42010000000002,
+              40.63999999999999,
+              25.07753937138249
+            ],
+            "Volume_mm3": 5844.270647340604,
+            "Faces": 115,
+            "Solid": true
+          },
+          "TemporaryPart": null,
+          "ImportedIndex": 1,
+          "ImportedBodyName": "实体1",
+          "Imported": {
+            "Bounds_mm": [
+              -0.21590000000001103,
+              -2.03200000000001,
+              -15.5624606286176,
+              8.42010000000002,
+              40.64,
+              25.077539371382507
+            ],
+            "Volume_mm3": 5844.270400351492,
+            "Faces": 115,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.7763568394002505E-14,
+          "VolumeError_mm3": 0.0002469891123837442
+        },
+        {
+          "RequestedOrder": 2,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CRM1T_M.ipt",
+          "SourceSHA256": "6f56864a6cb98559928cab1cafe16cc535b8b8757544f355b85af812d2e44ec4",
+          "SourceIndex": 2,
+          "SourceBodyName": "实体2",
+          "Matrix_cm": [
+            0,
+            0,
+            1,
+            0.77216,
+            0,
+            1,
+            0,
+            2.032,
+            -1,
+            0,
+            0,
+            0.47575393713824,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              2.2986999999999913,
+              2.3495,
+              -13.212960628617589,
+              15.760699999999996,
+              38.2905,
+              22.728039371382415
+            ],
+            "Volume_mm3": 4484.265622104492,
+            "Faces": 1774,
+            "Solid": true
+          },
+          "TemporaryPart": null,
+          "ImportedIndex": 2,
+          "ImportedBodyName": "实体2",
+          "Imported": {
+            "Bounds_mm": [
+              2.2987,
+              2.3494999999999977,
+              -13.21296062861759,
+              15.7607,
+              38.29050000000001,
+              22.7280393713824
+            ],
+            "Volume_mm3": 4484.265647116849,
+            "Faces": 1774,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.4210854715202004E-14,
+          "VolumeError_mm3": 2.501235758245457E-05
+        },
+        {
+          "RequestedOrder": 3,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CRM1T_M.ipt",
+          "SourceSHA256": "6f56864a6cb98559928cab1cafe16cc535b8b8757544f355b85af812d2e44ec4",
+          "SourceIndex": 3,
+          "SourceBodyName": "实体3",
+          "Matrix_cm": [
+            0,
+            0,
+            1,
+            0.77216,
+            0,
+            1,
+            0,
+            2.032,
+            -1,
+            0,
+            0,
+            0.47575393713824,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -0.21590000000000442,
+              3.4289999999999954,
+              -12.133460628617584,
+              4.102099999999996,
+              37.211,
+              21.648539371382416
+            ],
+            "Volume_mm3": 1152.3357808378557,
+            "Faces": 17,
+            "Solid": true
+          },
+          "TemporaryPart": null,
+          "ImportedIndex": 3,
+          "ImportedBodyName": "实体3",
+          "Imported": {
+            "Bounds_mm": [
+              -0.215900000000004,
+              3.429000000000002,
+              -12.1334606286176,
+              4.1021,
+              37.211,
+              21.648539371382405
+            ],
+            "Volume_mm3": 1152.335780837857,
+            "Faces": 17,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.5987211554602254E-14,
+          "VolumeError_mm3": 1.3642420526593924E-12
+        },
+        {
+          "RequestedOrder": 4,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CRM1T_M.ipt",
+          "SourceSHA256": "6f56864a6cb98559928cab1cafe16cc535b8b8757544f355b85af812d2e44ec4",
+          "SourceIndex": 5,
+          "SourceBodyName": "实体5",
+          "Matrix_cm": [
+            0,
+            0,
+            1,
+            0.77216,
+            0,
+            1,
+            0,
+            2.032,
+            -1,
+            0,
+            0,
+            0.47575393713824,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              2.864099999999989,
+              18.319999999999993,
+              -15.562460628617591,
+              6.864099999999999,
+              22.32,
+              -10.36246062861759
+            ],
+            "Volume_mm3": 38.12602864782207,
+            "Faces": 28,
+            "Solid": true
+          },
+          "TemporaryPart": null,
+          "ImportedIndex": 4,
+          "ImportedBodyName": "实体4",
+          "Imported": {
+            "Bounds_mm": [
+              2.8640999999999894,
+              18.32,
+              -15.5624606286173,
+              6.864099999999992,
+              22.319999999999997,
+              -10.362460628617601
+            ],
+            "Volume_mm3": 38.127278723330676,
+            "Faces": 28,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 2.913225216616411E-13,
+          "VolumeError_mm3": 0.0012500755086080062
+        },
+        {
+          "RequestedOrder": 5,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CRM1T_M.ipt",
+          "SourceSHA256": "6f56864a6cb98559928cab1cafe16cc535b8b8757544f355b85af812d2e44ec4",
+          "SourceIndex": 6,
+          "SourceBodyName": "实体6",
+          "Matrix_cm": [
+            0,
+            0,
+            1,
+            0.77216,
+            0,
+            1,
+            0,
+            2.032,
+            -1,
+            0,
+            0,
+            0.47575393713824,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              2.102099999999997,
+              29.078170000000007,
+              20.077539371382407,
+              6.1021,
+              33.07817000000001,
+              25.077539371382414
+            ],
+            "Volume_mm3": 41.07462024408887,
+            "Faces": 23,
+            "Solid": true
+          },
+          "TemporaryPart": null,
+          "ImportedIndex": 5,
+          "ImportedBodyName": "实体5",
+          "Imported": {
+            "Bounds_mm": [
+              2.102100000000001,
+              29.07817,
+              20.0775393713824,
+              6.102100000000002,
+              33.07817000000001,
+              25.0775393713824
+            ],
+            "Volume_mm3": 41.07419462431806,
+            "Faces": 23,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.4210854715202004E-14,
+          "VolumeError_mm3": 0.0004256197708087939
+        },
+        {
+          "RequestedOrder": 6,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CRM1T_M.ipt",
+          "SourceSHA256": "6f56864a6cb98559928cab1cafe16cc535b8b8757544f355b85af812d2e44ec4",
+          "SourceIndex": 7,
+          "SourceBodyName": "实体7",
+          "Matrix_cm": [
+            0,
+            0,
+            1,
+            0.77216,
+            0,
+            1,
+            0,
+            2.032,
+            -1,
+            0,
+            0,
+            0.47575393713824,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              2.1020999999999974,
+              7.538969999999998,
+              20.077539371382407,
+              6.1021,
+              11.538970000000003,
+              25.077539371382418
+            ],
+            "Volume_mm3": 41.074620244088784,
+            "Faces": 23,
+            "Solid": true
+          },
+          "TemporaryPart": null,
+          "ImportedIndex": 6,
+          "ImportedBodyName": "实体6",
+          "Imported": {
+            "Bounds_mm": [
+              2.1020999999999996,
+              7.538970000000002,
+              20.0775393713824,
+              6.1021,
+              11.538970000000003,
+              25.0775393713824
+            ],
+            "Volume_mm3": 41.07419462518582,
+            "Faces": 23,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.7763568394002505E-14,
+          "VolumeError_mm3": 0.00042561890296610727
+        },
+        {
+          "RequestedOrder": 7,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CRM1T_M.ipt",
+          "SourceSHA256": "6f56864a6cb98559928cab1cafe16cc535b8b8757544f355b85af812d2e44ec4",
+          "SourceIndex": 8,
+          "SourceBodyName": "实体8",
+          "Matrix_cm": [
+            0,
+            0,
+            1,
+            0.77216,
+            0,
+            1,
+            0,
+            2.032,
+            -1,
+            0,
+            0,
+            0.47575393713824,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              2.1020999999999814,
+              29.078170000000007,
+              -15.562460628617597,
+              6.102099999999986,
+              33.07817000000001,
+              -10.562460628617584
+            ],
+            "Volume_mm3": 41.07462024408921,
+            "Faces": 23,
+            "Solid": true
+          },
+          "TemporaryPart": null,
+          "ImportedIndex": 7,
+          "ImportedBodyName": "实体7",
+          "Imported": {
+            "Bounds_mm": [
+              2.1020999999999845,
+              29.078170000000007,
+              -15.5624606286176,
+              6.102099999999987,
+              33.07817,
+              -10.5624606286176
+            ],
+            "Volume_mm3": 41.07419462519475,
+            "Faces": 23,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.5987211554602254E-14,
+          "VolumeError_mm3": 0.0004256188944609107
+        },
+        {
+          "RequestedOrder": 8,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CRM1T_M.ipt",
+          "SourceSHA256": "6f56864a6cb98559928cab1cafe16cc535b8b8757544f355b85af812d2e44ec4",
+          "SourceIndex": 9,
+          "SourceBodyName": "实体9",
+          "Matrix_cm": [
+            0,
+            0,
+            1,
+            0.77216,
+            0,
+            1,
+            0,
+            2.032,
+            -1,
+            0,
+            0,
+            0.47575393713824,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              2.1020999999999863,
+              7.538969999999995,
+              -15.562460628617597,
+              6.10209999999999,
+              11.538969999999997,
+              -10.562460628617584
+            ],
+            "Volume_mm3": 41.07462024408832,
+            "Faces": 23,
+            "Solid": true
+          },
+          "TemporaryPart": null,
+          "ImportedIndex": 8,
+          "ImportedBodyName": "实体8",
+          "Imported": {
+            "Bounds_mm": [
+              2.1020999999999845,
+              7.538970000000002,
+              -15.5624606286176,
+              6.102099999999986,
+              11.538970000000003,
+              -10.5624606286176
+            ],
+            "Volume_mm3": 41.074194625183125,
+            "Faces": 23,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.5987211554602254E-14,
+          "VolumeError_mm3": 0.00042561890519721146
+        }
+      ],
+      "ImportedSignatures": [
+        {
+          "Bounds_mm": [
+            -0.21590000000001103,
+            -2.03200000000001,
+            -15.5624606286176,
+            8.42010000000002,
+            40.64,
+            25.077539371382507
+          ],
+          "Volume_mm3": 5844.270400351492,
+          "Faces": 115,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            2.2987,
+            2.3494999999999977,
+            -13.21296062861759,
+            15.7607,
+            38.29050000000001,
+            22.7280393713824
+          ],
+          "Volume_mm3": 4484.265647116849,
+          "Faces": 1774,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -0.215900000000004,
+            3.429000000000002,
+            -12.1334606286176,
+            4.1021,
+            37.211,
+            21.648539371382405
+          ],
+          "Volume_mm3": 1152.335780837857,
+          "Faces": 17,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            2.8640999999999894,
+            18.32,
+            -15.5624606286173,
+            6.864099999999992,
+            22.319999999999997,
+            -10.362460628617601
+          ],
+          "Volume_mm3": 38.127278723330676,
+          "Faces": 28,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            2.102100000000001,
+            29.07817,
+            20.0775393713824,
+            6.102100000000002,
+            33.07817000000001,
+            25.0775393713824
+          ],
+          "Volume_mm3": 41.07419462431806,
+          "Faces": 23,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            2.1020999999999996,
+            7.538970000000002,
+            20.0775393713824,
+            6.1021,
+            11.538970000000003,
+            25.0775393713824
+          ],
+          "Volume_mm3": 41.07419462518582,
+          "Faces": 23,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            2.1020999999999845,
+            29.078170000000007,
+            -15.5624606286176,
+            6.102099999999987,
+            33.07817,
+            -10.5624606286176
+          ],
+          "Volume_mm3": 41.07419462519475,
+          "Faces": 23,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            2.1020999999999845,
+            7.538970000000002,
+            -15.5624606286176,
+            6.102099999999986,
+            11.538970000000003,
+            -10.5624606286176
+          ],
+          "Volume_mm3": 41.074194625183125,
+          "Faces": 23,
+          "Solid": true
+        }
+      ],
+      "AppearanceWarnings": [],
+      "Acceptance": {
+        "BoundsTolerance_mm": 0.0001,
+        "VolumeTolerance_mm3": 0.005,
+        "FaceCountRequired": true,
+        "MeasuredFaceCountsMatching": 8
+      }
+    },
+    {
+      "Name": "Thorlabs_KM05_832_Adjusted_B1_20261022",
+      "Target": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Corrected\\Thorlabs_KM05_832_Adjusted_B1_20261022.ipt",
+      "TargetSHA256": "89552053c2e438cb4e24aedee66e3afc10074812d768054f4cddf7ec48dca996",
+      "STEP": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\Native_Derivatives_Continuation\\Thorlabs_KM05_832_Adjusted_B1_20261022.step",
+      "STEPSHA256": "3bb1db695215dcdc624414e23ee49305fe5f353df835832eac0aebc24bd66bca",
+      "TemporaryAssembly": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\Thorlabs_KM05_832_Adjusted_B1_20261022_source_bodies.iam",
+      "ReusedSTEP": null,
+      "ReusedSTEPSHA256": null,
+      "ExpectedBodyCount": 23,
+      "NativeBodyCount": 23,
+      "Passed": true,
+      "SourceFilesUnchanged": true,
+      "Bodies": [
+        {
+          "RequestedOrder": 1,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 1,
+          "SourceBodyName": "实体1",
+          "Matrix_cm": [
+            0.9999999988723748,
+            -2.3140531775398877E-07,
+            -4.748891223824271E-05,
+            -2.177418920745744E-05,
+            -2.3140531775398877E-07,
+            0.999952512215387,
+            -0.009745425289999794,
+            -0.00446838481176548,
+            4.748891223824271E-05,
+            0.009745425289999794,
+            0.9999525110877617,
+            0.010065471803635262,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -13.330644449645437,
+              -14.539088641982172,
+              -3.8972879230091677,
+              15.117640284430287,
+              13.96696325227782,
+              3.4827955945831763
+            ],
+            "Volume_mm3": 2849.04075604336,
+            "Faces": 162,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_001.ipt",
+          "ImportedIndex": 1,
+          "ImportedBodyName": "实体1",
+          "Imported": {
+            "Bounds_mm": [
+              -13.330644449645401,
+              -14.5390886419822,
+              -3.89728792300917,
+              15.117640284430301,
+              13.9669632522778,
+              3.4827955945831808
+            ],
+            "Volume_mm3": 2849.0407560432996,
+            "Faces": 162,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.552713678800501E-14,
+          "VolumeError_mm3": 6.048139766789973E-11
+        },
+        {
+          "RequestedOrder": 2,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 2,
+          "SourceBodyName": "实体2",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -13.584298615799897,
+              -15.230368203993896,
+              -13.310373889704671,
+              15.8797013842001,
+              14.233631796006101,
+              -5.436373889704672
+            ],
+            "Volume_mm3": 2135.5478421662324,
+            "Faces": 123,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_002.ipt",
+          "ImportedIndex": 2,
+          "ImportedBodyName": "实体2",
+          "Imported": {
+            "Bounds_mm": [
+              -13.584298615799902,
+              -15.230368203993901,
+              -13.310373889704701,
+              15.8797013842001,
+              14.233631796006101,
+              -5.43637388970467
+            ],
+            "Volume_mm3": 2135.547842166306,
+            "Faces": 123,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.019806626980426E-14,
+          "VolumeError_mm3": 7.366907084360719E-11
+        },
+        {
+          "RequestedOrder": 3,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 3,
+          "SourceBodyName": "实体3",
+          "Matrix_cm": [
+            0.9999999988723748,
+            -2.3140531775398877E-07,
+            -4.748891223824271E-05,
+            -2.177418920745744E-05,
+            -2.3140531775398877E-07,
+            0.999952512215387,
+            -0.009745425289999794,
+            -0.00446838481176548,
+            4.748891223824271E-05,
+            0.009745425289999794,
+            0.9999525110877617,
+            0.010065471803635262,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              7.86589005243694,
+              6.197217510472976,
+              -2.810637198485911,
+              14.241322613573677,
+              12.579016262360936,
+              -1.6854514642751135
+            ],
+            "Volume_mm3": 33.44826002776697,
+            "Faces": 4,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_003.ipt",
+          "ImportedIndex": 3,
+          "ImportedBodyName": "实体3",
+          "Imported": {
+            "Bounds_mm": [
+              7.8658900524369315,
+              6.197217510472979,
+              -2.8106375673178463,
+              14.241322613573658,
+              12.579016262360803,
+              -1.685451464275112
+            ],
+            "Volume_mm3": 33.44826002776705,
+            "Faces": 4,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.688319352157521E-07,
+          "VolumeError_mm3": 7.815970093361102E-14
+        },
+        {
+          "RequestedOrder": 4,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 4,
+          "SourceBodyName": "实体4",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -3.5830486157998926,
+              -15.230368203993832,
+              -12.834123889704692,
+              -1.9955486157998976,
+              -7.2928682039938995,
+              -11.246623889704694
+            ],
+            "Volume_mm3": 15.529106865344374,
+            "Faces": 5,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_004.ipt",
+          "ImportedIndex": 4,
+          "ImportedBodyName": "实体4",
+          "Imported": {
+            "Bounds_mm": [
+              -3.583048615799898,
+              -15.2303682039938,
+              -12.834123889704701,
+              -1.995548615799902,
+              -7.292868203993881,
+              -11.246623889704704
+            ],
+            "Volume_mm3": 15.52910686534437,
+            "Faces": 5,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.197442310920451E-14,
+          "VolumeError_mm3": 5.329070518200751E-15
+        },
+        {
+          "RequestedOrder": 5,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 5,
+          "SourceBodyName": "实体5",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              4.2909513842001035,
+              -15.23036820399382,
+              -12.834123889704689,
+              5.8784513842000985,
+              -7.292868203993889,
+              -11.246623889704692
+            ],
+            "Volume_mm3": 15.529106865344366,
+            "Faces": 5,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_005.ipt",
+          "ImportedIndex": 5,
+          "ImportedBodyName": "实体5",
+          "Imported": {
+            "Bounds_mm": [
+              4.290951384200102,
+              -15.2303682039938,
+              -12.834123889704701,
+              5.8784513842000985,
+              -7.292868203993871,
+              -11.246623889704704
+            ],
+            "Volume_mm3": 15.529106865344382,
+            "Faces": 5,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.9539925233402755E-14,
+          "VolumeError_mm3": 1.5987211554602254E-14
+        },
+        {
+          "RequestedOrder": 6,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 6,
+          "SourceBodyName": "实体6",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              7.942201384200102,
+              -5.229118203993877,
+              -12.834123889704669,
+              15.879701384200033,
+              -3.6416182039938794,
+              -11.246623889704674
+            ],
+            "Volume_mm3": 15.529106865344312,
+            "Faces": 5,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_006.ipt",
+          "ImportedIndex": 6,
+          "ImportedBodyName": "实体6",
+          "Imported": {
+            "Bounds_mm": [
+              7.9422013842000805,
+              -5.229118203993877,
+              -12.8341238897047,
+              15.879701384200002,
+              -3.6416182039939,
+              -11.246623889704704
+            ],
+            "Volume_mm3": 15.529106865344344,
+            "Faces": 5,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.019806626980426E-14,
+          "VolumeError_mm3": 3.197442310920451E-14
+        },
+        {
+          "RequestedOrder": 7,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 7,
+          "SourceBodyName": "实体7",
+          "Matrix_cm": [
+            0.9999999988723748,
+            -2.3140531775398877E-07,
+            -4.748891223824271E-05,
+            -2.177418920745744E-05,
+            -2.3140531775398877E-07,
+            0.999952512215387,
+            -0.009745425289999794,
+            -0.00446838481176548,
+            4.748891223824271E-05,
+            0.009745425289999794,
+            0.9999525110877617,
+            0.010065471803635262,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -7.812595580704972,
+              3.197682775839379,
+              -2.2369555797445617,
+              -2.5905765098184883,
+              8.419673696362633,
+              1.9456548977061938
+            ],
+            "Volume_mm3": 40.32261118099249,
+            "Faces": 20,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_007.ipt",
+          "ImportedIndex": 7,
+          "ImportedBodyName": "实体7",
+          "Imported": {
+            "Bounds_mm": [
+              -7.812595580704973,
+              3.197682775839383,
+              -2.2369555797445626,
+              -2.590576509818485,
+              8.419673696362635,
+              1.9456548977061963
+            ],
+            "Volume_mm3": 40.322611180992524,
+            "Faces": 20,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.9968028886505635E-15,
+          "VolumeError_mm3": 3.552713678800501E-14
+        },
+        {
+          "RequestedOrder": 8,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 8,
+          "SourceBodyName": "实体8",
+          "Matrix_cm": [
+            0.9999999988723748,
+            -2.3140531775398877E-07,
+            -4.748891223824271E-05,
+            -2.177418920745744E-05,
+            -2.3140531775398877E-07,
+            0.999952512215387,
+            -0.009745425289999794,
+            -0.00446838481176548,
+            4.748891223824271E-05,
+            0.009745425289999794,
+            0.9999525110877617,
+            0.010065471803635262,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -4.046956242519426,
+              -11.734999066660016,
+              -3.1100770152481716,
+              -1.5320788151296216,
+              -9.16358570489896,
+              3.25917660054603
+            ],
+            "Volume_mm3": 26.90257902125664,
+            "Faces": 12,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_008.ipt",
+          "ImportedIndex": 8,
+          "ImportedBodyName": "实体8",
+          "Imported": {
+            "Bounds_mm": [
+              -4.046956242519391,
+              -11.73499906666004,
+              -3.110077131334722,
+              -1.5320788151295883,
+              -9.163585704898962,
+              3.259176716632571
+            ],
+            "Volume_mm3": 26.90257902125671,
+            "Faces": 12,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.1608655059447415E-07,
+          "VolumeError_mm3": 7.105427357601002E-14
+        },
+        {
+          "RequestedOrder": 9,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 9,
+          "SourceBodyName": "实体9",
+          "Matrix_cm": [
+            0.9999999988723748,
+            -2.3140531775398877E-07,
+            -4.748891223824271E-05,
+            -2.177418920745744E-05,
+            -2.3140531775398877E-07,
+            0.999952512215387,
+            -0.009745425289999794,
+            -0.00446838481176548,
+            4.748891223824271E-05,
+            0.009745425289999794,
+            0.9999525110877617,
+            0.010065471803635262,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              3.827104059520195,
+              -11.722624198627189,
+              -4.379642776634665,
+              6.341981486909999,
+              -9.151210836866133,
+              1.9896108391595368
+            ],
+            "Volume_mm3": 26.902579021256653,
+            "Faces": 12,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_009.ipt",
+          "ImportedIndex": 9,
+          "ImportedBodyName": "实体9",
+          "Imported": {
+            "Bounds_mm": [
+              3.82710405952023,
+              -11.72262419862724,
+              -4.379642892721212,
+              6.341981486910031,
+              -9.151210836866161,
+              1.9896109552460812
+            ],
+            "Volume_mm3": 26.90257902125665,
+            "Faces": 12,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.1608654748584968E-07,
+          "VolumeError_mm3": 3.552713678800501E-15
+        },
+        {
+          "RequestedOrder": 10,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 10,
+          "SourceBodyName": "实体10",
+          "Matrix_cm": [
+            0.9999999988723748,
+            -2.3140531775398877E-07,
+            -4.748891223824271E-05,
+            -2.177418920745744E-05,
+            -2.3140531775398877E-07,
+            0.999952512215387,
+            -0.009745425289999794,
+            -0.00446838481176548,
+            4.748891223824271E-05,
+            0.009745425289999794,
+            0.9999525110877617,
+            0.010065471803635262,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              9.796102671531063,
+              -5.753909034471889,
+              -4.321179966578684,
+              12.3109800989209,
+              -3.18249567271083,
+              2.0480558388498733
+            ],
+            "Volume_mm3": 26.902579021256674,
+            "Faces": 12,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_010.ipt",
+          "ImportedIndex": 10,
+          "ImportedBodyName": "实体10",
+          "Imported": {
+            "Bounds_mm": [
+              9.796102671531031,
+              -5.75390903447189,
+              -4.321188987848052,
+              12.310980098920872,
+              -3.18249567271083,
+              2.0480648601192417
+            ],
+            "Volume_mm3": 26.902579021256674,
+            "Faces": 12,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 9.021269368414409E-06,
+          "VolumeError_mm3": 0
+        },
+        {
+          "RequestedOrder": 11,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 11,
+          "SourceBodyName": "实体11",
+          "Matrix_cm": [
+            0.9999999988723748,
+            -2.3140531775398877E-07,
+            -4.748891223824271E-05,
+            -2.177418920745744E-05,
+            -2.3140531775398877E-07,
+            0.999952512215387,
+            -0.009745425289999794,
+            -0.00446838481176548,
+            4.748891223824271E-05,
+            0.009745425289999794,
+            0.9999525110877617,
+            0.010065471803635262,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              9.796040538527045,
+              2.107340356593768,
+              -2.974513703946589,
+              12.31091796591685,
+              4.678753718354828,
+              3.3947399118476125
+            ],
+            "Volume_mm3": 26.90257902125669,
+            "Faces": 12,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_011.ipt",
+          "ImportedIndex": 11,
+          "ImportedBodyName": "实体11",
+          "Imported": {
+            "Bounds_mm": [
+              9.79604053852708,
+              2.1073403565937703,
+              -2.9745138200331316,
+              12.31091796591687,
+              4.67875371835483,
+              3.3947400279341617
+            ],
+            "Volume_mm3": 26.902579021256695,
+            "Faces": 12,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.1608654926220652E-07,
+          "VolumeError_mm3": 3.552713678800501E-15
+        },
+        {
+          "RequestedOrder": 12,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 14,
+          "SourceBodyName": "实体14",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              7.942201384200102,
+              2.644881796006124,
+              -12.834123889704674,
+              15.879701384200033,
+              4.232381796006122,
+              -11.24662388970468
+            ],
+            "Volume_mm3": 15.529106865344328,
+            "Faces": 5,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_012.ipt",
+          "ImportedIndex": 12,
+          "ImportedBodyName": "实体12",
+          "Imported": {
+            "Bounds_mm": [
+              7.9422013842000805,
+              2.644881796006123,
+              -12.8341238897047,
+              15.879701384200002,
+              4.2323817960061,
+              -11.246623889704704
+            ],
+            "Volume_mm3": 15.529106865344346,
+            "Faces": 5,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.019806626980426E-14,
+          "VolumeError_mm3": 1.7763568394002505E-14
+        },
+        {
+          "RequestedOrder": 13,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 15,
+          "SourceBodyName": "实体15",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              9.466201384200087,
+              -11.991868203993878,
+              -6.122173889704657,
+              12.641201384200084,
+              -8.816868203993879,
+              -2.9471738897046555
+            ],
+            "Volume_mm3": 16.75829423056829,
+            "Faces": 1,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_013.ipt",
+          "ImportedIndex": 13,
+          "ImportedBodyName": "实体13",
+          "Imported": {
+            "Bounds_mm": [
+              9.466201384200101,
+              -11.991868203993901,
+              -6.12217388970466,
+              12.6412013842001,
+              -8.816868203993902,
+              -2.94717388970466
+            ],
+            "Volume_mm3": 16.75829423056829,
+            "Faces": 1,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 2.3092638912203256E-14,
+          "VolumeError_mm3": 0
+        },
+        {
+          "RequestedOrder": 14,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 16,
+          "SourceBodyName": "实体16",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -12.187298615799909,
+              -13.833368203993865,
+              -14.072373889704684,
+              -5.329298615799926,
+              -6.975368203993884,
+              -5.436373889704664
+            ],
+            "Volume_mm3": 121.70489975466359,
+            "Faces": 7,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_014.ipt",
+          "ImportedIndex": 14,
+          "ImportedBodyName": "实体14",
+          "Imported": {
+            "Bounds_mm": [
+              -12.18729861579991,
+              -13.833368203993892,
+              -14.072373889704702,
+              -5.329298615799929,
+              -6.97536820399388,
+              -5.43637388970466
+            ],
+            "Volume_mm3": 121.70489975466442,
+            "Faces": 7,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 2.6645352591003757E-14,
+          "VolumeError_mm3": 8.384404281969182E-13
+        },
+        {
+          "RequestedOrder": 15,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 17,
+          "SourceBodyName": "实体17",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              7.62470138420011,
+              5.978631796006113,
+              -14.072373889704684,
+              14.482701384200091,
+              12.836631796006097,
+              -5.436373889704664
+            ],
+            "Volume_mm3": 121.70489975466359,
+            "Faces": 7,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_015.ipt",
+          "ImportedIndex": 15,
+          "ImportedBodyName": "实体15",
+          "Imported": {
+            "Bounds_mm": [
+              7.62470138420011,
+              5.97863179600612,
+              -14.072373889704702,
+              14.482701384200091,
+              12.836631796006102,
+              -5.43637388970466
+            ],
+            "Volume_mm3": 121.70489975466437,
+            "Faces": 7,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.7763568394002505E-14,
+          "VolumeError_mm3": 7.815970093361102E-13
+        },
+        {
+          "RequestedOrder": 16,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 12,
+          "SourceBodyName": "实体12",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0.01930843289825136,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              8.672451384200102,
+              7.026381796006107,
+              -15.47948956072213,
+              13.434951384200101,
+              11.788881796006104,
+              -3.922489560722131
+            ],
+            "Volume_mm3": 172.0262629207409,
+            "Faces": 28,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_016.ipt",
+          "ImportedIndex": 16,
+          "ImportedBodyName": "实体16",
+          "Imported": {
+            "Bounds_mm": [
+              8.6724513842001,
+              7.02638179600611,
+              -15.479489560722302,
+              13.434951384200101,
+              11.788881796006109,
+              -3.922489560722131
+            ],
+            "Volume_mm3": 172.0262629207135,
+            "Faces": 28,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.723066134218243E-13,
+          "VolumeError_mm3": 2.7398527890909463E-11
+        },
+        {
+          "RequestedOrder": 17,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 13,
+          "SourceBodyName": "实体13",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            -0.00010972619871608901,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -11.139548615799917,
+              -12.785618203993877,
+              -15.673484377481346,
+              -6.377048615799916,
+              -8.023118203993876,
+              -4.116484377481346
+            ],
+            "Volume_mm3": 172.02626292074322,
+            "Faces": 28,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_017.ipt",
+          "ImportedIndex": 17,
+          "ImportedBodyName": "实体17",
+          "Imported": {
+            "Bounds_mm": [
+              -11.139548615799919,
+              -12.7856182039939,
+              -15.6734843774814,
+              -6.37704861579992,
+              -8.023118203993901,
+              -4.116484377481351
+            ],
+            "Volume_mm3": 172.02626292071545,
+            "Faces": 28,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 5.3290705182007514E-14,
+          "VolumeError_mm3": 2.7768010113504715E-11
+        },
+        {
+          "RequestedOrder": 18,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 18,
+          "SourceBodyName": "实体18",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              9.478901384200103,
+              1.8638317960061048,
+              -13.615174017728862,
+              12.628501384200103,
+              5.013431796006107,
+              0.635765869399012
+            ],
+            "Volume_mm3": 35.734656742172966,
+            "Faces": 12,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_018.ipt",
+          "ImportedIndex": 18,
+          "ImportedBodyName": "实体18",
+          "Imported": {
+            "Bounds_mm": [
+              9.478901384200105,
+              1.863831796006109,
+              -13.61517401772889,
+              12.628501384200108,
+              5.0134317960061106,
+              0.635765869399012
+            ],
+            "Volume_mm3": 35.73540569635442,
+            "Faces": 12,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 2.842170943040401E-14,
+          "VolumeError_mm3": 0.0007489541814535983
+        },
+        {
+          "RequestedOrder": 19,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 19,
+          "SourceBodyName": "实体19",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              9.478901384200103,
+              -6.010168203993894,
+              -13.615174017728862,
+              12.628501384200103,
+              -2.8605682039938927,
+              0.635765869399012
+            ],
+            "Volume_mm3": 35.73465674229289,
+            "Faces": 12,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_019.ipt",
+          "ImportedIndex": 19,
+          "ImportedBodyName": "实体19",
+          "Imported": {
+            "Bounds_mm": [
+              9.478901384200105,
+              -6.01016820399389,
+              -13.61517401772889,
+              12.628501384200108,
+              -2.86056820399389,
+              0.635765869399012
+            ],
+            "Volume_mm3": 35.73512684973348,
+            "Faces": 12,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 2.842170943040401E-14,
+          "VolumeError_mm3": 0.0004701074405915051
+        },
+        {
+          "RequestedOrder": 20,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 20,
+          "SourceBodyName": "实体20",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              3.5099013842000986,
+              -11.9791682039939,
+              -13.615174017728862,
+              6.6595013842001,
+              -8.829568203993897,
+              0.6357658693990098
+            ],
+            "Volume_mm3": 35.73465674221036,
+            "Faces": 12,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_020.ipt",
+          "ImportedIndex": 20,
+          "ImportedBodyName": "实体20",
+          "Imported": {
+            "Bounds_mm": [
+              3.5099013842001003,
+              -11.979168203993861,
+              -13.61517401772889,
+              6.659501384200102,
+              -8.829568203993896,
+              0.635765869399012
+            ],
+            "Volume_mm3": 35.73510213118516,
+            "Faces": 12,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.907985046680551E-14,
+          "VolumeError_mm3": 0.00044538897479640127
+        },
+        {
+          "RequestedOrder": 21,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 21,
+          "SourceBodyName": "实体21",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -4.364098615799897,
+              -11.9791682039939,
+              -13.615174017728862,
+              -1.2144986157998954,
+              -8.8295682039939,
+              0.6357658693990098
+            ],
+            "Volume_mm3": 35.734656755716344,
+            "Faces": 12,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_021.ipt",
+          "ImportedIndex": 21,
+          "ImportedBodyName": "实体21",
+          "Imported": {
+            "Bounds_mm": [
+              -4.3640986157999,
+              -11.979168203993861,
+              -13.61517401772889,
+              -1.2144986157998998,
+              -8.829568203993896,
+              0.635765869399012
+            ],
+            "Volume_mm3": 35.73432431571451,
+            "Faces": 12,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.907985046680551E-14,
+          "VolumeError_mm3": 0.0003324400018342999
+        },
+        {
+          "RequestedOrder": 22,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 22,
+          "SourceBodyName": "实体22",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0.01930843289825136,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              9.466201384200101,
+              7.8201317960061045,
+              -5.9544895607221315,
+              12.6412013842001,
+              10.995131796006106,
+              -2.7794895607221317
+            ],
+            "Volume_mm3": 16.758294230568286,
+            "Faces": 1,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_022.ipt",
+          "ImportedIndex": 22,
+          "ImportedBodyName": "实体22",
+          "Imported": {
+            "Bounds_mm": [
+              9.466201384200101,
+              7.820131796006109,
+              -5.954489560722131,
+              12.6412013842001,
+              10.99513179600611,
+              -2.7794895607221304
+            ],
+            "Volume_mm3": 16.758294230568286,
+            "Faces": 1,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 4.440892098500626E-15,
+          "VolumeError_mm3": 0
+        },
+        {
+          "RequestedOrder": 23,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 23,
+          "SourceBodyName": "实体23",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            -0.00010972619871608901,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -10.345798615799914,
+              -11.991868203993883,
+              -6.14848437748135,
+              -7.170798615799914,
+              -8.816868203993884,
+              -2.97348437748135
+            ],
+            "Volume_mm3": 16.75829423056829,
+            "Faces": 1,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B1_20261022\\body_023.ipt",
+          "ImportedIndex": 23,
+          "ImportedBodyName": "实体23",
+          "Imported": {
+            "Bounds_mm": [
+              -10.345798615799911,
+              -11.991868203993901,
+              -6.148484377481349,
+              -7.170798615799912,
+              -8.816868203993902,
+              -2.9734843774813497
+            ],
+            "Volume_mm3": 16.75829423056829,
+            "Faces": 1,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.7763568394002505E-14,
+          "VolumeError_mm3": 0
+        }
+      ],
+      "ImportedSignatures": [
+        {
+          "Bounds_mm": [
+            -13.330644449645401,
+            -14.5390886419822,
+            -3.89728792300917,
+            15.117640284430301,
+            13.9669632522778,
+            3.4827955945831808
+          ],
+          "Volume_mm3": 2849.0407560432996,
+          "Faces": 162,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -13.584298615799902,
+            -15.230368203993901,
+            -13.310373889704701,
+            15.8797013842001,
+            14.233631796006101,
+            -5.43637388970467
+          ],
+          "Volume_mm3": 2135.547842166306,
+          "Faces": 123,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            7.8658900524369315,
+            6.197217510472979,
+            -2.8106375673178463,
+            14.241322613573658,
+            12.579016262360803,
+            -1.685451464275112
+          ],
+          "Volume_mm3": 33.44826002776705,
+          "Faces": 4,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -3.583048615799898,
+            -15.2303682039938,
+            -12.834123889704701,
+            -1.995548615799902,
+            -7.292868203993881,
+            -11.246623889704704
+          ],
+          "Volume_mm3": 15.52910686534437,
+          "Faces": 5,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            4.290951384200102,
+            -15.2303682039938,
+            -12.834123889704701,
+            5.8784513842000985,
+            -7.292868203993871,
+            -11.246623889704704
+          ],
+          "Volume_mm3": 15.529106865344382,
+          "Faces": 5,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            7.9422013842000805,
+            -5.229118203993877,
+            -12.8341238897047,
+            15.879701384200002,
+            -3.6416182039939,
+            -11.246623889704704
+          ],
+          "Volume_mm3": 15.529106865344344,
+          "Faces": 5,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -7.812595580704973,
+            3.197682775839383,
+            -2.2369555797445626,
+            -2.590576509818485,
+            8.419673696362635,
+            1.9456548977061963
+          ],
+          "Volume_mm3": 40.322611180992524,
+          "Faces": 20,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -4.046956242519391,
+            -11.73499906666004,
+            -3.110077131334722,
+            -1.5320788151295883,
+            -9.163585704898962,
+            3.259176716632571
+          ],
+          "Volume_mm3": 26.90257902125671,
+          "Faces": 12,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            3.82710405952023,
+            -11.72262419862724,
+            -4.379642892721212,
+            6.341981486910031,
+            -9.151210836866161,
+            1.9896109552460812
+          ],
+          "Volume_mm3": 26.90257902125665,
+          "Faces": 12,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            9.796102671531031,
+            -5.75390903447189,
+            -4.321188987848052,
+            12.310980098920872,
+            -3.18249567271083,
+            2.0480648601192417
+          ],
+          "Volume_mm3": 26.902579021256674,
+          "Faces": 12,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            9.79604053852708,
+            2.1073403565937703,
+            -2.9745138200331316,
+            12.31091796591687,
+            4.67875371835483,
+            3.3947400279341617
+          ],
+          "Volume_mm3": 26.902579021256695,
+          "Faces": 12,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            7.9422013842000805,
+            2.644881796006123,
+            -12.8341238897047,
+            15.879701384200002,
+            4.2323817960061,
+            -11.246623889704704
+          ],
+          "Volume_mm3": 15.529106865344346,
+          "Faces": 5,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            9.466201384200101,
+            -11.991868203993901,
+            -6.12217388970466,
+            12.6412013842001,
+            -8.816868203993902,
+            -2.94717388970466
+          ],
+          "Volume_mm3": 16.75829423056829,
+          "Faces": 1,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -12.18729861579991,
+            -13.833368203993892,
+            -14.072373889704702,
+            -5.329298615799929,
+            -6.97536820399388,
+            -5.43637388970466
+          ],
+          "Volume_mm3": 121.70489975466442,
+          "Faces": 7,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            7.62470138420011,
+            5.97863179600612,
+            -14.072373889704702,
+            14.482701384200091,
+            12.836631796006102,
+            -5.43637388970466
+          ],
+          "Volume_mm3": 121.70489975466437,
+          "Faces": 7,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            8.6724513842001,
+            7.02638179600611,
+            -15.479489560722302,
+            13.434951384200101,
+            11.788881796006109,
+            -3.922489560722131
+          ],
+          "Volume_mm3": 172.0262629207135,
+          "Faces": 28,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -11.139548615799919,
+            -12.7856182039939,
+            -15.6734843774814,
+            -6.37704861579992,
+            -8.023118203993901,
+            -4.116484377481351
+          ],
+          "Volume_mm3": 172.02626292071545,
+          "Faces": 28,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            9.478901384200105,
+            1.863831796006109,
+            -13.61517401772889,
+            12.628501384200108,
+            5.0134317960061106,
+            0.635765869399012
+          ],
+          "Volume_mm3": 35.73540569635442,
+          "Faces": 12,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            9.478901384200105,
+            -6.01016820399389,
+            -13.61517401772889,
+            12.628501384200108,
+            -2.86056820399389,
+            0.635765869399012
+          ],
+          "Volume_mm3": 35.73512684973348,
+          "Faces": 12,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            3.5099013842001003,
+            -11.979168203993861,
+            -13.61517401772889,
+            6.659501384200102,
+            -8.829568203993896,
+            0.635765869399012
+          ],
+          "Volume_mm3": 35.73510213118516,
+          "Faces": 12,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -4.3640986157999,
+            -11.979168203993861,
+            -13.61517401772889,
+            -1.2144986157998998,
+            -8.829568203993896,
+            0.635765869399012
+          ],
+          "Volume_mm3": 35.73432431571451,
+          "Faces": 12,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            9.466201384200101,
+            7.820131796006109,
+            -5.954489560722131,
+            12.6412013842001,
+            10.99513179600611,
+            -2.7794895607221304
+          ],
+          "Volume_mm3": 16.758294230568286,
+          "Faces": 1,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -10.345798615799911,
+            -11.991868203993901,
+            -6.148484377481349,
+            -7.170798615799912,
+            -8.816868203993902,
+            -2.9734843774813497
+          ],
+          "Volume_mm3": 16.75829423056829,
+          "Faces": 1,
+          "Solid": true
+        }
+      ],
+      "AppearanceWarnings": [],
+      "Acceptance": {
+        "BoundsTolerance_mm": 0.0001,
+        "VolumeTolerance_mm3": 0.005,
+        "FaceCountRequired": true,
+        "MeasuredFaceCountsMatching": 23
+      }
+    },
+    {
+      "Name": "Thorlabs_KM05_832_Adjusted_B2_20261022",
+      "Target": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Corrected\\Thorlabs_KM05_832_Adjusted_B2_20261022.ipt",
+      "TargetSHA256": "ceae82253f593db60bb7aa0c7e32eb97553b92b05ca556f43e9314ffb5d3a347",
+      "STEP": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\Native_Derivatives_Continuation\\Thorlabs_KM05_832_Adjusted_B2_20261022.step",
+      "STEPSHA256": "39c12547b73dc2e3e165df261e372fc3dfa6f0212a217d77ee92b0af6908455b",
+      "TemporaryAssembly": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\Thorlabs_KM05_832_Adjusted_B2_20261022_source_bodies.iam",
+      "ReusedSTEP": null,
+      "ReusedSTEPSHA256": null,
+      "ExpectedBodyCount": 23,
+      "NativeBodyCount": 23,
+      "Passed": true,
+      "SourceFilesUnchanged": true,
+      "Bodies": [
+        {
+          "RequestedOrder": 1,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 1,
+          "SourceBodyName": "实体1",
+          "Matrix_cm": [
+            0.9999999988723748,
+            2.3140531775398877E-07,
+            -4.748891223824271E-05,
+            -2.1292663981542503E-05,
+            2.3140531775398877E-07,
+            0.999952512215387,
+            0.009745425289999794,
+            0.004369568732504048,
+            4.748891223824271E-05,
+            -0.009745425289999794,
+            0.9999525110877617,
+            -0.010213526800699091,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -13.330643890088867,
+              -14.456669897860081,
+              -4.0943450447099625,
+              15.117650296496068,
+              14.049392568022261,
+              3.284711136695927
+            ],
+            "Volume_mm3": 2849.040756043358,
+            "Faces": 162,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_001.ipt",
+          "ImportedIndex": 1,
+          "ImportedBodyName": "实体1",
+          "Imported": {
+            "Bounds_mm": [
+              -13.330643890088902,
+              -14.456669897860102,
+              -4.09434504470996,
+              15.117650296496103,
+              14.049392568022302,
+              3.28471113669593
+            ],
+            "Volume_mm3": 2849.0407560432486,
+            "Faces": 162,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 4.085620730620576E-14,
+          "VolumeError_mm3": 1.0959411156363785E-10
+        },
+        {
+          "RequestedOrder": 2,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 2,
+          "SourceBodyName": "实体2",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -13.584298615799897,
+              -15.230368203993896,
+              -13.310373889704671,
+              15.8797013842001,
+              14.233631796006101,
+              -5.436373889704672
+            ],
+            "Volume_mm3": 2135.5478421662324,
+            "Faces": 123,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_002.ipt",
+          "ImportedIndex": 2,
+          "ImportedBodyName": "实体2",
+          "Imported": {
+            "Bounds_mm": [
+              -13.584298615799902,
+              -15.230368203993901,
+              -13.310373889704701,
+              15.8797013842001,
+              14.233631796006101,
+              -5.43637388970467
+            ],
+            "Volume_mm3": 2135.547842166306,
+            "Faces": 123,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.019806626980426E-14,
+          "VolumeError_mm3": 7.366907084360719E-11
+        },
+        {
+          "RequestedOrder": 3,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 3,
+          "SourceBodyName": "实体3",
+          "Matrix_cm": [
+            0.9999999988723748,
+            2.3140531775398877E-07,
+            -4.748891223824271E-05,
+            -2.1292663981542503E-05,
+            2.3140531775398877E-07,
+            0.999952512215387,
+            0.009745425289999794,
+            0.004369568732504048,
+            4.748891223824271E-05,
+            -0.009745425289999794,
+            0.9999525110877617,
+            -0.010213526800699091,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              7.865899221641252,
+              6.234365673673889,
+              -3.196790299008798,
+              14.241331782777989,
+              12.616164425561763,
+              -2.0716041959660645
+            ],
+            "Volume_mm3": 33.44826002776694,
+            "Faces": 4,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_003.ipt",
+          "ImportedIndex": 3,
+          "ImportedBodyName": "实体3",
+          "Imported": {
+            "Bounds_mm": [
+              7.86589922164123,
+              6.234365673673807,
+              -3.1967899301768705,
+              14.241331782777955,
+              12.616164425561765,
+              -2.0716041959660614
+            ],
+            "Volume_mm3": 33.44826002776683,
+            "Faces": 4,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.688319276662355E-07,
+          "VolumeError_mm3": 1.1368683772161603E-13
+        },
+        {
+          "RequestedOrder": 4,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 4,
+          "SourceBodyName": "实体4",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -3.5830486157998926,
+              -15.230368203993832,
+              -12.834123889704692,
+              -1.9955486157998976,
+              -7.2928682039938995,
+              -11.246623889704694
+            ],
+            "Volume_mm3": 15.529106865344374,
+            "Faces": 5,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_004.ipt",
+          "ImportedIndex": 4,
+          "ImportedBodyName": "实体4",
+          "Imported": {
+            "Bounds_mm": [
+              -3.583048615799898,
+              -15.2303682039938,
+              -12.834123889704701,
+              -1.995548615799902,
+              -7.292868203993881,
+              -11.246623889704704
+            ],
+            "Volume_mm3": 15.52910686534437,
+            "Faces": 5,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.197442310920451E-14,
+          "VolumeError_mm3": 5.329070518200751E-15
+        },
+        {
+          "RequestedOrder": 5,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 5,
+          "SourceBodyName": "实体5",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              4.2909513842001035,
+              -15.23036820399382,
+              -12.834123889704689,
+              5.8784513842000985,
+              -7.292868203993889,
+              -11.246623889704692
+            ],
+            "Volume_mm3": 15.529106865344366,
+            "Faces": 5,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_005.ipt",
+          "ImportedIndex": 5,
+          "ImportedBodyName": "实体5",
+          "Imported": {
+            "Bounds_mm": [
+              4.290951384200102,
+              -15.2303682039938,
+              -12.834123889704701,
+              5.8784513842000985,
+              -7.292868203993871,
+              -11.246623889704704
+            ],
+            "Volume_mm3": 15.529106865344382,
+            "Faces": 5,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.9539925233402755E-14,
+          "VolumeError_mm3": 1.5987211554602254E-14
+        },
+        {
+          "RequestedOrder": 6,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 6,
+          "SourceBodyName": "实体6",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              7.942201384200102,
+              -5.229118203993877,
+              -12.834123889704669,
+              15.879701384200033,
+              -3.6416182039938794,
+              -11.246623889704674
+            ],
+            "Volume_mm3": 15.529106865344312,
+            "Faces": 5,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_006.ipt",
+          "ImportedIndex": 6,
+          "ImportedBodyName": "实体6",
+          "Imported": {
+            "Bounds_mm": [
+              7.9422013842000805,
+              -5.229118203993877,
+              -12.8341238897047,
+              15.879701384200002,
+              -3.6416182039939,
+              -11.246623889704704
+            ],
+            "Volume_mm3": 15.529106865344344,
+            "Faces": 5,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.019806626980426E-14,
+          "VolumeError_mm3": 3.197442310920451E-14
+        },
+        {
+          "RequestedOrder": 7,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 7,
+          "SourceBodyName": "实体7",
+          "Matrix_cm": [
+            0.9999999988723748,
+            2.3140531775398877E-07,
+            -4.748891223824271E-05,
+            -2.1292663981542503E-05,
+            2.3140531775398877E-07,
+            0.999952512215387,
+            0.009745425289999794,
+            0.004369568732504048,
+            4.748891223824271E-05,
+            -0.009745425289999794,
+            0.9999525110877617,
+            -0.010213526800699091,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -7.812588212535369,
+              3.280104438162284,
+              -2.558855364578434,
+              -2.590569415955317,
+              8.502095084277371,
+              1.6239207382348608
+            ],
+            "Volume_mm3": 40.32261118099248,
+            "Faces": 20,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_007.ipt",
+          "ImportedIndex": 7,
+          "ImportedBodyName": "实体7",
+          "Imported": {
+            "Bounds_mm": [
+              -7.812588212535372,
+              3.2801044381622804,
+              -2.5588553645784358,
+              -2.5905694159553194,
+              8.502095084277371,
+              1.6239207382348613
+            ],
+            "Volume_mm3": 40.322611180992446,
+            "Faces": 20,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.552713678800501E-15,
+          "VolumeError_mm3": 3.552713678800501E-14
+        },
+        {
+          "RequestedOrder": 8,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 8,
+          "SourceBodyName": "实体8",
+          "Matrix_cm": [
+            0.9999999988723748,
+            2.3140531775398877E-07,
+            -4.748891223824271E-05,
+            -2.1292663981542503E-05,
+            2.3140531775398877E-07,
+            0.999952512215387,
+            0.009745425289999794,
+            0.004369568732504048,
+            4.748891223824271E-05,
+            -0.009745425289999794,
+            0.9999525110877617,
+            -0.010213526800699091,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -4.0469562425194265,
+              -11.645150703088788,
+              -3.110077131334717,
+              -1.5320788151296232,
+              -9.073737341327732,
+              3.2591767166325742
+            ],
+            "Volume_mm3": 26.90257902125664,
+            "Faces": 12,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_008.ipt",
+          "ImportedIndex": 8,
+          "ImportedBodyName": "实体8",
+          "Imported": {
+            "Bounds_mm": [
+              -4.046956242519391,
+              -11.64515070308874,
+              -3.11007701524817,
+              -1.5320788151295883,
+              -9.07373734132776,
+              3.2591766005460294
+            ],
+            "Volume_mm3": 26.90257902125674,
+            "Faces": 12,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.1608654704176047E-07,
+          "VolumeError_mm3": 1.0302869668521453E-13
+        },
+        {
+          "RequestedOrder": 9,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 9,
+          "SourceBodyName": "实体9",
+          "Matrix_cm": [
+            0.9999999988723748,
+            2.3140531775398877E-07,
+            -4.748891223824271E-05,
+            -2.1292663981542503E-05,
+            2.3140531775398877E-07,
+            0.999952512215387,
+            0.009745425289999794,
+            0.004369568732504048,
+            4.748891223824271E-05,
+            -0.009745425289999794,
+            0.9999525110877617,
+            -0.010213526800699091,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              3.8271040595201926,
+              -11.657525571121617,
+              -4.37964289272121,
+              6.341981486909996,
+              -9.086112209360559,
+              1.9896109552460812
+            ],
+            "Volume_mm3": 26.90257902125666,
+            "Faces": 12,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_009.ipt",
+          "ImportedIndex": 9,
+          "ImportedBodyName": "实体9",
+          "Imported": {
+            "Bounds_mm": [
+              3.82710405952023,
+              -11.65752557112164,
+              -4.37964277663467,
+              6.341981486910031,
+              -9.086112209360559,
+              1.9896108391595402
+            ],
+            "Volume_mm3": 26.90257902125651,
+            "Faces": 12,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.1608654104655614E-07,
+          "VolumeError_mm3": 1.4921397450962104E-13
+        },
+        {
+          "RequestedOrder": 10,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 10,
+          "SourceBodyName": "实体10",
+          "Matrix_cm": [
+            0.9999999988723748,
+            2.3140531775398877E-07,
+            -4.748891223824271E-05,
+            -2.1292663981542503E-05,
+            2.3140531775398877E-07,
+            0.999952512215387,
+            0.009745425289999794,
+            0.004369568732504048,
+            4.748891223824271E-05,
+            -0.009745425289999794,
+            0.9999525110877617,
+            -0.010213526800699091,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              9.796105434047746,
+              -5.688807644449633,
+              -4.4375298749600685,
+              12.310982861437584,
+              -3.1173942826885743,
+              1.9317239730072227
+            ],
+            "Volume_mm3": 26.902579021256685,
+            "Faces": 12,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_010.ipt",
+          "ImportedIndex": 10,
+          "ImportedBodyName": "实体10",
+          "Imported": {
+            "Bounds_mm": [
+              9.79610543404773,
+              -5.688807644449629,
+              -4.437529874960072,
+              12.310982861437571,
+              -3.11739428268857,
+              1.9317239730072222
+            ],
+            "Volume_mm3": 26.90257902125659,
+            "Faces": 12,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.5987211554602254E-14,
+          "VolumeError_mm3": 9.592326932761353E-14
+        },
+        {
+          "RequestedOrder": 11,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 11,
+          "SourceBodyName": "实体11",
+          "Matrix_cm": [
+            0.9999999988723748,
+            2.3140531775398877E-07,
+            -4.748891223824271E-05,
+            -2.1292663981542503E-05,
+            2.3140531775398877E-07,
+            0.999952512215387,
+            0.009745425289999794,
+            0.004369568732504048,
+            4.748891223824271E-05,
+            -0.009745425289999794,
+            0.9999525110877617,
+            -0.010213526800699091,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              9.79604694521467,
+              2.1971951268526233,
+              -3.2443256646120684,
+              12.310924372604475,
+              4.768608488613683,
+              3.1249281833552227
+            ],
+            "Volume_mm3": 26.902579021256688,
+            "Faces": 12,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_011.ipt",
+          "ImportedIndex": 11,
+          "ImportedBodyName": "实体11",
+          "Imported": {
+            "Bounds_mm": [
+              9.7960469452147,
+              2.1971951268526198,
+              -3.24432554852552,
+              12.310924372604472,
+              4.768608488613681,
+              3.12492806726868
+            ],
+            "Volume_mm3": 26.902579021257004,
+            "Faces": 12,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.160865483740281E-07,
+          "VolumeError_mm3": 3.161915174132446E-13
+        },
+        {
+          "RequestedOrder": 12,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 14,
+          "SourceBodyName": "实体14",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              7.942201384200102,
+              2.644881796006124,
+              -12.834123889704674,
+              15.879701384200033,
+              4.232381796006122,
+              -11.24662388970468
+            ],
+            "Volume_mm3": 15.529106865344328,
+            "Faces": 5,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_012.ipt",
+          "ImportedIndex": 12,
+          "ImportedBodyName": "实体12",
+          "Imported": {
+            "Bounds_mm": [
+              7.9422013842000805,
+              2.644881796006123,
+              -12.8341238897047,
+              15.879701384200002,
+              4.2323817960061,
+              -11.246623889704704
+            ],
+            "Volume_mm3": 15.529106865344346,
+            "Faces": 5,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.019806626980426E-14,
+          "VolumeError_mm3": 1.7763568394002505E-14
+        },
+        {
+          "RequestedOrder": 13,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 15,
+          "SourceBodyName": "实体15",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              9.466201384200087,
+              -11.991868203993878,
+              -6.122173889704657,
+              12.641201384200084,
+              -8.816868203993879,
+              -2.9471738897046555
+            ],
+            "Volume_mm3": 16.75829423056829,
+            "Faces": 1,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_013.ipt",
+          "ImportedIndex": 13,
+          "ImportedBodyName": "实体13",
+          "Imported": {
+            "Bounds_mm": [
+              9.466201384200101,
+              -11.991868203993901,
+              -6.12217388970466,
+              12.6412013842001,
+              -8.816868203993902,
+              -2.94717388970466
+            ],
+            "Volume_mm3": 16.75829423056829,
+            "Faces": 1,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 2.3092638912203256E-14,
+          "VolumeError_mm3": 0
+        },
+        {
+          "RequestedOrder": 14,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 16,
+          "SourceBodyName": "实体16",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -12.187298615799909,
+              -13.833368203993865,
+              -14.072373889704684,
+              -5.329298615799926,
+              -6.975368203993884,
+              -5.436373889704664
+            ],
+            "Volume_mm3": 121.70489975466359,
+            "Faces": 7,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_014.ipt",
+          "ImportedIndex": 14,
+          "ImportedBodyName": "实体14",
+          "Imported": {
+            "Bounds_mm": [
+              -12.18729861579991,
+              -13.833368203993892,
+              -14.072373889704702,
+              -5.329298615799929,
+              -6.97536820399388,
+              -5.43637388970466
+            ],
+            "Volume_mm3": 121.70489975466442,
+            "Faces": 7,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 2.6645352591003757E-14,
+          "VolumeError_mm3": 8.384404281969182E-13
+        },
+        {
+          "RequestedOrder": 15,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 17,
+          "SourceBodyName": "实体17",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              7.62470138420011,
+              5.978631796006113,
+              -14.072373889704684,
+              14.482701384200091,
+              12.836631796006097,
+              -5.436373889704664
+            ],
+            "Volume_mm3": 121.70489975466359,
+            "Faces": 7,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_015.ipt",
+          "ImportedIndex": 15,
+          "ImportedBodyName": "实体15",
+          "Imported": {
+            "Bounds_mm": [
+              7.62470138420011,
+              5.97863179600612,
+              -14.072373889704702,
+              14.482701384200091,
+              12.836631796006102,
+              -5.43637388970466
+            ],
+            "Volume_mm3": 121.70489975466437,
+            "Faces": 7,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.7763568394002505E-14,
+          "VolumeError_mm3": 7.815970093361102E-13
+        },
+        {
+          "RequestedOrder": 16,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 12,
+          "SourceBodyName": "实体12",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            -0.019308674155035982,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              8.672451384200102,
+              7.026381796006107,
+              -15.865660631255,
+              13.434951384200101,
+              11.788881796006104,
+              -4.308660631255005
+            ],
+            "Volume_mm3": 172.02626292074194,
+            "Faces": 28,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_016.ipt",
+          "ImportedIndex": 16,
+          "ImportedBodyName": "实体16",
+          "Imported": {
+            "Bounds_mm": [
+              8.6724513842001,
+              7.02638179600611,
+              -15.8656606312553,
+              13.434951384200101,
+              11.788881796006109,
+              -4.308660631254999
+            ],
+            "Volume_mm3": 172.02626292068547,
+            "Faces": 28,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.0020430585864233E-13,
+          "VolumeError_mm3": 5.647393663821276E-11
+        },
+        {
+          "RequestedOrder": 17,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 13,
+          "SourceBodyName": "实体13",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            -0.00010972619871608901,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -11.139548615799917,
+              -12.785618203993877,
+              -15.673484377481346,
+              -6.377048615799916,
+              -8.023118203993876,
+              -4.116484377481346
+            ],
+            "Volume_mm3": 172.02626292074322,
+            "Faces": 28,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_017.ipt",
+          "ImportedIndex": 17,
+          "ImportedBodyName": "实体17",
+          "Imported": {
+            "Bounds_mm": [
+              -11.139548615799919,
+              -12.7856182039939,
+              -15.6734843774814,
+              -6.37704861579992,
+              -8.023118203993901,
+              -4.116484377481351
+            ],
+            "Volume_mm3": 172.02626292071545,
+            "Faces": 28,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 5.3290705182007514E-14,
+          "VolumeError_mm3": 2.7768010113504715E-11
+        },
+        {
+          "RequestedOrder": 18,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 18,
+          "SourceBodyName": "实体18",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              9.478901384200103,
+              1.8638317960061048,
+              -13.615174017728862,
+              12.628501384200103,
+              5.013431796006107,
+              0.635765869399012
+            ],
+            "Volume_mm3": 35.734656742172966,
+            "Faces": 12,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_018.ipt",
+          "ImportedIndex": 18,
+          "ImportedBodyName": "实体18",
+          "Imported": {
+            "Bounds_mm": [
+              9.478901384200105,
+              1.863831796006109,
+              -13.61517401772889,
+              12.628501384200108,
+              5.0134317960061106,
+              0.635765869399012
+            ],
+            "Volume_mm3": 35.73540569635442,
+            "Faces": 12,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 2.842170943040401E-14,
+          "VolumeError_mm3": 0.0007489541814535983
+        },
+        {
+          "RequestedOrder": 19,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 19,
+          "SourceBodyName": "实体19",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              9.478901384200103,
+              -6.010168203993894,
+              -13.615174017728862,
+              12.628501384200103,
+              -2.8605682039938927,
+              0.635765869399012
+            ],
+            "Volume_mm3": 35.73465674229289,
+            "Faces": 12,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_019.ipt",
+          "ImportedIndex": 19,
+          "ImportedBodyName": "实体19",
+          "Imported": {
+            "Bounds_mm": [
+              9.478901384200105,
+              -6.01016820399389,
+              -13.61517401772889,
+              12.628501384200108,
+              -2.86056820399389,
+              0.635765869399012
+            ],
+            "Volume_mm3": 35.73512684973348,
+            "Faces": 12,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 2.842170943040401E-14,
+          "VolumeError_mm3": 0.0004701074405915051
+        },
+        {
+          "RequestedOrder": 20,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 20,
+          "SourceBodyName": "实体20",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              3.5099013842000986,
+              -11.9791682039939,
+              -13.615174017728862,
+              6.6595013842001,
+              -8.829568203993897,
+              0.6357658693990098
+            ],
+            "Volume_mm3": 35.73465674221036,
+            "Faces": 12,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_020.ipt",
+          "ImportedIndex": 20,
+          "ImportedBodyName": "实体20",
+          "Imported": {
+            "Bounds_mm": [
+              3.5099013842001003,
+              -11.979168203993861,
+              -13.61517401772889,
+              6.659501384200102,
+              -8.829568203993896,
+              0.635765869399012
+            ],
+            "Volume_mm3": 35.73510213118516,
+            "Faces": 12,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.907985046680551E-14,
+          "VolumeError_mm3": 0.00044538897479640127
+        },
+        {
+          "RequestedOrder": 21,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 21,
+          "SourceBodyName": "实体21",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -4.364098615799897,
+              -11.9791682039939,
+              -13.615174017728862,
+              -1.2144986157998954,
+              -8.8295682039939,
+              0.6357658693990098
+            ],
+            "Volume_mm3": 35.734656755716344,
+            "Faces": 12,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_021.ipt",
+          "ImportedIndex": 21,
+          "ImportedBodyName": "实体21",
+          "Imported": {
+            "Bounds_mm": [
+              -4.3640986157999,
+              -11.979168203993861,
+              -13.61517401772889,
+              -1.2144986157998998,
+              -8.829568203993896,
+              0.635765869399012
+            ],
+            "Volume_mm3": 35.73432431571451,
+            "Faces": 12,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 3.907985046680551E-14,
+          "VolumeError_mm3": 0.0003324400018342999
+        },
+        {
+          "RequestedOrder": 22,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 22,
+          "SourceBodyName": "实体22",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            -0.019308674155035982,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              9.466201384200101,
+              7.8201317960061045,
+              -6.340660631255004,
+              12.6412013842001,
+              10.995131796006106,
+              -3.1656606312550046
+            ],
+            "Volume_mm3": 16.758294230568286,
+            "Faces": 1,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_022.ipt",
+          "ImportedIndex": 22,
+          "ImportedBodyName": "实体22",
+          "Imported": {
+            "Bounds_mm": [
+              9.466201384200101,
+              7.820131796006109,
+              -6.340660631255,
+              12.6412013842001,
+              10.99513179600611,
+              -3.165660631255
+            ],
+            "Volume_mm3": 16.758294230568286,
+            "Faces": 1,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 4.440892098500626E-15,
+          "VolumeError_mm3": 0
+        },
+        {
+          "RequestedOrder": 23,
+          "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_KM05.ipt",
+          "SourceSHA256": "65457933003a4ae17ddf87e18e5a653efedc8863bdd0971212fef1ca82f5093f",
+          "SourceIndex": 23,
+          "SourceBodyName": "实体23",
+          "Matrix_cm": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            -0.00010972619871608901,
+            0,
+            0,
+            0,
+            1
+          ],
+          "Expected": {
+            "Bounds_mm": [
+              -10.345798615799914,
+              -11.991868203993883,
+              -6.14848437748135,
+              -7.170798615799914,
+              -8.816868203993884,
+              -2.97348437748135
+            ],
+            "Volume_mm3": 16.75829423056829,
+            "Faces": 1,
+            "Solid": true
+          },
+          "TemporaryPart": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\MultibodyBuildScratch\\run_20261022_192439_994_29757308\\Thorlabs_KM05_832_Adjusted_B2_20261022\\body_023.ipt",
+          "ImportedIndex": 23,
+          "ImportedBodyName": "实体23",
+          "Imported": {
+            "Bounds_mm": [
+              -10.345798615799911,
+              -11.991868203993901,
+              -6.148484377481349,
+              -7.170798615799912,
+              -8.816868203993902,
+              -2.9734843774813497
+            ],
+            "Volume_mm3": 16.75829423056829,
+            "Faces": 1,
+            "Solid": true
+          },
+          "SignatureCandidateCount": 1,
+          "MaxBoundsError_mm": 1.7763568394002505E-14,
+          "VolumeError_mm3": 0
+        }
+      ],
+      "ImportedSignatures": [
+        {
+          "Bounds_mm": [
+            -13.330643890088902,
+            -14.456669897860102,
+            -4.09434504470996,
+            15.117650296496103,
+            14.049392568022302,
+            3.28471113669593
+          ],
+          "Volume_mm3": 2849.0407560432486,
+          "Faces": 162,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -13.584298615799902,
+            -15.230368203993901,
+            -13.310373889704701,
+            15.8797013842001,
+            14.233631796006101,
+            -5.43637388970467
+          ],
+          "Volume_mm3": 2135.547842166306,
+          "Faces": 123,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            7.86589922164123,
+            6.234365673673807,
+            -3.1967899301768705,
+            14.241331782777955,
+            12.616164425561765,
+            -2.0716041959660614
+          ],
+          "Volume_mm3": 33.44826002776683,
+          "Faces": 4,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -3.583048615799898,
+            -15.2303682039938,
+            -12.834123889704701,
+            -1.995548615799902,
+            -7.292868203993881,
+            -11.246623889704704
+          ],
+          "Volume_mm3": 15.52910686534437,
+          "Faces": 5,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            4.290951384200102,
+            -15.2303682039938,
+            -12.834123889704701,
+            5.8784513842000985,
+            -7.292868203993871,
+            -11.246623889704704
+          ],
+          "Volume_mm3": 15.529106865344382,
+          "Faces": 5,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            7.9422013842000805,
+            -5.229118203993877,
+            -12.8341238897047,
+            15.879701384200002,
+            -3.6416182039939,
+            -11.246623889704704
+          ],
+          "Volume_mm3": 15.529106865344344,
+          "Faces": 5,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -7.812588212535372,
+            3.2801044381622804,
+            -2.5588553645784358,
+            -2.5905694159553194,
+            8.502095084277371,
+            1.6239207382348613
+          ],
+          "Volume_mm3": 40.322611180992446,
+          "Faces": 20,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -4.046956242519391,
+            -11.64515070308874,
+            -3.11007701524817,
+            -1.5320788151295883,
+            -9.07373734132776,
+            3.2591766005460294
+          ],
+          "Volume_mm3": 26.90257902125674,
+          "Faces": 12,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            3.82710405952023,
+            -11.65752557112164,
+            -4.37964277663467,
+            6.341981486910031,
+            -9.086112209360559,
+            1.9896108391595402
+          ],
+          "Volume_mm3": 26.90257902125651,
+          "Faces": 12,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            9.79610543404773,
+            -5.688807644449629,
+            -4.437529874960072,
+            12.310982861437571,
+            -3.11739428268857,
+            1.9317239730072222
+          ],
+          "Volume_mm3": 26.90257902125659,
+          "Faces": 12,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            9.7960469452147,
+            2.1971951268526198,
+            -3.24432554852552,
+            12.310924372604472,
+            4.768608488613681,
+            3.12492806726868
+          ],
+          "Volume_mm3": 26.902579021257004,
+          "Faces": 12,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            7.9422013842000805,
+            2.644881796006123,
+            -12.8341238897047,
+            15.879701384200002,
+            4.2323817960061,
+            -11.246623889704704
+          ],
+          "Volume_mm3": 15.529106865344346,
+          "Faces": 5,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            9.466201384200101,
+            -11.991868203993901,
+            -6.12217388970466,
+            12.6412013842001,
+            -8.816868203993902,
+            -2.94717388970466
+          ],
+          "Volume_mm3": 16.75829423056829,
+          "Faces": 1,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -12.18729861579991,
+            -13.833368203993892,
+            -14.072373889704702,
+            -5.329298615799929,
+            -6.97536820399388,
+            -5.43637388970466
+          ],
+          "Volume_mm3": 121.70489975466442,
+          "Faces": 7,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            7.62470138420011,
+            5.97863179600612,
+            -14.072373889704702,
+            14.482701384200091,
+            12.836631796006102,
+            -5.43637388970466
+          ],
+          "Volume_mm3": 121.70489975466437,
+          "Faces": 7,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            8.6724513842001,
+            7.02638179600611,
+            -15.8656606312553,
+            13.434951384200101,
+            11.788881796006109,
+            -4.308660631254999
+          ],
+          "Volume_mm3": 172.02626292068547,
+          "Faces": 28,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -11.139548615799919,
+            -12.7856182039939,
+            -15.6734843774814,
+            -6.37704861579992,
+            -8.023118203993901,
+            -4.116484377481351
+          ],
+          "Volume_mm3": 172.02626292071545,
+          "Faces": 28,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            9.478901384200105,
+            1.863831796006109,
+            -13.61517401772889,
+            12.628501384200108,
+            5.0134317960061106,
+            0.635765869399012
+          ],
+          "Volume_mm3": 35.73540569635442,
+          "Faces": 12,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            9.478901384200105,
+            -6.01016820399389,
+            -13.61517401772889,
+            12.628501384200108,
+            -2.86056820399389,
+            0.635765869399012
+          ],
+          "Volume_mm3": 35.73512684973348,
+          "Faces": 12,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            3.5099013842001003,
+            -11.979168203993861,
+            -13.61517401772889,
+            6.659501384200102,
+            -8.829568203993896,
+            0.635765869399012
+          ],
+          "Volume_mm3": 35.73510213118516,
+          "Faces": 12,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -4.3640986157999,
+            -11.979168203993861,
+            -13.61517401772889,
+            -1.2144986157998998,
+            -8.829568203993896,
+            0.635765869399012
+          ],
+          "Volume_mm3": 35.73432431571451,
+          "Faces": 12,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            9.466201384200101,
+            7.820131796006109,
+            -6.340660631255,
+            12.6412013842001,
+            10.99513179600611,
+            -3.165660631255
+          ],
+          "Volume_mm3": 16.758294230568286,
+          "Faces": 1,
+          "Solid": true
+        },
+        {
+          "Bounds_mm": [
+            -10.345798615799911,
+            -11.991868203993901,
+            -6.148484377481349,
+            -7.170798615799912,
+            -8.816868203993902,
+            -2.9734843774813497
+          ],
+          "Volume_mm3": 16.75829423056829,
+          "Faces": 1,
+          "Solid": true
+        }
+      ],
+      "AppearanceWarnings": [],
+      "Acceptance": {
+        "BoundsTolerance_mm": 0.0001,
+        "VolumeTolerance_mm3": 0.005,
+        "FaceCountRequired": true,
+        "MeasuredFaceCountsMatching": 23
+      }
+    }
+  ],
+  "Method": "Native STEP multibody reconstruction with six independent per-part accepted proofs",
+  "Failure": null,
+  "TimestampUtc": "2026-10-22T19:25:38.153957Z",
+  "ToleranceNote": "Prior V3 CRM1T requested body 4/source body 5 differed by 0.001250075508608 mm3 after STEP round trip (38.1260286478 -> 38.1272787233), while precise bounds differed by less than 3e-13 mm and both had 28 faces. The empirical 0.005 mm3 signature allowance preserves the original 1e-4 mm bounds limit and adds identical face counts. This does not establish that all volume difference is numerical integration error; final native joint/clearance audits remain required."
+}

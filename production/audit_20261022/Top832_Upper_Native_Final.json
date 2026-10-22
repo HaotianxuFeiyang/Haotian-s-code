@@ -1,0 +1,698 @@
+{
+  "Stage": "Complete",
+  "TimestampUtc": "2026-10-22T19:25:47.4801418Z",
+  "TopFile": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Top_Optics.iam",
+  "AppliedFile": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Reports\\Top832_Installation_20261022.json",
+  "RouteFile": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\Top832_Optical_Route.json",
+  "Failure": null,
+  "TopDirty": false,
+  "AllPassed": true,
+  "LeafCount": 138,
+  "BodyCount": 308,
+  "PlanCount": 89,
+  "PlanMatches": 89,
+  "BooleanCalls": 43,
+  "NativePostCount": 8,
+  "NativeForkCount": 8,
+  "NativeSpacerCount": 3,
+  "NativeRS4MCount": 1,
+  "NativeRS5MCount": 2,
+  "AppliedStandCount": 8,
+  "AppliedAnchorCount": 8,
+  "VolumeTolerance_mm3": 0.002,
+  "MirrorEndClearance_mm": 0.1,
+  "PCNativeDatums": [
+    {
+      "Occurrence": "A PC lens - LA1213-B bare \u002B50mm",
+      "SurfaceType": "kSphereSurface",
+      "Body": 1,
+      "Face": 2,
+      "NominalReference_mm": [
+        200,
+        421.88,
+        46.919999999999995
+      ],
+      "NativeOutputVertex_mm": [
+        200,
+        421.87999999999994,
+        46.919999999999995
+      ],
+      "LongitudinalOffset_mm": 5.684341886080802E-14,
+      "TransverseError_mm": 0,
+      "Interpretation": "Physical D4 starts at downstream native glass vertex. Optical design/reference-plane metadata is unchanged; longitudinal offset is separately recorded. All placement matrices separately compared with applied rigid transforms."
+    },
+    {
+      "Occurrence": "B PC lens - LA1213-B bare \u002B50mm",
+      "SurfaceType": "kSphereSurface",
+      "Body": 1,
+      "Face": 2,
+      "NominalReference_mm": [
+        350,
+        406.84736707919484,
+        46.919999999999995
+      ],
+      "NativeOutputVertex_mm": [
+        350,
+        406.8473670791948,
+        46.919999999999995
+      ],
+      "LongitudinalOffset_mm": 5.684341886080802E-14,
+      "TransverseError_mm": 0,
+      "Interpretation": "Physical D4 starts at downstream native glass vertex. Optical design/reference-plane metadata is unchanged; longitudinal offset is separately recorded. All placement matrices separately compared with applied rigid transforms."
+    }
+  ],
+  "Mirrors": [
+    {
+      "Id": "A1",
+      "Occurrence": "A steering mirror 1 BB05-E03 directly seated",
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_BB05-E03.ipt",
+      "Body": 1,
+      "Face": 5,
+      "Hit_mm": [
+        200,
+        315,
+        46.919999999999995
+      ],
+      "FrontCentre_mm": [
+        199.99999999999994,
+        314.99999999999994,
+        46.33082007600003
+      ],
+      "ActualNormal": [
+        -0.7071067811865476,
+        0.7071067811865474,
+        0
+      ],
+      "Incoming": [
+        0,
+        -1,
+        0
+      ],
+      "Outgoing": [
+        -1,
+        0,
+        0
+      ],
+      "Reflected": [
+        -0.9999999999999998,
+        -4.440892098500626E-16,
+        0
+      ],
+      "PlaneResidual_mm": 1.262177448353619E-29,
+      "DirectionError": 4.965068306494546E-16,
+      "AOI_deg": 45.00000000000001,
+      "GuaranteedApertureRadius_mm": 5.4,
+      "FootprintMaxRadius_mm": 2.948601487233699,
+      "ApertureMargin_mm": 2.451398512766301,
+      "Passed": true
+    },
+    {
+      "Id": "A2",
+      "Occurrence": "A steering mirror 2 BB05-E03 directly seated",
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_BB05-E03.ipt",
+      "Body": 1,
+      "Face": 5,
+      "Hit_mm": [
+        0,
+        315,
+        46.919999999999995
+      ],
+      "FrontCentre_mm": [
+        -1.2020815280171382,
+        313.79791847198277,
+        45.332000000000015
+      ],
+      "ActualNormal": [
+        0.7071067811865479,
+        -0.7071067811865474,
+        0
+      ],
+      "Incoming": [
+        -1,
+        0,
+        0
+      ],
+      "Outgoing": [
+        0,
+        -1,
+        0
+      ],
+      "Reflected": [
+        1.1102230246251565E-15,
+        -1.0000000000000002,
+        0
+      ],
+      "PlaneResidual_mm": 6.52811138479592E-14,
+      "DirectionError": 1.1322097734007351E-15,
+      "AOI_deg": 44.999999999999964,
+      "GuaranteedApertureRadius_mm": 5.4,
+      "FootprintMaxRadius_mm": 4.914605912483919,
+      "ApertureMargin_mm": 0.48539408751608093,
+      "Passed": true
+    },
+    {
+      "Id": "Cage A",
+      "Occurrence": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / CCM1-E03 M fixed 45deg fold - optical CA over D17p5 -795nm",
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CCM1-E03_M.ipt",
+      "Body": 7,
+      "Face": 13,
+      "Hit_mm": [
+        0,
+        0,
+        46.919999999999995
+      ],
+      "FrontCentre_mm": [
+        13.364400221568909,
+        -13.351106786260097,
+        33.5688932137399
+      ],
+      "ActualNormal": [
+        0,
+        -0.7071067811865475,
+        0.7071067811865476
+      ],
+      "Incoming": [
+        0,
+        -1,
+        0
+      ],
+      "Outgoing": [
+        0,
+        0,
+        -1
+      ],
+      "Reflected": [
+        0,
+        -2.220446049250313E-16,
+        -1
+      ],
+      "PlaneResidual_mm": 1.7763568394002505E-15,
+      "DirectionError": 2.220446049250313E-16,
+      "AOI_deg": 45.00000000000001,
+      "GuaranteedApertureRadius_mm": 0,
+      "FootprintMaxRadius_mm": 0,
+      "ApertureMargin_mm": 0,
+      "Passed": true
+    },
+    {
+      "Id": "B1",
+      "Occurrence": "B steering mirror 1 BB05-E03 directly seated",
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_BB05-E03.ipt",
+      "Body": 1,
+      "Face": 5,
+      "Hit_mm": [
+        350,
+        380,
+        46.919999999999995
+      ],
+      "FrontCentre_mm": [
+        350.004913041725,
+        379.99565089054386,
+        46.24799239063841
+      ],
+      "ActualNormal": [
+        -0.707039621722798,
+        0.7071067811865475,
+        -0.0097454252899998
+      ],
+      "Incoming": [
+        0,
+        -1,
+        0
+      ],
+      "Outgoing": [
+        -0.9999050221755239,
+        0,
+        -0.013782112616170858
+      ],
+      "Reflected": [
+        -0.9999050221755236,
+        -2.220446049250313E-16,
+        -0.01378211261621147
+      ],
+      "PlaneResidual_mm": 3.816565119496573E-14,
+      "DirectionError": 4.061358405061445E-14,
+      "AOI_deg": 45.00000000000001,
+      "GuaranteedApertureRadius_mm": 5.4,
+      "FootprintMaxRadius_mm": 2.9893158820150987,
+      "ApertureMargin_mm": 2.4106841179849017,
+      "Passed": true
+    },
+    {
+      "Id": "B2",
+      "Occurrence": "B steering mirror 2 BB05-E03 directly seated",
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_BB05-E03.ipt",
+      "Body": 1,
+      "Face": 5,
+      "Hit_mm": [
+        6.448001611410281,
+        380,
+        42.18467791810837
+      ],
+      "FrontCentre_mm": [
+        6.453027734406049,
+        379.99440251642284,
+        41.413886857372894
+      ],
+      "ActualNormal": [
+        0.707039621722798,
+        -0.7071067811865475,
+        0.0097454252899998
+      ],
+      "Incoming": [
+        -0.9999050221755239,
+        0,
+        -0.013782112616170858
+      ],
+      "Outgoing": [
+        0,
+        -1,
+        0
+      ],
+      "Reflected": [
+        -1.1102230246251565E-16,
+        -1,
+        4.061334601956901E-14
+      ],
+      "PlaneResidual_mm": 5.4631646428937586E-14,
+      "DirectionError": 4.0613497766837144E-14,
+      "AOI_deg": 45,
+      "GuaranteedApertureRadius_mm": 5.4,
+      "FootprintMaxRadius_mm": 3.03803062317104,
+      "ApertureMargin_mm": 2.3619693768289602,
+      "Passed": true
+    },
+    {
+      "Id": "Cage B",
+      "Occurrence": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / CCM1-E03 M fixed 45deg fold - optical CA over D17p5 -795nm",
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Stock\\Thorlabs_CCM1-E03_M.ipt",
+      "Body": 7,
+      "Face": 13,
+      "Hit_mm": [
+        6.448001611410281,
+        -4.735322081891623,
+        42.18467791810837
+      ],
+      "FrontCentre_mm": [
+        13.364400221568909,
+        -13.351106786260097,
+        33.5688932137399
+      ],
+      "ActualNormal": [
+        0,
+        -0.7071067811865475,
+        0.7071067811865476
+      ],
+      "Incoming": [
+        0,
+        -1,
+        0
+      ],
+      "Outgoing": [
+        0,
+        0,
+        -1
+      ],
+      "Reflected": [
+        0,
+        -2.220446049250313E-16,
+        -1
+      ],
+      "PlaneResidual_mm": 8.881784197001252E-16,
+      "DirectionError": 2.220446049250313E-16,
+      "AOI_deg": 45.00000000000001,
+      "GuaranteedApertureRadius_mm": 0,
+      "FootprintMaxRadius_mm": 0,
+      "ApertureMargin_mm": 0,
+      "Passed": true
+    }
+  ],
+  "Segments": [
+    {
+      "Name": "A D4 PC_to_M1",
+      "Beam": "A",
+      "Start_mm": [
+        200,
+        421.87999999999994,
+        46.919999999999995
+      ],
+      "End_mm": [
+        200,
+        315,
+        46.919999999999995
+      ],
+      "StartNormal": [
+        0,
+        -1,
+        0
+      ],
+      "EndNormal": [
+        -0.7071067811865476,
+        0.7071067811865474,
+        0
+      ],
+      "Length_mm": 106.87999999999994
+    },
+    {
+      "Name": "A D4 M1_to_M2",
+      "Beam": "A",
+      "Start_mm": [
+        200,
+        315,
+        46.919999999999995
+      ],
+      "End_mm": [
+        0,
+        315,
+        46.919999999999995
+      ],
+      "StartNormal": [
+        -0.7071067811865476,
+        0.7071067811865474,
+        0
+      ],
+      "EndNormal": [
+        0.7071067811865479,
+        -0.7071067811865474,
+        0
+      ],
+      "Length_mm": 200
+    },
+    {
+      "Name": "A D4 M2_to_Cage",
+      "Beam": "A",
+      "Start_mm": [
+        0,
+        315,
+        46.919999999999995
+      ],
+      "End_mm": [
+        0,
+        0,
+        46.919999999999995
+      ],
+      "StartNormal": [
+        0.7071067811865479,
+        -0.7071067811865474,
+        0
+      ],
+      "EndNormal": [
+        0,
+        -0.7071067811865475,
+        0.7071067811865476
+      ],
+      "Length_mm": 315
+    },
+    {
+      "Name": "B D4 PC_to_M1",
+      "Beam": "B",
+      "Start_mm": [
+        350,
+        406.8473670791948,
+        46.919999999999995
+      ],
+      "End_mm": [
+        350,
+        380,
+        46.919999999999995
+      ],
+      "StartNormal": [
+        0,
+        -1,
+        0
+      ],
+      "EndNormal": [
+        -0.707039621722798,
+        0.7071067811865475,
+        -0.0097454252899998
+      ],
+      "Length_mm": 26.847367079194782
+    },
+    {
+      "Name": "B D4 M1_to_M2",
+      "Beam": "B",
+      "Start_mm": [
+        350,
+        380,
+        46.919999999999995
+      ],
+      "End_mm": [
+        6.448001611410281,
+        380,
+        42.18467791810837
+      ],
+      "StartNormal": [
+        -0.707039621722798,
+        0.7071067811865475,
+        -0.0097454252899998
+      ],
+      "EndNormal": [
+        0.707039621722798,
+        -0.7071067811865475,
+        0.0097454252899998
+      ],
+      "Length_mm": 343.58463130939487
+    },
+    {
+      "Name": "B D4 M2_to_Cage",
+      "Beam": "B",
+      "Start_mm": [
+        6.448001611410281,
+        380,
+        42.18467791810837
+      ],
+      "End_mm": [
+        6.448001611410281,
+        -4.735322081891623,
+        42.18467791810837
+      ],
+      "StartNormal": [
+        0.707039621722798,
+        -0.7071067811865475,
+        0.0097454252899998
+      ],
+      "EndNormal": [
+        0,
+        -0.7071067811865475,
+        0.7071067811865476
+      ],
+      "Length_mm": 384.73532208189164
+    }
+  ],
+  "Axes": [
+    {
+      "Beam": "A",
+      "Start_mm": [
+        200,
+        556.035533903475,
+        46.919999999999995
+      ],
+      "End_mm": [
+        200,
+        421.87999999999994,
+        46.919999999999995
+      ],
+      "Definition": "Translated original nominal asphere H2 datum to current native PC exit; D0.1 visual reference only, not measured principal plane"
+    },
+    {
+      "Beam": "B",
+      "Start_mm": [
+        350,
+        541.931277327137,
+        46.919999999999995
+      ],
+      "End_mm": [
+        350,
+        406.8473670791948,
+        46.919999999999995
+      ],
+      "Definition": "Translated original nominal asphere H2 datum to current native PC exit; D0.1 visual reference only, not measured principal plane"
+    }
+  ],
+  "RayObstructions": [],
+  "SupportOverlaps": [],
+  "Supports": [
+    {
+      "Stand": "A fiber port",
+      "PostBottom_mm": [
+        199.99999999999997,
+        545.5125533670741,
+        -24.2
+      ],
+      "PostTop_mm": [
+        199.99999999999997,
+        545.5125533670741,
+        26.6
+      ],
+      "BottomSeatError_mm": 0,
+      "TopError_mm": 0,
+      "ForkPostDistance_mm": 0,
+      "ForkBoardDistance_mm": 0,
+      "ForkSlotOverlap_mm3": 0,
+      "AnchorEngagement_mm": 8.406293567130948,
+      "Passed": true
+    },
+    {
+      "Stand": "A cage front support",
+      "PostBottom_mm": [
+        199.99999999999972,
+        449.1897442288394,
+        -24.2
+      ],
+      "PostTop_mm": [
+        199.99999999999972,
+        449.1897442288394,
+        26.6
+      ],
+      "BottomSeatError_mm": 0,
+      "TopError_mm": 0,
+      "ForkPostDistance_mm": 0,
+      "ForkBoardDistance_mm": 0,
+      "ForkSlotOverlap_mm3": 0,
+      "AnchorEngagement_mm": 8.407997392447164,
+      "Passed": true
+    },
+    {
+      "Stand": "B fiber port",
+      "PostBottom_mm": [
+        349.99999999999994,
+        531.3491023042234,
+        -24.2
+      ],
+      "PostTop_mm": [
+        349.99999999999994,
+        531.3491023042234,
+        26.6
+      ],
+      "BottomSeatError_mm": 0,
+      "TopError_mm": 0,
+      "ForkPostDistance_mm": 0,
+      "ForkBoardDistance_mm": 0,
+      "ForkSlotOverlap_mm3": 0,
+      "AnchorEngagement_mm": 8.405142890010225,
+      "Passed": true
+    },
+    {
+      "Stand": "B cage front support",
+      "PostBottom_mm": [
+        349.9999999999997,
+        435.08548765250134,
+        -24.2
+      ],
+      "PostTop_mm": [
+        349.9999999999997,
+        435.08548765250134,
+        26.6
+      ],
+      "BottomSeatError_mm": 0,
+      "TopError_mm": 0,
+      "ForkPostDistance_mm": 0,
+      "ForkBoardDistance_mm": 0,
+      "ForkSlotOverlap_mm3": 0,
+      "AnchorEngagement_mm": 8.410219439940576,
+      "Passed": true
+    },
+    {
+      "Stand": "A steering mirror 1",
+      "PostBottom_mm": [
+        209.39730770061294,
+        305.60269229938694,
+        -24.2
+      ],
+      "PostTop_mm": [
+        209.39730770061294,
+        305.60269229938694,
+        26.6
+      ],
+      "BottomSeatError_mm": 0,
+      "TopError_mm": 0,
+      "ForkPostDistance_mm": 0,
+      "ForkBoardDistance_mm": 0,
+      "ForkSlotOverlap_mm3": 0,
+      "AnchorEngagement_mm": 8.409278559194963,
+      "Passed": true
+    },
+    {
+      "Stand": "A steering mirror 2",
+      "PostBottom_mm": [
+        -10.599389228630205,
+        323.1952261725957,
+        -24.2
+      ],
+      "PostTop_mm": [
+        -10.599389228630205,
+        323.1952261725957,
+        26.6
+      ],
+      "BottomSeatError_mm": 0,
+      "TopError_mm": 0,
+      "ForkPostDistance_mm": 0,
+      "ForkBoardDistance_mm": 0,
+      "ForkSlotOverlap_mm3": 0,
+      "AnchorEngagement_mm": 8.414040676663543,
+      "Passed": true
+    },
+    {
+      "Stand": "B steering mirror 1",
+      "PostBottom_mm": [
+        359.469581720955,
+        370.53041141396363,
+        -24.2
+      ],
+      "PostTop_mm": [
+        359.469581720955,
+        370.53041141396363,
+        26.6
+      ],
+      "BottomSeatError_mm": 0,
+      "TopError_mm": 0,
+      "ForkPostDistance_mm": 0,
+      "ForkBoardDistance_mm": 0,
+      "ForkSlotOverlap_mm3": 0,
+      "AnchorEngagement_mm": 8.404645108281187,
+      "Passed": true
+    },
+    {
+      "Stand": "B steering mirror 2",
+      "PostBottom_mm": [
+        -2.8751185790510547,
+        389.3231131436235,
+        -24.2
+      ],
+      "PostTop_mm": [
+        -2.8751185790510547,
+        389.3231131436235,
+        26.6
+      ],
+      "BottomSeatError_mm": 0,
+      "TopError_mm": 0,
+      "ForkPostDistance_mm": 0,
+      "ForkBoardDistance_mm": 0,
+      "ForkSlotOverlap_mm3": 0,
+      "AnchorEngagement_mm": 8.409262367681773,
+      "Passed": true
+    }
+  ],
+  "Excluded": [
+    "Ray_Upper_Imperial_20261021:1: reference ray assembly",
+    "UPPER RAYS 20261022 - lower guides pending revalidation: reference ray assembly",
+    "A PC lens - LA1213-B bare \u002B50mm body1: explicitly identified optical glass",
+    "A NC lens - LC1054-B -25mm body1: explicitly identified optical glass",
+    "A steering mirror 2 BB05-E03 directly seated body1: explicitly identified optical glass",
+    "B PC lens - LA1213-B bare \u002B50mm body1: explicitly identified optical glass",
+    "B NC lens - LC1054-B -25mm body1: explicitly identified optical glass",
+    "B steering mirror 2 BB05-E03 directly seated body1: explicitly identified optical glass",
+    "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / CCM1-E03 M fixed 45deg fold - optical CA over D17p5 -795nm body7: explicitly identified optical glass",
+    "A steering mirror 1 BB05-E03 directly seated body1: explicitly identified optical glass",
+    "B steering mirror 1 BB05-E03 directly seated body1: explicitly identified optical glass"
+  ],
+  "Errors": [],
+  "Warnings": [],
+  "Limitations": [
+    "Verifies only the six upper D4 free-space envelopes and eight supports in actual Top_Optics, including its nested viewport cage. It does not verify the lower 1K mirror path or Gaussian waist.",
+    "D4 is a conservative mechanical clearance envelope, not the Gaussian field. Mirror cuts are offset 0.1 mm into the free-space side to separate optical boundary contacts from material obstruction.",
+    "Explicit optical-body exclusions are listed. All other native solid bodies, including screws, are tested against D4. Non-solid candidate geometry produces an unresolved error.",
+    "Support collision tests exclude screw/stud/washer/nut envelopes because their nominal threaded joints intentionally overlap. Their existence and applied placement matrices are checked, and fork anchor clearance is checked independently.",
+    "No elastic, thermal, cryogenic or preload certification. KM05 spring geometry retains supplier nominal form as documented in its installation report."
+  ]
+}

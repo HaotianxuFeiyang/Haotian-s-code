@@ -1,0 +1,458 @@
+{
+  "Date": "2026-10-22",
+  "Status": "Whole fridge list count and inclusion audit complete; stop-shim purchasing status pending user",
+  "Scope": "Full fridge design only; first three Lattice/TA/Splitting tables preserved and not re-engineered; no Desktop or Git write",
+  "TopBOMRowsChecked": 29,
+  "TopBOMCountResults": [
+    {
+      "Passed": true,
+      "Expected": 1,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 1,
+      "SKU": "LCP33",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 1,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 1,
+      "SKU": "CCM1-E03/M",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 2,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 2,
+      "SKU": "AHWP05M-980",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 2,
+      "ProcurementStatus": "Existing laboratory stock; confirmed in prior installation metadata",
+      "Quantity": 0,
+      "SKU": "PBS125",
+      "RowsFound": 0
+    },
+    {
+      "Passed": true,
+      "Expected": 2,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 2,
+      "SKU": "CRM05",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 2,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 2,
+      "SKU": "CP33/M",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 6,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 6,
+      "SKU": "CP32",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 2,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 2,
+      "SKU": "LC1054-B",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 4,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 4,
+      "SKU": "ER1.5",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 4,
+      "ProcurementStatus": "Existing laboratory stock; confirmed in prior installation metadata",
+      "Quantity": 0,
+      "SKU": "BB05-E03",
+      "RowsFound": 0
+    },
+    {
+      "Passed": true,
+      "Expected": 2,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 2,
+      "SKU": "A390TM-B",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 2,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 2,
+      "SKU": "S05TM09",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 2,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 2,
+      "SKU": "SM05FCA2",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 2,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 2,
+      "SKU": "SM05L05",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 8,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 8,
+      "SKU": "ER6E",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 4,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 4,
+      "SKU": "KM05",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 2,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 2,
+      "SKU": "LA1213-B",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 2,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 2,
+      "SKU": "CRM1T/M",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 1,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 1,
+      "SKU": "MB1224",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 8,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 8,
+      "SKU": "RS2P8E",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 2,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 2,
+      "SKU": "RS5M",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 1,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 1,
+      "SKU": "RS4M",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 8,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 8,
+      "SKU": "PS-F-1.0",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 8,
+      "ProcurementStatus": "Existing laboratory stock; user removed purchase link",
+      "Quantity": 8,
+      "SKU": "92196A540",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 8,
+      "ProcurementStatus": "Existing laboratory stock; user removed purchase link",
+      "Quantity": 8,
+      "SKU": "92196A537",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 4,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 4,
+      "SKU": "91292A174",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 4,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 4,
+      "SKU": "93475A290",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 5,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 5,
+      "SKU": "94355A192",
+      "RowsFound": 1
+    },
+    {
+      "Passed": true,
+      "Expected": 3,
+      "ProcurementStatus": "Purchase",
+      "Quantity": 3,
+      "SKU": "94355A198",
+      "RowsFound": 1
+    }
+  ],
+  "TopBOMCountPassed": true,
+  "InternalVariants": [
+    {
+      "SKU": "MRA12-E03",
+      "Quantity": 2,
+      "Basis": "Two prisms in MRA12 variant; user explicitly approved2"
+    },
+    {
+      "SKU": "HRS1015-AG",
+      "Quantity": 1,
+      "Basis": "One integral roof mirror in HRS1015 variant"
+    },
+    {
+      "SKU": "91292A132",
+      "Quantity": 4,
+      "Basis": "Two custom-finished M4 mounting screws per alternative mount;2 lengths32.5mm +2 lengths38.5mm"
+    },
+    {
+      "SKU": "SH4S025",
+      "Quantity": 4,
+      "Basis": "Two 4-40 retainer screws per alternative mount; no-linkstock"
+    },
+    {
+      "SKU": "97125K111",
+      "Quantity": 4,
+      "Basis": "One Inconel718 Belleville per retainer screw"
+    },
+    {
+      "SKU": "93237A103",
+      "Quantity": 4,
+      "Basis": "One316SSM4Belleville per mount-fixing screw"
+    }
+  ],
+  "IncludedParts": [
+    {
+      "Supply": "Six CP32 include2each=12",
+      "Item": "SM05RR",
+      "Source": "https://www.thorlabs.com/item/CP32",
+      "SeparatePurchaseRequired": false,
+      "Installed": 8
+    },
+    {
+      "Supply": "Two CRM1T/M include1each=2",
+      "Item": "SM1RR",
+      "Source": "https://punchout.thorlabs.com/newgrouppage9.cfm?objectgroup_id=1885",
+      "SeparatePurchaseRequired": false,
+      "Installed": 2
+    },
+    {
+      "SeparatePurchaseRequired": false,
+      "Note": "Native files deliberately named FactoryRingRemoved; adapter threads directly into tube",
+      "Supply": "One per tube",
+      "Item": "SM05L05 factory retaining ring",
+      "Installed": 0,
+      "Source": "https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=3306&pn=SM05L20C"
+    },
+    {
+      "Supply": "Two CP33/M include2SM1RR each; factory integral lock screws supplied in assemblies",
+      "Item": "Factory CP33 rings and integral mount lock screws",
+      "Note": "CP33 rings are deliberately removed for threaded CRM05; factory optics/cage lock screws remain assembly components",
+      "SeparatePurchaseRequired": false,
+      "Source": "https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=2273&pn=CP33"
+    },
+    {
+      "Supply": "Integral RS2P8E part",
+      "Item": "Pedestal base flange",
+      "Note": "No additional collar/baseplate SKU is required",
+      "SeparatePurchaseRequired": false
+    }
+  ],
+  "StockEvidence": {
+    "StockPhysicalCountVerifiedThisTask": false,
+    "EquivalentFlatWasher": 4,
+    "WasherDimensions_mm": [
+      3.2,
+      9,
+      0.8
+    ],
+    "BB05E03": 4,
+    "PBS125": 2,
+    "Source": "Baseline_Top_Installation.json LaboratoryStock, also pre-Imperial backup"
+  },
+  "SpacerCheck": {
+    "SKUs": [
+      "RS4M",
+      "RS5M"
+    ],
+    "Conclusion": "8-32 clears unchanged through hole; retain metric-named spacer SKUs",
+    "StudMajorDiameter_mm": 4.1656,
+    "Source": "https://punchout.thorlabs.com/newgrouppage9.cfm?objectgroup_id=241&pn=RS4P8C",
+    "CenterHole": "Clearance for1/4in(M6), not a tapped M4 hole"
+  },
+  "ScrewAndWasherRows": [
+    {
+      "Links": [
+        "https://www.mcmaster.com/91292A132/"
+      ],
+      "Table": 6,
+      "Quantity": 4,
+      "Description": "91292A132  |  M4 × 40 mm socket head18-8 stainless; finish to MRA12 32.5 mm × 2 and HRS1015 38.5 mm × 2; retain ≥ 6 mm usable thread"
+    },
+    {
+      "Links": [],
+      "Table": 6,
+      "Quantity": 4,
+      "Description": "SH4S025  |  4-40 × ¼ inThin retainer screws; direct tapped holes, no Helicoil"
+    },
+    {
+      "Links": [
+        "https://www.mcmaster.com/97125K111/"
+      ],
+      "Table": 6,
+      "Quantity": 4,
+      "Description": "97125K111  |  718 nickel alloy BellevilleFor 4-40; OD 7.1374 / ID 3.6068 / t 0.5334 / H 0.8382 mm"
+    },
+    {
+      "Links": [
+        "https://www.mcmaster.com/93237A103/"
+      ],
+      "Table": 6,
+      "Quantity": 4,
+      "Description": "93237A103  |  M4 Belleville316 stainless; OD 9 / ID 4.3 / t 1.0 / H 1.30 mm"
+    },
+    {
+      "Links": [],
+      "Table": 7,
+      "Quantity": 8,
+      "Description": "92196A540  |  1/4-20 × ¾ in socket head18-8 stainless; 8 leg-top screws; 7.05 mm nominal board engagement"
+    },
+    {
+      "Links": [],
+      "Table": 7,
+      "Quantity": 8,
+      "Description": "92196A537  |  1/4-20 × ½ in socket head18-8 stainless; 8 Newport fork-to-board screws"
+    },
+    {
+      "Links": [
+        "https://www.mcmaster.com/91292A174/"
+      ],
+      "Table": 7,
+      "Quantity": 4,
+      "Description": "91292A174  |  M12 × 30 mm socket head18-8 stainless; 4 legs to the existing platform"
+    },
+    {
+      "Links": [
+        "https://www.mcmaster.com/93475A290/"
+      ],
+      "Table": 7,
+      "Quantity": 4,
+      "Description": "93475A290  |  M12 flat washer18-8 stainless; ID 13 × OD 24 mm; t 2.0–2.9 mm"
+    },
+    {
+      "Links": [],
+      "Table": 7,
+      "Quantity": 2,
+      "Description": "SH8S100  |  8-32 × 1 in2 clamp-ear bolts"
+    },
+    {
+      "Links": [],
+      "Table": 7,
+      "Quantity": 2,
+      "Description": "N8S0340  |  8-32 hex nut2 clamp-ear nuts"
+    },
+    {
+      "Links": [],
+      "Table": 7,
+      "Quantity": 4,
+      "Description": "Lawson 1297309  |  8-32 × ¼ inFlat-point stainless set screw; 4 radial cage-rod locks"
+    },
+    {
+      "Links": [],
+      "Table": 7,
+      "Quantity": 4,
+      "Description": "SSC-4-40-5/8-A2  |  4-40 × ⅝ in4 screws attaching the top cage mirror cube"
+    },
+    {
+      "Links": [
+        "https://www.mcmaster.com/94355A192/"
+      ],
+      "Table": 7,
+      "Quantity": 5,
+      "Description": "94355A192  |  8-32 × ⅜ in flat-tip setscrew18-8 stainless; 4 telescope supports + B2 mirror support"
+    },
+    {
+      "Links": [
+        "https://www.mcmaster.com/94355A198/"
+      ],
+      "Table": 7,
+      "Quantity": 3,
+      "Description": "94355A198  |  8-32 × ⅝ in flat-tip setscrew18-8 stainless; A1 and B1 through 5 mm spacers, A2 through 4 mm spacer"
+    }
+  ],
+  "NonMcMasterLinkedFasteners": [],
+  "AllLinkedFastenersMcMaster": true,
+  "NoLinkStockPrefixes": [
+    "SH4S025",
+    "92196A540",
+    "92196A537",
+    "SH8S100",
+    "N8S0340",
+    "Lawson1297309",
+    "SSC-4-40-5/8-A2"
+  ],
+  "OpenItems": [
+    "Prism_440_Flat_StopShim_0p5mm:4 needed across2mount variants; present in native CAD but user-deleted row absent from desktop. Do not infer stock. Root has user question pending.",
+    "Existing PBS125-to-CRM05 design uses adhesive bonding. Adhesive SKU/stock is not specified in this purchasing list. No new glue purchase added or stock assumed; treat as unresolved assembly consumable if procuring every consumable."
+  ],
+  "ObsoletePurchasedHardwareCheck": "No M4 top studs92605A117/121, RS2P4M, KM05/M, CP32/M, adjustable PH/TR/BA/RB supports, or removed imaging/PGC purchases remain in fridge tables.",
+  "LaterCageRevision": {
+    "Old": "ER1x4",
+    "New": "ER1.5x4",
+    "Length_mm": 38.1,
+    "OfficialSource": "Vendor_References/Thorlabs_ER1p5_Source.json",
+    "Reason": "Root native end-chamfer/locking-region check: longer rods required after raised LCP33",
+    "AssemblyNote": "Remove both4-40factory endstuds from each of4rods",
+    "NativeFinalClearance": "Root verification pending at document edit"
+  },
+  "FinalDocumentSHA256": "5485F8E0ED94CBFEFA5FA9D5F4192548A5489A2B2B2F2DAE50227BC4EBBF15A7"
+}

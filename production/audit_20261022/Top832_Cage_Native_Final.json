@@ -1,0 +1,299 @@
+{
+  "Stage": "Complete",
+  "TimestampUtc": "2026-10-22T19:26:57.2765075Z",
+  "TopFile": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\Top_Optics.iam",
+  "Failure": null,
+  "RodCount": 4,
+  "ClampHalfCount": 2,
+  "LowerLockCount": 4,
+  "NativeUpperLockCount": 4,
+  "BooleanCalls": 16,
+  "AllGeometryPassed": true,
+  "FullTipFootprintsPassed": true,
+  "Rods": [
+    {
+      "Rod": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / ER1.5 outer rod -30,-30 - shaft z=-4.5 to 33.6 mm; end studs removed",
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\ER1p5_ShaftOnly_20261022.ipt",
+      "Clamp": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / CNC two-half viewport clamp - 8-32 through bolts and nuts - D64 - 179deg halves / CNC identical half B - ears D4p5 through",
+      "LowerLock": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / CNC two-half viewport clamp - 8-32 through bolts and nuts - D64 - 179deg halves / 8-32 true radial rod lock -30,-30",
+      "LCP33": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / LCP33 directly supports CCM1 - inner locking grubs removed",
+      "UpperClampingStyle": "LCP33 M4 screw actuates an offset slot/clamping region; not a directly radial point screw",
+      "NativeUpperLockBody": 5,
+      "NativeUpperLockBodyZ_mm": [
+        18.17952241439979,
+        22.75826401308003
+      ],
+      "UpperLockSolidPresent": true,
+      "UpperLockAxialBandCovered": true,
+      "ShaftBody": 1,
+      "ShaftFace": 8,
+      "ClampBoreFace": 4,
+      "PlateBoreFace": 70,
+      "Diameter_mm": 5.994400000000001,
+      "Length_mm": 38.1,
+      "LowerChamfer_mm": 0.7619999999999916,
+      "UpperChamfer_mm": 0.7620000000000005,
+      "AxisXY_mm": [
+        -30.000000000000004,
+        -29.999999999999993
+      ],
+      "PhysicalShaftZ_mm": [
+        -4.500000000000002,
+        33.6
+      ],
+      "FullCylinderZ_mm": [
+        -3.73800000000001,
+        32.838
+      ],
+      "ClampBoreZ_mm": [
+        -5.5,
+        4.5
+      ],
+      "PlateBoreZ_mm": [
+        14.372893213739912,
+        26.564893213740007
+      ],
+      "LowerLockFootprintZ_mm": [
+        -2.0827999999999998,
+        2.0827999999999998
+      ],
+      "ClampCoaxialError_mm": 3.552713678800501E-15,
+      "PlateCoaxialError_mm": 8.485281372912478E-05,
+      "ClampDiametralClearance_mm": 0.20559999999999956,
+      "PlateDiametralClearance_mm": 0.02540000000000031,
+      "ClampAxialOverlap_mm": 9.000000000000002,
+      "ClampFullCylinderOverlap_mm": 8.23800000000001,
+      "PlateAxialOverlap_mm": 12.192000000000094,
+      "PlateFullCylinderOverlap_mm": 12.192000000000094,
+      "LowerLockAxisZ_mm": 0,
+      "LowerLockAxisSkew": 0,
+      "LowerLockAxisMiss_mm": 7.549516567451064E-15,
+      "LowerLockCenterMargin_mm": 3.73800000000001,
+      "LowerFullTipMargin_mm": 1.6552000000000104,
+      "UpperLockAxisZ_mm": 20.46889321373991,
+      "UpperLockCenterMargin_mm": 12.36910678626009,
+      "UpperConservativeM4FootprintMargin_mm": 10.36910678626009,
+      "LowerLockToShaftDistance_mm": 0,
+      "NativeBoresPassed": true,
+      "LowerCenterContactPassed": true,
+      "ConservativeFootprintsPassed": true,
+      "Issues": [],
+      "Intersections": []
+    },
+    {
+      "Rod": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / ER1.5 outer rod -30,30 - shaft z=-4.5 to 33.6 mm; end studs removed",
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\ER1p5_ShaftOnly_20261022.ipt",
+      "Clamp": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / CNC two-half viewport clamp - 8-32 through bolts and nuts - D64 - 179deg halves / CNC identical half A - ears D4p5 through",
+      "LowerLock": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / CNC two-half viewport clamp - 8-32 through bolts and nuts - D64 - 179deg halves / 8-32 true radial rod lock -30,30",
+      "LCP33": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / LCP33 directly supports CCM1 - inner locking grubs removed",
+      "UpperClampingStyle": "LCP33 M4 screw actuates an offset slot/clamping region; not a directly radial point screw",
+      "NativeUpperLockBody": 4,
+      "NativeUpperLockBodyZ_mm": [
+        18.17952241439979,
+        22.758264013080023
+      ],
+      "UpperLockSolidPresent": true,
+      "UpperLockAxialBandCovered": true,
+      "ShaftBody": 1,
+      "ShaftFace": 8,
+      "ClampBoreFace": 6,
+      "PlateBoreFace": 66,
+      "Diameter_mm": 5.994400000000001,
+      "Length_mm": 38.1,
+      "LowerChamfer_mm": 0.7619999999999916,
+      "UpperChamfer_mm": 0.7620000000000005,
+      "AxisXY_mm": [
+        -30,
+        30
+      ],
+      "PhysicalShaftZ_mm": [
+        -4.500000000000002,
+        33.6
+      ],
+      "FullCylinderZ_mm": [
+        -3.73800000000001,
+        32.838
+      ],
+      "ClampBoreZ_mm": [
+        -5.5,
+        4.5
+      ],
+      "PlateBoreZ_mm": [
+        14.372893213739912,
+        26.564893213740007
+      ],
+      "LowerLockFootprintZ_mm": [
+        -2.0827999999999998,
+        2.0827999999999998
+      ],
+      "ClampCoaxialError_mm": 0,
+      "PlateCoaxialError_mm": 8.485281371907619E-05,
+      "ClampDiametralClearance_mm": 0.20559999999999956,
+      "PlateDiametralClearance_mm": 0.02540000000000031,
+      "ClampAxialOverlap_mm": 9.000000000000002,
+      "ClampFullCylinderOverlap_mm": 8.23800000000001,
+      "PlateAxialOverlap_mm": 12.192000000000094,
+      "PlateFullCylinderOverlap_mm": 12.192000000000094,
+      "LowerLockAxisZ_mm": 0,
+      "LowerLockAxisSkew": 0,
+      "LowerLockAxisMiss_mm": 0,
+      "LowerLockCenterMargin_mm": 3.73800000000001,
+      "LowerFullTipMargin_mm": 1.6552000000000104,
+      "UpperLockAxisZ_mm": 20.46889321373991,
+      "UpperLockCenterMargin_mm": 12.36910678626009,
+      "UpperConservativeM4FootprintMargin_mm": 10.36910678626009,
+      "LowerLockToShaftDistance_mm": 0,
+      "NativeBoresPassed": true,
+      "LowerCenterContactPassed": true,
+      "ConservativeFootprintsPassed": true,
+      "Issues": [],
+      "Intersections": []
+    },
+    {
+      "Rod": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / ER1.5 outer rod 30,-30 - shaft z=-4.5 to 33.6 mm; end studs removed",
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\ER1p5_ShaftOnly_20261022.ipt",
+      "Clamp": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / CNC two-half viewport clamp - 8-32 through bolts and nuts - D64 - 179deg halves / CNC identical half B - ears D4p5 through",
+      "LowerLock": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / CNC two-half viewport clamp - 8-32 through bolts and nuts - D64 - 179deg halves / 8-32 true radial rod lock 30,-30",
+      "LCP33": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / LCP33 directly supports CCM1 - inner locking grubs removed",
+      "UpperClampingStyle": "LCP33 M4 screw actuates an offset slot/clamping region; not a directly radial point screw",
+      "NativeUpperLockBody": 2,
+      "NativeUpperLockBodyZ_mm": [
+        18.17952241439982,
+        22.758264013080094
+      ],
+      "UpperLockSolidPresent": true,
+      "UpperLockAxialBandCovered": true,
+      "ShaftBody": 1,
+      "ShaftFace": 8,
+      "ClampBoreFace": 6,
+      "PlateBoreFace": 63,
+      "Diameter_mm": 5.994400000000001,
+      "Length_mm": 38.1,
+      "LowerChamfer_mm": 0.7619999999999916,
+      "UpperChamfer_mm": 0.7620000000000005,
+      "AxisXY_mm": [
+        29.999999999999993,
+        -29.999999999999993
+      ],
+      "PhysicalShaftZ_mm": [
+        -4.500000000000002,
+        33.6
+      ],
+      "FullCylinderZ_mm": [
+        -3.73800000000001,
+        32.838
+      ],
+      "ClampBoreZ_mm": [
+        -5.5,
+        4.5
+      ],
+      "PlateBoreZ_mm": [
+        14.37289321374001,
+        26.56489321373991
+      ],
+      "LowerLockFootprintZ_mm": [
+        -2.0827999999999998,
+        2.0827999999999998
+      ],
+      "ClampCoaxialError_mm": 1.1234667099445444E-14,
+      "PlateCoaxialError_mm": 8.485281376931915E-05,
+      "ClampDiametralClearance_mm": 0.20559999999999956,
+      "PlateDiametralClearance_mm": 0.02540000000000031,
+      "ClampAxialOverlap_mm": 9.000000000000002,
+      "ClampFullCylinderOverlap_mm": 8.23800000000001,
+      "PlateAxialOverlap_mm": 12.1919999999999,
+      "PlateFullCylinderOverlap_mm": 12.1919999999999,
+      "LowerLockAxisZ_mm": 0,
+      "LowerLockAxisSkew": 0,
+      "LowerLockAxisMiss_mm": 0,
+      "LowerLockCenterMargin_mm": 3.73800000000001,
+      "LowerFullTipMargin_mm": 1.6552000000000104,
+      "UpperLockAxisZ_mm": 20.46889321373991,
+      "UpperLockCenterMargin_mm": 12.36910678626009,
+      "UpperConservativeM4FootprintMargin_mm": 10.36910678626009,
+      "LowerLockToShaftDistance_mm": 0,
+      "NativeBoresPassed": true,
+      "LowerCenterContactPassed": true,
+      "ConservativeFootprintsPassed": true,
+      "Issues": [],
+      "Intersections": []
+    },
+    {
+      "Rod": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / ER1.5 outer rod 30,30 - shaft z=-4.5 to 33.6 mm; end studs removed",
+      "File": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\ER1p5_ShaftOnly_20261022.ipt",
+      "Clamp": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / CNC two-half viewport clamp - 8-32 through bolts and nuts - D64 - 179deg halves / CNC identical half A - ears D4p5 through",
+      "LowerLock": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / CNC two-half viewport clamp - 8-32 through bolts and nuts - D64 - 179deg halves / 8-32 true radial rod lock 30,30",
+      "LCP33": "VIEWPORT CAGE - Cage_Azimuth_Delta controls clamp rotation / LCP33 directly supports CCM1 - inner locking grubs removed",
+      "UpperClampingStyle": "LCP33 M4 screw actuates an offset slot/clamping region; not a directly radial point screw",
+      "NativeUpperLockBody": 3,
+      "NativeUpperLockBodyZ_mm": [
+        18.17952241439972,
+        22.758264013080208
+      ],
+      "UpperLockSolidPresent": true,
+      "UpperLockAxialBandCovered": true,
+      "ShaftBody": 1,
+      "ShaftFace": 8,
+      "ClampBoreFace": 4,
+      "PlateBoreFace": 62,
+      "Diameter_mm": 5.994400000000001,
+      "Length_mm": 38.1,
+      "LowerChamfer_mm": 0.7619999999999916,
+      "UpperChamfer_mm": 0.7620000000000005,
+      "AxisXY_mm": [
+        29.999999999999996,
+        30
+      ],
+      "PhysicalShaftZ_mm": [
+        -4.500000000000002,
+        33.6
+      ],
+      "FullCylinderZ_mm": [
+        -3.73800000000001,
+        32.838
+      ],
+      "ClampBoreZ_mm": [
+        -5.5,
+        4.5
+      ],
+      "PlateBoreZ_mm": [
+        14.37289321374001,
+        26.56489321373991
+      ],
+      "LowerLockFootprintZ_mm": [
+        -2.0827999999999998,
+        2.0827999999999998
+      ],
+      "ClampCoaxialError_mm": 3.552713678800501E-15,
+      "PlateCoaxialError_mm": 8.485281376429485E-05,
+      "ClampDiametralClearance_mm": 0.20559999999999956,
+      "PlateDiametralClearance_mm": 0.025399999999978995,
+      "ClampAxialOverlap_mm": 9.000000000000002,
+      "ClampFullCylinderOverlap_mm": 8.23800000000001,
+      "PlateAxialOverlap_mm": 12.1919999999999,
+      "PlateFullCylinderOverlap_mm": 12.1919999999999,
+      "LowerLockAxisZ_mm": 0,
+      "LowerLockAxisSkew": 0,
+      "LowerLockAxisMiss_mm": 2.220446049250313E-15,
+      "LowerLockCenterMargin_mm": 3.73800000000001,
+      "LowerFullTipMargin_mm": 1.6552000000000104,
+      "UpperLockAxisZ_mm": 20.46889321373991,
+      "UpperLockCenterMargin_mm": 12.36910678626009,
+      "UpperConservativeM4FootprintMargin_mm": 10.36910678626009,
+      "LowerLockToShaftDistance_mm": 0,
+      "NativeBoresPassed": true,
+      "LowerCenterContactPassed": true,
+      "ConservativeFootprintsPassed": true,
+      "Issues": [],
+      "Intersections": []
+    }
+  ],
+  "Errors": [],
+  "Warnings": [],
+  "Limits": [
+    "No native document edits. All poses compose actual nested occurrences into the optical-local frame.",
+    "Full-tip criterion conservatively requires the complete nominal lock diameter to fall within unchamfered rod shaft. Failure is reported separately from centerline contact and does not constitute a force/preload analysis.",
+    "LCP33 locks use an offset clamping slot, not the custom clamp radial tip mechanism. Native four M4 screw solids are explicitly located; their axial band coverage is diagnostic, not a contact-pressure certification.",
+    "Native rods can contain factory-installed removable 4-40 studs. Self-intersection within the same supplier rod is not classified as an assembly interference. Every rod body is checked against all other hardware except explicit reference rays."
+  ]
+}

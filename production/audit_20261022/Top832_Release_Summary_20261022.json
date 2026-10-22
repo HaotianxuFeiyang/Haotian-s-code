@@ -1,0 +1,416 @@
+{
+  "revision": "Top_8_32_Revision_20261022",
+  "date": "2026-10-22",
+  "release_status": "Native Full verification complete; exact reviewed purchasing document identified",
+  "scope": "Eight pedestal-to-optic threaded connections on the upper MB1224 breadboard; Full Inventor assembly only",
+  "purchased_component_changes": [
+    {
+      "from": "RS2P4M",
+      "to": "RS2P8E",
+      "quantity": 8,
+      "nominal_height_mm": 50.8,
+      "post_thread": "8-32 UNC"
+    },
+    {
+      "from": "CP32/M",
+      "to": "CP32",
+      "quantity": 6,
+      "post_thread": "8-32 UNC"
+    },
+    {
+      "from": "KM05/M",
+      "to": "KM05",
+      "quantity": 4,
+      "post_thread": "8-32 UNC"
+    },
+    {
+      "from": "92605A117 M4 x 12 mm",
+      "to": "94355A192 8-32 x 3/8 in",
+      "quantity": 5,
+      "supplier": "McMaster-Carr"
+    },
+    {
+      "from": "92605A121 M4 x 16 mm",
+      "to": "94355A198 8-32 x 5/8 in",
+      "quantity": 3,
+      "supplier": "McMaster-Carr"
+    },
+    {
+      "quantity": 4,
+      "nominal_shaft_length_mm": 38.1,
+      "from": "ER1",
+      "purpose": "Retain adequate straight-shaft engagement at both cage clamps after the optical height increase; actual native end/chamfer margins verified before release",
+      "to": "ER1.5"
+    }
+  ],
+  "placement_changes": {
+    "upper_optics_height_increment_mm": 0.8,
+    "each_complete_telescope_translation_local_xyz_mm": [
+      0,
+      -0.8,
+      0.8
+    ],
+    "upper_cage_height_increment_mm": 0.8,
+    "cumulative_cage_raise_from_previous_adjustable_post_datum_mm": 3.12,
+    "nominal_total_path_change_mm": {
+      "A": 0,
+      "B": 0
+    },
+    "nominal_gaussian_solution": "Prior target q, waist and Rayleigh length retained by equal and opposite free-space path changes; no new experimental beam certification",
+    "cumulative_telescope_path_compensation_mm": {
+      "A": 3.12,
+      "B": 3.1526329208051562
+    }
+  },
+  "retained_hardware": {
+    "breadboard": "MB1224, original 1/4-20 factory grid",
+    "forks": "Newport PS-F-1.0, quantity 8",
+    "spacers": {
+      "RS5M": 2,
+      "RS4M": 1
+    },
+    "breadboard_leg_threads": "1/4-20 upper attachment and existing M12 lower attachment",
+    "internal_fridge_mirror_fasteners": "Existing M4 and 4-40 connections unchanged by this top-stud conversion",
+    "existing_stock_links": "User-removed purchase links preserved"
+  },
+  "manufacturing_deliverables": {
+    "custom_step_png_pairs": 10,
+    "geometry_change_in_this_revision": false,
+    "reason": "Thread conversion uses purchased imperial Thorlabs parts and screw envelopes; custom legs, clamp and internal mirror parts retain previously released geometry"
+  },
+  "simplified_assembly": "Not updated, per user instruction",
+  "required_release_checks": [
+    "Native checks and local Full save/reference closure have passed",
+    "Publisher verifies Desktop and production Word SHA256 against reviewed_word_sha256 before committing",
+    "Publisher verifies remote commit after push; this summary itself does not claim a remote commit"
+  ],
+  "verification_limits": [
+    "Upper geometric clearance checks do not newly validate the lower 1K optical path or measured Gaussian waist",
+    "CAD checks do not certify cryogenic deformation, elastic preload or tightening torque"
+  ],
+  "native_model_repairs": {
+    "reason": "Legacy copied-body derivatives exposed multiple features but only one active native solid; missing mechanical bodies invalidate a clearance audit",
+    "source_supplier_parts": "Preserved",
+    "method": "Separate single-body IPTs assembled and exported through native STEP, then reimported as one multibody part",
+    "intentional_open_S05TM09_shell": "Retained, outside this solid-body repair",
+    "acceptance": "Exact body counts and bijective source/import bounds-volume checks, followed by native joint, support, upper beam and cage checks",
+    "required_counts": {
+      "CRM1T_M_OpenBody": 8,
+      "LCP33_InnerGrubsRemoved": 5,
+      "CP32_832_OpenBody": 5,
+      "KM05_B2": 23,
+      "KM05_B1": 23,
+      "CP33_M_RingsRemoved": 5
+    },
+    "status": "Six native derivatives corrected and rechecked in the Full assembly",
+    "mapping_limit": "Body counts, precise bounds and volume signatures were checked; V4 parts also require matching face counts. These are not a general proof of topological identity. Source-run tolerances remain attached per part."
+  },
+  "assembly_followups": [
+    "Four 0.50 mm flat stop shims are still required by the mirror-mount design; supply remains unresolved and no stock is assumed",
+    "PBS125-to-CRM05 adhesive is not specified; no adhesive purchase or laboratory stock is assumed"
+  ],
+  "generated_utc": "2026-10-22T19:31:29.682704+00:00",
+  "handoff_scope": {
+    "native_design": "Inventor IAM/IPT sources remain in the local 02_Full_Design project; Git is the purchasing/manufacturing handoff, not a complete native Inventor repository",
+    "github_changes": "Reviewed shopping list, this audit summary, native overview image and selected reusable audit source",
+    "simplified_design": "Not updated or synchronized",
+    "native_check_session": "Current open Inventor documents and cached native reference closures; no fresh-open audit claimed"
+  },
+  "synchronization": {
+    "reviewed_word_sha256": "5485f8e0ed94cbfefa5fa9d5f4192548a5489a2b2b2f2dae50227bc4ebbf15a7",
+    "desktop_matches": true,
+    "production_matches": true,
+    "current_full_metadata_applied": true
+  },
+  "verification": {
+    "upper_optical_and_placement": {
+      "passed": true,
+      "placements": 89,
+      "matched": 89
+    },
+    "supports": {
+      "passed": true,
+      "pedestals": 8,
+      "forks": 8,
+      "anchors": 8
+    },
+    "stud_joints": {
+      "passed": true,
+      "studs": 8,
+      "nominal_post_engagement_mm": {
+        "direct": 4.8,
+        "with_spacers": 6.5
+      }
+    },
+    "cage": {
+      "passed": true,
+      "rod_sku": "ER1.5",
+      "rods": 4,
+      "shaft_length_mm": 38.1,
+      "factory_end_studs_removed": true,
+      "lower_radial_locks": 4,
+      "native_lcp33_outer_locks": 4,
+      "full_tip_footprints_passed": true,
+      "minimum_lower_tip_margin_mm": 1.6552000000000104,
+      "minimum_clamp_straight_shaft_overlap_mm": 8.23800000000001,
+      "minimum_lcp33_straight_shaft_overlap_mm": 12.1919999999999
+    },
+    "six_derivatives": [
+      {
+        "part": "CP32_832_OpenBody_20261022",
+        "native_bodies": 5,
+        "passed": true,
+        "acceptance": {
+          "BoundsTolerance_mm": 0.0001,
+          "VolumeTolerance_mm3": 0.001,
+          "FaceCountRequired": false,
+          "MeasuredFaceCountsMatching": 4
+        },
+        "native_ipt_sha256": "c7705d8b610c9def0e336e089890e7e3bae89a4db264e1368ae5485b42547780",
+        "native_step_proof_sha256": "5024ef9ab75865b6ab5e7aa238099086fe64dd96b190aa91ef543e7d9c88ab8b",
+        "maximum_precise_bounds_delta_mm": 1.4210854715202004e-14,
+        "maximum_volume_delta_mm3": 5.604128455161117e-05
+      },
+      {
+        "part": "CP33_M_RingsRemoved_20261022",
+        "native_bodies": 5,
+        "passed": true,
+        "acceptance": {
+          "BoundsTolerance_mm": 0.0001,
+          "VolumeTolerance_mm3": 0.001,
+          "FaceCountRequired": false,
+          "MeasuredFaceCountsMatching": 4
+        },
+        "native_ipt_sha256": "fff507edcb9fb9baa2d6cfffb275fb6411948a2f7edc56647aa33020122823ea",
+        "native_step_proof_sha256": "4562fed11d5d483e3298d9cf97862629a52f3f9c5c4ae9a7fa407cdb174c0a9b",
+        "maximum_precise_bounds_delta_mm": 1.4210854715202004e-14,
+        "maximum_volume_delta_mm3": 9.598428368917666e-05
+      },
+      {
+        "part": "LCP33_InnerGrubsRemoved_20261022",
+        "native_bodies": 5,
+        "passed": true,
+        "acceptance": {
+          "BoundsTolerance_mm": 0.0001,
+          "VolumeTolerance_mm3": 0.001,
+          "FaceCountRequired": false,
+          "MeasuredFaceCountsMatching": 5
+        },
+        "native_ipt_sha256": "61cec5fa82ecae17feeea90432ed33d391ae29c908405041a06a303393568d05",
+        "native_step_proof_sha256": "e48d3c70ba039e2ad44f48e6c8fdaac7a714fbf0c4ed329aec9db6ca4a8a5a6c",
+        "maximum_precise_bounds_delta_mm": 4.266809128239402e-12,
+        "maximum_volume_delta_mm3": 0.00025204280609614216
+      },
+      {
+        "part": "CRM1T_M_OpenBody_20261022",
+        "native_bodies": 8,
+        "passed": true,
+        "acceptance": {
+          "BoundsTolerance_mm": 0.0001,
+          "VolumeTolerance_mm3": 0.005,
+          "FaceCountRequired": true,
+          "MeasuredFaceCountsMatching": 8
+        },
+        "native_ipt_sha256": "83cfa67d81bb2a92ea49b43d1fb26d633a5dbba530858dbb8c64a83d5a2a1f2d",
+        "native_step_proof_sha256": "658714dc390a17f88bbba716bcefdeabe02dd0e40ba0790f59b251a874b3a6a6",
+        "maximum_precise_bounds_delta_mm": 2.913225216616411e-13,
+        "maximum_volume_delta_mm3": 0.0012500755086080062
+      },
+      {
+        "part": "Thorlabs_KM05_832_Adjusted_B1_20261022",
+        "native_bodies": 23,
+        "passed": true,
+        "acceptance": {
+          "BoundsTolerance_mm": 0.0001,
+          "VolumeTolerance_mm3": 0.005,
+          "FaceCountRequired": true,
+          "MeasuredFaceCountsMatching": 23
+        },
+        "native_ipt_sha256": "89552053c2e438cb4e24aedee66e3afc10074812d768054f4cddf7ec48dca996",
+        "native_step_proof_sha256": "3bb1db695215dcdc624414e23ee49305fe5f353df835832eac0aebc24bd66bca",
+        "maximum_precise_bounds_delta_mm": 9.021269368414409e-06,
+        "maximum_volume_delta_mm3": 0.0007489541814535983
+      },
+      {
+        "part": "Thorlabs_KM05_832_Adjusted_B2_20261022",
+        "native_bodies": 23,
+        "passed": true,
+        "acceptance": {
+          "BoundsTolerance_mm": 0.0001,
+          "VolumeTolerance_mm3": 0.005,
+          "FaceCountRequired": true,
+          "MeasuredFaceCountsMatching": 23
+        },
+        "native_ipt_sha256": "ceae82253f593db60bb7aa0c7e32eb97553b92b05ca556f43e9314ffb5d3a347",
+        "native_step_proof_sha256": "39c12547b73dc2e3e165df261e372fc3dfa6f0212a217d77ee92b0af6908455b",
+        "maximum_precise_bounds_delta_mm": 3.688319276662355e-07,
+        "maximum_volume_delta_mm3": 0.0007489541814535983
+      }
+    ],
+    "original_assembly": {
+      "model_states": 3,
+      "original_occurrences_per_state": 13,
+      "maximum_transform_delta_native_units": 0.0,
+      "retired_modules_absent": true
+    },
+    "reference_closures": [
+      {
+        "entry": "LD400_SYSTEM_ASM_CPY_haotian.iam",
+        "native_documents": 822,
+        "missing": 0,
+        "external": 0,
+        "errors": 0
+      },
+      {
+        "entry": "Full_MRA12.iam",
+        "native_documents": 823,
+        "missing": 0,
+        "external": 0,
+        "errors": 0
+      },
+      {
+        "entry": "Full_HRS1015.iam",
+        "native_documents": 823,
+        "missing": 0,
+        "external": 0,
+        "errors": 0
+      }
+    ],
+    "manufacturing_artifacts": [
+      {
+        "file": "Leg_1.step",
+        "sha256": "60aca8ee5d85acf0e05977541c813f75d9f6c8c2edd4ab504cf5807be297ef3a",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "Leg_1.png",
+        "sha256": "e0994cd4ca4d1b5d099e1215a5a2fb22cc27b9398cae1382e381c2d6aa04ab1a",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "Leg_2.step",
+        "sha256": "396fddb4ad01983950b381449cbc922bdc64747476a74e3aa91cf1868c33bbbd",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "Leg_2.png",
+        "sha256": "dbf85c9081d5a70b906064ca1d69ddce02f14ff9826cb361d4c62f3101dddcc9",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "Leg_3.step",
+        "sha256": "60342d2cc5d9af860e73732590d8602c457410a0198d95ff0a99da96b63c7032",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "Leg_3.png",
+        "sha256": "e5059315cb332ec4bfd0d3d5a6e95e548fcfdca98c29d9b19af6a07ac8bb5ccb",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "Leg_4.step",
+        "sha256": "3d4143e62782539ff1849b0c5f721895cfdb4072c0c82912176aad7f169ff4e3",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "Leg_4.png",
+        "sha256": "406a5e7ab891dd5e4208f08450c36629568e60ebf7f36e14ca6b7765b0b23bae",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "Clamp_Half_64mm_179deg.step",
+        "sha256": "ccbcca55518fdc395bbcffa14b677750351d459bafe5965653435db4568c4fde",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "Clamp_Half_64mm_179deg.png",
+        "sha256": "917b15b563f93c91d2097c2efbcc3b85a84dbe71dd9fbf81667a43f15317d7bf",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "MRA12_Mirror_Mount.step",
+        "sha256": "a8c5a436b6fd0721c4d2aad6924a86fe3cfd6a8721d25a29dd11830138363ea6",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "MRA12_Mirror_Mount.png",
+        "sha256": "e236c76cb2f5a40d4a0b7dff5196872bc25f0325c9acdf1d5020b2d0fe27fd20",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "MRA12_Thin_Edge_Retainer.step",
+        "sha256": "2b46d24392c560a71e233916bbe7c3b809a613d409b2285f9e0fe538f10aa1c2",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "MRA12_Thin_Edge_Retainer.png",
+        "sha256": "1b9f21f8ab63942ad0b138904a5e609dc5a55841e066d2badd24223a7627d858",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "HRS1015_Mirror_Mount.step",
+        "sha256": "47f2427e16ec225c9c94a5a8d5b5f8ce5d1b10db65dbf62c20dd087c58ea7581",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "HRS1015_Mirror_Mount.png",
+        "sha256": "3ba96db4570373bc6109730ee59c73e4eff8108beb648c29273ea4b35e60e70d",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "HRS1015_Thin_Edge_Retainer.step",
+        "sha256": "d3c3f12e6cd65daf2d53a82599bd715c11e691551be3057df984a2494fa48077",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "HRS1015_Thin_Edge_Retainer.png",
+        "sha256": "2111c1d3cc15780db7ecf4f49e05b2504babb903f8c9d6ab889364571bdc0d21",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "Prism_440_Flat_StopShim_0p5mm.step",
+        "sha256": "d353a90a74e9f24afd2f4cd8c7533192c2bb70239e8489d625a42e935f3a38d4",
+        "changed_in_this_revision": false
+      },
+      {
+        "file": "Prism_440_Flat_StopShim_0p5mm.png",
+        "sha256": "d4d6960bf3844fa9a339ce487d4b39f1e8a43673373822d9e6b7be1171472369",
+        "changed_in_this_revision": false
+      }
+    ],
+    "evidence": {
+      "upper": {
+        "file": "Top832_Upper_Native_Final.json",
+        "sha256": "68dac2b98f34092165f335c1b075ab0c4eaf75fcfb9c563f969a76c3a378c2c5"
+      },
+      "support": {
+        "file": "Top832_Support_Native_Final.json",
+        "sha256": "a3ec8c9884527d32bb6a6a7d26028b96fc614c34e25a52b53a5d0c6bae416856"
+      },
+      "joints": {
+        "file": "Top832_Joints_Native_Final.json",
+        "sha256": "a9f611f8569dc65eb5d9372e313d7efe8d31ca6e76c78b9f5c9df57a35f4287c"
+      },
+      "cage": {
+        "file": "Top832_Cage_Native_Final.json",
+        "sha256": "071651901e4cf6e074ef681deb068ae70188b78ad38a12976cd67adea56e9165"
+      },
+      "derivatives": {
+        "file": "Multibody_Repair_Verified.json",
+        "sha256": "050283f5082ee6a1c94e3c62763096a45155bd8870a547f978fea9de5cef89ff"
+      },
+      "full_save": {
+        "file": "Final_Full_Save_Reference_Receipt_20261022.json",
+        "sha256": "5dfd9a5597221ca384bc55f071517a8651525efd81d6c1df737045063ec009c5"
+      },
+      "word_audit": {
+        "file": "shopping_list_Top832_Final.audit.json",
+        "sha256": "b972865e2ab34c4ef4f4bc4377b70bed772b43c421b4f87fb070f0ad94cfcbe0"
+      }
+    }
+  },
+  "overview": {
+    "file": "Top832_Native_Overview.png",
+    "sha256": "2c4dad64faf98528aa302e31aa231ac47619429aa2f2bb0f12d84575d5a03a26"
+  }
+}

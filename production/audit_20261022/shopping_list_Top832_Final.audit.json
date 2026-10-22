@@ -1,0 +1,107 @@
+{
+  "source": "C:\\Users\\Haotian Xu\\Desktop\\shoping list updated.docx",
+  "source_sha256": "EC80D54EF032ED1452ADE087D652FA4DA68C6D856C0C7EF4D56EA2F0B7AEEF1F",
+  "output": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Top_8_32_Revision_20261022\\shopping_list_Top832_Final.docx",
+  "output_sha256": "5485F8E0ED94CBFEFA5FA9D5F4192548A5489A2B2B2F2DAE50227BC4EBBF15A7",
+  "preserved_tables": [
+    1,
+    2,
+    3
+  ],
+  "preserved_stock": [
+    "SH4S025",
+    "92196A540",
+    "92196A537",
+    "SH8S100",
+    "N8S0340",
+    "Lawson 1297309",
+    "SSC-4-40-5/8-A2"
+  ],
+  "row_actions": [
+    {
+      "match_prefix": "ER1  |",
+      "operation": "replace",
+      "description": "ER1.5  |  1.5 in cage rod\n38.1 mm; remove both factory 4-40 end studs from each of the four rods",
+      "link": {
+        "url": "https://www.thorlabs.com/item/ER1.5",
+        "text": "Thorlabs"
+      },
+      "quantity": "4"
+    },
+    {
+      "match_prefix": "KM05/M",
+      "operation": "replace",
+      "description": "KM05  |  ½ in two-axis mirror mount\n8-32 post mounting threads",
+      "link": {
+        "url": "https://www.thorlabs.com/item/KM05",
+        "text": "Thorlabs"
+      },
+      "quantity": "4"
+    },
+    {
+      "match_prefix": "CP32/M",
+      "operation": "replace",
+      "description": "CP32  |  ½ in lens cage plate\n8-32 post mounting thread",
+      "link": {
+        "url": "https://www.thorlabs.com/item/CP32",
+        "text": "Thorlabs"
+      },
+      "quantity": "6"
+    },
+    {
+      "match_prefix": "RS2P4M",
+      "operation": "replace",
+      "description": "RS2P8E  |  Ø1 in fixed pedestal post\n2 in nominal height; 8-32 tapped ends; 4 telescope + 4 mirror supports",
+      "link": {
+        "url": "https://www.thorlabs.com/item/RS2P8E",
+        "text": "Thorlabs"
+      },
+      "quantity": "8"
+    },
+    {
+      "match_prefix": "92605A117",
+      "operation": "replace",
+      "description": "94355A192  |  8-32 × ⅜ in flat-tip setscrew\n18-8 stainless; 4 telescope supports + B2 mirror support",
+      "link": {
+        "url": "https://www.mcmaster.com/94355A192/",
+        "text": "McMaster"
+      },
+      "quantity": "5 pcs\n1 × 25 pack"
+    },
+    {
+      "match_prefix": "92605A121",
+      "operation": "replace",
+      "description": "94355A198  |  8-32 × ⅝ in flat-tip setscrew\n18-8 stainless; A1 and B1 through 5 mm spacers, A2 through 4 mm spacer",
+      "link": {
+        "url": "https://www.mcmaster.com/94355A198/",
+        "text": "McMaster"
+      },
+      "quantity": "3 pcs\n1 × 25 pack"
+    }
+  ],
+  "paragraph_actions": [
+    {
+      "old": "795 nm design with modular fibre collimators and telescopes with two CP32/M lens plates each. Two steering mirrors per beam remain; top-flange hardware follows our existing design. Quantities are installed requirements before laboratory stock deductions.",
+      "new": "795 nm design with modular fibre collimators and telescopes with two CP32 lens plates each. Eight pedestal connections use 8-32 studs. Two steering mirrors per beam remain; top-flange hardware follows our existing design. Quantities are installed requirements before laboratory stock deductions."
+    }
+  ],
+  "page_break_before": [
+    "Fridge CNC parts and internal fasteners"
+  ],
+  "paragraph_additions": [
+    {
+      "after": "795 nm design with modular fibre collimators and telescopes with two CP32/M lens plates each. Two steering mirrors per beam remain; top-flange hardware follows our existing design. Quantities are installed requirements before laboratory stock deductions.",
+      "text": "Assembly note: No adhesive is specified for the PBS125-to-CRM05 bond. Confirm a suitable adhesive and laboratory supply before assembly."
+    },
+    {
+      "after": "Machine both internal mount options, one of each. The four legs have different hole positions. Two identical half-rings make one complete flange clamp.",
+      "text": "Assembly note: Each mirror-mount variant requires two 0.50 mm flat stop shims (four total). The shim purchase row remains omitted pending confirmation of supply; this omission does not confirm laboratory stock."
+    }
+  ],
+  "release_pending": [
+    "Root final publishing verification",
+    "Stop-shim supply and PBS adhesive remain disclosed assembly follow-ups; no purchase quantity or stock assumed"
+  ],
+  "render_status": "Passed all5pages visually after ER1.5 update; native Word readonly PDF export and pypdfium2. Engineering notes and7no-linkstockrows preserved. No Desktop/Git write.",
+  "previous_final_sha256": "862EF18C7BF102DC941AADAB42FD821442DAF1F8FEA6CCF0956A4D4791335DE4"
+}
