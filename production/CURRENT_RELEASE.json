@@ -95,12 +95,12 @@
     {
       "Role": "NativeExportManifest",
       "Path": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\Mount_Export_Manifest.json",
-      "SHA256": "9ec34387b7edb85bef7a5a08bad5c614cee01094c3375115d4b487efcd9faf43"
+      "SHA256": "e1b63631767c6f0c86104fe0f6ea750e291bcd95c5b559da5e21fbcd8828c8e0"
     },
     {
       "Role": "NativeExportManifest",
       "Path": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\Notes_Export_Manifest.json",
-      "SHA256": "c0f6d2e30442e0e46aca436ceebd7cbd411931406fad02db6872ee34ecb9bda3"
+      "SHA256": "aa806fe332cfd8795fd856baf6af4aa73fa7b760f24e257ce1581c5311f6aa6c"
     }
   ],
   "WordSource": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\shopping_list_Pocket_R0062_Final.docx",

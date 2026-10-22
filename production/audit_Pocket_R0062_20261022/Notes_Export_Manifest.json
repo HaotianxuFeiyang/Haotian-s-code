@@ -1,7 +1,7 @@
 {
-  "Date": "2026-10-21",
+  "Date": "2026-10-22",
   "OutputDirectory": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062",
-  "NativeRenderer": "Inventor Camera.SaveAsBitmap \u002B System.Drawing annotation",
+  "NativeRenderer": "Inventor Camera.SaveAsBitmap + System.Drawing annotation",
   "Parts": [
     {
       "Source": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\NewOptics\\MRA12_Thin_Edge_Retainer_Flat_Manufacturing.ipt",
@@ -104,5 +104,6 @@
     "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062\\.render_6253f392b43847cdaf6abac0149e35f8\\MRA12_Thin_Edge_Retainer_0.png",
     "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Manufacturing\\2026-10-22_Pocket_R0062\\.render_6253f392b43847cdaf6abac0149e35f8\\Prism_440_Flat_StopShim_0p5mm_0.png"
   ],
-  "AllHolesLabeled": true
+  "AllHolesLabeled": true,
+  "RendererSourceVersionDate": "2026-10-21"
 }
