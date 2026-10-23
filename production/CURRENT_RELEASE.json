@@ -103,8 +103,8 @@
       "SHA256": "aa806fe332cfd8795fd856baf6af4aa73fa7b760f24e257ce1581c5311f6aa6c"
     }
   ],
-  "WordSource": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\shopping_list_Pocket_R0062_Final.docx",
-  "WordSHA256": "bce9001079e8f92e47925342cb21da915eb82b11b0a048025b5fbbc0e47be839",
+  "WordSource": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\Procurement\\2026-10-23\\shopping_list_Washer_Rod_Waveplate.docx",
+  "WordSHA256": "8a691eaceb8f9dd0163cd0f82fa6f9696ff95f9df753cd09a91eb9492cfe3381",
   "NativeGeometryEvidence": {
     "Path": "D:\\Fridge_DualLattice_Final\\02_Full_Design\\DesignData\\Pocket_R0062_Revision_20261022\\Native_Pocket_Apply_Receipt.json",
     "SHA256": "92dbb0ef4d823137fb8ffe1e590284997dd661f5fb43a88c5b018c139b4ab9e8"
@@ -155,16 +155,79 @@
   "NativeSTEPRoundtripPassed": true,
   "AllFiveDrawingsVisuallyReviewed": true,
   "ProcurementOnlyUpdate": {
-    "Date": "2026-10-22",
-    "Replacements": [
-      "CP33/M -> CP33, quantity 2",
-      "CRM1T/M -> CRM1T, quantity 2",
-      "CCM1-E03/M -> CCM1-E03, quantity 1"
-    ],
-    "PostThread": "8-32",
+    "Date": "2026-10-23",
+    "Scope": "Procurement and assembly instructions only; native Inventor and manufactured STEP/drawing geometry unchanged by user request.",
+    "Supersedes": "Earlier shopping and native-envelope hardware selections for the items below. Historical engineering reports remain unchanged.",
+    "Washer": {
+      "Previous": "93237A103",
+      "Part": "9713K59",
+      "Material": "302 stainless steel",
+      "Quantity": 4,
+      "PurchasePacks": 1,
+      "PackQuantity": 12,
+      "OD_mm": 9.525,
+      "ID_mm": 4.826,
+      "Thickness_mm": 0.508,
+      "FreeHeight_mm": 0.762,
+      "Source": "https://www.mcmaster.com/9713K59/"
+    },
+    "M4Screw": {
+      "StockPart": "91292A132",
+      "StockLength_mm": 40,
+      "MRA12FinishedLength_mm": 32.0,
+      "HRS1015FinishedLength_mm": 38.0,
+      "QuantityEachVariant": 2,
+      "MinimumUsableTipThread_mm": 6,
+      "Instruction": "Finish and deburr to the revised lengths; check actual washer compressed height and effective blind-hole depth during assembly."
+    },
+    "CageRods": {
+      "Retain": "ER6E",
+      "Quantity": 8,
+      "BaseLength_mm": 152.4,
+      "Extension": "ER1",
+      "ExtensionPackPart": "ER1-P4",
+      "ExtensionPacks": 2,
+      "ExtensionQuantity": 8,
+      "ExtensionLength_mm": 25.4,
+      "CombinedLength_mm": 177.8,
+      "Connection": "One supplied 4-40 stud per joint; remove the duplicate stud at the joint.",
+      "Source": "https://www.thorlabs.com/item/ER1-P4"
+    },
+    "Waveplates": {
+      "Source": "Existing laboratory stock",
+      "ConfirmedDiameter_mm": 12.7,
+      "MaximumThickness_mm": 6.5,
+      "RemovePurchase": "AHWP05M-980",
+      "NoDisassembly": true,
+      "Mount": "CRM05",
+      "CagePlate": "CP33",
+      "TotalCRM05Quantity": 4,
+      "TotalCP33Quantity": 4,
+      "Allocation": "Two PBS carriers and two existing-waveplate holders",
+      "RemoveMountPurchase": "CRM1T",
+      "Retention": "Waveplates use SM05RR included with CRM05. PBS125 remains adhesive-mounted; adhesive not included."
+    },
     "LinksUpdated": true,
     "InventorChanged": false,
-    "AllOtherShoppingTextAndLinksPreserved": true,
-    "VisualQAPages": 5
-  }
+    "STEPChanged": false,
+    "DrawingChanged": false,
+    "OtherShoppingTablesAndLinksPreserved": true,
+    "VisualQAPages": 5,
+    "PreUpdateGithubCommit": "5034c5f2768995867054d8b80e323b60d51ac473"
+  },
+  "ProcurementOnlyUpdateHistory": [
+    {
+      "Date": "2026-10-22",
+      "Replacements": [
+        "CP33/M -> CP33, quantity 2",
+        "CRM1T/M -> CRM1T, quantity 2",
+        "CCM1-E03/M -> CCM1-E03, quantity 1"
+      ],
+      "PostThread": "8-32",
+      "LinksUpdated": true,
+      "InventorChanged": false,
+      "AllOtherShoppingTextAndLinksPreserved": true,
+      "VisualQAPages": 5
+    }
+  ]
 }

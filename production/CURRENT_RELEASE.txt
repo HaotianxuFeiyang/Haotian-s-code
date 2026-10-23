@@ -12,4 +12,11 @@ Do keep the specified 4-40 Inconel Belleville washers and M4 stainless Bellevill
 Dated audit_20261022 records remain historical; this current release supersedes their shim instructions.
 No tightening torque, elastic preload, optic stress, or cryogenic structural qualification is established by this geometry update.
 
-PROCUREMENT ONLY UPDATE 2026-10-22: CP33 x2, CRM1T x2, CCM1-E03 x1 replace their /M versions with 8-32 post-thread versions. Product links updated. Inventor models intentionally unchanged by user request.
+HISTORICAL PROCUREMENT UPDATE 2026-10-22 (quantities superseded below): CP33 x2, CRM1T x2, CCM1-E03 x1 replace their /M versions with 8-32 post-thread versions. Product links updated. Inventor models intentionally unchanged by user request.
+
+CURRENT PROCUREMENT UPDATE 2026-10-23
+M4 washers: use McMaster 9713K59, 302 stainless conical disc spring, OD 9.525 / ID 4.826 / t 0.508 / free H 0.762 mm. Four installed; one pack of 12. Replaces 93237A103.
+M4 screw stock remains 91292A132 M4x40. Finish two to 32.0 mm for MRA12 and two to 38.0 mm for HRS1015; retain at least 6 mm usable tip thread. Check actual compressed washer height and blind-hole depth at assembly.
+Cage rods: retain ER6E x8 and add ER1-P4 x2 packs (eight 25.4 mm extensions). Each combined rod is 177.8 mm. Join with one supplied 4-40 stud per joint, removing the duplicate stud.
+Existing waveplates are diameter 12.7 mm and thickness no greater than 6.5 mm. Do not buy AHWP05M-980 or CRM1T. No waveplate disassembly. Buy CRM05 x4 and CP33 x4 total: two PBS carriers plus two waveplate holders. Use included SM05RR for waveplates; PBS125 remains adhesive-mounted and adhesive is not included.
+These procurement instructions supersede the earlier washer, finished screw length, rod and waveplate-mount selections. Inventor and manufactured STEP/drawing geometry intentionally remain unchanged. Historical reports and native envelope parameters are not current procurement instructions for these items.
